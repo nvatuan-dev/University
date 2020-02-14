@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.2.11)  15 FEB 2020 00:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.2.11)  15 FEB 2020 00:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -209,30 +209,30 @@ Package pdftex.def Info: download.jpg  used on input line 20.
 (pdftex.def)             Requested size: 198.74403pt x 115.93402pt.
 
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 37.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 39.
 
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 38.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 40.
 
 
-Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless on input line 39.
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless on input line 41.
 
 
-Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless on input line 40.
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless on input line 42.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
  </home/tuanlinux/University/report/download.jpg>] (/home/tuanlinux/University/report/main.aux) ) 
 Here is how much of TeX's memory you used:
- 2501 strings out of 492609
- 34771 string characters out of 6131462
- 105776 words of memory out of 5000000
+ 2500 strings out of 492609
+ 34767 string characters out of 6131462
+ 105766 words of memory out of 5000000
  6385 multiletter control sequences out of 15000+600000
  29475 words of font info for 23 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,10n,43p,271b,201s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb>
-Output written on /home/tuanlinux/University/report/main.pdf (1 page, 182401 bytes).
+Output written on /home/tuanlinux/University/report/main.pdf (1 page, 182311 bytes).
 PDF statistics:
  30 PDF objects out of 1000 (max. 8388607)
  20 compressed objects within 1 object stream
