@@ -44,6 +44,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/hyphenat/hyphenat.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyphenat/hyphenat.sty
 INPUT /usr/share/texmf/tex/latex/lm/lmodern.sty
 INPUT /usr/share/texmf/tex/latex/lm/lmodern.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /home/tuanlinux/University/report/main.aux
 INPUT /home/tuanlinux/University/report/main.aux
 OUTPUT /home/tuanlinux/University/report/main.aux
@@ -85,6 +87,8 @@ OUTPUT /home/tuanlinux/University/report/main.pdf
 INPUT /home/tuanlinux/University/report/download.jpg
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr17.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmri12.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /home/tuanlinux/University/report/main.aux
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc
@@ -92,3 +96,4 @@ INPUT /usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmr10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmr12.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmri12.pfb
