@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.2.11)  15 FEB 2020 00:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.2.11)  16 FEB 2020 19:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -134,36 +134,41 @@ Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
 \f@nch@O@erf=\skip63
 \f@nch@O@olf=\skip64
 \f@nch@O@orf=\skip65
+) (/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count91
+\c@@ppsavesec=\count92
+\c@@ppsaveapp=\count93
 ) (/home/tuanlinux/University/report/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 13.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count91
+\scratchcounter=\count94
 \scratchdimen=\dimen106
 \scratchbox=\box27
-\nofMPsegments=\count92
-\nofMParguments=\count93
+\nofMPsegments=\count95
+\nofMParguments=\count96
 \everyMPshowfont=\toks17
-\MPscratchCnt=\count94
+\MPscratchCnt=\count97
 \MPscratchDim=\dimen107
-\MPnumerator=\count95
-\makeMPintoPDFobject=\count96
+\MPnumerator=\count98
+\makeMPintoPDFobject=\count99
 \everyMPtoPDFconversion=\toks18
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -201,41 +206,72 @@ Package grfext Info: Graphics extension search list:
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 12.
+LaTeX Info: Redefining \selectfont on input line 13.
 <download.jpg, id=1, 662.475pt x 386.44376pt>
 File: download.jpg Graphic file (type jpg)
 <use download.jpg>
-Package pdftex.def Info: download.jpg  used on input line 20.
+Package pdftex.def Info: download.jpg  used on input line 21.
 (pdftex.def)             Requested size: 198.74403pt x 115.93402pt.
-
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 39.
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 40.
 
 
-Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless on input line 41.
-
-
-Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless on input line 42.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 41.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
- </home/tuanlinux/University/report/download.jpg>] (/home/tuanlinux/University/report/main.aux) ) 
+ </home/tuanlinux/University/report/download.jpg>] [2] (/home/tuanlinux/University/report/main.toc
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 3.
+ (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 3.
+ (/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 3.
+ (/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 3.
+ (/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 3.
+)
+\tf@toc=\write3
+\openout3 = `main.toc'.
+
+ [3
+
+]
+Chapter 1.
+[4
+
+]
+Chapter 2.
+[5
+
+] (/home/tuanlinux/University/report/main.aux) ) 
 Here is how much of TeX's memory you used:
- 2500 strings out of 492609
- 34767 string characters out of 6131462
- 105766 words of memory out of 5000000
- 6385 multiletter control sequences out of 15000+600000
- 29475 words of font info for 23 fonts, out of 8000000 for 9000
+ 2673 strings out of 492609
+ 37841 string characters out of 6131462
+ 107175 words of memory out of 5000000
+ 6530 multiletter control sequences out of 15000+600000
+ 52510 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,10n,43p,271b,201s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,10n,43p,271b,200s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb>
-Output written on /home/tuanlinux/University/report/main.pdf (1 page, 182311 bytes).
+Output written on /home/tuanlinux/University/report/main.pdf (5 pages, 203623 bytes).
 PDF statistics:
- 30 PDF objects out of 1000 (max. 8388607)
- 20 compressed objects within 1 object stream
+ 42 PDF objects out of 1000 (max. 8388607)
+ 28 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
