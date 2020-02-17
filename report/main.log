@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.2.11)  16 FEB 2020 22:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.2.11)  17 FEB 2020 11:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -212,14 +212,7 @@ File: download.jpg Graphic file (type jpg)
 <use download.jpg>
 Package pdftex.def Info: download.jpg  used on input line 21.
 (pdftex.def)             Requested size: 198.74403pt x 115.93402pt.
-
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 40.
-
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 41.
-
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
  </home/tuanlinux/University/report/download.jpg>] [2] (/home/tuanlinux/University/report/main.toc
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 3.
@@ -258,7 +251,7 @@ Chapter 1.
 Chapter 2.
 [5
 
-] (/home/tuanlinux/University/report/main.aux) ) 
+] [6] (/home/tuanlinux/University/report/main.aux) ) 
 Here is how much of TeX's memory you used:
  2673 strings out of 492609
  37841 string characters out of 6131462
@@ -268,10 +261,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  41i,10n,43p,271b,200s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb>
-Output written on /home/tuanlinux/University/report/main.pdf (5 pages, 205266 bytes).
+Output written on /home/tuanlinux/University/report/main.pdf (6 pages, 206847 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 45 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

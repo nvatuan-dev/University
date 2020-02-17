@@ -37,8 +37,8 @@
     % Lines down here to set footer and header. 
     \pagestyle{fancy}
     \fancyhf{}
-    \fancyhead[LE,RO]{Report Project 1}
-    \fancyhead[RE,LO]{CaptainJAV}
+    \rhead{Report Project 1}
+    \lhead{CaptainJAV}
     \cfoot{\today}
     \renewcommand{\headrulewidth}{2pt}
     \renewcommand{\footrulewidth}{1pt}
@@ -59,12 +59,15 @@
     \begin{flushright}
         \textbf{Auth. Nguyen Van Anh Tuan}
     \end{flushright}
-    \thispagestyle{plain} % This command make this page no header or footer.
+    \thispagestyle{plain} % This command make this page have no header or footer.
 
     \newpage
     \tableofcontents
 
     \chapter{Introduction}
+    \pagestyle{fancy}
+    \fancyhead[L]{CaptainJAV}
+    \fancyhead[R]{Remote Controlled Using Infarred}
     \raggedright % This command to align text to the left side.
     \section{Preliminary introduce:} 
         With the current trend of modernization and industrialization, many modern technology 
@@ -81,6 +84,7 @@
         Find information on internet. \\
         Test on software.
 
+
     \chapter{Find out theoretical related to the research}
     \section{Application of remote controlled using infarred}
         Remote controlled now is using broadly, it use to controlled all wireless device. 
@@ -94,5 +98,16 @@
             \linebreak
             \par The infarred can transmit many signal channels. It is widely 
             applied in industry.
-            
+            \linebreak
+            \par The amount of information that it can gain is 3 megabit/s. The 
+            amount of information transmit with infarred light is many times larger 
+            compared to the electromagnetic waves people still use.
+            \linebreak
+            \par Infarred rays are easily absorbed, poor penetration. In the word control 
+            far by infarred, the beam emits a narrow, directed direction, so when recieve 
+            must be in the right direction to use it.
+            \linebreak
+            \par Infarred wave have characteristics such as light (focusing through the lens, focal distance...). 
+            Normal light and infarred light differ very clearly in light through the material.
+            \
 \end{document}
