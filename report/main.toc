@@ -6,3 +6,4 @@
 \contentsline {chapter}{\numberline {2}Find out theoretical related to the research}{5}% 
 \contentsline {section}{\numberline {2.1}Application of remote controlled using infarred}{5}% 
 \contentsline {section}{\numberline {2.2}Define of Infarred (IR LED)}{5}% 
+\contentsline {section}{\numberline {2.3}Infarred receiver eye (TSOP-17xx)}{7}% 

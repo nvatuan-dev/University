@@ -9,6 +9,8 @@
 \usepackage{lmodern}
 \usepackage{fancyhdr}
 \usepackage[toc,page]{appendix}
+\usepackage{tabularx}
+\usepackage{float}
 
 \begin{document}
     \centering
@@ -65,10 +67,12 @@
     \tableofcontents
 
     \chapter{Introduction}
-    \pagestyle{fancy}
+    \thispagestyle{fancy}
+    \fancyhf{}
     \fancyhead[L]{CaptainJAV}
     \fancyhead[R]{Remote Controlled Using Infarred}
-    \raggedright % This command to align text to the left side.
+    \raggedright % Set all text to the left side.
+    \rfoot{Page \thepage}
     \section{Preliminary introduce:} 
         With the current trend of modernization and industrialization, many modern technology 
         devices appear to help save time. We can mention as public technology of things 
@@ -82,32 +86,84 @@
         To help reduce costs and supplement knowledge not researched at school.
     \section{Research Methods:}
         Find information on internet. \\
-        Test on software.
+        Test on software. \\
+        Construction circuit.
 
 
     \chapter{Find out theoretical related to the research}
+    \thispagestyle{fancy}
+    \fancyhf{}
+    \fancyhead[L]{CaptainJAV}
+    \fancyhead[R]{Remote Controlled Using Infarred}
+    \rfoot{Page \thepage}
     \section{Application of remote controlled using infarred}
         Remote controlled now is using broadly, it use to controlled all wireless device. 
         Remotes and televisions are the best example for application of this recieve and transmitter 
         circuit. Or more application of this circuit. Beside that, we can see that remote controlled 
         can use with air conditioners, fans, or even use to turn on the lights in house...etc.
-        \section{Define of Infarred (IR LED)}
-            Infarred light (infarred ray) is the light we can't see it by our eyes, 
-            they have wavelength from 700nm to 1mm. The infarred light have transmittion speed 
-            is equal to lightspeed.
-            \linebreak
-            \par The infarred can transmit many signal channels. It is widely 
-            applied in industry.
-            \linebreak
-            \par The amount of information that it can gain is 3 megabit/s. The 
-            amount of information transmit with infarred light is many times larger 
-            compared to the electromagnetic waves people still use.
-            \linebreak
-            \par Infarred rays are easily absorbed, poor penetration. In the word control 
-            far by infarred, the beam emits a narrow, directed direction, so when recieve 
-            must be in the right direction to use it.
-            \linebreak
-            \par Infarred wave have characteristics such as light (focusing through the lens, focal distance...). 
-            Normal light and infarred light differ very clearly in light through the material.
-            \
-\end{document}
+    \section{Define of Infarred (IR LED)}
+        Infarred light (infarred ray) is the light we can't see it by our eyes, 
+        they have wavelength from 700nm to 1mm. The infarred light have transmittion speed 
+        is equal to lightspeed.
+        \linebreak
+        \par The infarred can transmit many signal channels. It is widely 
+        applied in industry.
+        \linebreak
+        \par The amount of information that it can gain is 3 megabit/s. The 
+        amount of information transmit with infarred light is many times larger 
+        compared to the electromagnetic waves people still use.
+        \linebreak
+        \par Infarred rays are easily absorbed, poor penetration. In the word control 
+        far by infarred, the beam emits a narrow, directed direction, so when recieve 
+        must be in the right direction to use it.
+        \linebreak
+        \par Infarred wave have characteristics such as light (focusing through the lens, focal distance...). 
+        Normal light and infarred light differ very clearly in light through the material.
+        \linebreak
+        \par Other than emitting invisible infarred light, IR Led look like a normal led and also
+        works like a normal Led, it means it will consume 20mA and 3 Volts.
+        \linebreak
+        \par Besides that infarred is divided by wavelength into three main regions. However, follow the US classification is divided into 5 areas as follow: \\ 
+        \vspace{3mm} 
+        \begin{table}[ht]
+            \centering
+            \begin{tabular} { | p{1cm} | l | p{2cm} | p{2cm} | p{2cm} | p{3cm} | }
+            \hline
+            Name &Acronym &Wavelength &Frequency &Photon Energy &Featured \\ 
+            \hline
+            Near Infarred &NIR &750nm to 1.4$\mu$m &214-400THz &886-1653 meV &Determined by the absorption of water.Used in fiber optic telecomunications. \\ 
+            \hline
+            Short waves infarred &SWIR &1.4-3$\mu$m &100-214THz &413-886meV &Absorbed domestic increase significantly as of 1.45$\mu$m. Range 1.53-1.56$\mu$m is spectral region currently in use much in the far informed long road. \\ 
+            \hline
+            Medium waves infarred &MWIR &3-8$\mu$m &37-100THz &155-413meV &This band is called is thermal infarred, but it only detects slightly higher temperatures than body temperatures. \\ 
+            \hline
+            Long waves infarred &LWIR &8-15$\mu$m &20-37THz &83-155meV &This region is call "thermal infarred". \\ 
+            \hline
+            Far infarred &FIR &15-1000$\mu$m &0.3-20THz &1.2-83meV &See far infarred and far infarred laser. \\ 
+            \hline
+            \end{tabular}
+            \caption{\label{tab:first}Classify Common of Infarred}
+        \end{table}
+    \section{Infarred receiver eye (TSOP-17xx)}
+        It is an excellent line of infarred sensors for remote control applications. These infarred 
+        sensors are designed to improve shielding electric interface. These devices are designed to 
+        receive infarred rays from the infarred diode from a remote handset. 
+        \linebreak
+        \par TSOP 17xx is a part of the Photomodules family of infarred sensors modules miniature with PIN 
+        photodiode and preamplification stage are placed in the shell epoxy. Its output is low and 
+        gives +5V when off. Its output is demodulation to be able to decoded directly by the microprocessor. 
+        Functions important modules include internal filter for PCM frequency capability. Compatible 
+        with TTL and CMOS, low power consumption (5V and 5mA), immune to ambient light, anti-jamming, etc....
+        \begin{table}[ht]
+            \centering
+            \begin{tabular} { | l | l | l | }
+                \hline
+                Number & Name & Description \\ \hline
+                1 & Ground & Grounding \\ \hline
+                2 & Vcc & Usually connect to +5V, maybe 6V \\ \hline
+                3 & Signal & Output Signal \\
+                \hline
+            \end{tabular}
+            \caption{\label{tab:second}Configuration of TSOP}
+        \end{table}
+        \end{document}
