@@ -7,3 +7,6 @@
 \contentsline {section}{\numberline {2.1}Application of remote controlled using infarred}{5}% 
 \contentsline {section}{\numberline {2.2}Define of Infarred (IR LED)}{5}% 
 \contentsline {section}{\numberline {2.3}Infarred receiver eye (TSOP-17xx)}{7}% 
+\contentsline {section}{\numberline {2.4}IC 4017}{8}% 
+\contentsline {section}{\numberline {2.5}Quickview about clock pulse}{9}% 
+\contentsline {section}{\numberline {2.6}IC NE555}{11}% 

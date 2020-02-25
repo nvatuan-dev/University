@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.2.11)  24 FEB 2020 22:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.2.11)  25 FEB 2020 21:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -165,22 +165,24 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box29
 \@float@everytoks=\toks20
 \@floatcapt=\box30
+) (/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
 ) (/home/tuanlinux/University/report/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 16.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -232,15 +234,26 @@ Package grfext Info: Graphics extension search list:
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 15.
-<download.jpg, id=1, 662.475pt x 386.44376pt>
-File: download.jpg Graphic file (type jpg)
-<use download.jpg>
-Package pdftex.def Info: download.jpg  used on input line 23.
-(pdftex.def)             Requested size: 198.74403pt x 115.93402pt.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+LaTeX Info: Redefining \selectfont on input line 16.
+LaTeX Info: Redefining \celsius on input line 16.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 16.
 
- </home/tuanlinux/University/report/download.jpg>] [2] (/home/tuanlinux/University/report/main.toc
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 16.
+Package gensymb Info: Using \Omega for \ohm on input line 16.
+
+Package gensymb Warning: Not defining \micro.
+
+<logo.jpg, id=1, 662.475pt x 386.44376pt>
+File: logo.jpg Graphic file (type jpg)
+<use logo.jpg>
+Package pdftex.def Info: logo.jpg  used on input line 24.
+(pdftex.def)             Requested size: 198.74403pt x 115.93402pt.
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+ </home/tuanlinux/University/report/logo.jpg>] [2] (/home/tuanlinux/University/report/main.toc
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 3.
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -279,170 +292,224 @@ Chapter 2.
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 130.
+(Font)              <10> on input line 131.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 130.
+(Font)              <7> on input line 131.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 130.
+(Font)              <5> on input line 131.
 
-Underfull \hbox (badness 4832) in paragraph at lines 132--132
+Underfull \hbox (badness 4832) in paragraph at lines 133--133
 []|\T1/lmr/m/n/10 Photon En-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--134
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
 []|\T1/lmr/m/n/10 Near
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--134
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
 \T1/lmr/m/n/10 In-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--134
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
 []|\T1/lmr/m/n/10 750nm to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--134
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
 []|\T1/lmr/m/n/10 886-1653
  []
 
 
-Underfull \hbox (badness 2073) in paragraph at lines 134--135
+Underfull \hbox (badness 2073) in paragraph at lines 135--136
 \T1/lmr/m/n/10 ab-sorp-tion of wa-
  []
 
 
-Underfull \hbox (badness 7613) in paragraph at lines 134--135
+Underfull \hbox (badness 7613) in paragraph at lines 135--136
 \T1/lmr/m/n/10 ter.Used in fiber
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
 []|\T1/lmr/m/n/10 Short
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
 \T1/lmr/m/n/10 waves
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
 \T1/lmr/m/n/10 in-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 []|\T1/lmr/m/n/10 Absorbed do-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 \T1/lmr/m/n/10 mes-tic in-crease
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 136--137
+Underfull \hbox (badness 2245) in paragraph at lines 137--138
 \T1/lmr/m/n/10 sig-nif-i-cantly as of
  []
 
 
-Underfull \hbox (badness 5175) in paragraph at lines 136--137
+Underfull \hbox (badness 5175) in paragraph at lines 137--138
 \T1/lmr/m/n/10 1.45$\OML/lmm/m/it/10 ^^V$\T1/lmr/m/n/10 m. Range
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 \T1/lmr/m/n/10 1.53-1.56$\OML/lmm/m/it/10 ^^V$\T1/lmr/m/n/10 m is
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 \T1/lmr/m/n/10 spec-tral re-gion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 \T1/lmr/m/n/10 cur-rently in use
  []
 
 
-Underfull \hbox (badness 4531) in paragraph at lines 136--137
+Underfull \hbox (badness 4531) in paragraph at lines 137--138
 \T1/lmr/m/n/10 much in the far
  []
 
 
-Overfull \hbox (7.3805pt too wide) in paragraph at lines 138--138
+Overfull \hbox (7.3805pt too wide) in paragraph at lines 139--139
 []|\T1/lmr/m/n/10 Medium
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--138
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
 \T1/lmr/m/n/10 waves
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--138
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
 \T1/lmr/m/n/10 in-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
 \T1/lmr/m/n/10 slightly higher
  []
 
 
-Underfull \hbox (badness 1852) in paragraph at lines 138--139
+Underfull \hbox (badness 1852) in paragraph at lines 139--140
 \T1/lmr/m/n/10 tem-per-a-tures than
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
 []|\T1/lmr/m/n/10 Long
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
 \T1/lmr/m/n/10 waves
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
 \T1/lmr/m/n/10 in-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--142
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
 []|\T1/lmr/m/n/10 Far
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--142
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
 \T1/lmr/m/n/10 in-
  []
 
 
-Overfull \hbox (53.79956pt too wide) in paragraph at lines 130--145
+Overfull \hbox (53.79956pt too wide) in paragraph at lines 131--146
  [][] 
  []
 
-[6] [7] (/home/tuanlinux/University/report/main.aux) ) 
+[6]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 173.
+ (/usr/share/texmf/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 173.
+<4017.png, id=28, 1204.5pt x 1313.90875pt>
+File: 4017.png Graphic file (type png)
+<use 4017.png>
+Package pdftex.def Info: 4017.png  used on input line 193.
+(pdftex.def)             Requested size: 172.5pt x 188.15617pt.
+
+Underfull \hbox (badness 1281) in paragraph at lines 208--210
+[]|\T1/lmr/m/n/10 The count-ing cir-cuit op-er-ates when
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 208--210
+\T1/lmr/m/n/10 which is pos-i-tively edge-up, usu-ally
+ []
+
+
+Overfull \hbox (21.2336pt too wide) in paragraph at lines 198--215
+ [][] 
+ []
+
+[7] [8 </home/tuanlinux/University/report/4017.png>] [9]
+<n2.jpg, id=42, 558.085pt x 629.35126pt>
+File: n2.jpg Graphic file (type jpg)
+<use n2.jpg>
+Package pdftex.def Info: n2.jpg  used on input line 251.
+(pdftex.def)             Requested size: 172.5pt x 194.52068pt.
+<555.jpg, id=43, 963.6pt x 542.025pt>
+File: 555.jpg Graphic file (type jpg)
+<use 555.jpg>
+Package pdftex.def Info: 555.jpg  used on input line 274.
+(pdftex.def)             Requested size: 172.5pt x 97.03096pt.
+ [10 </home/tuanlinux/University/report/n2.jpg>]
+<inside_the_555_timer.jpg, id=47, 90.3375pt x 81.6651pt>
+File: inside_the_555_timer.jpg Graphic file (type jpg)
+<use inside_the_555_timer.jpg>
+Package pdftex.def Info: inside_the_555_timer.jpg  used on input line 289.
+(pdftex.def)             Requested size: 207.0021pt x 187.14786pt.
+ [11 </home/tuanlinux/University/report/555.jpg> </home/tuanlinux/University/report/inside_the_555_timer.jpg>]
+Underfull \hbox (badness 2165) in paragraph at lines 322--324
+[]|\T1/lmr/m/n/10 The guar-an-teed volt-age range of bipo-lar
+ []
+
+
+Overfull \hbox (28.2241pt too wide) in paragraph at lines 306--326
+ [][] 
+ []
+
+[12] (/home/tuanlinux/University/report/main.aux) ) 
 Here is how much of TeX's memory you used:
- 2852 strings out of 492609
- 40057 string characters out of 6131462
- 115523 words of memory out of 5000000
- 6691 multiletter control sequences out of 15000+600000
+ 2945 strings out of 492609
+ 41310 string characters out of 6131462
+ 117842 words of memory out of 5000000
+ 6772 multiletter control sequences out of 15000+600000
  63296 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,10n,43p,305b,211s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb>
-Output written on /home/tuanlinux/University/report/main.pdf (7 pages, 217098 bytes).
+ 41i,10n,43p,305b,236s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
+Output written on /home/tuanlinux/University/report/main.pdf (12 pages, 491507 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
+ 85 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
