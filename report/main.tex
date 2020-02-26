@@ -25,7 +25,7 @@
     \vspace{3mm}
     \normalsize{PROJECT REPORT:} \\
     \vspace{15mm}
-    \huge{\textbf{"Circuit Remote Controlled Using Infarred Light"}} \\
+    \huge{\textbf{"Circuit Remote Controlled Using Infrared Light"}} \\
     \vspace{20mm}
     \normalsize{Written by} \\
     \vspace{3mm}
@@ -325,5 +325,70 @@
             \end{tabular}
             \caption{\label{tab:four}Describe the function of each IC NE555 pin}
         \end{table}
-
+        \begin{table}[ht]
+            \centering
+            \begin{tabular}{ | l | l | }
+                \hline
+                Properties & Value \\ \hline
+                Mounting type & Surface mount \\ \hline
+                Timer type & Standard \\ \hline
+                Package type & SOIC (Small Outline Intergrated Circuit) \\ \hline
+                Number of timer & 1 \\ \hline
+                Number of PIN & 8 \\ \hline
+                Minimum supply voltage & 4.5V \\ \hline
+                Maximum operating voltage & 16V \\ \hline
+                Minimum operating temperature & 0$^{\circ}$C \\ \hline
+                Maximum operating temperature & 70$^{\circ}$C \\ \hline
+                Maximum ouput current & 200mA \\ \hline
+                Excited & 4.9 x 3.91 x 1.58mm \\ \hline
+                Length & 4.9mm \\ \hline
+                Height & 1.58mm \\ \hline
+                Width & 3.91mm \\ 
+                \hline
+            \end{tabular}
+            \caption{\label{tab:fith}Specification of NE555}
+        \end{table}
+        \par The operating mode of IC:
+        \begin{itemize}
+            \item Astable mode: In this mode, 555 timer can work as an oscillator. Uses contain LED 
+            and lamp frashers, logic clocks, pulse generation, security alarms, tone generation 
+            and PPM and so on. The 555 timer IC can be used as a simple analog to digital converter. 
+            \item Monostable mode: In this mode, 555 timer IC works as a one shot pulse generator. 
+            Application mainly include bounce free switches, timers, touch switches, missing pulse 
+            detection, frequency divider, pulse-width modulation (PWM), capacitance measurement, and so on.
+            \item Bistable mode: In this mode, 555 timer IC can work as a flip-flop, if the DIS pins 
+            is not connected no capacitor is used. It is used in bounce-free latched switches.
+        \end{itemize}
+        \par In this circuit that we use, NE555 is operated in Astable mode.
+    \section{Principles of infrared transceiver}
+        The IR transmitter consists of the LED that emits the IR (Infra Red) radiation. 
+        This is received by the photo diode, which acts as IR receiver at the receiving end. 
+        Since the IR radiation is invisible to human eye it is perfect for using in wireless coummunication. 
+        \linebreak
+        \par A electronic remote device mainly consists of this IR transmitter and receiver. 
+        A remote control patterns a flash of invisible light which is turned into an instruction 
+        and is received by the receiver module.
+        \linebreak
+        \par So, how it works?
+        \linebreak
+        \par The IR signal is modulated during transmission. Modulation means assigning pattern to the 
+        data to be sent to the receiver. The most commonly used IR modulation is about 38KHz. \\
+        \begin{figure}[ht]
+            \centering 
+            \includegraphics[width=\linewidth]{pic.jpeg}
+            \caption{\label{fig:boat}The IR signal}
+        \end{figure}
+    \subsection{Principles of signal transmission}
+        \begin{figure}[ht]
+            \centering
+            \includegraphics[width=\linewidth]{transmitter.jpg}
+            \caption{\label{fig:boat}Principle of transmission}
+        \end{figure}
+        \newpage
+        Explain the diagram: 
+        \linebreak
+        \par At the transmitter, the message is encoded bit by bit. After the last bit of the message passes, 
+        two flushing bits 0 are interested to make sure the last transittion state is 00. Its aim is 
+        to facilitate the decoding process of receiver. 
+        \linebreak
 \end{document}

@@ -10,3 +10,5 @@
 \contentsline {section}{\numberline {2.4}IC 4017}{8}% 
 \contentsline {section}{\numberline {2.5}Quickview about clock pulse}{9}% 
 \contentsline {section}{\numberline {2.6}IC NE555}{11}% 
+\contentsline {section}{\numberline {2.7}Principles of infrared transceiver}{13}% 
+\contentsline {subsection}{\numberline {2.7.1}Principles of signal transmission}{14}% 

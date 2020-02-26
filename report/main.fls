@@ -148,6 +148,12 @@ INPUT /home/tuanlinux/University/report/555.jpg
 INPUT /home/tuanlinux/University/report/inside_the_555_timer.jpg
 INPUT /home/tuanlinux/University/report/inside_the_555_timer.jpg
 INPUT /home/tuanlinux/University/report/inside_the_555_timer.jpg
+INPUT /home/tuanlinux/University/report/pic.jpeg
+INPUT /home/tuanlinux/University/report/pic.jpeg
+INPUT /home/tuanlinux/University/report/pic.jpeg
+INPUT /home/tuanlinux/University/report/transmitter.jpg
+INPUT /home/tuanlinux/University/report/transmitter.jpg
+INPUT /home/tuanlinux/University/report/transmitter.jpg
 INPUT /home/tuanlinux/University/report/main.aux
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc
@@ -159,4 +165,5 @@ INPUT /usr/share/texmf/fonts/type1/public/lm/lmr10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmr12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmri12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb
