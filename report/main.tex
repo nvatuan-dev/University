@@ -391,4 +391,40 @@
         two flushing bits 0 are interested to make sure the last transittion state is 00. Its aim is 
         to facilitate the decoding process of receiver. 
         \linebreak
+        \begin{itemize}
+            \item Function selection and coding block: when the user presses the function keys to 
+            issue the request according to his request, each function key corresponds to the decimal 
+            number. The coding circuit will convert into corresponding binary code in the form of a 
+            digital signal code consisting of 0 and 1. The number of bits in a binary instruction code 
+            maybe 4 or 8 bits depending on the number of function keys more or less.
+            \item Conditional oscillator block: when we press a function key, we simultaneously start the 
+            oscillator circuit to generate clock pulse, the clock frequency determines the standard time of each bit.
+            \item Data latch block and parallel conversion unit to serial: the binary code at the coding circuit 
+            will be latched into the parallel data conversion circuit to serial. Serial to parallel data conversion 
+            circuits are controlled by clock pulses and timing circuits to ensure a timely completion of the conversion 
+            of a sufficient number of bits of code.
+            \item Modulation and FM transmitter block: The code in the form of serial will be sent through 
+            the modulation circuit and FM transmitter to pair the code into the carrier with the frequency 
+            of about 38kHz to 100kHz, thanks to the higher frequency signal carrier, the longer the signal 
+            is transmitted, which means increasing its transmitting distance.
+            \item Transmitter device block: it is simply an infarred LED. When the instruction code has a bit 
+            value of 1, LED imits infarred in the T interval of that bit. When the instruction code has a 
+            bit value of 0, LED will not light. Therefore, if the receiver does not receive the signal, it will 
+            be considered as having a bit value of 0.
+        \end{itemize}
+    \newpage
+    \subsection{Principles of signal reception}
+        \begin{figure}[ht]
+            \centering
+            \includegraphics[width=\linewidth]{receiver.jpg}
+            \caption{\label{fig:boat}Principle of reception}
+        \end{figure}
+        \par Explain the diagram:
+        \begin{itemize}
+            \item Receive unit: infarred from the transmitter is directly received by the infarred 
+            receiver or other optical components.
+            \item Application and decoupling unit: the signal amplification component will receive 
+            first and then pass through the detector circuit to eliminate the carrier and decouple 
+            the necessary data, which is the code.
+        \end{itemize}
 \end{document}

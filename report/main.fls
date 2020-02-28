@@ -154,6 +154,9 @@ INPUT /home/tuanlinux/University/report/pic.jpeg
 INPUT /home/tuanlinux/University/report/transmitter.jpg
 INPUT /home/tuanlinux/University/report/transmitter.jpg
 INPUT /home/tuanlinux/University/report/transmitter.jpg
+INPUT /home/tuanlinux/University/report/receiver.jpg
+INPUT /home/tuanlinux/University/report/receiver.jpg
+INPUT /home/tuanlinux/University/report/receiver.jpg
 INPUT /home/tuanlinux/University/report/main.aux
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc
