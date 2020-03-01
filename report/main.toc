@@ -1,15 +1,34 @@
 \babel@toc {english}{}
-\contentsline {chapter}{\numberline {1}Introduction}{4}% 
-\contentsline {section}{\numberline {1.1}Preliminary introduce:}{4}% 
-\contentsline {section}{\numberline {1.2}Objectives of the study:}{4}% 
-\contentsline {section}{\numberline {1.3}Research Methods:}{4}% 
-\contentsline {chapter}{\numberline {2}Find out theoretical related to the research}{5}% 
-\contentsline {section}{\numberline {2.1}Application of remote controlled using infarred}{5}% 
-\contentsline {section}{\numberline {2.2}Define of Infarred (IR LED)}{5}% 
-\contentsline {section}{\numberline {2.3}Infarred receiver eye (TSOP-17xx)}{7}% 
-\contentsline {section}{\numberline {2.4}IC 4017}{8}% 
-\contentsline {section}{\numberline {2.5}Quickview about clock pulse}{9}% 
-\contentsline {section}{\numberline {2.6}IC NE555}{11}% 
-\contentsline {section}{\numberline {2.7}Principles of infrared transceiver}{13}% 
-\contentsline {subsection}{\numberline {2.7.1}Principles of signal transmission}{14}% 
-\contentsline {subsection}{\numberline {2.7.2}Principles of signal reception}{16}% 
+\contentsline {chapter}{\numberline {1}Introduction}{5}% 
+\contentsline {section}{\numberline {1.1}Preliminary introduce:}{5}% 
+\contentsline {section}{\numberline {1.2}Objectives of the study:}{5}% 
+\contentsline {section}{\numberline {1.3}Research Methods:}{5}% 
+\contentsline {chapter}{\numberline {2}Find out theoretical related to the research}{6}% 
+\contentsline {section}{\numberline {2.1}Application of remote controlled using infarred}{6}% 
+\contentsline {section}{\numberline {2.2}Define of Infarred (IR LED)}{6}% 
+\contentsline {section}{\numberline {2.3}Infarred receiver eye (TSOP-17xx)}{8}% 
+\contentsline {section}{\numberline {2.4}IC 4017}{9}% 
+\contentsline {section}{\numberline {2.5}Quickview about clock pulse}{10}% 
+\contentsline {section}{\numberline {2.6}IC NE555}{12}% 
+\contentsline {section}{\numberline {2.7}Principles of infrared transceiver}{14}% 
+\contentsline {subsection}{\numberline {2.7.1}Principles of signal transmission}{15}% 
+\contentsline {subsection}{\numberline {2.7.2}Principles of signal reception}{17}% 
+\contentsline {section}{\numberline {2.8}Learn about infrared transmitter circuit}{17}% 
+\contentsline {section}{\numberline {2.9}Learn about infrared receiver circuit}{19}% 
+\contentsline {section}{\numberline {2.10}Quickview about relay}{20}% 
+\contentsline {subsection}{\numberline {2.10.1}Introduction}{20}% 
+\contentsline {subsection}{\numberline {2.10.2}Structure of relay}{20}% 
+\contentsline {subsection}{\numberline {2.10.3}Schematic diagram of relay and how it works}{21}% 
+\contentsline {subsection}{\numberline {2.10.4}Featured of 5-PIN 5V Relay}{22}% 
+\contentsline {subsection}{\numberline {2.10.5}Types of relays and how to determine their status}{22}% 
+\contentsline {subsection}{\numberline {2.10.6}Application of relay}{24}% 
+\contentsline {section}{\numberline {2.11}Quickview about mini pulse source module}{24}% 
+\contentsline {subsection}{\numberline {2.11.1}What is pulse source?}{25}% 
+\contentsline {subsection}{\numberline {2.11.2}Structure of the pulse source circuit?}{25}% 
+\contentsline {subsection}{\numberline {2.11.3}Block diagram and principle of operation of the pulse source}{26}% 
+\contentsline {subsection}{\numberline {2.11.4}Some basic types of pulse sources}{27}% 
+\contentsline {section}{\numberline {2.12}Remote Controlled circuit}{28}% 
+\contentsline {subsection}{\numberline {2.12.1}Circuit principle}{28}% 
+\contentsline {subsection}{\numberline {2.12.2}Explain the principle of circuit}{28}% 
+\contentsline {chapter}{\numberline {3}Construction circuit and results}{30}% 
+\contentsline {chapter}{\numberline {4}Conclude}{31}% 

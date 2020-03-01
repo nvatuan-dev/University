@@ -12,6 +12,8 @@
 \usepackage{tabularx}
 \usepackage{float}
 \usepackage{gensymb}
+\usepackage{amsmath}
+\usepackage{pdfpages}
 
 \begin{document}
     \centering
@@ -426,5 +428,273 @@
             \item Application and decoupling unit: the signal amplification component will receive 
             first and then pass through the detector circuit to eliminate the carrier and decouple 
             the necessary data, which is the code.
+            \item The carrier frequency is also used to compare the phase with the oscillation frequency 
+            on the receiver side to help the transceiver circuit be synchronized, ensuring the detector 
+            and serial to parallel circuits work correctly.
         \end{itemize}
+    \section{Learn about infrared transmitter circuit}
+    \begin{figure}[ht]
+        \centering
+        \includegraphics[width=\linewidth]{transmitter.png}
+        \caption{\label{fig:boat}Transmitter Circuit Diagram}
+    \end{figure}
+        \newpage
+        Here we use the infrared receiver (TSOP) for the receiver, so we need to create an IR (Infrared Ray) 
+        modulated at 38kHz. We can use any receiver, but we need to create IR with the frequency corresponding 
+        to the infrared receiver. Therefore, we should use the 555 timer in Astable mode (as above on the section on IC 555 mentioned) 
+        to oscillate at 38kHz frequency.
+        \linebreak
+        \par In this circuit, the oscillator frequency of 555 timer is decided by resistor R1,R2 and capacitor C1. 
+        We use 2 resistor R1,R2 and capacitor C1 to create frequency of approximately 38kHz. It is calculated 
+        by the following formula: 
+        \begin{equation*}
+            F = \frac{1.44}{((R1+2*R2)*C1)}
+        \end{equation*}
+        \linebreak
+        \par PIN 3 of IC 555 (timer) is connedted to IR LED by R3 resistor and push button switch. 
+        Whenever we press the button, the circuit will emit an infrared signal modulated at 38kHz. 
+        Capacitor C1 is responsible for filtering noise for the circuit.
+        \newpage
+    \section{Learn about infrared receiver circuit}
+        \begin{figure}[h]
+            \centering
+            \includegraphics[width=\linewidth]{receiver.png}
+            \caption{\label{fig:boat}Receiver Circuit Diagram}
+        \end{figure}
+        About the receiver circuit is very simple, what all we do is connect a LED to the output of 
+        infrared receiver eye 1738 with purpose to check the receiver. Here we use semiconductor light bulb 
+        BC557 PNP, the purpose is to reverse the effect of the infrared receiver eye, that mean whenever 
+        the output is high, the LED will turn off and vice versa if whenever low, the LED will turn off. 
+        PNP transistor work in stark contrast to NPN semiconductor light bulb, it works like a open switch when 
+        a voltage is applied to its base and works as a closed switch when there is no voltage as it base. So, 
+        usually the output of TSOP still high and transistor works like an open switch and LED will turn off. 
+        When the TSOP discovered the infrared, the output will get low and semiconductor light bulb will work 
+        like a close switch and LED will turn on. A resistor 10k$\Omega$ usually use to provide appropriate 
+        deviation for semiconductor light bulb and resistor 470$\Omega$ use at LED to limit the current.
+    \section{Quickview about relay}
+        \subsection{Introduction}
+            Relay is a passive electronic components usually use in practical application. When we 
+            have problem about wattage and we need high stability, besides can be easily to maintenance.
+            \linebreak
+            \par Relay actually is a switch (also known as K key). But relay different from conventional electrical 
+            switch is relay is activate by electric instead of we use the manually is flipped the switch. 
+            So, relays are often used as electronic switches. Relay is a switch, so it has 2 status: open and close.
+    \subsection{Structure of relay}
+        \begin{figure}[ht]
+            \centering
+            \includegraphics[width=\linewidth]{relay.png}
+            \caption{\label{fig:boat}Relay's structure}
+        \end{figure}
+        \begin{table}[ht]
+            \centering
+            \begin{tabular}{ | p{2cm} | l | p{5cm} | }
+                \hline
+                Pin number & Pin name & Description \\ \hline
+                1 & Coli end 1 & Used to trigger (on/off) the relay, normally one end is connected to 5V and the other end to ground \\ \hline
+                2 & Coli end 2 & Used to trigger (on/off) the relay, normally one end is connected to 5V and the other end to ground \\ \hline
+                3 & Common (COM) & Common is connected to one End of the load that is to be controlled \\ \hline
+                4 & Normaly Close (NC) & The other end of load is connected to NO or NC. If connected to NC, load still connect before activate \\ \hline
+                5 & Normaly Open (NO) & The other end of load is connected to NO or NC. If connected to NC, load still disconnect before activate \\
+                \hline
+            \end{tabular}
+            \caption{\label{tab:sixth}Describe the function of each relay PIN}
+        \end{table}
+        \vspace{5mm}
+    \subsection{Schematic diagram of relay and how it works}
+        Relays are most commonly used switching device in electronics. 
+        \linebreak
+        \par Before we processed with the circuit to drive the relay we have to consider two important parameter of relay. 
+        Once is \textbf{Trigger Voltage}, this is the voltage required to turn on the relay that is to change 
+        the contact from Common -> NC to Common -> NO. Our relay here have 5V trigger voltage, but you can 
+        also find relays of value 3V, 6V even 12V. So select one based on the available voltage in your project. 
+        The other parameter is your \textbf{Load Voltage and Current}, this is the amount of voltage or current 
+        that the NC,NO or Common terminal of the relay could withstand, in your case for DC it is maximum 
+        of 30V and 10A. Make sure the load you are using falls into this range.
+        \linebreak
+        \begin{figure}[ht]
+            \centering
+            \includegraphics[width=\linewidth]{relay-working.png}
+            \caption{\label{fig:boat}Schematic diagram of relay}
+        \end{figure}
+        \linebreak
+        \par The above circuit shows a bare-minimum concept for a relay to operate. Since the relay 
+        has 5V trigger voltage we have used a 5V DC supply to the end of coli and other end to ground 
+        through a switch. This \textbf{switch} can be anything from a small transistor to a microcontroller 
+        or a microprocessor which can perform switching operating. You can also notice a diode connected 
+        across the coli of the relay, this diode is called the \textbf{Fly back Diode}. The purpose 
+        of the diode is to protect the switch from high voltage spike that can produced by the relay coli. 
+        As shown one end of the load can be connected to the Common PIN and the other end is either connected 
+        to NO or NC. If connected to NO the load remains disconnected before trigger and if connected 
+        to NC the load remains connected before trigger.
+    \subsection{Featured of 5-PIN 5V Relay}
+        \begin{itemize}
+            \item Trigger Voltage (Voltage across coli): 5V DC
+            \item Trigger Current (Nominal Current): 70mA
+            \item Maximum AC load current: 10A @ 250/125V AC
+            \item Maximum DC load current: 10A @ 30/28V DC
+            \item Compact 5-PIN configuration with plastic moduling
+            \item Operating time: 10msec release time: 5msec
+            \item Maximum switching: 300 operating/minute (mechanically)
+        \end{itemize}
+    \subsection{Types of relays and how to determine their status}
+        Currently on the market we have 2 main models: the relay closes at a low level (connect negative pole -> relay close), 
+        the relay closes at a high level (connect positive pole -> relay close). If the comparision between 
+        2 modules has the same specifications, almost all of its components are the same, except that 
+        the transistor of each module. Becasue of this transistor, there are 2 types of relay modules.
+        \begin{figure}
+            \centering
+            \includegraphics[width=\linewidth]{relay1.jpg}
+            \caption{\label{fig:boat}High Quality Relay Model}
+            \includegraphics[width=\linewidth]{relay2.jpg}
+            \caption{\label{fig:boat}Low Quality Relay Model}
+        \end{figure}
+        \newpage
+    \subsection{Application of relay}
+        Relays are widely used and used for a variety of purpose. In which, relays are often used 
+        with some basic functions as follow:
+        \begin{itemize}
+            \item Switching multiple currents or voltage to different loads using a control signal.
+            \item Monitor industrial safety systems and disconnect machinery if safety is ensured.
+            \item And the more practical application, when running on the road you need to turn left, 
+            now you will need the flashing signal from the turn signal light, even the click-click. What make that sound is relay.
+        \end{itemize}
+    \section{Quickview about mini pulse source module}
+        \begin{figure}[ht]
+            \centering 
+            \includegraphics[width=\linewidth]{nguon xung.png}
+            \caption{\label{fig:boat}The actual pulse source circuit is often used}
+        \end{figure}
+        We have often heard the term "pulse source" a lot, but most of us don't know what it is. 
+        It includes any component and its superiority in electronic design. The application of pulse 
+        sources is usually very wide, it will appear in devices such as: induction hob, microwave oven, 
+        electric cooker, amplifier, hood, electric fan... So what is the source of the pulse? This will be 
+        basic information about pulse source.
+    \subsection{What is pulse source?}
+        Impulse source is a power supply unit that converts from an alternating current source to 
+        a direct current by means of an oscillating mode created by electronic circuits combined with 
+        a pulse transformer, and other basic components.
+    \subsection{Structure of the pulse source circuit?}
+        Common pulse sources are made up of basic components as follows:
+        \begin{itemize}
+            \item Pulse transformer: Made from coil wound on a magnetic core similar to the conventional 
+            transformer we often use. Pulse transformer usually use ferritic cores and have quite a large 
+            capacity, it can work well even in the high frequency range, things that conventional transformer 
+            can hardly meet.
+            \item Fuse: the effect of a common fuse to protect the power circuit from short circuit.
+            \item Anti-jamming coil, primary filter capacitor, rectifier diode: these things are responsible 
+            for converting the 220V AC voltage into the DC voltage stored on the primary filter capacitor to 
+            power the primary winding of the pulse transformer machine.
+            \item Power shell: this is a semiconductor component used as a switch, which can be a transistor, 
+            mosfet, integrated IC, IGBT (Transistor with isolation control pole) is responsible for cutting 
+            power from positive pins of the primary filter capacitor on the primary winding of the pulse transformer 
+            and then dropped to mass.
+            \item Secondary power filter capacitor: it is used to store electrical energy from the secondary 
+            winding of the pulse transformer to supply comsumption. We know that when the primary winding of 
+            the transformer is continuously switched on by the power cockle, the reciprocal magnetic field appears, 
+            which leads to the secondary winding of the transformer. This voltage is rectified through several diodes 
+            and then out put secondary filter capacitor to flatten the voltage.
+            \item Optical IC and TL431 ICs: these 2 ICs are responsible for creating a fixed voltage to control 
+            the voltage on the secondary side stable as we wish. They will control the switching on the primary 
+            winding of the transformer so that the secondary output is satisfactory. 
+        \end{itemize}
+    \subsection{Block diagram and principle of operation of the pulse source}
+        \begin{figure}[ht]
+            \centering
+            \includegraphics[width=\linewidth]{diagram.png}
+            \caption{\label{fig:boat}Block diagram of pulse source}
+        \end{figure}
+        First the input voltage is from 80V to 220V AC through the noise filter coil and then into the rectifier 
+        diode into DC about 130-300V (depending on AV voltage at the input) on the primary filter capacitor. 
+        The primary filter capacitor. The primary filter capacitor is responsible for the storage of DC power 
+        for the transformer primary pulse operating coil. The common primary filter capacitors will have 
+        value such as: 4.7$\mu$F-400V, 10$\mu$F-400V, 220$\mu$F-400V, 10$\mu$F-200V.
+        \linebreak
+        \par The primary winding of the pulse transformer is energized according to the high frequency pulse 
+        through the semiconductor switching block, which is components such as transistor, mosfet or IGBT 
+        (Transistor with isolated control pole). These electrical impulses are generated by a pulse generator 
+        or electronic oscillating circuits.
+        \linebreak
+        \par In the secondary winding: the secondary winding of the pulse transformer will have rectifier 
+        circuits that give a direct current to power to load. This secondary voltage will be maintained at 
+        a certain voltage such as 3.3V, 5V, 9V, 12V, 15V, 18V or 24V thanks to the voltage stabilizer circuit. 
+        At the same time, the feedback circuit will take out the voltage signal to put into the oscillator 
+        to control so that the oscillation frequency is stable with the ouput voltage as we want. The voltage 
+        regulator IC is often used as: 7805, 7809, 7812, 7818. The PIN IC inserted into the feedback circuit 
+        is IC431, while the main feedback IC is the Opto couple PC817.
+    \subsection{Some basic types of pulse sources}
+        \begin{itemize}
+            \item Buck type: transform the source for a smaller output voltage than the input voltage is Vinout.
+            \item Boot type: for ouput voltage greater than input voltage Vin < Vout.
+            \item Flyback type: indirect power transmission via transformer. Output voltage is greater or smaller 
+            than input voltage. And especially from an input, it can produce a lot of output voltage. 
+            \item Push-Pull type: also known as push pull. This type of impulse source is transmitted indirectly 
+            through a transformer, giving an output voltage smaller or larger than the input voltage. And just like 
+            with Flyback type, from one type of input voltage can produce many output voltages.
+        \end{itemize}
+        In this content, we will use a mini pulse source that converts from AC 220V AC to 5V DC and the 
+        maximum power is 3W, the design of this circuit uses AC/DC isolation pulse transformer and Anti-interference 
+        and feedback machanisms for maximum safety and stability. 
+        \begin{figure}[ht]
+            \centering
+            \includegraphics[width=0.5\linewidth]{pic1.jpg}
+            \caption{\label{fig:boat}5V-3W pulse power model}
+        \end{figure}
+        The specifications of this module are as follows: 
+        \begin{itemize}
+            \item Input voltage: 85-256V AC
+            \item Input current: 0.0273A (110V AC) / 0.014A (220V AC)
+            \item Output voltage: 5V DC (error 1\%)
+            \item Average output current: 600mA
+            \item Wattage: 3W
+            \item Size: 20 x 30mm
+        \end{itemize}
+    \section{Remote Controlled circuit}
+        \subsection{Circuit principle}
+            \begin{figure}[ht]
+                \centering
+                \includegraphics[width=\linewidth]{pic1.png}
+                \caption{\label{fig:boat}Principle remote control circuit}
+            \end{figure}
+        \subsection{Explain the principle of circuit}
+            The mini pulse transformer converts from 220V AC to 5V DC, the positive and negative positions in 
+            the circuit are connected together. When transmitting the signal to the infrared receiver (TSOp) 
+            from which TSOP will generate a signal at the signal pin of the infrared receiver, then A1015 transistor 
+            leads and fills capacitor C5 according to the principle of the capacitor, the capacitor will discharging 
+            through resistor R7 will produce a shock at pin 14 of IC 4017. Therefore, the signal generated from pin 
+            number 3 transmits to pin number 2 to a high level. The C1815 resistor is activated to make the relay 
+            work in principle. So the load will work with AC voltage of 220V.
+            \linebreak
+            \par Similarly, once we trigger the signal in the infrared receiver again, it is similar to the first 
+            time it generates a pulse at pin number 14 of IC 4017, and it will restart the output signal at pin number 2 
+            to low level, C1815 transistor will not lead to a failure of the relay. So the load will not work.
+    \chapter{Construction circuit and results}
+    \thispagestyle{fancy}
+    \fancyhf{}
+    \fancyhead[L]{CaptainJAV}
+    \fancyhead[R]{Remote Controlled Using Infarred}
+    \rfoot{Page \thepage}
+
+    \chapter{Conclude}
+    \thispagestyle{fancy}
+    \fancyhf{}
+    \fancyhead[L]{CaptainJAV}
+    \fancyhead[R]{Remote Controlled Using Infarred}
+    \rfoot{Page \thepage}
+    \begin{itemize}
+        \item The circuit works exactly as the target set.
+        \item Advantages: The circuit is quite simple and easy to do, the principle as well as finding data are quite simple.
+        \item Disadvantages: Using a lot of components, wires (if do it on Vero board), cost is quite a lot, must test on the test board many time to get the desired results.
+    \end{itemize}
+
+    \newpage
+    \thispagestyle{plain}
+    \centerline{\textbf{\huge{REFERENCES}}}
+    \vspace{10mm}
+    \begin{enumerate}
+        \item Jayant (Oct 20, 2015), IR Transmitter and Receiver
+        \item Jayant (Oct 18, 2015), Remote Controlled Light Switch
+        \item Mai Thanh An, Remote Controlled using Infrared 
+        \item Anusha (Apr 22, 2017), Remote Controlled Light Switch
+        \item Dr.Ho Ngoc Ba (2013), Electronic Circuit curriculum similar
+    \end{enumerate}
 \end{document}
