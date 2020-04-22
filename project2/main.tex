@@ -14,6 +14,8 @@
 \usepackage{amsmath}
 \usepackage{indentfirst}
 
+\setcounter{secnumdepth}{4}
+
 \begin{document}
     \centering
     \LARGE{\textsc{VIETNAM AVIATION ACADEMY}}\\
@@ -26,7 +28,7 @@
     \vspace{3mm}
     \normalsize{PROJECT REPORT: } \\ 
     \vspace{15mm}
-    \huge{\textbf{"NDB radar detector module using Arduino"}} \\
+    \huge{\textbf{"Radar detector module using Arduino"}} \\
     \vspace{20mm}
     \normalsize{Written by} \\
     \vspace{3mm}
@@ -53,12 +55,12 @@
     \centerline{\textbf{\huge{PREAMBLE}}}
     \vspace{10mm}
     \begin{flushleft}
-        In VietNam's aviation industry today as well as in the world, radar is along-range object 
-        detection system that uses radio waves to etablish certain parameters of an object like 
-        its range, speed and position. Radar technology is used in aircrafts, missiles, marinem, 
-        weather predictions and automobiles. Even though the title says "Arduino Radar 
-        Project" technically the projects is based on Sonar technology as i will be using 
-        an Ultrasonic Sensor to determine the presence of any object in particular range.
+        Radar is an object detection system. It uses Microwaves to determine the range, 
+        altitude, or speed of objects. The radar can transmit radio waves or microwaves 
+        which bounce off any object in their path. So, we can easily determine any object 
+        in the radar range. Arduino is a single-board microcontroller to make electronics 
+        more discipline. The radar system has different performance specifications and also 
+        it comes in a verity of size.
     \end{flushleft}
     \begin{flushright}
         \textbf{Auth. Nguyen Van Anh Tuan}
@@ -136,7 +138,121 @@
             \item And the final chapter is the final section where i draw some conclusion during 
         project implementation, as well as point out my own strengths weaknesses in the course of my project.
         \end{itemize}
+    \newpage
     \section{BASIC THEORY}
     \subsection{Some research related to the project}
-        
+        Some research ideas related to my project:
+        \begin{itemize}
+            \item The function contained in some robots, helps robots scan the terrain 
+        and detect objects to avoid.
+            \item Radar in the Air traffic control tower named "Primary Surveillance Radar"
+        \end{itemize}
+    \subsection{Theory concepts related to research issues}
+        \begin{itemize}
+            \item \textbf{PSR(Primary Surveillance Radar)}: A Surveillance radar system which
+        uses reflected radio signals.
+            \item \textbf{US(Ultrasonic Sensor)}: As the name indicates, ultrasonic sensors 
+        measure distance by using ultrasonic waves.
+            \item \textbf{PWM(Pulse-Width Modulation)}: is a method of reducing the average 
+        power delivered by an electrical signal, by effectively chopping it up into discrete parts.
+            \item \textbf{RAM(Random-Access Memory)}: is a form of computer memory that can be 
+        read and changed in any order, typically used to store working data and machine code.
+            \item \textbf{CPU(Central Processing Unit)}: also called a central processor or main 
+        processor, is the electronic circuitry within a computer that executes instruction that 
+        make up a computer program.
+        \end{itemize}
+    \subsection{Components Required}
+        \begin{enumerate}
+            \item For power:
+            \setlength{\parindent}{4em}
+            Micro USB-B
+            \item For radar model:
+            \begin{enumerate}
+                \item Arduino UNO
+                \item Servo motor
+                \item Ultrasonic Sensor HRF-04
+                \item Buzzer
+                \item LCD 16x02
+                \item LED (green, red)
+                \item Test board
+            \end{enumerate}
+        \end{enumerate}
+    \newpage
+    \subsection{Component Description}
+        \vspace{3mm}
+        \subsubsection{Arduino Uno}
+            \vspace{3mm}
+            \begin{enumerate}
+                \item \textbf{Introduction about Arduino UNO}
+                \linebreak
+                \par Arduino UNO is a microcontroller board developed by Arduino.cc which is open-source 
+                electronics platform mainly based on AVR microcontroller ATMega328. \\
+                \vspace{3mm}
+                \par First Arduino projcet was started in Interaction Design Institute 
+                Ivrea in 2003 by David Cuartielles and Massimo Banzi with the intention of 
+                providing a cheap and flexible way to students and professional for controlling 
+                a number of devices in the real world. \\
+                \vspace{3mm}
+                \par The current version of Arduino UNO comes with USB interface, 6 analog 
+                input pins, 14 I/O(input/output) digital ports that are used to connect with 
+                external electronic circuit. Out of 14 I/O ports, 6 pins can be used for PWM output.\\
+                \vspace{3mm}
+                \par It allows the designers to control and sense the external electronic devices in 
+                the real world. \\
+                \vspace{3mm}
+                \par Apart from USB, battery or AC to DC adopter can also be used to power the board. \\
+                \vspace{3mm}
+                \par There are many versions of Uno board available. However, Arduino Uno V3 and Arduino 
+                Uno are the most official versions that come with ATMega328 8-bit AVR Atmel microcontroller 
+                where RAM memory is 32KB.
+                \begin{figure}[ht]
+                    \centering
+                    \includegraphics[width=0.5\linewidth]{Uno.png}
+                    \caption{\label{fig:pic}Arduino Uno board}
+                \end{figure}
+                \item \textbf{Features}
+                    \linebreak
+                \begin{itemize}
+                    \item Comes with USB interface.
+                    \item USB port is added on the board to develop serial communication with the computer
+                    \item ATMega328 microcontroller is placed on the board that comes with a number of 
+                features like timers, counters, interrupts, PWM, CPU, I/O pins and based on a 16MHz clock 
+                that helps in producing more frequency and number of instruction per cycle.
+                    \item It's an open-source platform where anyone can modify and optimize the 
+                board based on the number of instructions and task they want to achieve.
+                    \item Come with a built-in regulation feature which keeps the voltage under control 
+                when the device is connected to the external device.
+                    \item There are 14 pins I/O digital and 6 analog pins in the board that allows the 
+                external connection with any circuit with the board. These pins provide the flexibility 
+                and ease of use to the external devices that can be connected through these pins.
+                    \item 6 analog pins are marked as A0 to A5 and come with a resolution of 10bits. 
+                These pins measure from 0V to 5V, however, they can be configured to the high range 
+                using analogReference() function and AREF pin.
+                    \item 13KB of flash memory is used to store the number of instructions in the form 
+                of code.
+                    \item Only 5V is required to turn the board on, which can be achieved directly using 
+                USB port or external adopter, however, it can support external power source up to 12V 
+                which can be regulated and limit to 5V or 3.3V based on the requirement of the project. 
+                \end{itemize}
+                \item \textbf{Pinout}
+                    \linebreak
+                    \vspace{3mm}
+                    \par Arduino Uno is based on AVR microcontroller call ATMega328. This controller 
+                comes with 2KB RAM, 32KB of flash memory, 1KB of EEPROM. Arduino board comes with 
+                14 digital pins and 6 analog pins.
+                \includegraphics[width=\linewidth]{pinout.png}
+                \item \textbf{Pin Description}
+                    \linebreak
+                    \vspace{3mm}
+                    \par \textbf{LED:} comes with build-in LED which is connected through pin 13.
+                Providing HIGH value to the pin will turn it ON and LOW will turn it OFF. \\
+                    \vspace{2mm}
+                    \par \textbf{Vin:} input voltage provided to the Arduino Uno board. It's
+                different than 5V supplied through the USB port. This pin is used to supply voltage. 
+                If a voltage is provided through power jack, it can be accessed through this pin. \\
+                    \vspace{2mm} 
+                    \par \textbf{5V:} comes with the ability to provide voltage regulation. 5V pin is 
+                used to provide output regulated voltage. The board is powered up using the 3 ways: 
+                USB, Vin pin of the board or DC power jack.
+            \end{enumerate}
 \end{document}
