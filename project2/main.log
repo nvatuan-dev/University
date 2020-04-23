@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.4.1)  23 APR 2020 00:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.4.1)  24 APR 2020 00:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -227,6 +227,27 @@ Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 
 LaTeX Warning: Label `fig:pic' multiply defined.
 
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
@@ -353,30 +374,63 @@ File: Uno.png Graphic file (type png)
 <use Uno.png>
 Package pdftex.def Info: Uno.png  used on input line 210.
 (pdftex.def)             Requested size: 172.5pt x 126.78867pt.
- [8 </home/tuanlinux/University/project2/Uno.png>]
-<pinout.png, id=38, 1076.02pt x 754.82pt>
+<atmega.png, id=34, 578.16pt x 429.85594pt>
+File: atmega.png Graphic file (type png)
+<use atmega.png>
+Package pdftex.def Info: atmega.png  used on input line 217.
+(pdftex.def)             Requested size: 207.0021pt x 153.9019pt.
+ [8 </home/tuanlinux/University/project2/Uno.png>] [9 </home/tuanlinux/University/project2/atmega.png>]
+<pinout.png, id=44, 1076.02pt x 754.82pt>
 File: pinout.png Graphic file (type png)
 <use pinout.png>
-Package pdftex.def Info: pinout.png  used on input line 243.
-(pdftex.def)             Requested size: 319.99997pt x 224.47824pt.
- [9] [10 </home/tuanlinux/University/project2/pinout.png>] (/home/tuanlinux/University/project2/main.aux)
+Package pdftex.def Info: pinout.png  used on input line 250.
+(pdftex.def)             Requested size: 345.0pt x 242.00804pt.
+ [10 </home/tuanlinux/University/project2/pinout.png>] [11] [12]
+<Servo.jpg, id=55, 501.875pt x 299.1175pt>
+File: Servo.jpg Graphic file (type jpg)
+<use Servo.jpg>
+Package pdftex.def Info: Servo.jpg  used on input line 345.
+(pdftex.def)             Requested size: 207.0021pt x 123.3738pt.
+<Servo1.jpg, id=56, 451.6875pt x 301.125pt>
+File: Servo1.jpg Graphic file (type jpg)
+<use Servo1.jpg>
+Package pdftex.def Info: Servo1.jpg  used on input line 357.
+(pdftex.def)             Requested size: 207.0021pt x 138.00455pt.
+ [13 </home/tuanlinux/University/project2/Servo.jpg> </home/tuanlinux/University/project2/Servo1.jpg>]
+<Servo2.jpg, id=61, 451.6875pt x 301.125pt>
+File: Servo2.jpg Graphic file (type jpg)
+<use Servo2.jpg>
+Package pdftex.def Info: Servo2.jpg  used on input line 367.
+(pdftex.def)             Requested size: 207.0021pt x 138.00455pt.
+<Servo3.jpg, id=62, 451.6875pt x 371.3875pt>
+File: Servo3.jpg Graphic file (type jpg)
+<use Servo3.jpg>
+Package pdftex.def Info: Servo3.jpg  used on input line 382.
+(pdftex.def)             Requested size: 137.9979pt x 113.46852pt.
+ [14 </home/tuanlinux/University/project2/Servo2.jpg> </home/tuanlinux/University/project2/Servo3.jpg>]
+<sg90.jpg, id=66, 602.25pt x 602.25pt>
+File: sg90.jpg Graphic file (type jpg)
+<use sg90.jpg>
+Package pdftex.def Info: sg90.jpg  used on input line 411.
+(pdftex.def)             Requested size: 103.50105pt x 103.49307pt.
+ [15 </home/tuanlinux/University/project2/sg90.jpg>] [16] (/home/tuanlinux/University/project2/main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3482 strings out of 494553
- 47474 string characters out of 6177378
- 119305 words of memory out of 5000000
- 7051 multiletter control sequences out of 15000+600000
+ 3512 strings out of 494553
+ 47873 string characters out of 6177378
+ 119306 words of memory out of 5000000
+ 7075 multiletter control sequences out of 15000+600000
  55514 words of font info for 38 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,11n,43p,307b,316s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,11n,43p,307b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on /home/tuanlinux/University/project2/main.pdf (10 pages, 1223054 bytes).
+Output written on /home/tuanlinux/University/project2/main.pdf (16 pages, 1477032 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 99 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

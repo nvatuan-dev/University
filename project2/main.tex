@@ -180,7 +180,7 @@
     \newpage
     \subsection{Component Description}
         \vspace{3mm}
-        \subsubsection{Arduino Uno}
+        \subsubsection{\Large{Arduino Uno}}
             \vspace{3mm}
             \begin{enumerate}
                 \item \textbf{Introduction about Arduino UNO}
@@ -212,6 +212,11 @@
                 \end{figure}
                 \item \textbf{Features}
                     \linebreak
+                    \begin{figure}[ht]
+                        \centering
+                        \includegraphics[width=0.6\linewidth]{atmega.png}
+                        \caption{\label{fig:pic}ATMega328 Microcontroller}
+                    \end{figure}
                 \begin{itemize}
                     \item Comes with USB interface.
                     \item USB port is added on the board to develop serial communication with the computer
@@ -240,7 +245,11 @@
                     \par Arduino Uno is based on AVR microcontroller call ATMega328. This controller 
                 comes with 2KB RAM, 32KB of flash memory, 1KB of EEPROM. Arduino board comes with 
                 14 digital pins and 6 analog pins.
-                \includegraphics[width=\linewidth]{pinout.png}
+                    \begin{figure}[ht]
+                        \centering
+                        \includegraphics[width=\linewidth]{pinout.png}
+                        \caption{\label{fig:pic}Arduino Uno Pinout}
+                    \end{figure}
                 \item \textbf{Pin Description}
                     \linebreak
                     \vspace{3mm}
@@ -253,6 +262,158 @@
                     \vspace{2mm} 
                     \par \textbf{5V:} comes with the ability to provide voltage regulation. 5V pin is 
                 used to provide output regulated voltage. The board is powered up using the 3 ways: 
-                USB, Vin pin of the board or DC power jack.
+                USB, Vin pin of the board or DC power jack. \\
+                    \vspace{2mm}
+                    \par \textbf{GND:} ground pins. More than one ground pins are provided 
+                on the board which can be used as per requirement.
+                    \vspace{2mm}
+                    \par \textbf{Reset:} this is incorporated on the board which resets the 
+                program running on the board. Instead of physical reset on the board, IDE comes 
+                with a feature of resetting the board through programming. \\
+                    \vspace{2mm}
+                    \par \textbf{IOREF:} this pin very useful for providing voltage reference to 
+                the board. A shield is used to read the voltage across this pin which then select 
+                the proper power source. \\
+                    \vspace{2mm}
+                    \par \textbf{PWM:} is provided by 3,5,6,9,10; 11 pins. These pins are configured 
+                to provided 8-bit output PWM. \\
+                    \vspace{2mm}
+                    \par \textbf{SPI:} It is known as Serial Peripheral Interface. 4 pins 10(SS), 11(MOSI), 
+                12(MISO), 13(SCK) provide SPI coummunication with the help of SPI library. \\
+                    \vspace{2mm}
+                    \par \textbf{AREF:} called Analog Reference. This pin is used for providing a reference 
+                voltage to the analog inputs. \\ 
+                    \vspace{2mm}
+                    \par \textbf{TWI:} called Two-tire Interface. TWI communication is accessed through 
+                Wire Library. A4 and A5 pins are used for this purpose. \\
+                    \vspace{2mm}
+                    \par \textbf{Serial Communication:} is carried out through 2 pins call pin 0(Rx) and 
+                pin 1(Tx). Rx pin is used to receive data while Tx pin is used to transmit data. \\
+                    \vspace{2mm}
+                    \par \textbf{External Interrupts:} Pin 2 and 3 are used for providing external interrupts. 
+                An interrupt is called by providing LOW or changing value.
+                \item \textbf{Communication and Programming} 
+                    \linebreak
+                    \vspace{3mm}
+                    \par Arduino Uno comes with an ability of interfacing with other Arduino boards, 
+                microcontrollers and computer. The ATMega328 placed on board provides serial communication 
+                using pins like Rx and Tx. \\ 
+                    \vspace{2mm}
+                    \par Arduino Uno is programmed using Arduino Software which is a cross-platform application 
+                call IDE(Intergrated Development Environment) written in Java. The AVR microcontroller ATMega328 
+                laid out on the base comes with built-in bootloader that sets you free from using a separate 
+                burner to upload the program on the board.
+                \item \textbf{Application}
+                    \linebreak
+                    \vspace{3mm}
+                    \par Arduino Uno comes with a wide range of Applications. A larger number of people 
+                are using Arduino boards for developing sensors and instruments that are used in scientific 
+                research. Following are some main applications of the board: \\
+                    \vspace{2mm}
+                    \par \guillemotright Embedded System \\
+                    \par \guillemotright Security and Defense System \\
+                    \par \guillemotright Digital Electronics and Robotics \\
+                    \par \guillemotright Parking Lot Counter \\
+                    \par \guillemotright Weighing Machines \\
+                    \par \guillemotright Traffic Light Count Down Timer \\
+                    \par \guillemotright Medical Instrument \\
+                    \par \guillemotright Emergency Light for Railways \\
+                    \par \guillemotright Home Automation \\ 
+                    \par \guillemotright Industrial Automation \\
+                    \vspace{2mm}
+                    \par There are a lot of other microcontrollers available in the market that are 
+                more powerful and cheap as compared to Arduino board. \\
+                    \vspace{2mm}
+                    \par Actually, Arduino comes with a big community that is developing and sharing the 
+                knowledge with a wide range of audience. Quick support is available pertaining to technical 
+                aspects of any electronic project.
+            \end{enumerate}
+        \subsubsection{\Large{Servo Motor}}
+            \begin{enumerate}
+                \item \textbf{Introduction}
+                    \vspace{3mm}
+                    \par Servo Motors(or servos) are self-contained electric devices that rotate or push 
+                parts of machine with great precision. Servos are found in many places, from toys to home 
+                electronics to cars and airplanes. If you have a radio-controlled model car, airplanes, 
+                or helicopter, you are using at least a few servos. By rotating a shaft connected to the 
+                engine throttle, a servo regulates the speed of a fuel-powered car or aircraft. \\
+                    \vspace{2mm}
+                    \par Servo also appear behind the scene in devices we use every day. Electronic device 
+                such as DVD players use servos to extend or retract the disc trays.
+                    \begin{figure}[ht]
+                        \centering
+                        \includegraphics[width=0.6\linewidth]{Servo.jpg}
+                        \caption{\label{fig:pic}Assortment of Servos}
+                    \end{figure}
+                \item \textbf{How does a servo work?}
+                    \vspace{3mm}
+                    \par The simple of a servo among the features that make them so reliable. 
+                The heart of a servo is a small direct current (DC) motor, similar to what you 
+                might find in an cheap toy. These motors run on electricity from a battery and spin 
+                at high RPM(Rotations per minute) but put out very low \textbf{torque}(a twisting force 
+                used to do work you apply torque when you open a bottle).
+                    \begin{figure}[ht]
+                        \centering
+                        \includegraphics[width=0.6\linewidth]{Servo1.jpg}
+                        \caption{\label{fig:pic}The Gears in a Typical Standard-size servo}
+                    \end{figure}
+                    \newpage
+                    \par In high-power servo, the plastic gears are replaced by metal ones for strength. 
+                    The motor is usually more powerful than in a low-power servo and the overall output torque 
+                    can be as much as 20 times higher than a cheaper plastic one. Better quality is more 
+                    expensive, and high-output servos can cost two or three times as much as standard ones.
+                    \begin{figure}[ht]
+                        \centering
+                        \includegraphics[width=0.6\linewidth]{Servo2.jpg}
+                        \caption{\label{fig:pic}The gears in a Typical High-power servo}
+                    \end{figure} 
+                    \vspace{2mm}
+                    \par With a small DC motor, you apply power from a battery, and the motor spins. 
+                Unlike a simple DC motor, however, a servo's spinning motor shaft is slowed way down with 
+                gears. A positional sensor on the final gear is connected to a small circuit board. The 
+                sensor tells this circuit board how far the servo output shaft has rotated. The electronic 
+                input signal from the computer or the radio in a remote-controlled vehicle also feeds into 
+                that circuit board. The electronics on the circuit board decode the signals to determine 
+                how far the user wants the servo to rotate. Then compares the desired position to the 
+                actual position and decides which direction to rotate the shaft so it gets to the desired 
+                position.
+                    \begin{figure}[ht]
+                        \centering
+                        \includegraphics[width=0.4\linewidth]{Servo3.jpg}
+                        \caption{\label{fig:pic}The circuit board and DC motor in a high-power servo}
+                    \end{figure}
+                \item \textbf{Types of servo motors}
+                    \vspace{3mm}
+                    \par Servos come in many sizes and in 3 basic types: 
+                    \begin{itemize}
+                        \item \textbf{Positional rotation servo:} This is the most common type of servo 
+                    motor. The output shaft rotates in about half of a circle, or 180 degrees. It has physical 
+                    stops placed in the gear machanism to prevent turning beyond these limits to protect the 
+                    rotational sensor. These common servos are found in radio-controlled cars, aircraft, toys, 
+                    robots and many applications. 
+                        \item \textbf{Continuous rotation servo:} This is quite similar to the common positional 
+                    rotation servo motor, except it can turn in either direction indefinitely. The control 
+                    signal, rather than setting the static position of the servo, is interpreted as the direction 
+                    and speed of rotation. The range of possible commands causes the servo to rotate clockwise 
+                    or counterclockwise as desired, at varying speed, depending on the command signal. You might 
+                    use a servo of this type on a radar dish if you mounted one on a robot. Or you could use 
+                    one as a drive motor on a mobile robot.
+                        \item \textbf{Linear servo:} This is also like the positional rotation servo motor described 
+                    above, but with additional gears(usually a \textbf{rack and pinion} mechanism) to change 
+                    the output from circular to back-and-forth. These servos are not easy to find, but you can 
+                    sometimes find them at hobby stores where they are used as actuators in larger model airplanes.
+                    \end{itemize}
+                \item \textbf{Selecting a servo motor}
+                    \linebreak
+                    \vspace{3mm}
+                    \begin{figure}[ht]
+                        \centering
+                        \includegraphics[width=0.3\linewidth]{sg90.jpg}
+                        \caption{\label{fig:pic}Micro Servo 90}
+                    \end{figure}
+                    \newpage
+                    Micro servo motor 90(SG90) is tiny and lightweight with high output power. This servo can 
+                    rotate approximately 180 degrees (90 in each direction), it works just like the standard kinds 
+                    but smaller. We can use any servo code, hardware or library to control this servo.
             \end{enumerate}
 \end{document}
