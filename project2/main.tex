@@ -13,6 +13,7 @@
 \usepackage{float}
 \usepackage{amsmath}
 \usepackage{indentfirst}
+\usepackage[table]{xcolor}
 
 \setcounter{secnumdepth}{4}
 
@@ -414,6 +415,212 @@
                     \newpage
                     Micro servo motor 90(SG90) is tiny and lightweight with high output power. This servo can 
                     rotate approximately 180 degrees (90 in each direction), it works just like the standard kinds 
-                    but smaller. We can use any servo code, hardware or library to control this servo.
+                    but smaller. We can use any servo code, hardware or library to control this servo. It good for 
+                    beginners who want to make stuff move without building a motor controller with feedback and gear 
+                    box, especially since it will fit in small places.
+                    \begin{figure}[ht]
+                        \centering
+                        \includegraphics[width=\linewidth]{Capture.PNG}
+                        \caption{\label{fig:pic}Section of SG90}
+                    \end{figure}
+                    \par \textbf{Block Diagram of SG90}
+                    \begin{figure}[ht]
+                        \centering
+                        \includegraphics[width=0.6\linewidth]{Servo2.PNG}
+                        \caption{\label{fig:pic}SG90 datasheet}
+                    \end{figure}
+                \item \textbf{Controlling a servo motor} 
+                    \linebreak
+                    \vspace{3mm}
+                    \begin{figure}[ht]
+                        \centering
+                        \includegraphics[width=0.4\linewidth]{servo3.PNG}
+                        \caption{\label{fig:pic}PWN Period}
+                    \end{figure}
+                    \par Servo take commands from a series of pulse sent from the computer or radio. A pulse 
+                is a transition from low voltage to high voltage which stays high for a short time, and then 
+                returns to low. In battery devices such as servos, "low" is considered be ground or 0V 
+                and "high" is the battery voltage. Servos tend to work in a range of 4.5 to 6 volts, so they 
+                are extremely hobbyist computer-friendly.
+            \end{enumerate}
+        \subsubsection{\Large{HC-SR04 (Ultrasonic Sensor)}}
+            \begin{enumerate}
+                \item \textbf{Introduction}
+                    \linebreak
+                    \vspace{3mm}
+                    \par An Ultrasonic Sensor is an electronic device that measures the distance 
+                of target object by emitting ultrasonic sound waves, and converts the reflected sound 
+                into an electrical signal. Ultrasonic waves travel faster than the speed of audible sound 
+                (the sound that human can hear). \\
+                    \vspace{2mm}
+                    \par Transmitter and Receiver are two main parts of the sensor where former converts an 
+                electrical signal to ultrasonic waves while later converts that ultrasonic signal back to 
+                electrical signals. \\
+                    \vspace{2mm}
+                    \par Following table shows the main features of this ultrasonic sensor \\
+                    \vspace{2mm}
+                    \begin{table}[ht]
+                        \centering
+                        \begin{tabular}{ | l | l |}
+                            \hline
+                            \rowcolor{lightgray} Parameter & Value \\ \hline
+                            Main Parts & Transmitter and Receiver \\ \hline
+                            Operating Voltage & 5V \\ \hline
+                            Operating Frequency & 4MHz \\ \hline
+                            Detection Range & 2cm to 400cm \\ \hline
+                            Measuring Angle & 30 degrees \\ \hline
+                            Resolution & 3mm \\ \hline
+                            Operating Current & < 15mA \\ \hline
+                            Sensor Dimensions & 45mm x 20mm x 15mm \\ \hline
+                        \end{tabular}
+                        \caption{\label{tab:table}Feature of HC-SR04}
+                    \end{table}
+                    \vspace{2mm}
+                    \par In order to calculate the distance between the sensor and the object, the sensor 
+                measures the time it takes between the emission the sound by the transmitter to its contact with 
+                the receiver. The formula for this calculation:
+                    \begin{align*}
+                        \centering
+                        D = 1/2 * T * C
+                    \end{align*}
+                    \par Where: 
+                    \begin{itemize}
+                        \item D: the distance
+                        \item T: the time
+                        \item C: the speed of sound ~ 343 meter/second
+                    \end{itemize} 
+                \item HC-SR04 Pinout and Description
+                    \linebreak
+                    \vspace{3mm}
+                    \par HC-SR04 contain 4 pins in total.
+                    \begin{table}[ht]
+                        \centering
+                        \begin{tabular}{ | l | l | p{7cm} |}
+                            \hline
+                            \rowcolor{lightgray} No. & Pin name & Pin Description \\ \hline
+                            1 & VCC & The power supply pin of the sensor that mainly operates at 5V DC \\ \hline
+                            2 & TRIG Pin & It plays a vital role to initialize measurement for sending ultrasonic 
+                            waves. It should be kept high for 10us for triggering the measurement \\ \hline
+                            3 & ECHO Pin & This pin remains high for short period based on the time taken by the 
+                            ultrasonic waves to bounce back to the receiving end \\ \hline
+                            4 & Ground & This pin is connected to ground \\
+                            \hline
+                        \end{tabular}
+                        \caption{\label{tab:table}Pinout of HC-SR04}
+                    \end{table}
+                    \par This figure below here is labelled these HC-SR04 Pinout for better visualization:
+                    \begin{figure}[ht]
+                        \centering
+                        \includegraphics[width=\linewidth]{HC-SR04.jpg}
+                        \caption{\label{fig:pic}HC-SR04 Pinout}
+                    \end{figure}
+                \item \textbf{How does it work?}
+                    \begin{figure}[ht]
+                        \centering
+                        \includegraphics[width=0.4\linewidth]{ultrasonic_sensor.png}
+                        \caption{\label{fig:pic}Ultrasonic sensor diagram}
+                    \end{figure}
+                    \linebreak
+                    \par The \textbf{HC-SR04 Ultrasonic Sensor(US)} is an ultrasonic transducer that comes with 
+                4 pin interface named as Vcc, Trigger, Echo, and Ground. It is very useful for accurate distance 
+                measurement of the target object and mainly works on the sound waves. \\
+                    \vspace{2mm}
+                    \par As we connect the module to 5V and initialize the input pin, it starts transmitting 
+                the sound waves which then travel through the air and hit the required object. These waves 
+                hit and bounce back from the object and then collected by the receiver of the module. \\
+                    \begin{figure}[ht]
+                        \centering
+                        \includegraphics[width=0.6\linewidth]{ultrasonic.png}
+                        \caption{\label{fig:pic}Principle of wave transmission}
+                    \end{figure}
+                    \par Distance is directly proportional to the time these waves require to come back at the 
+                receiving end. The more the time taken, more the distance will be. \\
+                    \vspace{2mm}
+                    \par The waves will be generating if the Trig pin is kept high for 10$\mu$S. These waves 
+                will travel at the speed of sound, creating 8 cycle sonic burst that will be collected in 
+                the Echo pin. \\
+                    \vspace{2mm}
+                    \par The Echo pin remains turned on for the time these waves take to travel and bounce 
+                back to the receiving end. This sensor is mainly incorporated with Arduino to measure the 
+                required distance. \\
+                    \vspace{2mm}
+                    \par Following the formula is used to calculated the distance of the object. \\
+                    \begin{align*}
+                        \centering
+                        S = (V*t)/2
+                    \end{align*}
+                    \par Where S is the required distance, V is the speed of sound and t is the time sound 
+                waves takes to come back after hitting the object. We need to divide the value by 2 because 
+                time will be double as the waves travel and bounce back from the initial point. Diving it by 
+                2 will give the actual distance of the target object.
+            \item \textbf{Application}
+                    \linebreak
+                    \vspace{3mm}
+                    \par HC-SR04 comes with a widt range of applications mainly targeting distance and direction 
+                measurement. Following are the major applications it can be used for: \\
+                    \vspace{2mm}
+                    \par \guillemotright Speed and direction measurement
+                    \par \guillemotright Wireless charging
+                    \par \guillemotright Humidifiers
+                    \par \guillemotright Medical ultrasonography
+                    \par \guillemotright Burglar alarms
+                    \par \guillemotright Embedded system
+                    \par \guillemotright Depth measurement
+                    \par \guillemotright Non-destructive testing
+            \end{enumerate}
+        \subsubsection{\Large{LCD 16x02}}
+            \begin{enumerate}
+                \item \textbf{Introduction}
+                    \linebreak
+                    \par The liquid crystal display are normally used in different embedded projects due to 
+                its low cost, easy access and flexibility to get programmed. \\
+                    \vspace{2mm}
+                    \par Almost each and every electronic device we daily see it like in your mobile, calculator 
+                and some other devices. \\
+                    \vspace{2mm}
+                    \par There is a type of liquid display that has sixteen column and two rows so it is known 
+                as 16 x 02 LCD modules. \\ 
+                    \vspace{2mm}
+                    \par LCD also available in different arrangements like (8x1), (10x2), (16x1), but the (16x2) 
+                liquid crystal is normally used in embedded projects. \\
+                    \vspace{2mm}
+                    \par In this liquid crystal display, there are thirty-two characters and each of them consists 
+                of 5x8 pixels. \\
+                    \vspace{2mm}
+                    \par So we can say that character consists of forty pixels or dots and total pixels in this 
+                liquid crystal display can be fined as (32x40) or 1280 pixels. 
+                    \begin{figure}[ht]
+                        \centering
+                        \includegraphics[width=0.6\linewidth]{LCD.jpg}
+                        \caption{\label{fig:pic}LCD 16x2 Module}
+                    \end{figure}
+                \item \textbf{Pinout Description}
+                    \begin{table}[ht]
+                        \centering
+                        \begin{tabular}{ | l | p{3cm} | p{7cm} | }
+                            \hline
+                            \rowcolor{lightgray} Pin No: & Pin Name: & Parameter \\ \hline
+                            Pin 1 & Ground & Connect the ground \\ \hline
+                            Pin 2 & +5 Volts & At this pinout plus five volts are applied to on the LCD \\ \hline
+                            Pin 3 & VE & Select the contract of the display \\ \hline
+                            Pin 4 & Register & This pinout is used to MCU controller connected led to a shift from 
+                        command to data mode \\ \hline
+                            Pin 5 & Read and Write & Reading and Writing data \\ \hline
+                            Pin 6 & Enable & Linked with the MCU to toggle among zero and one \\ \hline
+                            Pin 7 & Data pin 0 & The pinout from 0 to 7 are data pinouts and these are linked with 
+                        the MCU for transmission of data. This module can also operate on the 4-bit mode by working 
+                        on 1,2 and 3 pinouts and others are free \\ \hline
+                            Pin 8 & Data pin 1 & \\ \hline
+                            Pin 9 & Data pin 2 & \\ \hline
+                            Pin 10 & Data pin 3 & \\ \hline
+                            Pin 11 & Data pin 4 & \\ \hline
+                            Pin 12 & Data pin 5 & \\ \hline
+                            Pin 13 & Data pin 6 & \\ \hline
+                            Pin 14 & Data pin 7 & \\ \hline
+                            Pin 15 & Led Positive & This pinout for turn backlight of LED into positive \\ \hline
+                            Pin 16 & Led Negative & Backlight liquid crystal display pinout negative terminal \\ \hline
+                        \end{tabular}
+                        \caption{\label{tab:table}Pinout Description}
+                    \end{table}
             \end{enumerate}
 \end{document}

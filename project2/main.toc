@@ -13,3 +13,5 @@
 \contentsline {subsection}{\numberline {1.2.4}Component Description}{8}% 
 \contentsline {subsubsection}{\numberline {1.2.4.1}\relax \fontsize {14.4}{18}\selectfont {Arduino Uno}}{8}% 
 \contentsline {subsubsection}{\numberline {1.2.4.2}\relax \fontsize {14.4}{18}\selectfont {Servo Motor}}{12}% 
+\contentsline {subsubsection}{\numberline {1.2.4.3}\relax \fontsize {14.4}{18}\selectfont {HC-SR04 (Ultrasonic Sensor)}}{17}% 
+\contentsline {subsubsection}{\numberline {1.2.4.4}\relax \fontsize {14.4}{18}\selectfont {LCD 16x02}}{20}% 
