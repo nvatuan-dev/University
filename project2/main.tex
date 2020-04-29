@@ -14,6 +14,7 @@
 \usepackage{amsmath}
 \usepackage{indentfirst}
 \usepackage[table]{xcolor}
+\usepackage{array,multirow} 
 
 \setcounter{secnumdepth}{4}
 
@@ -72,10 +73,12 @@
     \tableofcontents
 
     \chapter{Introduction}
+    \renewcommand{\headrulewidth}{0.5pt}
+    \renewcommand{\footrulewidth}{0.5pt}
     \thispagestyle{fancy}
     \fancyhf{}
-    \fancyhead[L]{Anh Tuan}
-    \fancyhead[R]{Radar detector module}
+    \fancyhead[L]{\textbf{CHAPTER 1}}
+    \fancyhead[R]{\textbf{Radar Detector Module}}
     \raggedright
     \fancyfoot[R]{Page \thepage}
     \section{PRELIMINARY INTRODUCTION}
@@ -571,7 +574,11 @@
         \subsubsection{\Large{LCD 16x02}}
             \begin{enumerate}
                 \item \textbf{Introduction}
-                    \linebreak
+                    \begin{figure}[H]
+                        \centering
+                        \includegraphics[width=0.4\linewidth]{LCD.jpg}
+                        \caption{\label{fig:pic}LCD 16x2 Module}
+                    \end{figure}
                     \par The liquid crystal display are normally used in different embedded projects due to 
                 its low cost, easy access and flexibility to get programmed. \\
                     \vspace{2mm}
@@ -589,38 +596,182 @@
                     \vspace{2mm}
                     \par So we can say that character consists of forty pixels or dots and total pixels in this 
                 liquid crystal display can be fined as (32x40) or 1280 pixels. 
-                    \begin{figure}[ht]
+                \item \textbf{Block Diagram}
+                    \begin{figure}[H]
                         \centering
-                        \includegraphics[width=0.6\linewidth]{LCD.jpg}
-                        \caption{\label{fig:pic}LCD 16x2 Module}
+                        \includegraphics[width=\linewidth]{lcd diagram.PNG}
+                        \caption{\label{fig:pic}Block Diagram of LCD}
                     \end{figure}
                 \item \textbf{Pinout Description}
-                    \begin{table}[ht]
+                    \linebreak
+                    \par These are the main pinouts of 16x2 LCD that are described here with detailed: 
+                    \begin{table}[H]
                         \centering
-                        \begin{tabular}{ | l | p{3cm} | p{7cm} | }
+                        \begin{tabular}{ | p{1.2cm} | p{2.5cm} | p{7cm} | }
                             \hline
-                            \rowcolor{lightgray} Pin No: & Pin Name: & Parameter \\ \hline
-                            Pin 1 & Ground & Connect the ground \\ \hline
-                            Pin 2 & +5 Volts & At this pinout plus five volts are applied to on the LCD \\ \hline
-                            Pin 3 & VE & Select the contract of the display \\ \hline
-                            Pin 4 & Register & This pinout is used to MCU controller connected led to a shift from 
-                        command to data mode \\ \hline
-                            Pin 5 & Read and Write & Reading and Writing data \\ \hline
-                            Pin 6 & Enable & Linked with the MCU to toggle among zero and one \\ \hline
-                            Pin 7 & Data pin 0 & The pinout from 0 to 7 are data pinouts and these are linked with 
-                        the MCU for transmission of data. This module can also operate on the 4-bit mode by working 
-                        on 1,2 and 3 pinouts and others are free \\ \hline
-                            Pin 8 & Data pin 1 & \\ \hline
-                            Pin 9 & Data pin 2 & \\ \hline
-                            Pin 10 & Data pin 3 & \\ \hline
-                            Pin 11 & Data pin 4 & \\ \hline
-                            Pin 12 & Data pin 5 & \\ \hline
-                            Pin 13 & Data pin 6 & \\ \hline
-                            Pin 14 & Data pin 7 & \\ \hline
-                            Pin 15 & Led Positive & This pinout for turn backlight of LED into positive \\ \hline
-                            Pin 16 & Led Negative & Backlight liquid crystal display pinout negative terminal \\ \hline
+                            \rowcolor{lightgray} Pin No: & Pin name & Parameters \\ \hline
+                            1 & Ground & This pin is used to connect the ground \\ \hline
+                            2 & +5 Volt & At this pinout plus five volts are applied to on the LCD \\ \hline
+                            3 & VE & This pin used to select the contract of the display \\ \hline
+                            4 & Register Select & This pinout is used to MCU controller connected led to a 
+                            shift from command to data mode \\ \hline
+                            5 & Read and Write & It used for reading and wiring of data \\ \hline
+                            6 & Enable & It linked with the MCU to toggle among zero and one \\ \hline
+                            7 & Data PIN 0 & The pinouts from zero to seven are data pinouts and these are 
+                            linked with the MCU for transmission of data. This liquid crystal module can also 
+                            operate on the four-bit mode by working on o, 1, 2, and 3 pinouts and others are 
+                            free \\ \hline
+                            8 & Data PIN 1 & \\
+                            \cline{1-3}
+                            9 & Data PIN 2 & \\
+                            \cline{1-3}
+                            10 & Data PIN 3 & \\
+                            \cline{1-3}
+                            11 & Data PIN 4 & \\
+                            \cline{1-3}
+                            12 & Data PIN 5 & \\
+                            \cline{1-3}
+                            13 & Data PIN 6 & \\
+                            \cline{1-3}
+                            14 & Data PIN 7 & \\
+                            \hline
+                            15 & LED Positive & This pinout for turn backlight of led into positive \\ \hline
+                            16 & Led Negative & Backlight liquid crystal display pinout negative terminal \\ 
+                            \hline
                         \end{tabular}
-                        \caption{\label{tab:table}Pinout Description}
+                        \caption{\label{tab:table}Pinout of 16x2 LCD}
                     \end{table}
+                \item \textbf{Command code for 16x2 LCD Module}
+                    \begin{table}[H]
+                        \centering
+                        \begin{tabular}{| p{1cm} | p{1.5cm} | p{7cm} |}
+                            \hline
+                            Sr.NO & Hex Code & Parameters \\ \hline
+                            1 & 1 & This command will remove data displaying on the screen of lcd \\ \hline
+                            2 & 2 & It used to move back home \\ \hline
+                            3 & 4 & It used to change location of a cursor to left side \\ \hline
+                            4 & 6 & It changes the position of cursor to right side \\ \hline
+                            5 & 5 & It used for shift display on right \\ \hline
+                            6 & 7 & It used for Shift display one left \\ \hline
+                            7 & 8 & It used to off the display and cursor will also off \\ \hline
+                            8 & 0A & It used for both display off, a cursor on \\ \hline
+                            9 & 0C & It used for display on, cursor also off \\ \hline
+                            10 & 0E & By using this command we can on display, the cursor  will be blinking \\ \hline
+                            11 & 0F & By this command Display will be on, the cursor also blinking \\ \hline
+                            12 & 10 & It changes the location of a cursor to left \\ \hline
+                            13 & 14 & It set cursor location to right \\ \hline
+                            14 & 18 & It changes the location of the complete display to the left side \\ \hline
+                            15 & 1C & It changes the location of the complete display to right side \\ \hline
+                            16 & 80 & It used to move the cursor to the first line \\ \hline 
+                            17 & C0 & It send the cursor to starting of the second line \\ \hline
+                            18 & 38 & 2 lines and 5x7 matrix \\ 
+                            \hline
+                        \end{tabular}
+                        \caption{\label{tab:table}Command code}
+                    \end{table}
+                \item \textbf{Features}
+                    \par \guillemotright These are some features of 16x2 LCD module that are described with 
+                the detailed \\
+                    \par \guillemotright Its functioning voltages are from 4.7-5.3 volts \\ 
+                    \par \guillemotright It uses one mA current for operation \\ 
+                    \par \guillemotright In this liquid crystal display, we can work both alphabets and numbers \\
+                    \par \guillemotright On this module, there are rows each has sixteen characters \\ 
+                    \par \guillemotright Every character of this board has 5 x 8 or 40 pixels \\
+                    \par \guillemotright It works on both four and eight bits mode \\ 
+                    \par \guillemotright It display screen backlight is two colour green and blue \\
+            \end{enumerate}
+        \subsubsection{\Large{Buzzer}}
+            \begin{enumerate}
+                \item \textbf{General Introduction}
+                    \begin{figure}[H]
+                        \centering
+                        \includegraphics[width=0.4\linewidth]{buzzer.PNG}
+                        \caption{\label{fig:pic}Buzzer}
+                    \end{figure}
+                    \par A buzzer or beeper is an audio signalling device, which maybe mechanical, electromechanical, 
+                    or piezoelectric(piezo for short). Typical uses of buzzers and beepers include alarm devices, 
+                    timers, and confirmation of user input such as a mouse click or keystroke. \\
+                    \vspace{2mm}
+                    \par Buzzer is an intergrated structure of electronic transducers, DC power supply, 
+                    widely used in computers, printers, copiers, alarms, electronic toys,... Active buzzer 
+                    5V rated power can be directly connected to a continuous sound, this section dedicated 
+                    sensor expansion module and the board in combination, can complete a simple circuit design, 
+                    to "plug and play".
+                \item \textbf{Types of Buzzer}
+                    \begin{itemize}
+                        \item \textbf{Electromechanical:} Early devices were based on an electromechanical 
+                        system identical to an electric bell without the metal gong. Similarly, a relay maybe 
+                        connected to interrupt its own actuating current, causing the contacts to buzz. Often these 
+                        units were anchored to a wall or ceiling to use it as a sounding board. The word "buzzer" 
+                        comes from the rasping noise that electromechanical buzzers made.
+                        \begin{figure}[H]
+                            \centering
+                            \includegraphics[width=0.3\linewidth]{buzzer1.jpg}
+                            \caption{\label{fig:pic}Electromechanical Buzzer}
+                        \end{figure}
+                        \item \textbf{Mechanical:} A joy buzzer is an example of a purely mechanical buzzer and 
+                        they require drivers. Other examples of them are doorbells.
+                        \begin{figure}[H]
+                            \centering
+                            \includegraphics[width=0.4\linewidth]{buzzer2.jpg}
+                            \caption{\label{fig:pic}Mechanical Buzzer}
+                        \end{figure}
+                        \item \textbf{Piezoelectric:} driven by an oscillating electronic circuit or other audio 
+                        signal source, driven with a "piezoelectric audio amplifier". Sounds commonly used to indicate 
+                        that a button has been pressed are a click, a ring or a beep. 
+                        \begin{figure}[H]
+                            \centering
+                            \includegraphics[width=0.3\linewidth]{buzzer.jpg}
+                            \caption{\label{fig:pic}Piezoelectric Buzzer}
+                        \end{figure}
+                    \end{itemize}
+                \item \textbf{Pin Configuration}
+                    \begin{table}[H]
+                        \centering
+                        \begin{tabular}{|p{2cm}|l|p{7cm}|}
+                            \hline
+                            Pin Number & Pin Name & Description \\ \hline
+                            1 & Positive & 	Identified by (+) symbol or longer terminal 
+                            lead. Can be powered by 6V DC \\ \hline
+                            2 & Negative & Identified by short terminal lead. Typically connected to 
+                            the ground of the circuit \\ 
+                            \hline
+                        \end{tabular}
+                    \end{table}
+                    \begin{figure}[H]
+                        \centering
+                        \includegraphics[width=0.4\linewidth]{buzzer-pinout.png}
+                        \caption{\label{fig:pic}Buzzer Pinout}
+                    \end{figure}
+                \item \textbf{Features and Specifications}
+                    \linebreak
+                    \par \guillemotright Rated Voltage: 6V DC \\ 
+                    \vspace{1mm}
+                    \par \guillemotright Operating Voltage: 4-8V DC \\ 
+                    \vspace{1mm}
+                    \par \guillemotright Rated Current: <=30mA \\ 
+                    \vspace{1mm}
+                    \par \guillemotright Sound Output at 10cm: >=85dB \\
+                    \vspace{1mm}
+                    \par \guillemotright Sound Type: Continous Beep \\ 
+                    \vspace{1mm}
+                    \par \guillemotright Resonant Frequency: ~2300 Hz \\ 
+                    \vspace{1mm}
+                    \par \guillemotright Operating Temperature: $-25^{\circ}C$ to $80^{\circ}C$ \\
+                    \vspace{1mm}
+                    \par \guillemotright Storage Temperature: $-30^{\circ}C$ to $85^{\circ}C$ \\
+                    \vspace{1mm}
+                    \par \guillemotright Weight: 2g \\ 
+                    \vspace{1mm}
+                    \par \guillemotright Small and neat sealed package \\ 
+                    \vspace{1mm}
+                    \par \guillemotright Breadboard and Perf board friendly \\
+                \item \textbf{Applications}
+                    \begin{itemize}
+                        \item Alarming Circuits, where the user has to be alarmed about something
+                        \item Communication equipments
+                        \item Automobile electronics
+                        \item Portable equipments, due to its compact size
+                    \end{itemize}
             \end{enumerate}
 \end{document}

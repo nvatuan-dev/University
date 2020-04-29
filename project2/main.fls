@@ -72,6 +72,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 INPUT /home/tuanlinux/University/project2/main.aux
 INPUT /home/tuanlinux/University/project2/main.aux
 OUTPUT /home/tuanlinux/University/project2/main.aux
@@ -144,9 +146,9 @@ INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT /home/tuanlinux/University/project2/block_diagram.png
 INPUT /home/tuanlinux/University/project2/block_diagram.png
 INPUT /home/tuanlinux/University/project2/block_diagram.png
-INPUT /usr/share/texmf/tex/latex/lm/omslmr.fd
-INPUT /usr/share/texmf/tex/latex/lm/omslmr.fd
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx10.tfm
+INPUT /usr/share/texmf/tex/latex/lm/omslmr.fd
+INPUT /usr/share/texmf/tex/latex/lm/omslmr.fd
 INPUT /home/tuanlinux/University/project2/Uno.png
 INPUT /home/tuanlinux/University/project2/Uno.png
 INPUT /home/tuanlinux/University/project2/Uno.png
@@ -201,11 +203,28 @@ INPUT /home/tuanlinux/University/project2/ultrasonic.png
 INPUT /home/tuanlinux/University/project2/LCD.jpg
 INPUT /home/tuanlinux/University/project2/LCD.jpg
 INPUT /home/tuanlinux/University/project2/LCD.jpg
+INPUT /home/tuanlinux/University/project2/lcd diagram.PNG
+INPUT /home/tuanlinux/University/project2/lcd diagram.PNG
+INPUT /home/tuanlinux/University/project2/buzzer.PNG
+INPUT /home/tuanlinux/University/project2/buzzer.PNG
+INPUT /home/tuanlinux/University/project2/buzzer.PNG
+INPUT /home/tuanlinux/University/project2/buzzer1.jpg
+INPUT /home/tuanlinux/University/project2/buzzer1.jpg
+INPUT /home/tuanlinux/University/project2/buzzer1.jpg
+INPUT /home/tuanlinux/University/project2/buzzer2.jpg
+INPUT /home/tuanlinux/University/project2/buzzer2.jpg
+INPUT /home/tuanlinux/University/project2/buzzer2.jpg
+INPUT /home/tuanlinux/University/project2/buzzer.jpg
+INPUT /home/tuanlinux/University/project2/buzzer.jpg
+INPUT /home/tuanlinux/University/project2/buzzer.jpg
+INPUT /home/tuanlinux/University/project2/buzzer-pinout.png
+INPUT /home/tuanlinux/University/project2/buzzer-pinout.png
+INPUT /home/tuanlinux/University/project2/buzzer-pinout.png
 INPUT /home/tuanlinux/University/project2/main.aux
+INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc
-INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb
@@ -214,3 +233,4 @@ INPUT /usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmr10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmr12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb
