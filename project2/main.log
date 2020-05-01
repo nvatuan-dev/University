@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.4.1)  30 APR 2020 00:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.4.1)  1 MAY 2020 09:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -323,6 +323,18 @@ LaTeX Warning: Label `fig:pic' multiply defined.
 
 LaTeX Warning: Label `fig:pic' multiply defined.
 
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
@@ -443,152 +455,178 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 116.
- [5] [6] [7]
-<Uno.png, id=34, 553.06625pt x 406.51875pt>
+ [5] [6] [7] [8]
+<Uno.png, id=37, 553.06625pt x 406.51875pt>
 File: Uno.png Graphic file (type png)
 <use Uno.png>
-Package pdftex.def Info: Uno.png  used on input line 214.
+Package pdftex.def Info: Uno.png  used on input line 228.
 (pdftex.def)             Requested size: 172.5pt x 126.78867pt.
-<atmega.png, id=35, 578.16pt x 429.85594pt>
+<atmega.png, id=38, 578.16pt x 429.85594pt>
 File: atmega.png Graphic file (type png)
 <use atmega.png>
-Package pdftex.def Info: atmega.png  used on input line 221.
+Package pdftex.def Info: atmega.png  used on input line 235.
 (pdftex.def)             Requested size: 207.0021pt x 153.9019pt.
- [8 </home/tuanlinux/University/project2/Uno.png>] [9 </home/tuanlinux/University/project2/atmega.png>]
-<pinout.png, id=44, 1076.02pt x 754.82pt>
+ [9 </home/tuanlinux/University/project2/Uno.png>] [10 </home/tuanlinux/University/project2/atmega.png>]
+<pinout.png, id=47, 1076.02pt x 754.82pt>
 File: pinout.png Graphic file (type png)
 <use pinout.png>
-Package pdftex.def Info: pinout.png  used on input line 254.
+Package pdftex.def Info: pinout.png  used on input line 268.
 (pdftex.def)             Requested size: 345.0pt x 242.00804pt.
- [10 </home/tuanlinux/University/project2/pinout.png>] [11] [12]
-<Servo.jpg, id=55, 501.875pt x 299.1175pt>
+ [11 </home/tuanlinux/University/project2/pinout.png>] [12] [13]
+<Servo.jpg, id=59, 501.875pt x 299.1175pt>
 File: Servo.jpg Graphic file (type jpg)
 <use Servo.jpg>
-Package pdftex.def Info: Servo.jpg  used on input line 349.
+Package pdftex.def Info: Servo.jpg  used on input line 363.
 (pdftex.def)             Requested size: 207.0021pt x 123.3738pt.
-<Servo1.jpg, id=56, 451.6875pt x 301.125pt>
+<Servo1.jpg, id=60, 451.6875pt x 301.125pt>
 File: Servo1.jpg Graphic file (type jpg)
 <use Servo1.jpg>
-Package pdftex.def Info: Servo1.jpg  used on input line 361.
+Package pdftex.def Info: Servo1.jpg  used on input line 375.
 (pdftex.def)             Requested size: 207.0021pt x 138.00455pt.
- [13 </home/tuanlinux/University/project2/Servo.jpg> </home/tuanlinux/University/project2/Servo1.jpg>]
-<Servo2.jpg, id=61, 451.6875pt x 301.125pt>
+ [14 </home/tuanlinux/University/project2/Servo.jpg> </home/tuanlinux/University/project2/Servo1.jpg>]
+<Servo2.jpg, id=64, 451.6875pt x 301.125pt>
 File: Servo2.jpg Graphic file (type jpg)
 <use Servo2.jpg>
-Package pdftex.def Info: Servo2.jpg  used on input line 371.
+Package pdftex.def Info: Servo2.jpg  used on input line 385.
 (pdftex.def)             Requested size: 207.0021pt x 138.00455pt.
-<Servo3.jpg, id=62, 451.6875pt x 371.3875pt>
+<Servo3.jpg, id=65, 451.6875pt x 371.3875pt>
 File: Servo3.jpg Graphic file (type jpg)
 <use Servo3.jpg>
-Package pdftex.def Info: Servo3.jpg  used on input line 386.
+Package pdftex.def Info: Servo3.jpg  used on input line 400.
 (pdftex.def)             Requested size: 137.9979pt x 113.46852pt.
- [14 </home/tuanlinux/University/project2/Servo2.jpg> </home/tuanlinux/University/project2/Servo3.jpg>]
-<sg90.jpg, id=66, 602.25pt x 602.25pt>
+ [15 </home/tuanlinux/University/project2/Servo2.jpg> </home/tuanlinux/University/project2/Servo3.jpg>]
+<sg90.jpg, id=69, 602.25pt x 602.25pt>
 File: sg90.jpg Graphic file (type jpg)
 <use sg90.jpg>
-Package pdftex.def Info: sg90.jpg  used on input line 415.
+Package pdftex.def Info: sg90.jpg  used on input line 429.
 (pdftex.def)             Requested size: 103.50105pt x 103.49307pt.
- [15 </home/tuanlinux/University/project2/sg90.jpg>]
-<Capture.PNG, id=70, 511.15968pt x 216.81pt>
+ [16 </home/tuanlinux/University/project2/sg90.jpg>]
+<Capture.PNG, id=73, 511.15968pt x 216.81pt>
 File: Capture.PNG Graphic file (type png)
 <use Capture.PNG>
-Package pdftex.def Info: Capture.PNG  used on input line 426.
+Package pdftex.def Info: Capture.PNG  used on input line 440.
 (pdftex.def)             Requested size: 345.0pt x 146.3305pt.
-<Servo2.PNG, id=71, 292.84406pt x 70.01157pt>
+<Servo2.PNG, id=74, 292.84406pt x 70.01157pt>
 File: Servo2.PNG Graphic file (type png)
 <use Servo2.PNG>
-Package pdftex.def Info: Servo2.PNG  used on input line 432.
+Package pdftex.def Info: Servo2.PNG  used on input line 446.
 (pdftex.def)             Requested size: 207.0021pt x 49.49062pt.
-<servo3.PNG, id=72, 271.0125pt x 133.24782pt>
+<servo3.PNG, id=75, 271.0125pt x 133.24782pt>
 File: servo3.PNG Graphic file (type png)
 <use servo3.PNG>
-Package pdftex.def Info: servo3.PNG  used on input line 440.
+Package pdftex.def Info: servo3.PNG  used on input line 454.
 (pdftex.def)             Requested size: 137.9979pt x 67.85178pt.
- [16 </home/tuanlinux/University/project2/Capture.PNG> </home/tuanlinux/University/project2/servo2.PNG> </home/tuanlinux/University/project2/servo3.PNG>]
+ [17 </home/tuanlinux/University/project2/Capture.PNG> </home/tuanlinux/University/project2/servo2.PNG> </home/tuanlinux/University/project2/servo3.PNG>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 467.
+(Font)              <10> on input line 481.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 467.
+(Font)              <7> on input line 481.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 467.
- [17]
-<HC-SR04.jpg, id=84, 578.16pt x 285.31593pt>
+(Font)              <5> on input line 481.
+ [18]
+<HC-SR04.jpg, id=87, 578.16pt x 285.31593pt>
 File: HC-SR04.jpg Graphic file (type jpg)
 <use HC-SR04.jpg>
-Package pdftex.def Info: HC-SR04.jpg  used on input line 517.
+Package pdftex.def Info: HC-SR04.jpg  used on input line 531.
 (pdftex.def)             Requested size: 345.0pt x 170.2505pt.
-<ultrasonic_sensor.png, id=85, 652.4375pt x 632.3625pt>
+<ultrasonic_sensor.png, id=88, 652.4375pt x 632.3625pt>
 File: ultrasonic_sensor.png Graphic file (type png)
 <use ultrasonic_sensor.png>
-Package pdftex.def Info: ultrasonic_sensor.png  used on input line 523.
+Package pdftex.def Info: ultrasonic_sensor.png  used on input line 537.
 (pdftex.def)             Requested size: 137.9979pt x 133.74565pt.
- [18 </home/tuanlinux/University/project2/HC-SR04.jpg>]
-<ultrasonic.png, id=89, 758.835pt x 564.1075pt>
+ [19 </home/tuanlinux/University/project2/HC-SR04.jpg>]
+<ultrasonic.png, id=93, 758.835pt x 564.1075pt>
 File: ultrasonic.png Graphic file (type png)
 <use ultrasonic.png>
-Package pdftex.def Info: ultrasonic.png  used on input line 536.
+Package pdftex.def Info: ultrasonic.png  used on input line 550.
 (pdftex.def)             Requested size: 207.0021pt x 153.87762pt.
- [19 </home/tuanlinux/University/project2/ultrasonic_sensor.png> </home/tuanlinux/University/project2/ultrasonic.png (PNG copy)>]
-<LCD.jpg, id=94, 439.6425pt x 297.36093pt>
+ [20 </home/tuanlinux/University/project2/ultrasonic_sensor.png> </home/tuanlinux/University/project2/ultrasonic.png (PNG copy)>]
+<LCD.jpg, id=97, 439.6425pt x 297.36093pt>
 File: LCD.jpg Graphic file (type jpg)
 <use LCD.jpg>
-Package pdftex.def Info: LCD.jpg  used on input line 579.
+Package pdftex.def Info: LCD.jpg  used on input line 593.
 (pdftex.def)             Requested size: 137.9979pt x 93.33342pt.
- [20 </home/tuanlinux/University/project2/LCD.jpg>]
+ [21 </home/tuanlinux/University/project2/LCD.jpg>]
 
-LaTeX Warning: File `lcd diagram.PNG' not found on input line 602.
+LaTeX Warning: File `lcd diagram.PNG' not found on input line 616.
 
-<lcd diagram.PNG, id=98, 524.71031pt x 251.43938pt>
+<lcd diagram.PNG, id=101, 524.71031pt x 251.43938pt>
 File: lcd diagram.PNG Graphic file (type png)
 <use lcd diagram.PNG>
-Package pdftex.def Info: lcd diagram.PNG  used on input line 602.
+Package pdftex.def Info: lcd diagram.PNG  used on input line 616.
 (pdftex.def)             Requested size: 345.0pt x 165.32895pt.
-[21 </home/tuanlinux/University/project2/lcd diagram.PNG>] [22]
-<buzzer.PNG, id=106, 398.23781pt x 374.14781pt>
+[22 </home/tuanlinux/University/project2/lcd diagram.PNG>] [23]
+<buzzer.PNG, id=109, 398.23781pt x 374.14781pt>
 File: buzzer.PNG Graphic file (type png)
 <use buzzer.PNG>
-Package pdftex.def Info: buzzer.PNG  used on input line 688.
+Package pdftex.def Info: buzzer.PNG  used on input line 702.
 (pdftex.def)             Requested size: 137.9979pt x 129.64632pt.
- [23]
-<buzzer1.jpg, id=110, 200.75pt x 163.61125pt>
+ [24]
+<buzzer1.jpg, id=113, 200.75pt x 163.61125pt>
 File: buzzer1.jpg Graphic file (type jpg)
 <use buzzer1.jpg>
-Package pdftex.def Info: buzzer1.jpg  used on input line 709.
+Package pdftex.def Info: buzzer1.jpg  used on input line 723.
 (pdftex.def)             Requested size: 103.50105pt x 84.35434pt.
-<buzzer2.jpg, id=111, 1355.0625pt x 1355.0625pt>
+<buzzer2.jpg, id=114, 1355.0625pt x 1355.0625pt>
 File: buzzer2.jpg Graphic file (type jpg)
 <use buzzer2.jpg>
-Package pdftex.def Info: buzzer2.jpg  used on input line 716.
+Package pdftex.def Info: buzzer2.jpg  used on input line 730.
 (pdftex.def)             Requested size: 137.9979pt x 137.99538pt.
- [24 </home/tuanlinux/University/project2/buzzer.PNG> </home/tuanlinux/University/project2/buzzer1.jpg>]
-<buzzer.jpg, id=116, 501.875pt x 501.875pt>
+ [25 </home/tuanlinux/University/project2/buzzer.PNG> </home/tuanlinux/University/project2/buzzer1.jpg>]
+<buzzer.jpg, id=120, 501.875pt x 501.875pt>
 File: buzzer.jpg Graphic file (type jpg)
 <use buzzer.jpg>
-Package pdftex.def Info: buzzer.jpg  used on input line 724.
+Package pdftex.def Info: buzzer.jpg  used on input line 738.
 (pdftex.def)             Requested size: 103.50105pt x 103.49767pt.
-<buzzer-pinout.png, id=117, 369.38pt x 380.42125pt>
+<buzzer-pinout.png, id=121, 369.38pt x 380.42125pt>
 File: buzzer-pinout.png Graphic file (type png)
 <use buzzer-pinout.png>
-Package pdftex.def Info: buzzer-pinout.png  used on input line 743.
+Package pdftex.def Info: buzzer-pinout.png  used on input line 757.
 (pdftex.def)             Requested size: 137.9979pt x 142.12357pt.
- [25 </home/tuanlinux/University/project2/buzzer2.jpg> </home/tuanlinux/University/project2/buzzer.jpg>] [26 </home/tuanlinux/University/project2/buzzer-pinout.png>] (/home/tuanlinux/University/project2/main.aux)
+ [26 </home/tuanlinux/University/project2/buzzer2.jpg> </home/tuanlinux/University/project2/buzzer.jpg>] [27 </home/tuanlinux/University/project2/buzzer-pinout.png>]
+Chapter 2.
+<diagram-project.png, id=130, 536.75531pt x 394.47375pt>
+File: diagram-project.png Graphic file (type png)
+<use diagram-project.png>
+Package pdftex.def Info: diagram-project.png  used on input line 807.
+(pdftex.def)             Requested size: 276.00105pt x 202.84024pt.
+<circuit.jpg, id=131, 274.09067pt x 133.298pt>
+File: circuit.jpg Graphic file (type jpg)
+<use circuit.jpg>
+Package pdftex.def Info: circuit.jpg  used on input line 816.
+(pdftex.def)             Requested size: 345.0pt x 167.79973pt.
+[28
+
+ </home/tuanlinux/University/project2/diagram-project.png>]
+<500px-PSR_1.png, id=136, 376.40625pt x 232.61906pt>
+File: 500px-PSR_1.png Graphic file (type png)
+<use 500px-PSR_1.png>
+Package pdftex.def Info: 500px-PSR_1.png  used on input line 822.
+(pdftex.def)             Requested size: 207.0021pt x 127.93022pt.
+ [29 </home/tuanlinux/University/project2/circuit.jpg> </home/tuanlinux/University/project2/500px-PSR_1.png>]
+<flowchart.png, id=141, 563.85657pt x 642.14906pt>
+File: flowchart.png Graphic file (type png)
+<use flowchart.png>
+Package pdftex.def Info: flowchart.png  used on input line 863.
+(pdftex.def)             Requested size: 162.15042pt x 184.6605pt.
+ [30 </home/tuanlinux/University/project2/flowchart.png>] (/home/tuanlinux/University/project2/main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4174 strings out of 494553
- 55928 string characters out of 6177378
- 143585 words of memory out of 5000000
- 7702 multiletter control sequences out of 15000+600000
+ 4194 strings out of 494553
+ 56294 string characters out of 6177378
+ 143584 words of memory out of 5000000
+ 7718 multiletter control sequences out of 15000+600000
  66300 words of font info for 47 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  41i,12n,43p,307b,403s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on /home/tuanlinux/University/project2/main.pdf (26 pages, 2343671 bytes).
+Output written on /home/tuanlinux/University/project2/main.pdf (30 pages, 2561129 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
+ 182 PDF objects out of 1000 (max. 8388607)
+ 101 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 

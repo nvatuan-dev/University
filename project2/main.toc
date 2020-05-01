@@ -7,12 +7,19 @@
 \contentsline {subsection}{\numberline {1.1.4}Method of research}{5}% 
 \contentsline {subsection}{\numberline {1.1.5}Structure Project}{5}% 
 \contentsline {section}{\numberline {1.2}BASIC THEORY}{7}% 
-\contentsline {subsection}{\numberline {1.2.1}Some research related to the project}{7}% 
-\contentsline {subsection}{\numberline {1.2.2}Theory concepts related to research issues}{7}% 
-\contentsline {subsection}{\numberline {1.2.3}Components Required}{7}% 
-\contentsline {subsection}{\numberline {1.2.4}Component Description}{8}% 
-\contentsline {subsubsection}{\numberline {1.2.4.1}\relax \fontsize {14.4}{18}\selectfont {Arduino Uno}}{8}% 
-\contentsline {subsubsection}{\numberline {1.2.4.2}\relax \fontsize {14.4}{18}\selectfont {Servo Motor}}{12}% 
-\contentsline {subsubsection}{\numberline {1.2.4.3}\relax \fontsize {14.4}{18}\selectfont {HC-SR04 (Ultrasonic Sensor)}}{17}% 
-\contentsline {subsubsection}{\numberline {1.2.4.4}\relax \fontsize {14.4}{18}\selectfont {LCD 16x02}}{20}% 
-\contentsline {subsubsection}{\numberline {1.2.4.5}\relax \fontsize {14.4}{18}\selectfont {Buzzer}}{23}% 
+\contentsline {subsection}{\numberline {1.2.1}Theory about the radar}{7}% 
+\contentsline {subsection}{\numberline {1.2.2}Some research related to the project}{7}% 
+\contentsline {subsection}{\numberline {1.2.3}Theory concepts related to research issues}{7}% 
+\contentsline {subsection}{\numberline {1.2.4}Components Required}{8}% 
+\contentsline {subsection}{\numberline {1.2.5}Component Description}{9}% 
+\contentsline {subsubsection}{\numberline {1.2.5.1}\relax \fontsize {14.4}{18}\selectfont {Arduino Uno}}{9}% 
+\contentsline {subsubsection}{\numberline {1.2.5.2}\relax \fontsize {14.4}{18}\selectfont {Servo Motor}}{13}% 
+\contentsline {subsubsection}{\numberline {1.2.5.3}\relax \fontsize {14.4}{18}\selectfont {HC-SR04 (Ultrasonic Sensor)}}{18}% 
+\contentsline {subsubsection}{\numberline {1.2.5.4}\relax \fontsize {14.4}{18}\selectfont {LCD 16x02}}{21}% 
+\contentsline {subsubsection}{\numberline {1.2.5.5}\relax \fontsize {14.4}{18}\selectfont {Buzzer}}{24}% 
+\contentsline {chapter}{\numberline {2}CONTENT AND RESULT}{28}% 
+\contentsline {section}{\numberline {2.1}CONTENT}{28}% 
+\contentsline {subsection}{\numberline {2.1.1}{Block Diagram and Principles of Operation}}{28}% 
+\contentsline {subsubsection}{\numberline {2.1.1.1}\relax \fontsize {12}{14}\selectfont {Block Diagram}}{28}% 
+\contentsline {subsubsection}{\numberline {2.1.1.2}\relax \fontsize {12}{14}\selectfont {Circuit Diagram}}{29}% 
+\contentsline {subsubsection}{\numberline {2.1.1.3}\relax \fontsize {12}{14}\selectfont {Working of the project}}{29}% 

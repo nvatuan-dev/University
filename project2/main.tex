@@ -85,10 +85,10 @@
     \subsection{The reason why to choose project}
         With the passion for aviation as well as passion for technology and equipment realted to 
         it, i decided to choose an aviation-related project in this project. Fortunately, my project 
-        this time is on topic of embedded programming. So, i choose project named "NDB radar 
+        this time is on topic of embedded programming. So, i choose project named "PSR radar 
         detector module using Arduino". In this project, i will rely 
-        on the NDB radar to make a small scale NDB radar detector model. So, to get 
-        started in this project, we need to know what NDB radar is and how it works. \\
+        on the PSR radar to make a small scale PSR radar detector model. So, to get 
+        started in this project, we need to know what PSR radar is and how it works. \\
     \vspace{5mm}
         Recognize the continuous development of aviation technology. I want to add my own 
         knowledge about how a radar system works and a bit of creative idea for this device 
@@ -144,6 +144,20 @@
         \end{itemize}
     \newpage
     \section{BASIC THEORY}
+    \subsection{Theory about the radar}
+        At first, before we learn about how this project works, let's take a quick look at the 
+        definition of radar. Now we can see objects in the world around us because light(usually 
+        from the Sun) reflects off them into your eyes. If you want to walk at night, you can shine 
+        a torch in front to see where are you going. \\
+        \vspace{1mm}
+        \par Radar works in much the same way. The word "Radar" stands for \textbf{RA}dio \textbf{D}etection 
+        \textbf{A}nd \textbf{R}anging, and that gives a pretty big clue as to what it does and how 
+        it works. Imagine an airplane flying at night through thick fog. The pilot can't see where 
+        are they going, so they use the radar to help them. \\
+        \vspace{1mm}
+        \par An airplane's radar is a bit like a torch that uses radio waves instead of light. The 
+        plane transmits and intermittent radar beam (so it sends a signal only part of the time) 
+        and for the rest of the time.
     \subsection{Some research related to the project}
         Some research ideas related to my project:
         \begin{itemize}
@@ -774,4 +788,79 @@
                         \item Portable equipments, due to its compact size
                     \end{itemize}
             \end{enumerate}
+
+    \newpage
+    \chapter{CONTENT AND RESULT}
+    \renewcommand{\headrulewidth}{0.5pt}
+    \renewcommand{\footrulewidth}{0.5pt}
+    \thispagestyle{fancy}
+    \fancyhf{}
+    \fancyhead[L]{\textbf{CHAPTER 2}}
+    \fancyhead[R]{\textbf{Radar Detector Module}}
+    \raggedright
+    \fancyfoot[R]{Page \thepage}
+        \section{CONTENT}
+            \subsection{{Block Diagram and Principles of Operation}}
+                \subsubsection{\large{Block Diagram}}
+                    \begin{figure}[H]
+                        \centering
+                        \includegraphics[width=0.8\linewidth]{diagram-project.png}
+                        \caption{\label{fig:pic}Arduino Radar Using Ultrasonic Sensor}
+                    \end{figure}
+                    \par This diagram tell that Arduino is the interfaced with ultrasonic sensor. When the 
+                    object is detected, the signal is given to the Arduino board which will below budget LED 
+                    and LCD. That why mounted on ultrasonic sensors that will be rotating.
+                \subsubsection{\large{Circuit Diagram}}
+                    \begin{figure}[H]
+                        \centering
+                        \includegraphics[width=\linewidth]{circuit.jpg}
+                        \caption{\label{fig:pic}Radar Model Circuit Diagram}
+                    \end{figure}
+                \subsubsection{\large{Working of the project}}
+                    \begin{figure}[H]
+                        \centering
+                        \includegraphics[width=0.6\linewidth]{500px-PSR_1.png}
+                        \caption{\label{fig:pic}PSR principle of operation}
+                    \end{figure}
+                    Before we learn about how to this project working. We should find out how to conventional 
+                    radar work. \\ 
+                    \vspace{1mm}
+                    \par In Aircraft Traffic Controlled, we have PSR (Primary Surveillance Radar), the antenna 
+                    rotates (usually at 5-12rpm) emits a pulse of radiio wave. Upon reaching an aircraft 
+                    (or other object) the wave is reflected and some of the energy is returned to the atenna.
+                    \vspace{1mm}
+                    \par The output data uses polar coordinate system - it provides range and bearing of the targets 
+                    found in respect of the atenna position. Note that the range is the slant distance from 
+                    the atenna and not the horizontal distance. \\ 
+                    \vspace{1mm}
+                    \par The range is determined by the time difference of the emitted and received pulse 
+                    (the speed of propagation is the speed of the light) and the bearing is obtained from the 
+                    atenna azimuth. The rotation speed of the atenna is usually between 5 and 12 rpm. \\
+                    \vspace{2mm}
+                    \par Now, in this project we will learn how this model working. \\
+                    \vspace{1mm}
+                    \par Arduino board sends a signal of 5V to TRIG pin of Ultrasonic Sensor HC-SR04 
+                    which triggers the sensor. Then it procides rotational action at the servo motor mechanically 
+                    fitted along with Ultrasonic sensor so that it can detec the moving objects and locate within 
+                    180 degrees. \\ 
+                    \vspace{1mm}
+                    \par The Arduino sends a HIGH pulse width of (10 S) on the TRIGGER pin of the sensor to 
+                    regenerate  a series of ultrasonic waves which propagate through the air, until it touches 
+                    an obstacle and returns in the opposite direction towards the sensor pin ECHO. The sensor 
+                    detecs the width of the pulse to calculate the distance. \\
+                    \vspace{1mm}
+                    \par The signal on ECHO pin of the sensor remains at the HIGH position during transmission, 
+                    thereby measuring the duration of the round trip of ultrasound and thus determine the distance. \\
+                    \vspace{1mm}
+                    \par The LCD display displays the calculated distance and the angle of rotation. The buzzer 
+                    is an additional component, it rings when there is a detection (Tone 1 and Tone 2) along 
+                    with the LEDs. These both LEDs along with buzzer determine the field where the object is 
+                    located (near or distant). \\
+                    \vspace{3mm}
+                    \Large{\textbf{FLOWCHART OF MODEL}}
+                    \begin{figure}[H]
+                        \centering
+                        \includegraphics[width=0.47\linewidth]{flowchart.png}
+                        \caption{\label{fig:pic}Flowchart}
+                    \end{figure}
 \end{document}
