@@ -843,8 +843,14 @@
                     which triggers the sensor. Then it procides rotational action at the servo motor mechanically 
                     fitted along with Ultrasonic sensor so that it can detec the moving objects and locate within 
                     180 degrees. \\ 
-                    \vspace{1mm}
-                    \par The Arduino sends a HIGH pulse width of (10 S) on the TRIGGER pin of the sensor to 
+                    \vspace{3mm}
+                    \Large{\textbf{FLOWCHART OF MODEL}}
+                    \begin{figure}[H]
+                        \centering
+                        \includegraphics[width=\linewidth]{flowchart1.png}
+                        \caption{\label{fig:pic}Flowchart}
+                    \end{figure}
+                    The Arduino sends a HIGH pulse width of (10 S) on the TRIGGER pin of the sensor to 
                     regenerate  a series of ultrasonic waves which propagate through the air, until it touches 
                     an obstacle and returns in the opposite direction towards the sensor pin ECHO. The sensor 
                     detecs the width of the pulse to calculate the distance. \\
@@ -856,11 +862,6 @@
                     is an additional component, it rings when there is a detection (Tone 1 and Tone 2) along 
                     with the LEDs. These both LEDs along with buzzer determine the field where the object is 
                     located (near or distant). \\
-                    \vspace{3mm}
-                    \Large{\textbf{FLOWCHART OF MODEL}}
-                    \begin{figure}[H]
-                        \centering
-                        \includegraphics[width=0.47\linewidth]{flowchart.png}
-                        \caption{\label{fig:pic}Flowchart}
-                    \end{figure}
+                \subsubsection{\large{What is the radar used for?}}
+                    
 \end{document}

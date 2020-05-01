@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.4.1)  1 MAY 2020 09:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.4.1)  1 MAY 2020 09:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -604,29 +604,29 @@ File: 500px-PSR_1.png Graphic file (type png)
 Package pdftex.def Info: 500px-PSR_1.png  used on input line 822.
 (pdftex.def)             Requested size: 207.0021pt x 127.93022pt.
  [29 </home/tuanlinux/University/project2/circuit.jpg> </home/tuanlinux/University/project2/500px-PSR_1.png>]
-<flowchart.png, id=141, 563.85657pt x 642.14906pt>
-File: flowchart.png Graphic file (type png)
-<use flowchart.png>
-Package pdftex.def Info: flowchart.png  used on input line 863.
-(pdftex.def)             Requested size: 162.15042pt x 184.6605pt.
- [30 </home/tuanlinux/University/project2/flowchart.png>] (/home/tuanlinux/University/project2/main.aux)
+<flowchart1.png, id=141, 668.4975pt x 750.805pt>
+File: flowchart1.png Graphic file (type png)
+<use flowchart1.png>
+Package pdftex.def Info: flowchart1.png  used on input line 850.
+(pdftex.def)             Requested size: 345.0pt x 387.48802pt.
+ [30 </home/tuanlinux/University/project2/flowchart1.png>] [31] (/home/tuanlinux/University/project2/main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
  4194 strings out of 494553
- 56294 string characters out of 6177378
+ 56299 string characters out of 6177378
  143584 words of memory out of 5000000
  7718 multiletter control sequences out of 15000+600000
  66300 words of font info for 47 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  41i,12n,43p,307b,403s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on /home/tuanlinux/University/project2/main.pdf (30 pages, 2561129 bytes).
+Output written on /home/tuanlinux/University/project2/main.pdf (31 pages, 2558790 bytes).
 PDF statistics:
- 182 PDF objects out of 1000 (max. 8388607)
- 101 compressed objects within 2 object streams
+ 186 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  136 words of extra memory for PDF output out of 10000 (max. 10000000)
 
