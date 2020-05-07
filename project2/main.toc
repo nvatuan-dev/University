@@ -26,3 +26,4 @@
 \contentsline {subsection}{\numberline {2.2.1}\relax \fontsize {12}{14}\selectfont {Circuit Diagram}}{29}% 
 \contentsline {subsection}{\numberline {2.2.2}Result}{29}% 
 \contentsline {chapter}{\numberline {3}APPENDIX}{30}% 
+\contentsline {chapter}{\numberline {4}CONCLUSIONS AND RECOMMENDATIONS}{33}% 
