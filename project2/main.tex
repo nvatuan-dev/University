@@ -1,5 +1,6 @@
-\documentclass[a4paper]{report}
+\documentclass[a4paper,13pt]{report}
 
+\usepackage[top=2.5cm,bottom=2.5cm,left=3cm,right=2cm]{geometry}
 \usepackage{graphicx}
 \usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
@@ -15,6 +16,10 @@
 \usepackage{indentfirst}
 \usepackage[table]{xcolor}
 \usepackage{array,multirow} 
+\usepackage{varwidth}
+\usepackage{babel,blindtext}
+\usepackage{caption}
+\usepackage{subcaption}
 
 \setcounter{secnumdepth}{4}
 
@@ -40,7 +45,7 @@
     \vspace{15mm}
     \large{Under the guidance of} \\ 
     \vspace{10mm}
-    \centerline{\textbf{\large{Cao Xuan Kim Anh}}}
+    \centerline{\textbf{\large{Master.Cao Xuan Kim Anh}}}
     
     %Lines down here is set header and footer
     \pagestyle{fancy}
@@ -133,14 +138,11 @@
             \item In the first chapter, i will focus on brief introduce my project, presenting 
         some of the research content on the topic of the method of conducting research that 
         gives practical results during the project research process.
-            \item The second chapter, is an introduction about some of basic project implementation 
-        theories, to present related project i'm working on it.
-            \item Chapter three is the chapter where i introduce the main content of my project, 
-        presenting a basic article of project and how it works, accompany it with some examples.
-            \item The next chapter is the construction and circuit design on Kicad Altium software 
-        and the implementation of hardware construction.
-            \item And the final chapter is the final section where i draw some conclusion during 
-        project implementation, as well as point out my own strengths weaknesses in the course of my project.
+            \item The second chapter, is an content and result of project. Besides is a block diagram 
+        how the project working and circuit diagram of my project.
+            \item Chapter three is the chapter where i introduce and explain the code i used in this project.
+            \item And the final chapter is the final section where i list the sources of reference i have 
+        used in this project.
         \end{itemize}
     \newpage
     \section{BASIC THEORY}
@@ -810,12 +812,6 @@
                     \par This diagram tell that Arduino is the interfaced with ultrasonic sensor. When the 
                     object is detected, the signal is given to the Arduino board which will below budget LED 
                     and LCD. That why mounted on ultrasonic sensors that will be rotating.
-                \subsubsection{\large{Circuit Diagram}}
-                    \begin{figure}[H]
-                        \centering
-                        \includegraphics[width=\linewidth]{circuit.jpg}
-                        \caption{\label{fig:pic}Radar Model Circuit Diagram}
-                    \end{figure}
                 \subsubsection{\large{Working of the project}}
                     \begin{figure}[H]
                         \centering
@@ -836,13 +832,28 @@
                     \par The range is determined by the time difference of the emitted and received pulse 
                     (the speed of propagation is the speed of the light) and the bearing is obtained from the 
                     atenna azimuth. The rotation speed of the atenna is usually between 5 and 12 rpm. \\
-                    \vspace{2mm}
-                    \par Now, in this project we will learn how this model working. \\
                     \vspace{1mm}
-                    \par Arduino board sends a signal of 5V to TRIG pin of Ultrasonic Sensor HC-SR04 
-                    which triggers the sensor. Then it procides rotational action at the servo motor mechanically 
-                    fitted along with Ultrasonic sensor so that it can detec the moving objects and locate within 
-                    180 degrees. \\ 
+                    \par The antenna radiation pattern is a narrow beam when seen from above and, with some 
+                    approximation, can be considered as a trapezium if seen from the side. \\
+                    \vspace{1mm}
+                    \par For the conventional radar, here is a summary of how radar works:
+                        \begin{enumerate}
+                            \item Magnetron generates high-frequency radio waves.
+                            \item Duplexer switches magentron through the antenna.
+                            \item Antenna acts as transmitter, sending narrow beam of radio waves through the air.
+                            \item Radio waves hit enemy airplane and reflect back.
+                            \item Atenna picks up reflected waves during a break between transmissions. Note that the same antenna 
+                            acts as both transmitter and receiver, alternately sending out radio waves and receiving them.
+                            \item Duplexer switches antenna through to receiver unit.
+                            \item Computer in receiver unit processes reflected waves and draws them on TV screen.
+                            \item Enemy plane shows up on TV radar display with any other nearby targets. 
+                        \end{enumerate}
+                        \begin{figure}[H]
+                            \centering
+                            \includegraphics[width=0.8\linewidth]{radar-work.png}
+                            \caption{\label{fig:pic}How a radar works}
+                        \end{figure}
+                    \par Now, in this project we will learn how this model working. \\
                     \vspace{3mm}
                     \Large{\textbf{FLOWCHART OF MODEL}}
                     \begin{figure}[H]
@@ -850,7 +861,13 @@
                         \includegraphics[width=\linewidth]{flowchart1.png}
                         \caption{\label{fig:pic}Flowchart}
                     \end{figure}
-                    The Arduino sends a HIGH pulse width of (10 S) on the TRIGGER pin of the sensor to 
+                    \large{
+                        Arduino board sends a signal of 5V to TRIG pin of Ultrasonic Sensor HC-SR04 
+                    which triggers the sensor. Then it procides rotational action at the servo motor mechanically 
+                    fitted along with Ultrasonic sensor so that it can detec the moving objects and locate within 
+                    180 degrees. \\ 
+                    \vspace{1mm}
+                    \par The Arduino sends a HIGH pulse width of (10 S) on the TRIGGER pin of the sensor to 
                     regenerate  a series of ultrasonic waves which propagate through the air, until it touches 
                     an obstacle and returns in the opposite direction towards the sensor pin ECHO. The sensor 
                     detecs the width of the pulse to calculate the distance. \\
@@ -861,7 +878,97 @@
                     \par The LCD display displays the calculated distance and the angle of rotation. The buzzer 
                     is an additional component, it rings when there is a detection (Tone 1 and Tone 2) along 
                     with the LEDs. These both LEDs along with buzzer determine the field where the object is 
-                    located (near or distant). \\
-                \subsubsection{\large{What is the radar used for?}}
-                    
+                    located (near or distant). \\}
+        \section{CIRCUIT DIAGRAM AND RESULT}
+            \subsection{\large{Circuit Diagram}}
+                \begin{figure}[H]
+                    \centering
+                    \includegraphics[width=\linewidth]{circuit.jpg}
+                    \caption{\label{fig:pic}Circuit Diagram}
+                \end{figure}
+            \subsection{Result}
+                
+    \newpage
+    \chapter{APPENDIX}
+    \renewcommand{\headrulewidth}{0.5pt}
+    \renewcommand{\footrulewidth}{0.5pt}
+    \thispagestyle{fancy}
+    \fancyhf{}
+    \fancyhead[L]{\textbf{CHAPTER 3}}
+    \fancyhead[R]{\textbf{Radar Detector Module}}
+    \raggedright
+    \fancyfoot[R]{Page \thepage}
+        In this chapter, i'll present the code i have put in my project. \\
+        \vspace{3mm}
+        \par The code below here used to include the library. Libraries are files that you can 
+        include in my code to use even more methods and functions. \\
+        \vspace{2mm}
+        \fbox{\begin{varwidth}{\dimexpr\textwidth-2\fboxsep-2\fboxrule\relax}
+            \raggedright
+            \# include <Servo.h> \\
+            \# include <LiquidCrystal.h> \\
+            \# include <Wire.h> \\
+        \end{varwidth}}
+        \vspace{3mm}
+        \linebreak
+        Next, we will create a variable "myServo" with datatypes is "Servo" and an LCD object 
+        with parameters: (rs,enable,d4,d5,d6,d7). \\
+        \vspace{2mm}
+        \fbox{\begin{varwidth}{\dimexpr\textwidth-2\fboxsep-2\fboxrule\relax}
+            \raggedright
+            Servo myServo; \\
+            LiquidCrystal lcd(7,6,5,4,3,2);
+        \end{varwidth}}
+        \vspace{3mm}
+        \linebreak
+        We will create some variables and asign each variable with 1 value. \\
+        \vspace{2mm}
+        \fbox{\begin{varwidth}{\dimexpr\textwidth-2\fboxsep-2\fboxrule\relax}
+            \raggedright
+            int pos = 0; // Original position of the servomotor \\
+            const int trigPin = 9; \\
+            const int echoPin = 10; \\
+            const int moteur = 11; \\
+            const int buzzer = 12; \\
+            const int ledPin1 = 14; \\
+            const int ledPin2 = 15; \\
+            float distanceCm, DistanceSec,duration; \\
+        \end{varwidth}}
+        \vspace{3mm}
+        \linebreak
+        In setup() function is the code where we want to run one times as soon as program starts 
+        running. In this function we'll set things like pinMode in it. \\
+        \vspace{2mm}
+        \fbox{\begin{varwidth}{\dimexpr\textwidth-2\fboxsep-2\fboxrule\relax}
+            \raggedright
+            void setup() \{ \\
+                myServo.attach(moteur); // Attach the servo motor to pin 11 \\
+                lcd.begin(16,2); // Initialize the Lcd interface with their Size \\
+                pinMode(trigPin, OUTPUT); // Define the operation of these input/output pins. \\
+                pinMode(echoPin, INPUT); \\
+                pinMode(buzzer, OUTPUT); \\
+                pinMode(ledPin1, OUTPUT); \\ 
+                pinMode(ledPin2, OUTPUT); \\
+                DistanceSec=20;\} \\ 
+        \end{varwidth}}
+        \newpage
+        Next to these code is "void loop()" function which is uses as a part of its structure. 
+        The code inside this function runs over and over as long as the Maker Board is turned on. \\
+        \vspace{2mm} 
+        \begin{figure}[ht]
+            \centering
+            \begin{subfigure}[b]{0.3\textwidth}
+                \includegraphics[width=\textwidth]{code1.png}
+                \caption{\label{fig:code1}Part 1}
+            \end{subfigure}
+            \begin{subfigure}[b]{0.3\textwidth}
+                \includegraphics[width=\textwidth]{code2.png}
+                \caption{\label{fig:code2}Part 2}
+            \end{subfigure}
+            \begin{subfigure}[b]{0.3\textwidth}
+                \includegraphics[width=\textwidth]{code3.png}
+                \caption{\label{fig:code3}Part 3}
+            \end{subfigure}
+            \caption{\label{code}Code for project}
+        \end{figure}
 \end{document}

@@ -2,25 +2,27 @@
 \contentsline {chapter}{\numberline {1}Introduction}{4}% 
 \contentsline {section}{\numberline {1.1}PRELIMINARY INTRODUCTION}{4}% 
 \contentsline {subsection}{\numberline {1.1.1}The reason why to choose project}{4}% 
-\contentsline {subsection}{\numberline {1.1.2}Target Research}{5}% 
+\contentsline {subsection}{\numberline {1.1.2}Target Research}{4}% 
 \contentsline {subsection}{\numberline {1.1.3}Object and position research}{5}% 
 \contentsline {subsection}{\numberline {1.1.4}Method of research}{5}% 
 \contentsline {subsection}{\numberline {1.1.5}Structure Project}{5}% 
-\contentsline {section}{\numberline {1.2}BASIC THEORY}{7}% 
-\contentsline {subsection}{\numberline {1.2.1}Theory about the radar}{7}% 
-\contentsline {subsection}{\numberline {1.2.2}Some research related to the project}{7}% 
-\contentsline {subsection}{\numberline {1.2.3}Theory concepts related to research issues}{7}% 
-\contentsline {subsection}{\numberline {1.2.4}Components Required}{8}% 
-\contentsline {subsection}{\numberline {1.2.5}Component Description}{9}% 
-\contentsline {subsubsection}{\numberline {1.2.5.1}\relax \fontsize {14.4}{18}\selectfont {Arduino Uno}}{9}% 
-\contentsline {subsubsection}{\numberline {1.2.5.2}\relax \fontsize {14.4}{18}\selectfont {Servo Motor}}{13}% 
-\contentsline {subsubsection}{\numberline {1.2.5.3}\relax \fontsize {14.4}{18}\selectfont {HC-SR04 (Ultrasonic Sensor)}}{18}% 
-\contentsline {subsubsection}{\numberline {1.2.5.4}\relax \fontsize {14.4}{18}\selectfont {LCD 16x02}}{21}% 
-\contentsline {subsubsection}{\numberline {1.2.5.5}\relax \fontsize {14.4}{18}\selectfont {Buzzer}}{24}% 
-\contentsline {chapter}{\numberline {2}CONTENT AND RESULT}{28}% 
-\contentsline {section}{\numberline {2.1}CONTENT}{28}% 
-\contentsline {subsection}{\numberline {2.1.1}{Block Diagram and Principles of Operation}}{28}% 
-\contentsline {subsubsection}{\numberline {2.1.1.1}\relax \fontsize {12}{14}\selectfont {Block Diagram}}{28}% 
-\contentsline {subsubsection}{\numberline {2.1.1.2}\relax \fontsize {12}{14}\selectfont {Circuit Diagram}}{29}% 
-\contentsline {subsubsection}{\numberline {2.1.1.3}\relax \fontsize {12}{14}\selectfont {Working of the project}}{29}% 
-\contentsline {subsubsection}{\numberline {2.1.1.4}\relax \fontsize {12}{14}\selectfont {What is the radar used for?}}{31}% 
+\contentsline {section}{\numberline {1.2}BASIC THEORY}{6}% 
+\contentsline {subsection}{\numberline {1.2.1}Theory about the radar}{6}% 
+\contentsline {subsection}{\numberline {1.2.2}Some research related to the project}{6}% 
+\contentsline {subsection}{\numberline {1.2.3}Theory concepts related to research issues}{6}% 
+\contentsline {subsection}{\numberline {1.2.4}Components Required}{6}% 
+\contentsline {subsection}{\numberline {1.2.5}Component Description}{8}% 
+\contentsline {subsubsection}{\numberline {1.2.5.1}\relax \fontsize {14.4}{18}\selectfont {Arduino Uno}}{8}% 
+\contentsline {subsubsection}{\numberline {1.2.5.2}\relax \fontsize {14.4}{18}\selectfont {Servo Motor}}{11}% 
+\contentsline {subsubsection}{\numberline {1.2.5.3}\relax \fontsize {14.4}{18}\selectfont {HC-SR04 (Ultrasonic Sensor)}}{16}% 
+\contentsline {subsubsection}{\numberline {1.2.5.4}\relax \fontsize {14.4}{18}\selectfont {LCD 16x02}}{19}% 
+\contentsline {subsubsection}{\numberline {1.2.5.5}\relax \fontsize {14.4}{18}\selectfont {Buzzer}}{21}% 
+\contentsline {chapter}{\numberline {2}CONTENT AND RESULT}{25}% 
+\contentsline {section}{\numberline {2.1}CONTENT}{25}% 
+\contentsline {subsection}{\numberline {2.1.1}{Block Diagram and Principles of Operation}}{25}% 
+\contentsline {subsubsection}{\numberline {2.1.1.1}\relax \fontsize {12}{14}\selectfont {Block Diagram}}{25}% 
+\contentsline {subsubsection}{\numberline {2.1.1.2}\relax \fontsize {12}{14}\selectfont {Working of the project}}{26}% 
+\contentsline {section}{\numberline {2.2}CIRCUIT DIAGRAM AND RESULT}{29}% 
+\contentsline {subsection}{\numberline {2.2.1}\relax \fontsize {12}{14}\selectfont {Circuit Diagram}}{29}% 
+\contentsline {subsection}{\numberline {2.2.2}Result}{29}% 
+\contentsline {chapter}{\numberline {3}APPENDIX}{30}% 

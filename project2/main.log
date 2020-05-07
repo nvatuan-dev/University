@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.4.1)  1 MAY 2020 09:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.4.1)  7 MAY 2020 22:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -23,12 +23,34 @@ File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
  (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+) (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count89
+\Gm@cntv=\count90
+\c@Gm@tempcnt=\count91
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
  (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -39,8 +61,8 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
  (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen103
-\Gin@req@width=\dimen104
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
 ) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2019/06/03 3.32 The Babel package
  (/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
@@ -49,10 +71,10 @@ File: switch.def 2019/06/03 3.32 Babel switching mechanism
 Language: english 2017/06/06 v3.3r English support from the babel system
  (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2019/06/03 3.32 Babel common definitions
-\babel@savecnt=\count89
-\U@D=\dimen105
+\babel@savecnt=\count92
+\U@D=\dimen113
  (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@dirlevel=\count90
+\bbl@dirlevel=\count93
 )
 \l@british = a dialect from \language\l@english 
 \l@UKenglish = a dialect from \language\l@english 
@@ -61,8 +83,8 @@ File: babel.def 2019/06/03 3.32 Babel common definitions
 \l@newzealand = a dialect from \language\l@british 
 )) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks15
-\inpenc@posthook=\toks16
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
@@ -138,34 +160,34 @@ Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
 \f@nch@O@orf=\skip65
 ) (/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count91
-\c@@ppsavesec=\count92
-\c@@ppsaveapp=\count93
+\c@@pps=\count94
+\c@@ppsavesec=\count95
+\c@@ppsaveapp=\count96
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
  (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
-\col@sep=\dimen106
+\col@sep=\dimen114
 \ar@mcellbox=\box27
-\extrarowheight=\dimen107
-\NC@list=\toks17
+\extrarowheight=\dimen115
+\NC@list=\toks18
 \extratabsurround=\skip66
 \backup@length=\skip67
 \ar@cellbox=\box28
 )
-\TX@col@width=\dimen108
-\TX@old@table=\dimen109
-\TX@old@col=\dimen110
-\TX@target=\dimen111
-\TX@delta=\dimen112
-\TX@cols=\count94
-\TX@ftn=\toks18
+\TX@col@width=\dimen116
+\TX@old@table=\dimen117
+\TX@old@col=\dimen118
+\TX@target=\dimen119
+\TX@delta=\dimen120
+\TX@cols=\count97
+\TX@ftn=\toks19
 ) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count95
-\float@exts=\toks19
+\c@float@type=\count98
+\float@exts=\toks20
 \float@box=\box29
-\@float@everytoks=\toks20
+\@float@everytoks=\toks21
 \@floatcapt=\box30
 ) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2018/12/01 v2.17b AMS math features
@@ -176,49 +198,49 @@ For additional information on amsmath, use the `?' option.
 Package: amstext 2000/06/29 v2.01 AMS text
  (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks21
-\ex@=\dimen113
+\@emptytoks=\toks22
+\ex@=\dimen121
 )) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen114
+\pmbraise@=\dimen122
 ) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count96
+\inf@bad=\count99
 LaTeX Info: Redefining \frac on input line 223.
-\uproot@=\count97
-\leftroot@=\count98
+\uproot@=\count100
+\leftroot@=\count101
 LaTeX Info: Redefining \overline on input line 385.
-\classnum@=\count99
-\DOTSCASE@=\count100
+\classnum@=\count102
+\DOTSCASE@=\count103
 LaTeX Info: Redefining \ldots on input line 482.
 LaTeX Info: Redefining \dots on input line 485.
 LaTeX Info: Redefining \cdots on input line 606.
 \Mathstrutbox@=\box31
 \strutbox@=\box32
-\big@size=\dimen115
+\big@size=\dimen123
 LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
-\macc@depth=\count101
-\c@MaxMatrixCols=\count102
+\macc@depth=\count104
+\c@MaxMatrixCols=\count105
 \dotsspace@=\muskip10
-\c@parentequation=\count103
-\dspbrk@lvl=\count104
-\tag@help=\toks22
-\row@=\count105
-\column@=\count106
-\maxfields@=\count107
-\andhelp@=\toks23
-\eqnshift@=\dimen116
-\alignsep@=\dimen117
-\tagshift@=\dimen118
-\tagwidth@=\dimen119
-\totwidth@=\dimen120
-\lineht@=\dimen121
-\@envbody=\toks24
+\c@parentequation=\count106
+\dspbrk@lvl=\count107
+\tag@help=\toks23
+\row@=\count108
+\column@=\count109
+\maxfields@=\count110
+\andhelp@=\toks24
+\eqnshift@=\dimen124
+\alignsep@=\dimen125
+\tagshift@=\dimen126
+\tagwidth@=\dimen127
+\totwidth@=\dimen128
+\lineht@=\dimen129
+\@envbody=\toks25
 \multlinegap=\skip69
 \multlinetaggap=\skip70
-\mathdisplay@stack=\toks25
+\mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
@@ -231,10 +253,10 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package xcolor Info: Driver file: pdftex.def on input line 225.
  (/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
-\everycr=\toks26
+\everycr=\toks27
 \minrowclearance=\skip71
 )
-\rownum=\count108
+\rownum=\count111
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -247,10 +269,64 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ) (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@colwidth=\skip72
-\multirow@cntb=\count109
+\multirow@cntb=\count112
 \multirow@dima=\skip73
-\bigstrutjot=\dimen122
-) (/home/tuanlinux/University/project2/main.aux
+\bigstrutjot=\dimen130
+) (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box33
+\sift@deathcycles=\count113
+\@vwid@loff=\dimen131
+\@vwid@roff=\dimen132
+) (/usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count114
+\c@Blindtext=\count115
+\c@blind@countparstart=\count116
+\blind@countxx=\count117
+\blindtext@numBlindtext=\count118
+\blind@countyy=\count119
+\c@blindlist=\count120
+\c@blindlistlevel=\count121
+\c@blindlist@level=\count122
+\blind@listitem=\count123
+\c@blind@listcount=\count124
+\c@blind@levelcount=\count125
+\blind@mathformula=\count126
+\blind@Mathformula=\count127
+\c@blind@randomcount=\count128
+\c@blind@randommax=\count129
+\c@blind@pangramcount=\count130
+\c@blind@pangrammax=\count131
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen133
+\captionmargin@=\dimen134
+\captionwidth=\dimen135
+\caption@tempdima=\dimen136
+\caption@indent=\dimen137
+\caption@parindent=\dimen138
+\caption@hangindent=\dimen139
+)
+\c@caption@flags=\count132
+\c@ContinuedFloat=\count133
+Package caption Info: float package is loaded.
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
+\c@subfigure=\count134
+\c@subtable=\count135
+)
+
+LaTeX Warning: Unused global option(s):
+    [13pt].
+
+(/home/tuanlinux/University/project2/main.aux
 
 LaTeX Warning: Label `fig:pic' multiply defined.
 
@@ -307,6 +383,9 @@ LaTeX Warning: Label `tab:table' multiply defined.
 
 
 LaTeX Warning: Label `tab:table' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
 
 
 LaTeX Warning: Label `fig:pic' multiply defined.
@@ -338,34 +417,69 @@ LaTeX Warning: Label `fig:pic' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 26.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 455.24411pt, 56.9055pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count110
-\scratchdimen=\dimen123
-\scratchbox=\box33
-\nofMPsegments=\count111
-\nofMParguments=\count112
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count113
-\MPscratchDim=\dimen124
-\MPnumerator=\count114
-\makeMPintoPDFobject=\count115
-\everyMPtoPDFconversion=\toks28
+\scratchcounter=\count136
+\scratchdimen=\dimen140
+\scratchbox=\box34
+\nofMPsegments=\count137
+\nofMParguments=\count138
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count139
+\MPscratchDim=\dimen141
+\MPnumerator=\count140
+\makeMPintoPDFobject=\count141
+\everyMPtoPDFconversion=\toks29
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
@@ -387,9 +501,6 @@ Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )))) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
-)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
@@ -402,11 +513,13 @@ Package grfext Info: Graphics extension search list:
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 21.
+LaTeX Info: Redefining \selectfont on input line 26.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 <logo.jpg, id=1, 662.475pt x 386.44376pt>
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 29.
+Package pdftex.def Info: logo.jpg  used on input line 34.
 (pdftex.def)             Requested size: 198.74403pt x 115.93402pt.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -444,189 +557,213 @@ Chapter 1.
 <block_diagram.png, id=18, 323.2075pt x 157.58875pt>
 File: block_diagram.png Graphic file (type png)
 <use block_diagram.png>
-Package pdftex.def Info: block_diagram.png  used on input line 100.
+Package pdftex.def Info: block_diagram.png  used on input line 105.
 (pdftex.def)             Requested size: 226.2437pt x 110.31136pt.
 [4
 
  </home/tuanlinux/University/project2/block_diagram.png (PNG copy)>]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 116.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 121.
  (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 116.
- [5] [6] [7] [8]
-<Uno.png, id=37, 553.06625pt x 406.51875pt>
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 121.
+ [5] [6] [7]
+<Uno.png, id=34, 553.06625pt x 406.51875pt>
 File: Uno.png Graphic file (type png)
 <use Uno.png>
-Package pdftex.def Info: Uno.png  used on input line 228.
-(pdftex.def)             Requested size: 172.5pt x 126.78867pt.
-<atmega.png, id=38, 578.16pt x 429.85594pt>
+Package pdftex.def Info: Uno.png  used on input line 230.
+(pdftex.def)             Requested size: 227.62206pt x 167.30646pt.
+<atmega.png, id=35, 578.16pt x 429.85594pt>
 File: atmega.png Graphic file (type png)
 <use atmega.png>
-Package pdftex.def Info: atmega.png  used on input line 235.
-(pdftex.def)             Requested size: 207.0021pt x 153.9019pt.
- [9 </home/tuanlinux/University/project2/Uno.png>] [10 </home/tuanlinux/University/project2/atmega.png>]
-<pinout.png, id=47, 1076.02pt x 754.82pt>
+Package pdftex.def Info: atmega.png  used on input line 237.
+(pdftex.def)             Requested size: 273.14923pt x 203.08177pt.
+ [8 </home/tuanlinux/University/project2/Uno.png>]
+<pinout.png, id=40, 1076.02pt x 754.82pt>
 File: pinout.png Graphic file (type png)
 <use pinout.png>
-Package pdftex.def Info: pinout.png  used on input line 268.
-(pdftex.def)             Requested size: 345.0pt x 242.00804pt.
- [11 </home/tuanlinux/University/project2/pinout.png>] [12] [13]
-<Servo.jpg, id=59, 501.875pt x 299.1175pt>
+Package pdftex.def Info: pinout.png  used on input line 270.
+(pdftex.def)             Requested size: 455.24411pt x 319.3488pt.
+ [9 </home/tuanlinux/University/project2/atmega.png>] [10 </home/tuanlinux/University/project2/pinout.png>] [11]
+<Servo.jpg, id=52, 501.875pt x 299.1175pt>
 File: Servo.jpg Graphic file (type jpg)
 <use Servo.jpg>
-Package pdftex.def Info: Servo.jpg  used on input line 363.
-(pdftex.def)             Requested size: 207.0021pt x 123.3738pt.
-<Servo1.jpg, id=60, 451.6875pt x 301.125pt>
+Package pdftex.def Info: Servo.jpg  used on input line 365.
+(pdftex.def)             Requested size: 273.14923pt x 162.80356pt.
+<Servo1.jpg, id=53, 451.6875pt x 301.125pt>
 File: Servo1.jpg Graphic file (type jpg)
 <use Servo1.jpg>
-Package pdftex.def Info: Servo1.jpg  used on input line 375.
-(pdftex.def)             Requested size: 207.0021pt x 138.00455pt.
- [14 </home/tuanlinux/University/project2/Servo.jpg> </home/tuanlinux/University/project2/Servo1.jpg>]
-<Servo2.jpg, id=64, 451.6875pt x 301.125pt>
+Package pdftex.def Info: Servo1.jpg  used on input line 377.
+(pdftex.def)             Requested size: 273.14923pt x 182.10995pt.
+ [12 </home/tuanlinux/University/project2/Servo.jpg> </home/tuanlinux/University/project2/Servo1.jpg>]
+<Servo2.jpg, id=57, 451.6875pt x 301.125pt>
 File: Servo2.jpg Graphic file (type jpg)
 <use Servo2.jpg>
-Package pdftex.def Info: Servo2.jpg  used on input line 385.
-(pdftex.def)             Requested size: 207.0021pt x 138.00455pt.
-<Servo3.jpg, id=65, 451.6875pt x 371.3875pt>
+Package pdftex.def Info: Servo2.jpg  used on input line 387.
+(pdftex.def)             Requested size: 273.14923pt x 182.10995pt.
+<Servo3.jpg, id=58, 451.6875pt x 371.3875pt>
 File: Servo3.jpg Graphic file (type jpg)
 <use Servo3.jpg>
-Package pdftex.def Info: Servo3.jpg  used on input line 400.
-(pdftex.def)             Requested size: 137.9979pt x 113.46852pt.
- [15 </home/tuanlinux/University/project2/Servo2.jpg> </home/tuanlinux/University/project2/Servo3.jpg>]
-<sg90.jpg, id=69, 602.25pt x 602.25pt>
+Package pdftex.def Info: Servo3.jpg  used on input line 402.
+(pdftex.def)             Requested size: 182.09486pt x 149.7254pt.
+ [13 </home/tuanlinux/University/project2/Servo2.jpg> </home/tuanlinux/University/project2/Servo3.jpg>]
+<sg90.jpg, id=63, 602.25pt x 602.25pt>
 File: sg90.jpg Graphic file (type jpg)
 <use sg90.jpg>
-Package pdftex.def Info: sg90.jpg  used on input line 429.
-(pdftex.def)             Requested size: 103.50105pt x 103.49307pt.
- [16 </home/tuanlinux/University/project2/sg90.jpg>]
-<Capture.PNG, id=73, 511.15968pt x 216.81pt>
+Package pdftex.def Info: sg90.jpg  used on input line 431.
+(pdftex.def)             Requested size: 136.57462pt x 136.57558pt.
+ [14 </home/tuanlinux/University/project2/sg90.jpg>]
+<Capture.PNG, id=67, 511.15968pt x 216.81pt>
 File: Capture.PNG Graphic file (type png)
 <use Capture.PNG>
-Package pdftex.def Info: Capture.PNG  used on input line 440.
-(pdftex.def)             Requested size: 345.0pt x 146.3305pt.
-<Servo2.PNG, id=74, 292.84406pt x 70.01157pt>
+Package pdftex.def Info: Capture.PNG  used on input line 442.
+(pdftex.def)             Requested size: 455.24411pt x 193.0926pt.
+<Servo2.PNG, id=68, 292.84406pt x 70.01157pt>
 File: Servo2.PNG Graphic file (type png)
 <use Servo2.PNG>
-Package pdftex.def Info: Servo2.PNG  used on input line 446.
-(pdftex.def)             Requested size: 207.0021pt x 49.49062pt.
-<servo3.PNG, id=75, 271.0125pt x 133.24782pt>
+Package pdftex.def Info: Servo2.PNG  used on input line 448.
+(pdftex.def)             Requested size: 273.14923pt x 65.30983pt.
+<servo3.PNG, id=69, 271.0125pt x 133.24782pt>
 File: servo3.PNG Graphic file (type png)
 <use servo3.PNG>
-Package pdftex.def Info: servo3.PNG  used on input line 454.
-(pdftex.def)             Requested size: 137.9979pt x 67.85178pt.
- [17 </home/tuanlinux/University/project2/Capture.PNG> </home/tuanlinux/University/project2/servo2.PNG> </home/tuanlinux/University/project2/servo3.PNG>]
+Package pdftex.def Info: servo3.PNG  used on input line 456.
+(pdftex.def)             Requested size: 182.09486pt x 89.53378pt.
+ [15 </home/tuanlinux/University/project2/Capture.PNG> </home/tuanlinux/University/project2/servo2.PNG> </home/tuanlinux/University/project2/servo3.PNG>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 481.
+(Font)              <10> on input line 483.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 481.
+(Font)              <7> on input line 483.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 481.
- [18]
-<HC-SR04.jpg, id=87, 578.16pt x 285.31593pt>
+(Font)              <5> on input line 483.
+<HC-SR04.jpg, id=76, 578.16pt x 285.31593pt>
 File: HC-SR04.jpg Graphic file (type jpg)
 <use HC-SR04.jpg>
-Package pdftex.def Info: HC-SR04.jpg  used on input line 531.
-(pdftex.def)             Requested size: 345.0pt x 170.2505pt.
-<ultrasonic_sensor.png, id=88, 652.4375pt x 632.3625pt>
+Package pdftex.def Info: HC-SR04.jpg  used on input line 533.
+(pdftex.def)             Requested size: 455.24411pt x 224.657pt.
+<ultrasonic_sensor.png, id=77, 652.4375pt x 632.3625pt>
 File: ultrasonic_sensor.png Graphic file (type png)
 <use ultrasonic_sensor.png>
-Package pdftex.def Info: ultrasonic_sensor.png  used on input line 537.
-(pdftex.def)             Requested size: 137.9979pt x 133.74565pt.
- [19 </home/tuanlinux/University/project2/HC-SR04.jpg>]
-<ultrasonic.png, id=93, 758.835pt x 564.1075pt>
+Package pdftex.def Info: ultrasonic_sensor.png  used on input line 539.
+(pdftex.def)             Requested size: 182.09486pt x 176.491pt.
+<ultrasonic.png, id=78, 758.835pt x 564.1075pt>
 File: ultrasonic.png Graphic file (type png)
 <use ultrasonic.png>
-Package pdftex.def Info: ultrasonic.png  used on input line 550.
-(pdftex.def)             Requested size: 207.0021pt x 153.87762pt.
- [20 </home/tuanlinux/University/project2/ultrasonic_sensor.png> </home/tuanlinux/University/project2/ultrasonic.png (PNG copy)>]
-<LCD.jpg, id=97, 439.6425pt x 297.36093pt>
+Package pdftex.def Info: ultrasonic.png  used on input line 552.
+(pdftex.def)             Requested size: 273.14923pt x 203.05272pt.
+ [16] [17 </home/tuanlinux/University/project2/HC-SR04.jpg>]
+<LCD.jpg, id=87, 439.6425pt x 297.36093pt>
 File: LCD.jpg Graphic file (type jpg)
 <use LCD.jpg>
-Package pdftex.def Info: LCD.jpg  used on input line 593.
-(pdftex.def)             Requested size: 137.9979pt x 93.33342pt.
- [21 </home/tuanlinux/University/project2/LCD.jpg>]
+Package pdftex.def Info: LCD.jpg  used on input line 595.
+(pdftex.def)             Requested size: 182.09486pt x 123.162pt.
+ [18 </home/tuanlinux/University/project2/ultrasonic_sensor.png> </home/tuanlinux/University/project2/ultrasonic.png (PNG copy)>]
 
-LaTeX Warning: File `lcd diagram.PNG' not found on input line 616.
+LaTeX Warning: File `lcd diagram.PNG' not found on input line 618.
 
-<lcd diagram.PNG, id=101, 524.71031pt x 251.43938pt>
+<lcd diagram.PNG, id=91, 524.71031pt x 251.43938pt>
 File: lcd diagram.PNG Graphic file (type png)
 <use lcd diagram.PNG>
-Package pdftex.def Info: lcd diagram.PNG  used on input line 616.
-(pdftex.def)             Requested size: 345.0pt x 165.32895pt.
-[22 </home/tuanlinux/University/project2/lcd diagram.PNG>] [23]
-<buzzer.PNG, id=109, 398.23781pt x 374.14781pt>
+Package pdftex.def Info: lcd diagram.PNG  used on input line 618.
+(pdftex.def)             Requested size: 455.24411pt x 218.15964pt.
+[19 </home/tuanlinux/University/project2/LCD.jpg> </home/tuanlinux/University/project2/lcd diagram.PNG>] [20]
+<buzzer.PNG, id=100, 398.23781pt x 374.14781pt>
 File: buzzer.PNG Graphic file (type png)
 <use buzzer.PNG>
-Package pdftex.def Info: buzzer.PNG  used on input line 702.
-(pdftex.def)             Requested size: 137.9979pt x 129.64632pt.
- [24]
-<buzzer1.jpg, id=113, 200.75pt x 163.61125pt>
+Package pdftex.def Info: buzzer.PNG  used on input line 704.
+(pdftex.def)             Requested size: 182.09486pt x 171.07674pt.
+ [21]
+<buzzer1.jpg, id=104, 200.75pt x 163.61125pt>
 File: buzzer1.jpg Graphic file (type jpg)
 <use buzzer1.jpg>
-Package pdftex.def Info: buzzer1.jpg  used on input line 723.
-(pdftex.def)             Requested size: 103.50105pt x 84.35434pt.
-<buzzer2.jpg, id=114, 1355.0625pt x 1355.0625pt>
+Package pdftex.def Info: buzzer1.jpg  used on input line 725.
+(pdftex.def)             Requested size: 136.57462pt x 111.31657pt.
+<buzzer2.jpg, id=105, 1355.0625pt x 1355.0625pt>
 File: buzzer2.jpg Graphic file (type jpg)
 <use buzzer2.jpg>
-Package pdftex.def Info: buzzer2.jpg  used on input line 730.
-(pdftex.def)             Requested size: 137.9979pt x 137.99538pt.
- [25 </home/tuanlinux/University/project2/buzzer.PNG> </home/tuanlinux/University/project2/buzzer1.jpg>]
-<buzzer.jpg, id=120, 501.875pt x 501.875pt>
+Package pdftex.def Info: buzzer2.jpg  used on input line 732.
+(pdftex.def)             Requested size: 182.09486pt x 182.0778pt.
+ [22 </home/tuanlinux/University/project2/buzzer.PNG> </home/tuanlinux/University/project2/buzzer1.jpg>]
+<buzzer.jpg, id=110, 501.875pt x 501.875pt>
 File: buzzer.jpg Graphic file (type jpg)
 <use buzzer.jpg>
-Package pdftex.def Info: buzzer.jpg  used on input line 738.
-(pdftex.def)             Requested size: 103.50105pt x 103.49767pt.
-<buzzer-pinout.png, id=121, 369.38pt x 380.42125pt>
+Package pdftex.def Info: buzzer.jpg  used on input line 740.
+(pdftex.def)             Requested size: 136.57462pt x 136.57251pt.
+<buzzer-pinout.png, id=111, 369.38pt x 380.42125pt>
 File: buzzer-pinout.png Graphic file (type png)
 <use buzzer-pinout.png>
-Package pdftex.def Info: buzzer-pinout.png  used on input line 757.
-(pdftex.def)             Requested size: 137.9979pt x 142.12357pt.
- [26 </home/tuanlinux/University/project2/buzzer2.jpg> </home/tuanlinux/University/project2/buzzer.jpg>] [27 </home/tuanlinux/University/project2/buzzer-pinout.png>]
+Package pdftex.def Info: buzzer-pinout.png  used on input line 759.
+(pdftex.def)             Requested size: 182.09486pt x 187.53996pt.
+ [23 </home/tuanlinux/University/project2/buzzer2.jpg> </home/tuanlinux/University/project2/buzzer.jpg>] [24 </home/tuanlinux/University/project2/buzzer-pinout.png>]
 Chapter 2.
-<diagram-project.png, id=130, 536.75531pt x 394.47375pt>
+<diagram-project.png, id=120, 536.75531pt x 394.47375pt>
 File: diagram-project.png Graphic file (type png)
 <use diagram-project.png>
-Package pdftex.def Info: diagram-project.png  used on input line 807.
-(pdftex.def)             Requested size: 276.00105pt x 202.84024pt.
-<circuit.jpg, id=131, 274.09067pt x 133.298pt>
-File: circuit.jpg Graphic file (type jpg)
-<use circuit.jpg>
-Package pdftex.def Info: circuit.jpg  used on input line 816.
-(pdftex.def)             Requested size: 345.0pt x 167.79973pt.
-[28
-
- </home/tuanlinux/University/project2/diagram-project.png>]
-<500px-PSR_1.png, id=136, 376.40625pt x 232.61906pt>
+Package pdftex.def Info: diagram-project.png  used on input line 809.
+(pdftex.def)             Requested size: 364.19667pt x 267.65474pt.
+<500px-PSR_1.png, id=121, 376.40625pt x 232.61906pt>
 File: 500px-PSR_1.png Graphic file (type png)
 <use 500px-PSR_1.png>
-Package pdftex.def Info: 500px-PSR_1.png  used on input line 822.
-(pdftex.def)             Requested size: 207.0021pt x 127.93022pt.
- [29 </home/tuanlinux/University/project2/circuit.jpg> </home/tuanlinux/University/project2/500px-PSR_1.png>]
-<flowchart1.png, id=141, 668.4975pt x 750.805pt>
+Package pdftex.def Info: 500px-PSR_1.png  used on input line 818.
+(pdftex.def)             Requested size: 273.14923pt x 168.81664pt.
+[25
+
+ </home/tuanlinux/University/project2/diagram-project.png>]
+<radar-work.png, id=127, 351.3125pt x 351.3125pt>
+File: radar-work.png Graphic file (type png)
+<use radar-work.png>
+Package pdftex.def Info: radar-work.png  used on input line 853.
+(pdftex.def)             Requested size: 364.19667pt x 364.22528pt.
+ [26 </home/tuanlinux/University/project2/500px-PSR_1.png>]
+<flowchart1.png, id=132, 668.4975pt x 750.805pt>
 File: flowchart1.png Graphic file (type png)
 <use flowchart1.png>
-Package pdftex.def Info: flowchart1.png  used on input line 850.
-(pdftex.def)             Requested size: 345.0pt x 387.48802pt.
- [30 </home/tuanlinux/University/project2/flowchart1.png>] [31] (/home/tuanlinux/University/project2/main.aux)
+Package pdftex.def Info: flowchart1.png  used on input line 861.
+(pdftex.def)             Requested size: 455.24411pt x 511.30821pt.
+ [27 </home/tuanlinux/University/project2/radar-work.png>] [28 </home/tuanlinux/University/project2/flowchart1.png>]
+<circuit.jpg, id=141, 274.09067pt x 133.298pt>
+File: circuit.jpg Graphic file (type jpg)
+<use circuit.jpg>
+Package pdftex.def Info: circuit.jpg  used on input line 886.
+(pdftex.def)             Requested size: 455.24411pt x 221.41899pt.
+ [29 </home/tuanlinux/University/project2/circuit.jpg>]
+Chapter 3.
+[30
+
+]
+<code1.png, id=148, 1360.37646pt x 765.21176pt>
+File: code1.png Graphic file (type png)
+<use code1.png>
+Package pdftex.def Info: code1.png  used on input line 961.
+(pdftex.def)             Requested size: 136.57462pt x 76.81755pt.
+<code2.png, id=149, 1360.37646pt x 765.21176pt>
+File: code2.png Graphic file (type png)
+<use code2.png>
+Package pdftex.def Info: code2.png  used on input line 965.
+(pdftex.def)             Requested size: 136.57462pt x 76.81755pt.
+<code3.png, id=150, 1360.37646pt x 765.21176pt>
+File: code3.png Graphic file (type png)
+<use code3.png>
+Package pdftex.def Info: code3.png  used on input line 969.
+(pdftex.def)             Requested size: 136.57462pt x 76.81755pt.
+ [31 </home/tuanlinux/University/project2/code1.png (PNG copy)> </home/tuanlinux/University/project2/code2.png (PNG copy)> </home/tuanlinux/University/project2/code3.png (PNG copy)>] (/home/tuanlinux/University/project2/main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4194 strings out of 494553
- 56299 string characters out of 6177378
- 143584 words of memory out of 5000000
- 7718 multiletter control sequences out of 15000+600000
- 66300 words of font info for 47 fonts, out of 8000000 for 9000
+ 6088 strings out of 494553
+ 88271 string characters out of 6177378
+ 192464 words of memory out of 5000000
+ 9576 multiletter control sequences out of 15000+600000
+ 69297 words of font info for 48 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,12n,43p,307b,403s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on /home/tuanlinux/University/project2/main.pdf (31 pages, 2558790 bytes).
+ 41i,12n,43p,307b,505s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
+Output written on /home/tuanlinux/University/project2/main.pdf (31 pages, 3167882 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
- 104 compressed objects within 2 object streams
+ 195 PDF objects out of 1000 (max. 8388607)
+ 107 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 136 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 156 words of extra memory for PDF output out of 10000 (max. 10000000)
 
