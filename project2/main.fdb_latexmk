@@ -1,9 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1588953429 "/home/tuanlinux/University/project2/main.tex" "/home/tuanlinux/University/project2/main.pdf" "main" 1588953430
+["pdflatex"] 1588953477 "/home/tuanlinux/University/project2/main.tex" "/home/tuanlinux/University/project2/main.pdf" "main" 1588953478
   "/etc/texmf/web2c/texmf.cnf" 1585712212 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/tuanlinux/University/project2/lcd diagram.PNG" 1587955004 21708 b9f0ff09d46e9613230f7106305b855c ""
-  "/home/tuanlinux/University/project2/main.aux" 1588953430 9320 fd4836a9ea5776c75869eb2a68ef757a ""
-  "/home/tuanlinux/University/project2/main.tex" 1588953428 64278 592d4f9c7aa812c83af60ec990668c3f ""
+  "/home/tuanlinux/University/project2/main.aux" 1588953478 9320 fd4836a9ea5776c75869eb2a68ef757a ""
+  "/home/tuanlinux/University/project2/main.tex" 1588953476 64277 8b3d51152e01aa26816d71172af42755 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -129,9 +129,9 @@
   "flowchart1.png" 1588301289 31782 50c2f315003ddca530fd555deb2921e5 ""
   "lcd diagram.PNG" 1587955004 21708 b9f0ff09d46e9613230f7106305b855c ""
   "logo.jpg" 1585714783 76689 9d4e06576b91b572b6e1dde61b3ff9a6 ""
-  "main.aux" 1588953430 9320 fd4836a9ea5776c75869eb2a68ef757a "pdflatex"
-  "main.tex" 1588953428 64278 592d4f9c7aa812c83af60ec990668c3f ""
-  "main.toc" 1588953430 2767 9ac93f9e488b77b40c3b8d52cc9c5d74 "pdflatex"
+  "main.aux" 1588953478 9320 fd4836a9ea5776c75869eb2a68ef757a "pdflatex"
+  "main.tex" 1588953476 64277 8b3d51152e01aa26816d71172af42755 ""
+  "main.toc" 1588953478 2767 9ac93f9e488b77b40c3b8d52cc9c5d74 "pdflatex"
   "pinout.png" 1587576833 484695 c759d76c505365bf231f2401cc32e084 ""
   "radar-work.png" 1588305248 13144 5e83ada67c1c93ee410b0554a4c0a3e9 ""
   "servo2.PNG" 1587734212 48461 3850394dac1e51584fb33b16fa13040d ""
@@ -140,9 +140,9 @@
   "ultrasonic.png" 1587747973 17996 82bd27fd6937683b20cc9d7313c06a5d ""
   "ultrasonic_sensor.png" 1587747376 34383 7aa84e50b62151a54b63ff12553b4e2d ""
   (generated)
-  "main.aux"
+  "main.log"
   "main.toc"
+  "/home/tuanlinux/University/project2/main.pdf"
+  "main.aux"
   "/home/tuanlinux/University/project2/main.log"
   "main.pdf"
-  "/home/tuanlinux/University/project2/main.pdf"
-  "main.log"
