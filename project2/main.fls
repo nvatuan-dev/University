@@ -243,11 +243,12 @@ INPUT /home/tuanlinux/University/project2/flowchart1.png
 INPUT /home/tuanlinux/University/project2/circuit.jpg
 INPUT /home/tuanlinux/University/project2/circuit.jpg
 INPUT /home/tuanlinux/University/project2/circuit.jpg
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmri12.tfm
 INPUT /home/tuanlinux/University/project2/main.aux
+INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc
-INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb
@@ -255,5 +256,6 @@ INPUT /usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmr10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmr12.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmri12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb

@@ -27,3 +27,8 @@
 \contentsline {subsection}{\numberline {2.2.2}Result}{29}% 
 \contentsline {chapter}{\numberline {3}APPENDIX}{30}% 
 \contentsline {chapter}{\numberline {4}CONCLUSIONS AND RECOMMENDATIONS}{33}% 
+\contentsline {section}{\numberline {4.1}CONCLUDES}{33}% 
+\contentsline {subsection}{\numberline {4.1.1}\relax \fontsize {12}{14}\selectfont {Advantages}}{33}% 
+\contentsline {subsection}{\numberline {4.1.2}\relax \fontsize {12}{14}\selectfont {Defects}}{33}% 
+\contentsline {section}{\numberline {4.2}RECOMMENDATIONS}{33}% 
+\contentsline {chapter}{\numberline {5}THE REFERENCES}{34}% 
