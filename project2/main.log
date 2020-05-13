@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.4.1)  13 MAY 2020 12:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.4.1)  13 MAY 2020 13:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -739,15 +739,15 @@ LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <8> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 34.
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 38.
-) [30
+ [30
 
-]
+]) [31]
 Chapter 4.
-[31
+[32
 
 ]
 Chapter 5.
-[32
+[33
 
 ] (/home/tuanlinux/University/project2/main.aux)
 
@@ -755,18 +755,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6720 strings out of 494553
- 90681 string characters out of 6177378
- 402679 words of memory out of 5000000
- 10186 multiletter control sequences out of 15000+600000
+ 6775 strings out of 494553
+ 91354 string characters out of 6177378
+ 546679 words of memory out of 5000000
+ 10241 multiletter control sequences out of 15000+600000
  77492 words of font info for 53 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 43i,12n,69p,307b,1321s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,12n,69p,307b,1840s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb>
-Output written on /home/tuanlinux/University/project2/main.pdf (32 pages, 2649689 bytes).
+Output written on /home/tuanlinux/University/project2/main.pdf (33 pages, 2661894 bytes).
 PDF statistics:
- 203 PDF objects out of 1000 (max. 8388607)
- 115 compressed objects within 2 object streams
+ 206 PDF objects out of 1000 (max. 8388607)
+ 117 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  141 words of extra memory for PDF output out of 10000 (max. 10000000)
 

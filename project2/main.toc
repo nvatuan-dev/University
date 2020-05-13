@@ -26,9 +26,9 @@
 \contentsline {subsection}{\numberline {2.2.1}\relax \fontsize {12}{14}\selectfont {Circuit Diagram}}{29}% 
 \contentsline {subsection}{\numberline {2.2.2}Result}{29}% 
 \contentsline {chapter}{\numberline {3}APPENDIX}{30}% 
-\contentsline {chapter}{\numberline {4}CONCLUSIONS AND RECOMMENDATIONS}{31}% 
-\contentsline {section}{\numberline {4.1}CONCLUDES}{31}% 
-\contentsline {subsection}{\numberline {4.1.1}\relax \fontsize {12}{14}\selectfont {Advantages}}{31}% 
-\contentsline {subsection}{\numberline {4.1.2}\relax \fontsize {12}{14}\selectfont {Defects}}{31}% 
-\contentsline {section}{\numberline {4.2}RECOMMENDATIONS}{31}% 
-\contentsline {chapter}{\numberline {5}THE REFERENCES}{32}% 
+\contentsline {chapter}{\numberline {4}CONCLUSIONS AND RECOMMENDATIONS}{32}% 
+\contentsline {section}{\numberline {4.1}CONCLUDES}{32}% 
+\contentsline {subsection}{\numberline {4.1.1}\relax \fontsize {12}{14}\selectfont {Advantages}}{32}% 
+\contentsline {subsection}{\numberline {4.1.2}\relax \fontsize {12}{14}\selectfont {Defects}}{32}% 
+\contentsline {section}{\numberline {4.2}RECOMMENDATIONS}{32}% 
+\contentsline {chapter}{\numberline {5}THE REFERENCES}{33}% 

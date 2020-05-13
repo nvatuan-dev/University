@@ -36,10 +36,12 @@
     #include <LiquidCrystal.h>
     #include <Wire.h>
 \end{lstlisting}
+
 \begin{lstlisting}[language=cpp,caption={Create Variable and LCD object}]
     Servo myServo;
     LiquidCrystal lcd(7, 6, 5, 4, 3, 2); // Creates an LCD object. Parameters: (rs, enable, d4, d5, d6, d7)
 \end{lstlisting}
+
 \begin{lstlisting}[language=cpp,caption={Define the Variables with the Value of PIN}]
     #define TRIGPIN 9
     #define ECHOPIN 10
@@ -49,4 +51,102 @@
     #define LEDPIN2 14
 
     float distanceCm, DistanceSec, duration;
+\end{lstlisting}
+
+\begin{lstlisting}[language=cpp,caption={Call the Funtions}]
+    void configPin();
+    void leftToRight();
+    void rightToLeft();
+    void configSensor();
+    void detectThings();
+    void displayLcd(uint8_t distance, int pos);
+\end{lstlisting}
+
+\begin{lstlisting}[language=cpp,caption={Define "configPin()" Function}]
+    void configPin(){
+        pinMode(TRIGPIN, OUTPUT);
+        pinMode(ECHOPIN, INPUT);
+        pinMode(BUZZER, OUTPUT);
+        pinMode(LEDPIN1, OUTPUT);
+        pinMode(LEDPIN2, OUTPUT);
+    }
+\end{lstlisting}
+
+\begin{lstlisting}[language=cpp,caption={Setup Funtion}]
+    void setup(){
+        myServo.attach(MOTEUR); //Attach the servo motor to pin 11
+        lcd.begin(16,2); //Initialize the lcd interface with their Size
+        configPin();
+        DistanceSec = 20;
+    }
+\end{lstlisting}
+
+\begin{lstlisting}[language=cpp,caption={Define leftToRight and rightToLeft Function}]
+    void leftToRight(){
+        for (int pos=0; pos <= 180; pos++){ //Go from 0 to 180 degrees.
+            myServo.write(pos); //servo programming to get to the position(pos).
+            configSensor();
+            detectThings();
+        }
+    }
+    void rightToLeft(){
+        for (int pos = 180; pos >= 0; pos--) { //goes from 180 to 0 degree
+            myServo.write(pos); //
+            configSensor();
+            detectThings();
+        }
+    }
+\end{lstlisting}
+
+\begin{lstlisting}[language=cpp,caption={Define detectThings and configSensor Function}]
+    void configSensor(){
+        digitalWrite(TRIGPIN, LOW);
+        delayMicroseconds(2);
+        digitalWrite(TRIGPIN, HIGH); //send a pulse of 10 microseconds.
+        delayMicroseconds(10);
+        digitalWrite(TRIGPIN, LOW);
+    }
+    void detectThings(){
+        duration = pulseIn(ECHOPIN, HIGH);
+        distanceCm= duration*0.034/2;
+        if (distanceCm <= DistanceSec){
+            if(distanceCm <= DistanceSec/2){
+                tone(BUZZER, 10); // Send 1KHz sound signal...
+                digitalWrite(LEDPIN1, LOW);
+                digitalWrite(LEDPIN2, HIGH);
+                delay(700);
+                noTone(BUZZER); // Stop sound...
+                displayLcd(distanceCm);
+            }
+            else{
+                digitalWrite(BUZZER, HIGH);
+                digitalWrite(LEDPIN2, LOW);
+                digitalWrite(LEDPIN1, HIGH);
+                delay(100);
+                digitalWrite(BUZZER, LOW);
+                displayLcd(distanceCm);
+            }
+        }
+        else{
+            digitalWrite(BUZZER, LOW);
+            digitalWrite(LEDPIN1, LOW);
+            digitalWrite(LEDPIN2, LOW);
+        }
+        displayLcd(distanceCm);
+        delay(100); // wait 100ms for the servo to find its position
+    }
+\end{lstlisting}
+
+\begin{lstlisting}[language=cpp,caption={Define displayLCD Funtion}]
+    void displayLcd(uint8_t distance, int pos){
+        lcd.setCursor(0,0); // Position the cursor at 0.0
+        lcd.print("Distance: "); // Print "Distance" sur LCD
+        lcd.print(distance); // Print the distance to LCD
+        lcd.print(" cm "); // Printe the unit to LCD
+        delay(10);
+        lcd.setCursor(0,1);
+        lcd.print("Angle : ");
+        lcd.print(pos);
+        lcd.print(" deg ");
+    }
 \end{lstlisting}
