@@ -18,6 +18,7 @@
 \usepackage[table]{xcolor}
 \usepackage{array,multirow} 
 \usepackage{varwidth}
+\usepackage{listings}
 
 \setcounter{secnumdepth}{4}
 
@@ -899,145 +900,7 @@
     \raggedright
     \fancyfoot[L]{From: Nguyen Van Anh Tuan}
     \fancyfoot[R]{Page \thepage}
-        In this chapter, i'll present the code i have put in my project. \\
-        \vspace{3mm}
-        \par The code below here used to include the library. Libraries are files that you can 
-        include in my code to use even more methods and functions. \\
-        \vspace{2mm}
-        \fbox{\begin{varwidth}{\dimexpr\textwidth-2\fboxsep-2\fboxrule\relax}
-            \raggedright
-            \# include <Servo.h> \\
-            \# include <LiquidCrystal.h> \\
-            \# include <Wire.h> \\
-        \end{varwidth}}
-        \vspace{3mm}
-        \linebreak
-        Next, we will create a variable "myServo" with datatypes is "Servo" and an LCD object 
-        with parameters: (rs,enable,d4,d5,d6,d7). \\
-        \vspace{2mm}
-        \fbox{\begin{varwidth}{\dimexpr\textwidth-2\fboxsep-2\fboxrule\relax}
-            \raggedright
-            Servo myServo; \\
-            LiquidCrystal lcd(7,6,5,4,3,2);
-        \end{varwidth}}
-        \vspace{3mm}
-        \linebreak
-        We will create some variables and asign each variable with 1 value. \\
-        \vspace{2mm}
-        \fbox{\begin{varwidth}{\dimexpr\textwidth-2\fboxsep-2\fboxrule\relax}
-            \raggedright
-            int pos = 0; // Original position of the servomotor \\
-            const int trigPin = 9; \\
-            const int echoPin = 10; \\
-            const int moteur = 11; \\
-            const int buzzer = 12; \\
-            const int ledPin1 = 14; \\
-            const int ledPin2 = 15; \\
-            float distanceCm, DistanceSec,duration; \\
-        \end{varwidth}}
-        \vspace{3mm}
-        \linebreak
-        In setup() function is the code where we want to run one times as soon as program starts 
-        running. In this function we'll set things like pinMode in it. \\
-        \vspace{2mm}
-        \fbox{\begin{varwidth}{\dimexpr\textwidth-2\fboxsep-2\fboxrule\relax}
-            \raggedright
-            void setup() \{ \\
-                myServo.attach(moteur); // Attach the servo motor to pin 11 \\
-                lcd.begin(16,2); // Initialize the Lcd interface with their Size \\
-                pinMode(trigPin, OUTPUT); // Define the operation of these input/output pins. \\
-                pinMode(echoPin, INPUT); \\
-                pinMode(buzzer, OUTPUT); \\
-                pinMode(ledPin1, OUTPUT); \\ 
-                pinMode(ledPin2, OUTPUT); \\
-                DistanceSec=20;\} \\ 
-        \end{varwidth}}
-        \newpage
-        Next to these code is "void loop()" function which is uses as a part of its structure. 
-        The code inside this function runs over and over as long as the Maker Board is turned on. \\
-        \vspace{2mm} 
-        Below here is the part 1. \\
-        \vspace{2mm}
-        \fbox{\begin{varwidth}{\dimexpr\textwidth-2\fboxsep-2\fboxrule\relax}
-            \raggedright
-            void loop() \{ \\
-                for (pos = 0; pos <= 180; pos += 1) \{ // goes from 0 to 180 degrees\\
-                // in steps of 1 degree\\
-                myServo.write(pos); // Servo programming to get to the position (pos)\\
-                digitalWrite(trigPin, LOW);\\
-                delayMicroseconds(2);\\
-                digitalWrite(trigPin, HIGH); // send a pulse of 10 microseconds\\
-                delayMicroseconds(10);\\
-                digitalWrite(trigPin, LOW);\\
-                duration = pulseIn(echoPin, HIGH);\\
-                distanceCm= duration*0.034/2;\\
-                if (distanceCm <= DistanceSec)\{\\
-                    if(distanceCm <= DistanceSec/2)\\
-                    \{\\
-                        tone(buzzer, 10); // Send 1KHz sound signal...\\
-                        digitalWrite(ledPin1, LOW);\\
-                        digitalWrite(ledPin2, HIGH);\\
-                        delay(700);\\
-                        noTone(buzzer); // Stop sound...\\
-                        lcd.setCursor(0,0); // Position the cursor at 0.0\\
-                        lcd.print("Distance: "); // Print "Distance" to LCD\\
-                        lcd.print(distanceCm); // Print the distance to LCD\\
-                        lcd.print(" cm "); // Print the unit sur LCD\\
-                        delay(10);\\
-                        lcd.setCursor(0,1);\\
-                        lcd.print("Angle : ");\\
-                        lcd.print(pos);\\
-                        lcd.print(" deg ");\\
-                        delay(2000);\\
-                \}\\
-        \end{varwidth}}
-        \vspace{2mm}
-        \linebreak
-        Next, we have part 2 of this function. This for loop used for set the rotation of servo 
-        to go 180$^{\circ}$.\\
-        \vspace{2mm}
-        \fbox{\begin{varwidth}{\dimexpr\textwidth-2\fboxsep-2\fboxrule\relax}
-            \raggedright
-            else\{\\
-                digitalWrite(buzzer, HIGH);\\
-                digitalWrite(ledPin2, LOW);\\
-                digitalWrite(ledPin1, HIGH);\\
-                delay(100);\\
-                digitalWrite(buzzer, LOW);\\
-                lcd.setCursor(0,0); // Position the cursor at 0.0\\
-                lcd.print("Distance: "); // Print "Distance" sur LCD\\
-                lcd.print(distanceCm); // Print the distance to LCD\\
-                lcd.print(" cm "); // Print the unit to LCD\\
-                delay(10);\\
-                lcd.setCursor(0,1);\\
-                lcd.print("Angle : ");\\
-                lcd.print(pos);\\
-                lcd.print(" deg ");\\
-                delay(2000);\\
-            \} \\
-        \}\\
-        else\{\\
-            digitalWrite(buzzer, LOW);\\
-            digitalWrite(ledPin1, LOW);\\
-            digitalWrite(ledPin2, LOW);\\
-        \}\\
-        lcd.setCursor(0,0); // Position the cursor at 0.0\\
-        lcd.print("Distance: "); // Print "Distance" sur LCD\\
-        lcd.print(distanceCm); // Print the distance to LCD\\
-        lcd.print(" cm "); // Printe the unit to LCD\\
-        delay(10); \\
-        lcd.setCursor(0,1); \\
-        lcd.print("Angle : "); \\
-        lcd.print(pos); \\
-        lcd.print(" deg "); \\
-        delay(80); // wait 100ms for the servo to find its position \\
-        \} \\
-        \end{varwidth}}
-        \vspace{2mm}
-        \linebreak
-        Part 3 is the for loop to set the rotation cycle of servo motor. In this part, the for 
-        loop will be identical to the for loop i mentioned above in part 2. This for loop make 
-        a servo go back 180$^{\circ}$. 
+        \input{appendix.tex}
 
     \chapter{CONCLUSIONS AND RECOMMENDATIONS}
     \renewcommand{\headrulewidth}{0.5pt}

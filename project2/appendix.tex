@@ -1,0 +1,27 @@
+\documentclass{beamer}
+
+\setbeamercovered{transparent}
+
+\usepackage{listings}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{subfiles}
+
+\begin{document}
+    \begin{frame}[fragile]
+        \frametitle{Insert library}
+        \lstset{language=C++,
+        basicstyle=\ttfamily,
+        keywordstyle=\color{blue}\ttfamily,
+        stringstyle=\color{red}\ttfamily,
+        commentstyle=\color{green}\ttfamily,
+        morecomment=[l][\color{magenta}]{\#}
+        }
+    \begin{lstlisting}
+        #include <Servo.h>
+        #include <LiquidCrystal.h>
+        #include <Wire.h>
+    \end{lstlisting}
+    \end{frame}
+\end{document}
