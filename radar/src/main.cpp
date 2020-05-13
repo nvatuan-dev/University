@@ -106,7 +106,7 @@ void detectThings()
   delay(100); // wait 100ms for the servo to find its position 
 }
 
-void displayLcd(unit8_t distance)
+void displayLcd(uint8_t distance, int pos)
 {
   lcd.setCursor(0,0); // Position the cursor at 0.0
   lcd.print("Distance: "); // Print "Distance" sur LCD
