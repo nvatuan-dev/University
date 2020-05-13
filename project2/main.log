@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.4.1)  13 MAY 2020 11:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.4.1)  13 MAY 2020 12:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -319,7 +319,95 @@ Package: listings 2019/02/27 1.8b (Carsten Heinz)
 LaTeX Warning: Unused global option(s):
     [13pt].
 
-(/home/tuanlinux/University/project2/main.aux)
+(/home/tuanlinux/University/project2/main.aux
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+
+LaTeX Warning: Label `tab:table' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+
+LaTeX Warning: Label `tab:table' multiply defined.
+
+
+LaTeX Warning: Label `tab:table' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
@@ -431,12 +519,34 @@ Package pdftex.def Info: logo.jpg  used on input line 33.
 (pdftex.def)             Requested size: 198.74403pt x 115.93402pt.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
- </home/tuanlinux/University/project2/logo.jpg>] [2]
-No file main.toc.
+ </home/tuanlinux/University/project2/logo.jpg>] [2] (/home/tuanlinux/University/project2/main.toc
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 3.
+ (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 3.
+ (/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 3.
+ (/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 3.
+ (/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 3.
+)
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
-[3
+ [3
 
 ]
 Chapter 1.
@@ -451,10 +561,6 @@ Package pdftex.def Info: block_diagram.png  used on input line 105.
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 121.
  (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 121.
- (/usr/share/texmf/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 121.
@@ -520,30 +626,12 @@ File: servo3.PNG Graphic file (type png)
 Package pdftex.def Info: servo3.PNG  used on input line 457.
 (pdftex.def)             Requested size: 182.09486pt x 89.53378pt.
  [15 </home/tuanlinux/University/project2/Capture.PNG> </home/tuanlinux/University/project2/servo2.PNG> </home/tuanlinux/University/project2/servo3.PNG>]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 484.
- (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 484.
- (/usr/share/texmf/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 484.
- (/usr/share/texmf/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 484.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 484.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 484.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 502.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 502.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 502.
 <HC-SR04.jpg, id=76, 578.16pt x 285.31593pt>
 File: HC-SR04.jpg Graphic file (type jpg)
 <use HC-SR04.jpg>
@@ -636,150 +724,49 @@ Package pdftex.def Info: circuit.jpg  used on input line 888.
 (pdftex.def)             Requested size: 455.24411pt x 221.41899pt.
  [29 </home/tuanlinux/University/project2/circuit.jpg>]
 Chapter 3.
-(/home/tuanlinux/University/project2/appendix.tex
-
-/home/tuanlinux/University/project2/appendix.tex:1: LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \documentclass
-                  {beamer}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-/home/tuanlinux/University/project2/appendix.tex:3: Undefined control sequence.
-l.3 \setbeamercovered
-                     {transparent}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-/home/tuanlinux/University/project2/appendix.tex:5: LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 \usepackage
-               {listings}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-/home/tuanlinux/University/project2/appendix.tex:6: LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 \usepackage
-               [utf8]{inputenc}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-/home/tuanlinux/University/project2/appendix.tex:7: LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7 \usepackage
-               [english]{babel}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-/home/tuanlinux/University/project2/appendix.tex:8: LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 \usepackage
-               {graphicx}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-/home/tuanlinux/University/project2/appendix.tex:9: LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.9 \usepackage
-               {subfiles}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-/home/tuanlinux/University/project2/appendix.tex:11: LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 \begin{document}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-/home/tuanlinux/University/project2/appendix.tex:13: Undefined control sequence.
-l.13         \frametitle
-                        {Insert library}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+(/home/tuanlinux/University/project2/appendix.tex (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/02/27 1.8b listings language file
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/02/27 1.8b listings language file
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
 )
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 21.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 34.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <8> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 34.
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 38.
 ) [30
+
+]
+Chapter 4.
+[31
+
+]
+Chapter 5.
+[32
 
 ] (/home/tuanlinux/University/project2/main.aux)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
- ) )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 11 (\begingroup)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
- 6662 strings out of 494553
- 89889 string characters out of 6177378
- 370653 words of memory out of 5000000
- 10134 multiletter control sequences out of 15000+600000
- 66618 words of font info for 48 fonts, out of 8000000 for 9000
+ 6720 strings out of 494553
+ 90681 string characters out of 6177378
+ 402679 words of memory out of 5000000
+ 10186 multiletter control sequences out of 15000+600000
+ 77492 words of font info for 53 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,12n,58p,307b,1225s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on /home/tuanlinux/University/project2/main.pdf (30 pages, 2597289 bytes).
+ 43i,12n,69p,307b,1321s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb>
+Output written on /home/tuanlinux/University/project2/main.pdf (32 pages, 2649689 bytes).
 PDF statistics:
- 188 PDF objects out of 1000 (max. 8388607)
- 104 compressed objects within 2 object streams
+ 203 PDF objects out of 1000 (max. 8388607)
+ 115 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  141 words of extra memory for PDF output out of 10000 (max. 10000000)
 
