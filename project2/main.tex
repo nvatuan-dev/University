@@ -19,8 +19,13 @@
 \usepackage{array,multirow} 
 \usepackage{varwidth}
 \usepackage{listings}
+\usepackage{pgf}
+\usepackage{pgfpages}
 
 \setcounter{secnumdepth}{4}
+
+%Border
+\input{border.tex}
 
 \begin{document}
     \centering
@@ -44,7 +49,7 @@
     \vspace{15mm}
     \large{Under the guidance of} \\ 
     \vspace{10mm}
-    \centerline{\textbf{\large{Master.Cao Xuan Kim Anh}}}
+    \centerline{\textbf{\large{Msc.Cao Xuan Kim Anh}}}
     
     %Lines down here is set header and footer
     \pagestyle{fancy}
@@ -92,6 +97,18 @@
 
     \newpage
     \tableofcontents
+
+    \newpage
+    \thispagestyle{plain}
+    \centering
+    \centerline{\textbf{\huge{ABSTRACT}}}
+    \vspace{10mm}
+    \begin{flushleft}
+        In this project, we will find out about radar detector and the component i used in this 
+        project. First, i will introduce and show data of them. Next, i will show and analysis 
+        paradigm, circuit diagram and my product when i finished the project. And 
+        indispensable is code i used for my project.
+    \end{flushleft}
 
     \chapter{Introduction}
     \renewcommand{\headrulewidth}{0.5pt}
@@ -150,18 +167,29 @@
         methods and experience for my project. Avoid mistakes in my project.
         \end{itemize}
     \subsection{Structure Project}
-        My article is divided into three main sessions, summarized as follow: 
-        \begin{itemize}
-            \item In the first chapter, i will focus on brief introduce my project, presenting 
-        some of the research content on the topic of the method of conducting research that 
-        gives practical results during the project research process.
-            \item The second chapter, is an content and result of project. Besides is a block diagram 
-        how the project working and circuit diagram of my project.
-            \item Chapter three is the chapter where i introduce and explain the code i used in this project.
-            \item Chapter four is the chapter for giving conclusions and recommendations about my project.
-            \item And the final chapter is the final section where i list the sources of reference i have 
-        used in this project.
-        \end{itemize}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.7\linewidth]{flowchart1.png}
+            \caption{\label{fig:flowchart}Flowchart for project}
+        \end{figure}
+        \large{
+                    Arduino board sends a signal of 5V to TRIG pin of Ultrasonic Sensor HC-SR04 
+                which triggers the sensor. Then it procides rotational action at the servo motor mechanically 
+                fitted along with Ultrasonic sensor so that it can detec the moving objects and locate within 
+                180 degrees. \\ 
+                \vspace{1mm}
+                \par The Arduino sends a HIGH pulse width of (10 S) on the TRIGGER pin of the sensor to 
+                regenerate  a series of ultrasonic waves which propagate through the air, until it touches 
+                an obstacle and returns in the opposite direction towards the sensor pin ECHO. The sensor 
+                detecs the width of the pulse to calculate the distance. \\
+                \vspace{1mm}
+                \par The signal on ECHO pin of the sensor remains at the HIGH position during transmission, 
+                thereby measuring the duration of the round trip of ultrasound and thus determine the distance. \\
+                \vspace{1mm}
+                \par The LCD display displays the calculated distance and the angle of rotation. The buzzer 
+                is an additional component, it rings when there is a detection (Tone 1 and Tone 2) along 
+                with the LEDs. These both LEDs along with buzzer determine the field where the object is 
+                located (near or distant). \\}
     \newpage
     \section{BASIC THEORY}
     \subsection{Theory about the radar}
@@ -872,32 +900,6 @@
                             \includegraphics[width=0.8\linewidth]{radar-work.png}
                             \caption{\label{fig:pic}How a radar works}
                         \end{figure}
-                    \par Now, in this project we will learn how this model working. \\
-                    \vspace{3mm}
-                    \Large{\textbf{FLOWCHART OF MODEL}}
-                    \begin{figure}[H]
-                        \centering
-                        \includegraphics[width=\linewidth]{flowchart1.png}
-                        \caption{\label{fig:pic}Flowchart}
-                    \end{figure}
-                    \large{
-                        Arduino board sends a signal of 5V to TRIG pin of Ultrasonic Sensor HC-SR04 
-                    which triggers the sensor. Then it procides rotational action at the servo motor mechanically 
-                    fitted along with Ultrasonic sensor so that it can detec the moving objects and locate within 
-                    180 degrees. \\ 
-                    \vspace{1mm}
-                    \par The Arduino sends a HIGH pulse width of (10 S) on the TRIGGER pin of the sensor to 
-                    regenerate  a series of ultrasonic waves which propagate through the air, until it touches 
-                    an obstacle and returns in the opposite direction towards the sensor pin ECHO. The sensor 
-                    detecs the width of the pulse to calculate the distance. \\
-                    \vspace{1mm}
-                    \par The signal on ECHO pin of the sensor remains at the HIGH position during transmission, 
-                    thereby measuring the duration of the round trip of ultrasound and thus determine the distance. \\
-                    \vspace{1mm}
-                    \par The LCD display displays the calculated distance and the angle of rotation. The buzzer 
-                    is an additional component, it rings when there is a detection (Tone 1 and Tone 2) along 
-                    with the LEDs. These both LEDs along with buzzer determine the field where the object is 
-                    located (near or distant). \\}
         \section{CIRCUIT DIAGRAM AND RESULT}
             \subsection{\large{Circuit Diagram}}
                 \begin{figure}[H]
