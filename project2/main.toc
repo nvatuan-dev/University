@@ -6,29 +6,29 @@
 \contentsline {subsection}{\numberline {1.1.3}Object and position research}{8}% 
 \contentsline {subsection}{\numberline {1.1.4}Method of research}{8}% 
 \contentsline {subsection}{\numberline {1.1.5}Structure Project}{8}% 
-\contentsline {section}{\numberline {1.2}BASIC THEORY}{10}% 
-\contentsline {subsection}{\numberline {1.2.1}Theory about the radar}{10}% 
-\contentsline {subsection}{\numberline {1.2.2}Some research related to the project}{10}% 
-\contentsline {subsection}{\numberline {1.2.3}Theory concepts related to research issues}{10}% 
-\contentsline {subsection}{\numberline {1.2.4}Components Required}{10}% 
-\contentsline {subsection}{\numberline {1.2.5}Component Description}{12}% 
-\contentsline {subsubsection}{\numberline {1.2.5.1}\relax \fontsize {14.4}{18}\selectfont {Arduino Uno}}{12}% 
-\contentsline {subsubsection}{\numberline {1.2.5.2}\relax \fontsize {14.4}{18}\selectfont {Servo Motor}}{15}% 
-\contentsline {subsubsection}{\numberline {1.2.5.3}\relax \fontsize {14.4}{18}\selectfont {HC-SR04 (Ultrasonic Sensor)}}{20}% 
-\contentsline {subsubsection}{\numberline {1.2.5.4}\relax \fontsize {14.4}{18}\selectfont {LCD 16x02}}{23}% 
-\contentsline {subsubsection}{\numberline {1.2.5.5}\relax \fontsize {14.4}{18}\selectfont {Buzzer}}{25}% 
-\contentsline {chapter}{\numberline {2}CONTENT AND RESULT}{29}% 
-\contentsline {section}{\numberline {2.1}CONTENT}{29}% 
-\contentsline {subsection}{\numberline {2.1.1}{Block Diagram and Principles of Operation}}{29}% 
-\contentsline {subsubsection}{\numberline {2.1.1.1}\relax \fontsize {12}{14}\selectfont {Block Diagram}}{29}% 
-\contentsline {subsubsection}{\numberline {2.1.1.2}\relax \fontsize {12}{14}\selectfont {Working of the project}}{30}% 
-\contentsline {section}{\numberline {2.2}CIRCUIT DIAGRAM AND RESULT}{32}% 
-\contentsline {subsection}{\numberline {2.2.1}\relax \fontsize {12}{14}\selectfont {Circuit Diagram}}{32}% 
-\contentsline {subsection}{\numberline {2.2.2}Result}{32}% 
-\contentsline {chapter}{\numberline {3}APPENDIX}{33}% 
-\contentsline {chapter}{\numberline {4}CONCLUSIONS AND RECOMMENDATIONS}{35}% 
-\contentsline {section}{\numberline {4.1}CONCLUDES}{35}% 
-\contentsline {subsection}{\numberline {4.1.1}\relax \fontsize {12}{14}\selectfont {Advantages}}{35}% 
-\contentsline {subsection}{\numberline {4.1.2}\relax \fontsize {12}{14}\selectfont {Defects}}{35}% 
-\contentsline {section}{\numberline {4.2}RECOMMENDATIONS}{35}% 
-\contentsline {chapter}{\numberline {5}THE REFERENCES}{36}% 
+\contentsline {section}{\numberline {1.2}BASIC THEORY}{9}% 
+\contentsline {subsection}{\numberline {1.2.1}Theory about the radar}{9}% 
+\contentsline {subsection}{\numberline {1.2.2}Some research related to the project}{9}% 
+\contentsline {subsection}{\numberline {1.2.3}Theory concepts related to research issues}{9}% 
+\contentsline {subsection}{\numberline {1.2.4}Components Required}{9}% 
+\contentsline {subsection}{\numberline {1.2.5}Component Description}{11}% 
+\contentsline {subsubsection}{\numberline {1.2.5.1}\relax \fontsize {14.4}{18}\selectfont {Arduino Uno}}{11}% 
+\contentsline {subsubsection}{\numberline {1.2.5.2}\relax \fontsize {14.4}{18}\selectfont {Servo Motor}}{14}% 
+\contentsline {subsubsection}{\numberline {1.2.5.3}\relax \fontsize {14.4}{18}\selectfont {HC-SR04 (Ultrasonic Sensor)}}{19}% 
+\contentsline {subsubsection}{\numberline {1.2.5.4}\relax \fontsize {14.4}{18}\selectfont {LCD 16x02}}{22}% 
+\contentsline {subsubsection}{\numberline {1.2.5.5}\relax \fontsize {14.4}{18}\selectfont {Buzzer}}{24}% 
+\contentsline {chapter}{\numberline {2}CONTENT AND RESULT}{28}% 
+\contentsline {section}{\numberline {2.1}CONTENT}{28}% 
+\contentsline {subsection}{\numberline {2.1.1}{Block Diagram and Principles of Operation}}{28}% 
+\contentsline {subsubsection}{\numberline {2.1.1.1}\relax \fontsize {12}{14}\selectfont {Block Diagram}}{28}% 
+\contentsline {subsubsection}{\numberline {2.1.1.2}\relax \fontsize {12}{14}\selectfont {Working of the project}}{29}% 
+\contentsline {section}{\numberline {2.2}CIRCUIT DIAGRAM AND RESULT}{31}% 
+\contentsline {subsection}{\numberline {2.2.1}\relax \fontsize {12}{14}\selectfont {Circuit Diagram}}{31}% 
+\contentsline {subsection}{\numberline {2.2.2}Result}{31}% 
+\contentsline {chapter}{\numberline {3}APPENDIX}{32}% 
+\contentsline {chapter}{\numberline {4}CONCLUSIONS AND RECOMMENDATIONS}{34}% 
+\contentsline {section}{\numberline {4.1}CONCLUDES}{34}% 
+\contentsline {subsection}{\numberline {4.1.1}\relax \fontsize {12}{14}\selectfont {Advantages}}{34}% 
+\contentsline {subsection}{\numberline {4.1.2}\relax \fontsize {12}{14}\selectfont {Defects}}{34}% 
+\contentsline {section}{\numberline {4.2}RECOMMENDATIONS}{34}% 
+\contentsline {chapter}{\numberline {5}THE REFERENCES}{35}% 

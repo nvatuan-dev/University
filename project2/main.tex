@@ -172,24 +172,8 @@
             \includegraphics[width=0.7\linewidth]{flowchart1.png}
             \caption{\label{fig:flowchart}Flowchart for project}
         \end{figure}
-        \large{
-                    Arduino board sends a signal of 5V to TRIG pin of Ultrasonic Sensor HC-SR04 
-                which triggers the sensor. Then it procides rotational action at the servo motor mechanically 
-                fitted along with Ultrasonic sensor so that it can detec the moving objects and locate within 
-                180 degrees. \\ 
-                \vspace{1mm}
-                \par The Arduino sends a HIGH pulse width of (10 S) on the TRIGGER pin of the sensor to 
-                regenerate  a series of ultrasonic waves which propagate through the air, until it touches 
-                an obstacle and returns in the opposite direction towards the sensor pin ECHO. The sensor 
-                detecs the width of the pulse to calculate the distance. \\
-                \vspace{1mm}
-                \par The signal on ECHO pin of the sensor remains at the HIGH position during transmission, 
-                thereby measuring the duration of the round trip of ultrasound and thus determine the distance. \\
-                \vspace{1mm}
-                \par The LCD display displays the calculated distance and the angle of rotation. The buzzer 
-                is an additional component, it rings when there is a detection (Tone 1 and Tone 2) along 
-                with the LEDs. These both LEDs along with buzzer determine the field where the object is 
-                located (near or distant). \\}
+
+
     \newpage
     \section{BASIC THEORY}
     \subsection{Theory about the radar}
@@ -907,6 +891,24 @@
                     \includegraphics[width=\linewidth]{circuit.jpg}
                     \caption{\label{fig:pic}Circuit Diagram}
                 \end{figure}
+                \large{
+                    Arduino board sends a signal of 5V to TRIG pin of Ultrasonic Sensor HC-SR04 
+                which triggers the sensor. Then it procides rotational action at the servo motor mechanically 
+                fitted along with Ultrasonic sensor so that it can detec the moving objects and locate within 
+                180 degrees. \\ 
+                \vspace{1mm}
+                \par The Arduino sends a HIGH pulse width of (10 S) on the TRIGGER pin of the sensor to 
+                regenerate  a series of ultrasonic waves which propagate through the air, until it touches 
+                an obstacle and returns in the opposite direction towards the sensor pin ECHO. The sensor 
+                detecs the width of the pulse to calculate the distance. \\
+                \vspace{1mm}
+                \par The signal on ECHO pin of the sensor remains at the HIGH position during transmission, 
+                thereby measuring the duration of the round trip of ultrasound and thus determine the distance. \\
+                \vspace{1mm}
+                \par The LCD display displays the calculated distance and the angle of rotation. The buzzer 
+                is an additional component, it rings when there is a detection (Tone 1 and Tone 2) along 
+                with the LEDs. These both LEDs along with buzzer determine the field where the object is 
+                located (near or distant). \\}
             \subsection{Result}
 
     \chapter{APPENDIX}
