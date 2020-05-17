@@ -24,11 +24,11 @@
 \contentsline {subsubsection}{\numberline {2.1.1.2}\relax \fontsize {12}{14}\selectfont {Working of the project}}{25}% 
 \contentsline {section}{\numberline {2.2}CIRCUIT DIAGRAM AND RESULT}{27}% 
 \contentsline {subsection}{\numberline {2.2.1}\relax \fontsize {12}{14}\selectfont {Circuit Diagram}}{27}% 
-\contentsline {subsection}{\numberline {2.2.2}Result}{27}% 
-\contentsline {chapter}{\numberline {3}APPENDIX}{28}% 
-\contentsline {chapter}{\numberline {4}CONCLUSIONS AND RECOMMENDATIONS}{30}% 
-\contentsline {section}{\numberline {4.1}CONCLUDES}{30}% 
-\contentsline {subsection}{\numberline {4.1.1}\relax \fontsize {12}{14}\selectfont {Advantages}}{30}% 
-\contentsline {subsection}{\numberline {4.1.2}\relax \fontsize {12}{14}\selectfont {Defects}}{30}% 
-\contentsline {section}{\numberline {4.2}RECOMMENDATIONS}{30}% 
-\contentsline {chapter}{\numberline {5}THE REFERENCES}{31}% 
+\contentsline {subsection}{\numberline {2.2.2}Result}{28}% 
+\contentsline {chapter}{\numberline {3}APPENDIX}{29}% 
+\contentsline {chapter}{\numberline {4}CONCLUSIONS AND RECOMMENDATIONS}{31}% 
+\contentsline {section}{\numberline {4.1}CONCLUDES}{31}% 
+\contentsline {subsection}{\numberline {4.1.1}\relax \fontsize {12}{14}\selectfont {Advantages}}{31}% 
+\contentsline {subsection}{\numberline {4.1.2}\relax \fontsize {12}{14}\selectfont {Defects}}{31}% 
+\contentsline {section}{\numberline {4.2}RECOMMENDATIONS}{31}% 
+\contentsline {chapter}{\numberline {5}THE REFERENCES}{32}% 

@@ -22,7 +22,6 @@
 \usepackage{background}
 \usepackage{tikz}
 \usetikzlibrary{calc}
-\usetikzlibrary{decorations.pathmorphing}
 
 \setcounter{secnumdepth}{4}
 
@@ -904,6 +903,21 @@
                 is an additional component, it rings when there is a detection (Tone 1 and Tone 2) along 
                 with the LEDs. These both LEDs along with buzzer determine the field where the object is 
                 located (near or distant). \\}
+                \vspace{2mm}
+                \par We will have to convert this time into centermet to calculate the distance traveled. 
+                We will use the following equation to calculate it.
+                \begin{align*}
+                    \centering
+                    \textbf{S = V*t}
+                \end{align*}
+                \vspace{2mm}
+                \par The ultrasonic wave is basically a sound wave that travels at a speed of 340m/s 
+                (0.034cm/s). The ultrasonic is measuring the time it takes to hit the object and then 
+                come back but we need only time that it takes to hit the object. So we will divide it by 2.
+                \begin{align*}
+                    \centering
+                    \textbf{S = (t * 0.034)/2}
+                \end{align*}
             \subsection{Result}
 
     \chapter{APPENDIX}
