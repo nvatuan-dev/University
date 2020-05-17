@@ -314,6 +314,10 @@ INPUT /home/tuanlinux/University/project2/servo2.PNG
 INPUT /home/tuanlinux/University/project2/servo3.PNG
 INPUT /home/tuanlinux/University/project2/servo3.PNG
 INPUT /home/tuanlinux/University/project2/servo3.PNG
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr7.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx7.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr5.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx5.tfm
 INPUT /home/tuanlinux/University/project2/HC-SR04.jpg
 INPUT /home/tuanlinux/University/project2/HC-SR04.jpg
 INPUT /home/tuanlinux/University/project2/HC-SR04.jpg
@@ -380,7 +384,6 @@ INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
 INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmtt8.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmtk10.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr5.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmtk10.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmri12.tfm
 INPUT /home/tuanlinux/University/project2/main.aux

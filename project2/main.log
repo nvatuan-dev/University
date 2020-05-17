@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.4.1)  17 MAY 2020 14:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.4.1)  17 MAY 2020 14:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -837,13 +837,13 @@ File: ultrasonic_sensor.png Graphic file (type png)
 Package pdftex.def Info: ultrasonic_sensor.png  used on input line 564.
 (pdftex.def)             Requested size: 182.09486pt x 176.491pt.
  [15]
-<ultrasonic.png, id=88, 758.835pt x 564.1075pt>
+<ultrasonic.png, id=86, 758.835pt x 564.1075pt>
 File: ultrasonic.png Graphic file (type png)
 <use ultrasonic.png>
 Package pdftex.def Info: ultrasonic.png  used on input line 577.
 (pdftex.def)             Requested size: 273.14923pt x 203.05272pt.
  [16 </home/tuanlinux/University/project2/HC-SR04.jpg> </home/tuanlinux/University/project2/ultrasonic_sensor.png>]
-<LCD.jpg, id=92, 439.6425pt x 297.36093pt>
+<LCD.jpg, id=91, 439.6425pt x 297.36093pt>
 File: LCD.jpg Graphic file (type jpg)
 <use LCD.jpg>
 Package pdftex.def Info: LCD.jpg  used on input line 620.
@@ -852,35 +852,35 @@ Package pdftex.def Info: LCD.jpg  used on input line 620.
 
 LaTeX Warning: File `lcd diagram.PNG' not found on input line 643.
 
-<lcd diagram.PNG, id=96, 524.71031pt x 251.43938pt>
+<lcd diagram.PNG, id=95, 524.71031pt x 251.43938pt>
 File: lcd diagram.PNG Graphic file (type png)
 <use lcd diagram.PNG>
 Package pdftex.def Info: lcd diagram.PNG  used on input line 643.
 (pdftex.def)             Requested size: 455.24411pt x 218.15964pt.
 [18 </home/tuanlinux/University/project2/lcd diagram.PNG>] [19]
-<buzzer.PNG, id=105, 398.23781pt x 374.14781pt>
+<buzzer.PNG, id=104, 398.23781pt x 374.14781pt>
 File: buzzer.PNG Graphic file (type png)
 <use buzzer.PNG>
 Package pdftex.def Info: buzzer.PNG  used on input line 729.
 (pdftex.def)             Requested size: 182.09486pt x 171.07674pt.
  [20]
-<buzzer1.jpg, id=109, 200.75pt x 163.61125pt>
+<buzzer1.jpg, id=108, 200.75pt x 163.61125pt>
 File: buzzer1.jpg Graphic file (type jpg)
 <use buzzer1.jpg>
 Package pdftex.def Info: buzzer1.jpg  used on input line 750.
 (pdftex.def)             Requested size: 136.57462pt x 111.31657pt.
-<buzzer2.jpg, id=110, 1355.0625pt x 1355.0625pt>
+<buzzer2.jpg, id=109, 1355.0625pt x 1355.0625pt>
 File: buzzer2.jpg Graphic file (type jpg)
 <use buzzer2.jpg>
 Package pdftex.def Info: buzzer2.jpg  used on input line 757.
 (pdftex.def)             Requested size: 182.09486pt x 182.0778pt.
  [21 </home/tuanlinux/University/project2/buzzer.PNG> </home/tuanlinux/University/project2/buzzer1.jpg>]
-<buzzer.jpg, id=115, 501.875pt x 501.875pt>
+<buzzer.jpg, id=114, 501.875pt x 501.875pt>
 File: buzzer.jpg Graphic file (type jpg)
 <use buzzer.jpg>
 Package pdftex.def Info: buzzer.jpg  used on input line 765.
 (pdftex.def)             Requested size: 136.57462pt x 136.57251pt.
-<buzzer-pinout.png, id=116, 369.38pt x 380.42125pt>
+<buzzer-pinout.png, id=115, 369.38pt x 380.42125pt>
 File: buzzer-pinout.png Graphic file (type png)
 <use buzzer-pinout.png>
 Package pdftex.def Info: buzzer-pinout.png  used on input line 784.
@@ -953,15 +953,15 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 17053 strings out of 494553
- 313572 string characters out of 6177378
+ 17059 strings out of 494553
+ 313633 string characters out of 6177378
  741571 words of memory out of 5000000
- 20278 multiletter control sequences out of 15000+600000
- 86466 words of font info for 56 fonts, out of 8000000 for 9000
+ 20281 multiletter control sequences out of 15000+600000
+ 95437 words of font info for 59 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  62i,12n,124p,497b,2372s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb>
-Output written on /home/tuanlinux/University/project2/main.pdf (33 pages, 2668731 bytes).
+Output written on /home/tuanlinux/University/project2/main.pdf (33 pages, 2667467 bytes).
 PDF statistics:
  209 PDF objects out of 1000 (max. 8388607)
  120 compressed objects within 2 object streams
