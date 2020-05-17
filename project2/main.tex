@@ -19,46 +19,41 @@
 \usepackage{array,multirow} 
 \usepackage{varwidth}
 \usepackage{listings}
-\usepackage{pgf}
-\usepackage{pgfpages}
+\usepackage{background}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{decorations.pathmorphing}
 
 \setcounter{secnumdepth}{4}
 
-%Border
-\input{border.tex}
-
 \begin{document}
-    \centering
-    \LARGE{\textsc{VIETNAM AVIATION ACADEMY}}\\
-    \vspace{3mm}
-    \normalsize{Department of Telecommunication - Electronics Engineering Technology} \\
-    \vspace{3mm}
-    \large{LOCATED IN HO CHI MINH CITY} \\
-    \vspace{3mm}
-    \includegraphics[scale=0.3]{logo.jpg} \\
-    \vspace{3mm}
-    \normalsize{PROJECT REPORT: } \\ 
-    \vspace{15mm}
-    \huge{\textbf{"Radar detector module using Arduino"}} \\
-    \vspace{20mm}
-    \normalsize{Written by} \\
-    \vspace{3mm}
-    \large{\textbf{\textit{Nguyen Van Anh Tuan}}} \\
-    \vspace{3mm}
-    \textbf{{\large{\textit{Roll.No.1753020018}}}} \\
-    \vspace{15mm}
-    \large{Under the guidance of} \\ 
-    \vspace{10mm}
-    \centerline{\textbf{\large{Msc.Cao Xuan Kim Anh}}}
-    
-    %Lines down here is set header and footer
-    \pagestyle{fancy}
-    \fancyhf{}
-    \rhead{Radar detector module}
-    \lhead{Anh Tuan}
-    \cfoot{\today}
-    \renewcommand{\headrulewidth}{2pt}
-    \renewcommand{\footrulewidth}{1pt}
+    \begin{titlepage}
+        \centering
+        \input{border.tex}
+        \LARGE{\textsc{VIETNAM AVIATION ACADEMY}}\\
+        \vspace{3mm}
+        \normalsize{Department of Telecommunication - Electronics Engineering Technology} \\
+        \vspace{3mm}
+        \large{LOCATED IN HO CHI MINH CITY} \\
+        \vspace{3mm}
+        \includegraphics[scale=0.3]{logo.jpg} \\
+        \vspace{3mm}
+        \normalsize{PROJECT REPORT: } \\ 
+        \vspace{15mm}
+        \huge{\textbf{"Radar detector module using Arduino"}} \\
+        \vspace{20mm}
+        \normalsize{Written by} \\
+        \vspace{3mm}
+        \large{\textbf{\textit{Nguyen Van Anh Tuan}}} \\
+        \vspace{3mm}
+        \textbf{{\large{\textit{Roll.No.1753020018}}}} \\
+        \vspace{15mm}
+        \large{Under the guidance of} \\ 
+        \vspace{10mm}
+        \centerline{\textbf{\large{Msc.Cao Xuan Kim Anh}}}
+        \vspace{6cm}
+        \centerline{\today}
+    \end{titlepage}
 
     % \setlength\parindent{24pt} is indentation.
     \newpage

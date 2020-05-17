@@ -1,18 +1,11 @@
-\pgfpagesdeclarelayout{boxed}
-{
-    \edef\pgfpageoptionborder{0pt}
+\SetBgScale{1}
+\SetBgAngle{0}
+\SetBgColor{black}
+\SetBgContents{
+\begin{tikzpicture}[overlay,remember picture]
+    \draw [line width=1pt,rounded corners=15pt,double]
+        ($ (current page.north west) + (.5cm,-.5cm) $)
+        rectangle
+        ($ (current page.south east) + (-.5cm,.5cm) $);
+\end{tikzpicture}
 }
-{
-    \pgfpagesphysicalpageoptions
-    {
-        logical pages = 1, %change value 1 start box
-    }
-    \pgfpageslogicalpageoptions{1}{
-        border code=\pgfsetlinewidth{2pt}\pgfstroke,
-        border shrink=\pgfpageoptionborder,
-        resized width=.95\pgfphysicalwidth,
-        resized height=.95\pgfphysicalheight,
-        center=\pgfpoint{.5\pgfphysicalwidth}{.5\pgfphysicalheight}
-    }
-}
-\pgfpagesuselayout{boxed}
