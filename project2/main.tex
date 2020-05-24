@@ -167,6 +167,39 @@
             \includegraphics[width=0.8\linewidth]{flowchart1.png}
             \caption{\label{fig:flowchart}Flowchart for project}
         \end{figure}
+        \large{
+                    Arduino board sends a signal of 5V to TRIG pin of Ultrasonic Sensor HC-SR04 
+                which triggers the sensor. Then it procides rotational action at the servo motor mechanically 
+                fitted along with Ultrasonic sensor so that it can detec the moving objects and locate within 
+                180 degrees. \\ 
+                \vspace{1mm}
+                \par The Arduino sends a HIGH pulse width of (10 S) on the TRIGGER pin of the sensor to 
+                regenerate  a series of ultrasonic waves which propagate through the air, until it touches 
+                an obstacle and returns in the opposite direction towards the sensor pin ECHO. The sensor 
+                detecs the width of the pulse to calculate the distance. \\
+                \vspace{1mm}
+                \par The signal on ECHO pin of the sensor remains at the HIGH position during transmission, 
+                thereby measuring the duration of the round trip of ultrasound and thus determine the distance. \\
+                \vspace{1mm}
+                \par The LCD display displays the calculated distance and the angle of rotation. The buzzer 
+                is an additional component, it rings when there is a detection (Tone 1 and Tone 2) along 
+                with the LEDs. These both LEDs along with buzzer determine the field where the object is 
+                located (near or distant). \\}
+                \vspace{2mm}
+                \par We will have to convert this time into centermet to calculate the distance traveled. 
+                We will use the following equation to calculate it.
+                \begin{align*}
+                    \centering
+                    \textbf{S = V*t}
+                \end{align*}
+                \vspace{2mm}
+                \par The ultrasonic wave is basically a sound wave that travels at a speed of 340m/s 
+                (0.034cm/s). The ultrasonic is measuring the time it takes to hit the object and then 
+                come back but we need only time that it takes to hit the object. So we will divide it by 2.
+                \begin{align*}
+                    \centering
+                    \textbf{S = (t * 0.034)/2}
+                \end{align*}
 
 
     \newpage
@@ -879,47 +912,12 @@
                             \includegraphics[width=0.8\linewidth]{radar-work.png}
                             \caption{\label{fig:pic}How a radar works}
                         \end{figure}
-        \section{CIRCUIT DIAGRAM AND RESULT}
-            \subsection{\large{Circuit Diagram}}
-                \begin{figure}[H]
-                    \centering
-                    \includegraphics[width=\linewidth]{circuit.jpg}
-                    \caption{\label{fig:pic}Circuit Diagram}
-                \end{figure}
-                \large{
-                    Arduino board sends a signal of 5V to TRIG pin of Ultrasonic Sensor HC-SR04 
-                which triggers the sensor. Then it procides rotational action at the servo motor mechanically 
-                fitted along with Ultrasonic sensor so that it can detec the moving objects and locate within 
-                180 degrees. \\ 
-                \vspace{1mm}
-                \par The Arduino sends a HIGH pulse width of (10 S) on the TRIGGER pin of the sensor to 
-                regenerate  a series of ultrasonic waves which propagate through the air, until it touches 
-                an obstacle and returns in the opposite direction towards the sensor pin ECHO. The sensor 
-                detecs the width of the pulse to calculate the distance. \\
-                \vspace{1mm}
-                \par The signal on ECHO pin of the sensor remains at the HIGH position during transmission, 
-                thereby measuring the duration of the round trip of ultrasound and thus determine the distance. \\
-                \vspace{1mm}
-                \par The LCD display displays the calculated distance and the angle of rotation. The buzzer 
-                is an additional component, it rings when there is a detection (Tone 1 and Tone 2) along 
-                with the LEDs. These both LEDs along with buzzer determine the field where the object is 
-                located (near or distant). \\}
-                \vspace{2mm}
-                \par We will have to convert this time into centermet to calculate the distance traveled. 
-                We will use the following equation to calculate it.
-                \begin{align*}
-                    \centering
-                    \textbf{S = V*t}
-                \end{align*}
-                \vspace{2mm}
-                \par The ultrasonic wave is basically a sound wave that travels at a speed of 340m/s 
-                (0.034cm/s). The ultrasonic is measuring the time it takes to hit the object and then 
-                come back but we need only time that it takes to hit the object. So we will divide it by 2.
-                \begin{align*}
-                    \centering
-                    \textbf{S = (t * 0.034)/2}
-                \end{align*}
-            \subsection{Result}
+        \section{CIRCUIT DIAGRAM OF PROJECT}
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=\linewidth]{circuit.jpg}
+                \caption{\label{fig:pic}Circuit Diagram}
+            \end{figure}
 
     \chapter{APPENDIX}
     \renewcommand{\headrulewidth}{0.5pt}
