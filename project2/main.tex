@@ -131,15 +131,7 @@
     \end{flushleft}
 
     \chapter{Introduction}
-    \renewcommand{\headrulewidth}{0.5pt}
-    \renewcommand{\footrulewidth}{0.5pt}
-    \thispagestyle{fancy}
-    \fancyhf{}
-    \fancyhead[L]{\textbf{CHAPTER 1}}
-    \fancyhead[R]{\textbf{Radar Detector Module}}
-    \raggedright
-    \fancyfoot[L]{From: Nguyen Van Anh Tuan}
-    \fancyfoot[R]{Page \thepage}
+    \input{header_footer.tex}
     \section{PRELIMINARY INTRODUCTION}
     \subsection{The reason why to choose project}
         With the passion for aviation as well as passion for technology and equipment realted to 
@@ -185,7 +177,7 @@
             \item \textbf{Method of analysis:} Looking for some similar projects that have 
         been made available online, from the detailed data of those projects, i draw some 
         methods and experience for my project. Avoid mistakes in my project.
-        \end{itemize}
+        \end{itemize} 
     \subsection{Structure Project}
         \begin{figure}[H]
             \centering
@@ -225,7 +217,6 @@
                     \centering
                     \textbf{S = (t * 0.034)/2}
                 \end{align*}
-
 
     \newpage
     \section{BASIC THEORY}
@@ -875,15 +866,7 @@
             \end{enumerate}
 
     \chapter{CONTENT AND RESULT}
-    \renewcommand{\headrulewidth}{0.5pt}
-    \renewcommand{\footrulewidth}{0.5pt}
-    \thispagestyle{fancy}
-    \fancyhf{}
-    \fancyhead[L]{\textbf{CHAPTER 2}}
-    \fancyhead[R]{\textbf{Radar Detector Module}}
-    \raggedright
-    \fancyfoot[L]{From: Nguyen Van Anh Tuan}
-    \fancyfoot[R]{Page \thepage}
+    \input{chapter2.tex}
         \section{CONTENT}
                 \subsection{\large{Block Diagram}}
                     \begin{figure}[H]
@@ -894,14 +877,6 @@
                     \par This diagram tell that Arduino is the interfaced with ultrasonic sensor. When the 
                     object is detected, the signal is given to the Arduino board which will below budget LED 
                     and LCD. That why mounted on ultrasonic sensors that will be rotating.
-                \newpage
-                \thispagestyle{fancy}
-                \fancyhf{}
-                \fancyhead[L]{\textbf{CHAPTER 2}}
-                \fancyhead[R]{\textbf{Radar Detector Module}}
-                \raggedright
-                \fancyfoot[L]{From: Nguyen Van Anh Tuan}
-                \fancyfoot[R]{Page \thepage}
                 \subsection{\large{Working of the project}}
                     \begin{figure}[H]
                         \centering
@@ -938,14 +913,6 @@
                             \item Computer in receiver unit processes reflected waves and draws them on TV screen.
                             \item Enemy plane shows up on TV radar display with any other nearby targets. 
                         \end{enumerate}
-                        \newpage
-                        \thispagestyle{fancy}
-                        \fancyhf{}
-                        \fancyhead[L]{\textbf{CHAPTER 2}}
-                        \fancyhead[R]{\textbf{Radar Detector Module}}
-                        \raggedright
-                        \fancyfoot[L]{From: Nguyen Van Anh Tuan}
-                        \fancyfoot[R]{Page \thepage}
                         \begin{figure}[H]
                             \centering
                             \includegraphics[width=0.8\linewidth]{radar-work.png}
@@ -957,29 +924,14 @@
                 \includegraphics[width=\linewidth]{circuit.jpg}
                 \caption{\label{fig:pic}Circuit Diagram}
             \end{figure}
+        \section{ENFORCEMMENT RESULT}
 
-    \chapter{APPENDIX}
-    \renewcommand{\headrulewidth}{0.5pt}
-    \renewcommand{\footrulewidth}{0.5pt}
-    \thispagestyle{fancy}
-    \fancyhf{}
-    \fancyhead[L]{\textbf{CHAPTER 3}}
-    \fancyhead[R]{\textbf{Radar Detector Module}}
-    \raggedright
-    \fancyfoot[L]{From: Nguyen Van Anh Tuan}
-    \fancyfoot[R]{Page \thepage}
+    \chapter{APPENDICES}
+    \input{chapter3.tex}
         \input{appendix.tex}
 
     \chapter{CONCLUSIONS AND RECOMMENDATIONS}
-    \renewcommand{\headrulewidth}{0.5pt}
-    \renewcommand{\footrulewidth}{0.5pt}
-    \thispagestyle{fancy}
-    \fancyhf{}
-    \fancyhead[L]{\textbf{CHAPTER 4}}
-    \fancyhead[R]{\textbf{Radar Detector Module}}
-    \raggedright
-    \fancyfoot[L]{From: Nguyen Van Anh Tuan}
-    \fancyfoot[R]{Page \thepage}
+    \input{chapter4.tex}
         \section{CONCLUDES}
             \subsection{\large{Advantages}}
                 \begin{itemize}
@@ -988,12 +940,12 @@
                     display them on the LCD screen.
                     \item The circuit diagram and wiring of this project aren't too complicated to be 
                     able to do.
+                    \item The operating range of the sensor can scan in a range of distance of 2-400 cm.
                 \end{itemize}
             \subsection{\large{Defects}}
                 \begin{itemize}
                     \item Too much wire to connect all the component.
-                    \item The operating range of the sensor does not go too far, less than 20 cm.
-                    \item The ingredients of this project are quite expensive.
+                    \item The components of this project are quite expensive.
                 \end{itemize}
         \section{RECOMMENDATIONS}
             In this project, i think i should be broader and more advanced than the present one, 

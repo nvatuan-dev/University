@@ -22,10 +22,11 @@
 \contentsline {subsection}{\numberline {2.1.1}\large {Block Diagram}}{29}%
 \contentsline {subsection}{\numberline {2.1.2}\large {Working of the project}}{30}%
 \contentsline {section}{\numberline {2.2}CIRCUIT DIAGRAM OF PROJECT}{31}%
-\contentsline {chapter}{\numberline {3}APPENDIX}{32}%
-\contentsline {chapter}{\numberline {4}CONCLUSIONS AND RECOMMENDATIONS}{34}%
-\contentsline {section}{\numberline {4.1}CONCLUDES}{34}%
-\contentsline {subsection}{\numberline {4.1.1}\large {Advantages}}{34}%
-\contentsline {subsection}{\numberline {4.1.2}\large {Defects}}{34}%
-\contentsline {section}{\numberline {4.2}RECOMMENDATIONS}{34}%
-\contentsline {chapter}{\numberline {5}THE REFERENCES}{35}%
+\contentsline {section}{\numberline {2.3}ENFORCEMMENT RESULT}{32}%
+\contentsline {chapter}{\numberline {3}APPENDICES}{33}%
+\contentsline {chapter}{\numberline {4}CONCLUSIONS AND RECOMMENDATIONS}{35}%
+\contentsline {section}{\numberline {4.1}CONCLUDES}{35}%
+\contentsline {subsection}{\numberline {4.1.1}\large {Advantages}}{35}%
+\contentsline {subsection}{\numberline {4.1.2}\large {Defects}}{35}%
+\contentsline {section}{\numberline {4.2}RECOMMENDATIONS}{35}%
+\contentsline {chapter}{\numberline {5}THE REFERENCES}{36}%
