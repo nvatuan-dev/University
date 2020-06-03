@@ -19,7 +19,7 @@ void leftToRight();
 void rightToLeft();
 void configSensor();
 void detectThings();
-void displayLcd(unit8_t distance, int pos)
+void displayLcd(uint8_t distance, int pos);
 
 void setup() {
   myServo.attach(MOTEUR); // Attach the servo motor to pin 11
@@ -73,7 +73,7 @@ void configSensor()
 
 void detectThings()
 {
- duration = pulseIn(ECHOPIN, HIGH);
+  duration = pulseIn(ECHOPIN, HIGH);
   distanceCm= duration*0.034/2;
   if (distanceCm <= DistanceSec){
     if(distanceCm <= DistanceSec/2)
@@ -93,7 +93,7 @@ void detectThings()
     delay(100);
     digitalWrite(BUZZER, LOW);
     
-    displayLcd(distanceCm,pos);
+    displayLcd(distanceCm, pos);
   }
 }
   else{
