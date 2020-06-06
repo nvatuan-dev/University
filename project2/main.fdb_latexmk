@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1590848775 "/home/tuanlinux/University/project2/main.tex" "/home/tuanlinux/University/project2/main.pdf" "main" 1590848777
+["pdflatex"] 1590848775 "/home/tuanlinux/University/project2/main.tex" "/home/tuanlinux/University/project2/main.pdf" "main" 1591412952
   "/etc/texmf/web2c/texmf.cnf" 1590141486 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/tuanlinux/University/project2/main.aux" 1590848777 11550 9685f10a45c1dd7808d105af88d8ff69 ""
   "/home/tuanlinux/University/project2/main.tex" 1590848773 58582 daf6a4808ededbd0eaa52754a96010e6 ""
@@ -225,9 +225,9 @@
   "ultrasonic.png" 1590341550 17996 82bd27fd6937683b20cc9d7313c06a5d ""
   "ultrasonic_sensor.png" 1590341550 34383 7aa84e50b62151a54b63ff12553b4e2d ""
   (generated)
+  "main.log"
   "/home/tuanlinux/University/project2/main.pdf"
   "/home/tuanlinux/University/project2/main.log"
   "main.pdf"
-  "main.aux"
   "main.toc"
-  "main.log"
+  "main.aux"
