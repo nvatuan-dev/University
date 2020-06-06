@@ -19,13 +19,13 @@ void leftToRight();
 void rightToLeft();
 void configSensor();
 void detectThings();
-void displayLcd(unit8_t distance);
+void displayLcd(uint8_t distance);
 
 void setup() {
   myServo.attach(MOTEUR); // Attach the servo motor to pin 11
   lcd.begin(16,2); // Initialize the Lcd interface with their Size
   configPin();
-  DistanceSec=400;
+  DistanceSec = 400;
 }
 
 void loop() {
@@ -73,7 +73,7 @@ void configSensor()
 
 void detectThings()
 {
- duration = pulseIn(ECHOPIN, HIGH);
+  duration = pulseIn(ECHOPIN, HIGH);
   distanceCm= duration*0.034/2;
   if (distanceCm <= DistanceSec){
     if(distanceCm <= DistanceSec/2)
