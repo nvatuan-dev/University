@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.25)  30 MAY 2020 21:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.25)  6 JUN 2020 14:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -603,6 +603,12 @@ LaTeX Warning: Label `fig:pic' multiply defined.
 
 LaTeX Warning: Label `fig:pic' multiply defined.
 
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
+
+LaTeX Warning: Label `fig:pic' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
@@ -895,7 +901,18 @@ File: circuit.jpg Graphic file (type jpg)
 <use circuit.jpg>
 Package pdftex.def Info: circuit.jpg  used on input line 924.
 (pdftex.def)             Requested size: 455.24411pt x 221.41899pt.
- [31 </home/tuanlinux/University/project2/radar-work.png> </home/tuanlinux/University/project2/circuit.jpg>] [32]
+<green.jpg, id=155, 4047.12pt x 3035.34pt>
+File: green.jpg Graphic file (type jpg)
+<use green.jpg>
+Package pdftex.def Info: green.jpg  used on input line 932.
+(pdftex.def)             Requested size: 273.14923pt x 204.85345pt.
+ [31 </home/tuanlinux/University/project2/radar-work.png> </home/tuanlinux/University/project2/circuit.jpg>]
+<red.jpg, id=160, 4047.12pt x 3035.34pt>
+File: red.jpg Graphic file (type jpg)
+<use red.jpg>
+Package pdftex.def Info: red.jpg  used on input line 939.
+(pdftex.def)             Requested size: 273.14923pt x 204.85345pt.
+ [32 </home/tuanlinux/University/project2/green.jpg> </home/tuanlinux/University/project2/red.jpg>]
 Chapter 3.
 (/home/tuanlinux/University/project2/chapter3.tex) (/home/tuanlinux/University/project2/appendix.tex (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
@@ -928,18 +945,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 17023 strings out of 481239
- 314167 string characters out of 5920377
- 918904 words of memory out of 5000000
- 31862 multiletter control sequences out of 15000+600000
+ 17035 strings out of 481239
+ 314301 string characters out of 5920377
+ 919010 words of memory out of 5000000
+ 31872 multiletter control sequences out of 15000+600000
  615539 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,12n,126p,497b,2363s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb>
-Output written on /home/tuanlinux/University/project2/main.pdf (37 pages, 2667964 bytes).
+Output written on /home/tuanlinux/University/project2/main.pdf (37 pages, 6361388 bytes).
 PDF statistics:
- 227 PDF objects out of 1000 (max. 8388607)
+ 229 PDF objects out of 1000 (max. 8388607)
  134 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 153 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 163 words of extra memory for PDF output out of 10000 (max. 10000000)
 
