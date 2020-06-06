@@ -18,8 +18,8 @@ void configPin();
 void leftToRight();
 void rightToLeft();
 void configSensor();
-void detectThings();
-void displayLcd(uint8_t distance, int pos);
+void detectObjects(int posi);
+void displayLcd(uint8_t distance_cm, int posi);
 
 void setup() {
   myServo.attach(MOTEUR); // Attach the servo motor to pin 11
@@ -48,7 +48,7 @@ void leftToRight()
 // in steps of 1 degree
   myServo.write(pos); // Servo programming to get to the position (pos)
   configSensor();
-  detectThings();
+  detectObjects(pos);
   }
 }
 
@@ -57,7 +57,7 @@ void rightToLeft()
   for (int pos = 180; pos >= 0; pos--) { //goes from 180 to 0 degree
   myServo.write(pos); //
   configSensor();
-  detectThings();
+  detectObjects(pos);
   }
 }
 
@@ -71,7 +71,7 @@ void configSensor()
   digitalWrite(TRIGPIN, LOW);
 }
 
-void detectThings()
+void detectObjects(int posi)
 {
   duration = pulseIn(ECHOPIN, HIGH);
   distanceCm= duration*0.034/2;
@@ -84,7 +84,7 @@ void detectThings()
     delay(700);
     noTone(BUZZER); // Stop sound...
       
-    displayLcd(distanceCm, pos);
+    displayLcd(distanceCm, posi);
   }
   else{
     digitalWrite(BUZZER, HIGH);
@@ -93,7 +93,7 @@ void detectThings()
     delay(100);
     digitalWrite(BUZZER, LOW);
     
-    displayLcd(distanceCm, pos);
+    displayLcd(distanceCm, posi);
   }
 }
   else{
@@ -102,19 +102,19 @@ void detectThings()
     digitalWrite(LEDPIN2, LOW);
   }
 
-  displayLcd(distanceCm, pos);
+  displayLcd(distanceCm, posi);
   delay(100); // wait 100ms for the servo to find its position 
 }
 
-void displayLcd(uint8_t distance, int pos)
+void displayLcd(uint8_t distance_cm, int posi)
 {
   lcd.setCursor(0,0); // Position the cursor at 0.0
   lcd.print("Distance: "); // Print "Distance" sur LCD
-  lcd.print(distance); // Print the distance to LCD
+  lcd.print(distanceCm); // Print the distance to LCD
   lcd.print(" cm "); // Printe the unit to LCD
   delay(10);
   lcd.setCursor(0,1);
   lcd.print("Angle : ");
-  lcd.print(pos);
+  lcd.print(posi);
   lcd.print(" deg ");
 }
