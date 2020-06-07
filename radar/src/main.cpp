@@ -21,7 +21,6 @@ void configSensor();
 void detectObjects(int posi);
 void displayLcd(uint8_t distance_cm, int posi);
 
-
 void setup() {
   myServo.attach(MOTEUR); // Attach the servo motor to pin 11
   lcd.begin(16,2); // Initialize the Lcd interface with their Size
@@ -85,7 +84,7 @@ void detectObjects(int posi)
     delay(700);
     noTone(BUZZER); // Stop sound...
       
-    displayLcd(distance_cm, posi);
+    displayLcd(distanceCm, posi);
   }
   else{
     digitalWrite(BUZZER, HIGH);
@@ -94,7 +93,7 @@ void detectObjects(int posi)
     delay(100);
     digitalWrite(BUZZER, LOW);
     
-    displayLcd(distance_cm, posi);
+    displayLcd(distanceCm, posi);
   }
 }
   else{
@@ -103,7 +102,7 @@ void detectObjects(int posi)
     digitalWrite(LEDPIN2, LOW);
   }
 
-  displayLcd(distance_cm, posi);
+  displayLcd(distanceCm, posi);
   delay(100); // wait 100ms for the servo to find its position 
 }
 
@@ -111,7 +110,7 @@ void displayLcd(uint8_t distance_cm, int posi)
 {
   lcd.setCursor(0,0); // Position the cursor at 0.0
   lcd.print("Distance: "); // Print "Distance" sur LCD
-  lcd.print(distance_cm); // Print the distance to LCD
+  lcd.print(distanceCm); // Print the distance to LCD
   lcd.print(" cm "); // Printe the unit to LCD
   delay(10);
   lcd.setCursor(0,1);
