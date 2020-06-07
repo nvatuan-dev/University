@@ -18,21 +18,18 @@ void configPin();
 void leftToRight();
 void rightToLeft();
 void configSensor();
-<<<<<<< HEAD
 void detectObjects(int posi);
 void displayLcd(uint8_t distance_cm, int posi);
-=======
 void detectThings();
 void displayLcd(uint8_t distance);
 void displayLcd(uint8_t distance, int pos);
->>>>>>> 4cef432a09845e47bc42a9a3fe67d38b736abc7d
 
 
 void setup() {
   myServo.attach(MOTEUR); // Attach the servo motor to pin 11
   lcd.begin(16,2); // Initialize the Lcd interface with their Size
   configPin();
-  DistanceSec = 400;
+  DistanceSec = 50;
 }
 
 void loop() {
