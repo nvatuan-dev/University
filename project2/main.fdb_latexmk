@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1591504991 "/home/tuanlinux/University/project2/main.tex" "/home/tuanlinux/University/project2/main.pdf" "main" 1591505009
+["pdflatex"] 1591548523 "/home/tuanlinux/University/project2/main.tex" "/home/tuanlinux/University/project2/main.pdf" "main" 1591548525
   "/etc/texmf/web2c/texmf.cnf" 1590141486 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/tuanlinux/University/project2/main.aux" 1591504993 11877 fb970712bff364d368c985fde546aa1e ""
-  "/home/tuanlinux/University/project2/main.tex" 1591505008 59275 41cd2e8cb373fdc279f32309fa161f65 ""
+  "/home/tuanlinux/University/project2/main.aux" 1591548525 11877 fb970712bff364d368c985fde546aa1e ""
+  "/home/tuanlinux/University/project2/main.tex" 1591548523 59804 9ea6a1e29109714d690e3d5cfa67c875 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -215,9 +215,9 @@
   "header_footer.tex" 1590846785 287 84dc5d9dd115b36da2618beff23f4a56 ""
   "lcd diagram.PNG" 1590341550 21708 b9f0ff09d46e9613230f7106305b855c ""
   "logo.jpg" 1590341550 76689 9d4e06576b91b572b6e1dde61b3ff9a6 ""
-  "main.aux" 1591504993 11877 fb970712bff364d368c985fde546aa1e "pdflatex"
-  "main.tex" 1591505008 59275 41cd2e8cb373fdc279f32309fa161f65 ""
-  "main.toc" 1591504993 2258 097ce05aa8477462bed227779b04715a "pdflatex"
+  "main.aux" 1591548525 11877 fb970712bff364d368c985fde546aa1e "pdflatex"
+  "main.tex" 1591548523 59804 9ea6a1e29109714d690e3d5cfa67c875 ""
+  "main.toc" 1591548525 2258 097ce05aa8477462bed227779b04715a "pdflatex"
   "pinout.png" 1590341550 484695 c759d76c505365bf231f2401cc32e084 ""
   "radar-work.png" 1590341550 13144 5e83ada67c1c93ee410b0554a4c0a3e9 ""
   "red.jpg" 1591428565 1916284 81060d920cd841e6bf53c353b927a278 ""
@@ -227,9 +227,9 @@
   "ultrasonic.png" 1590341550 17996 82bd27fd6937683b20cc9d7313c06a5d ""
   "ultrasonic_sensor.png" 1590341550 34383 7aa84e50b62151a54b63ff12553b4e2d ""
   (generated)
+  "main.pdf"
   "/home/tuanlinux/University/project2/main.pdf"
+  "main.aux"
   "/home/tuanlinux/University/project2/main.log"
   "main.toc"
-  "main.pdf"
-  "main.aux"
   "main.log"

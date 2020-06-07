@@ -1,4 +1,4 @@
-\documentclass[13pt,a4paper]{report}
+\documentclass[a4paper,13pt]{report}
 
 \usepackage[top=2.5cm,bottom=2.5cm,left=3cm,right=2cm]{geometry}
 \usepackage[a4,frame,center]{crop}
@@ -186,14 +186,14 @@
         \end{figure}
         \large{
                     Arduino board sends a signal of 5V to TRIG pin of Ultrasonic Sensor HC-SR04 
-                which triggers the sensor. Then it procides rotational action at the servo motor mechanically 
-                fitted along with Ultrasonic sensor so that it can detec the moving objects and locate within 
+                which triggers the sensor. Then it provides rotational action at the servo motor mechanically 
+                fitted along with Ultrasonic sensor so that it can detect the moving objects and locate within 
                 180 degrees. \\ 
                 \vspace{1mm}
-                \par The Arduino sends a HIGH pulse width of (10 S) on the TRIGGER pin of the sensor to 
+                \par The Arduino sends a HIGH pulse width on the TRIGGER pin of the sensor to 
                 regenerate  a series of ultrasonic waves which propagate through the air, until it touches 
                 an obstacle and returns in the opposite direction towards the sensor pin ECHO. The sensor 
-                detecs the width of the pulse to calculate the distance. \\
+                detects the width of the pulse to calculate the distance. \\
                 \vspace{1mm}
                 \par The signal on ECHO pin of the sensor remains at the HIGH position during transmission, 
                 thereby measuring the duration of the round trip of ultrasound and thus determine the distance. \\
@@ -203,14 +203,23 @@
                 with the LEDs. These both LEDs along with buzzer determine the field where the object is 
                 located (near or distant). \\}
                 \vspace{2mm}
-                \par We will have to convert this time into centermet to calculate the distance traveled. 
-                We will use the following equation to calculate it.
+                \par Project have a formula to calculate the distance is:
                 \begin{align*}
                     \centering
                     \textbf{S = V*t}
                 \end{align*}
+                \par \textbf{Which is:} 
+                \begin{itemize}
+                    \item \textbf{S:} Distance from the sensor to the object.
+                    \item \textbf{V:} velocity, which is 340m/s.
+                    \item \textbf{t:} Width of Echo Pulse, in $\mu$S (micro second).
+                    \item Distance in centimeters = Time / 58.
+                    \item Distance in Inches = Time / 148
+                \end{itemize}
                 \vspace{2mm}
-                \par The ultrasonic wave is basically a sound wave that travels at a speed of 340m/s 
+                \par In this project, will have to convert this time into centimeters to calculate the distance traveled. 
+                We will use the following equation to calculate it.
+                The ultrasonic wave is basically a sound wave that travels at a speed of 340m/s 
                 (0.034cm/s). The ultrasonic is measuring the time it takes to hit the object and then 
                 come back but we need only time that it takes to hit the object. So we will divide it by 2.
                 \begin{align*}
