@@ -58,8 +58,8 @@
     void leftToRight();
     void rightToLeft();
     void configSensor();
-    void detectThings();
-    void displayLcd(uint8_t distance, int pos);
+    void detectObjects(int posi);
+    void displayLcd(uint8_t distance_cm, int posi);
 \end{lstlisting}
 
 \begin{lstlisting}[language=cpp,caption={Define "configPin()" Function}]
@@ -77,7 +77,7 @@
         myServo.attach(MOTEUR); //Attach the servo motor to pin 11
         lcd.begin(16,2); //Initialize the lcd interface with their Size
         configPin();
-        DistanceSec = 400;
+        DistanceSec = 50;
     }
 \end{lstlisting}
 
@@ -106,9 +106,9 @@
         delayMicroseconds(10);
         digitalWrite(TRIGPIN, LOW);
     }
-    void detectThings(){
+    void detectObjects(int posi){
         duration = pulseIn(ECHOPIN, HIGH);
-        distanceCm= duration*0.034/2;
+        distance_cm= duration*0.034/2;
         if (distanceCm <= DistanceSec){
             if(distanceCm <= DistanceSec/2){
                 tone(BUZZER, 10); // Send 1KHz sound signal...
@@ -116,7 +116,7 @@
                 digitalWrite(LEDPIN2, HIGH);
                 delay(700);
                 noTone(BUZZER); // Stop sound...
-                displayLcd(distanceCm);
+                displayLcd(distanceCm, posi);
             }
             else{
                 digitalWrite(BUZZER, HIGH);
@@ -124,7 +124,7 @@
                 digitalWrite(LEDPIN1, HIGH);
                 delay(100);
                 digitalWrite(BUZZER, LOW);
-                displayLcd(distanceCm);
+                displayLcd(distanceCm, posi);
             }
         }
         else{
@@ -132,13 +132,13 @@
             digitalWrite(LEDPIN1, LOW);
             digitalWrite(LEDPIN2, LOW);
         }
-        displayLcd(distanceCm);
+        displayLcd(distanceCm, posi);
         delay(100); // wait 100ms for the servo to find its position
     }
 \end{lstlisting}
 
 \begin{lstlisting}[language=cpp,caption={Define displayLCD Funtion}]
-    void displayLcd(uint8_t distance, int pos){
+    void displayLcd(uint8_t distance_cm, int posi){
         lcd.setCursor(0,0); // Position the cursor at 0.0
         lcd.print("Distance: "); // Print "Distance" sur LCD
         lcd.print(distance); // Print the distance to LCD
