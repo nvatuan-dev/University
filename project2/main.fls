@@ -252,6 +252,9 @@ INPUT /usr/share/texmf/tex/latex/lm/omxlmex.fd
 INPUT /usr/share/texmf/tex/latex/lm/omxlmex.fd
 INPUT /usr/share/texmf/fonts/tfm/public/lm/lmex10.tfm
 OUTPUT /home/tuanlinux/University/project2/main.toc
+INPUT /home/tuanlinux/University/project2/main.lof
+INPUT /home/tuanlinux/University/project2/main.lof
+OUTPUT /home/tuanlinux/University/project2/main.lof
 INPUT /home/tuanlinux/University/project2/header_footer.tex
 INPUT /home/tuanlinux/University/project2/header_footer.tex
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr12.tfm

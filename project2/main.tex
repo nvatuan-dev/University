@@ -117,6 +117,7 @@
 
     \newpage
     \tableofcontents
+    \listoffigures
 
     \newpage
     \thispagestyle{plain}
@@ -149,7 +150,7 @@
     \begin{figure}[ht]
         \centering
         \includegraphics[scale=0.7]{block_diagram.png}
-        \caption{\label{fig:pic}Block diagram for radar model}
+        \caption{Block diagram for radar model}
     \end{figure}
     \linebreak
     \par You may ask how the processing application works here. It's very simple, the 
@@ -182,7 +183,7 @@
         \begin{figure}[H]
             \centering
             \includegraphics[width=0.8\linewidth]{flowchart1.png}
-            \caption{\label{fig:flowchart}Flowchart for project}
+            \caption{Flowchart for project}
         \end{figure}
         \large{
                     Arduino board sends a signal of 5V to TRIG pin of Ultrasonic Sensor HC-SR04 
@@ -308,17 +309,17 @@
                 \par There are many versions of Uno board available. However, Arduino Uno V3 and Arduino 
                 Uno are the most official versions that come with ATMega328 8-bit AVR Atmel microcontroller 
                 where RAM memory is 32KB.
-                \begin{figure}[ht]
+                \begin{figure}[H]
                     \centering
                     \includegraphics[width=0.5\linewidth]{Uno.png}
-                    \caption{\label{fig:pic}Arduino Uno board}
+                    \caption{Arduino Uno board}
                 \end{figure}
                 \item \textbf{Features}
                     \linebreak
-                    \begin{figure}[ht]
+                    \begin{figure}[H]
                         \centering
                         \includegraphics[width=0.6\linewidth]{atmega.png}
-                        \caption{\label{fig:pic}ATMega328 Microcontroller}
+                        \caption{ATMega328 Microcontroller}
                     \end{figure}
                 \begin{itemize}
                     \item Comes with USB interface.
@@ -348,10 +349,10 @@
                     \par Arduino Uno is based on AVR microcontroller call ATMega328. This controller 
                 comes with 2KB RAM, 32KB of flash memory, 1KB of EEPROM. Arduino board comes with 
                 14 digital pins and 6 analog pins.
-                    \begin{figure}[ht]
+                    \begin{figure}[H]
                         \centering
                         \includegraphics[width=\linewidth]{pinout.png}
-                        \caption{\label{fig:pic}Arduino Uno Pinout}
+                        \caption{Arduino Uno Pinout}
                     \end{figure}
                 \item \textbf{Pin Description}
                     \linebreak
@@ -443,10 +444,10 @@
                     \vspace{2mm}
                     \par Servo also appear behind the scene in devices we use every day. Electronic device 
                 such as DVD players use servos to extend or retract the disc trays.
-                    \begin{figure}[ht]
+                    \begin{figure}[H]
                         \centering
                         \includegraphics[width=0.6\linewidth]{Servo.jpg}
-                        \caption{\label{fig:pic}Assortment of Servos}
+                        \caption{Assortment of Servos}
                     \end{figure}
                 \item \textbf{How does a servo work?}
                     \vspace{3mm}
@@ -455,20 +456,20 @@
                 might find in an cheap toy. These motors run on electricity from a battery and spin 
                 at high RPM(Rotations per minute) but put out very low \textbf{torque}(a twisting force 
                 used to do work you apply torque when you open a bottle).
-                    \begin{figure}[ht]
+                    \begin{figure}[H]
                         \centering
                         \includegraphics[width=0.6\linewidth]{Servo1.jpg}
-                        \caption{\label{fig:pic}The Gears in a Typical Standard-size servo}
+                        \caption{The Gears in a Typical Standard-size servo}
                     \end{figure}
                     \newpage
                     \par In high-power servo, the plastic gears are replaced by metal ones for strength. 
                     The motor is usually more powerful than in a low-power servo and the overall output torque 
                     can be as much as 20 times higher than a cheaper plastic one. Better quality is more 
                     expensive, and high-output servos can cost two or three times as much as standard ones.
-                    \begin{figure}[ht]
+                    \begin{figure}[H]
                         \centering
                         \includegraphics[width=0.6\linewidth]{Servo2.jpg}
-                        \caption{\label{fig:pic}The gears in a Typical High-power servo}
+                        \caption{The gears in a Typical High-power servo}
                     \end{figure} 
                     \vspace{2mm}
                     \par With a small DC motor, you apply power from a battery, and the motor spins. 
@@ -480,10 +481,10 @@
                 how far the user wants the servo to rotate. Then compares the desired position to the 
                 actual position and decides which direction to rotate the shaft so it gets to the desired 
                 position.
-                    \begin{figure}[ht]
+                    \begin{figure}[H]
                         \centering
                         \includegraphics[width=0.4\linewidth]{Servo3.jpg}
-                        \caption{\label{fig:pic}The circuit board and DC motor in a high-power servo}
+                        \caption{The circuit board and DC motor in a high-power servo}
                     \end{figure}
                 \item \textbf{Types of servo motors}
                     \vspace{3mm}
@@ -509,10 +510,10 @@
                 \item \textbf{Selecting a servo motor}
                     \linebreak
                     \vspace{3mm}
-                    \begin{figure}[ht]
+                    \begin{figure}[H]
                         \centering
                         \includegraphics[width=0.3\linewidth]{sg90.jpg}
-                        \caption{\label{fig:pic}Micro Servo 90}
+                        \caption{Micro Servo 90}
                     \end{figure}
                     \newpage
                     Micro servo motor 90(SG90) is tiny and lightweight with high output power. This servo can 
@@ -520,24 +521,24 @@
                     but smaller. We can use any servo code, hardware or library to control this servo. It good for 
                     beginners who want to make stuff move without building a motor controller with feedback and gear 
                     box, especially since it will fit in small places.
-                    \begin{figure}[ht]
+                    \begin{figure}[H]
                         \centering
                         \includegraphics[width=\linewidth]{Capture.PNG}
-                        \caption{\label{fig:pic}Section of SG90}
+                        \caption{Section of SG90}
                     \end{figure}
                     \par \textbf{Block Diagram of SG90}
-                    \begin{figure}[ht]
+                    \begin{figure}[H]
                         \centering
                         \includegraphics[width=0.6\linewidth]{Servo2.PNG}
-                        \caption{\label{fig:pic}SG90 datasheet}
+                        \caption{SG90 datasheet}
                     \end{figure}
                 \item \textbf{Controlling a servo motor} 
                     \linebreak
                     \vspace{3mm}
-                    \begin{figure}[ht]
+                    \begin{figure}[H]
                         \centering
                         \includegraphics[width=0.4\linewidth]{servo3.PNG}
-                        \caption{\label{fig:pic}PWN Period}
+                        \caption{PWN Period}
                     \end{figure}
                     \par Servo take commands from a series of pulse sent from the computer or radio. A pulse 
                 is a transition from low voltage to high voltage which stays high for a short time, and then 
@@ -575,7 +576,7 @@
                             Operating Current & < 15mA \\ \hline
                             Sensor Dimensions & 45mm x 20mm x 15mm \\ \hline
                         \end{tabular}
-                        \caption{\label{tab:table}Feature of HC-SR04}
+                        \caption{Feature of HC-SR04}
                     \end{table}
                     \vspace{2mm}
                     \par In order to calculate the distance between the sensor and the object, the sensor 
@@ -608,21 +609,20 @@
                             4 & Ground & This pin is connected to ground \\
                             \hline
                         \end{tabular}
-                        \caption{\label{tab:table}Pinout of HC-SR04}
+                        \caption{Pinout of HC-SR04}
                     \end{table}
                     \par This figure below here is labelled these HC-SR04 Pinout for better visualization:
-                    \begin{figure}[ht]
+                    \begin{figure}[H]
                         \centering
                         \includegraphics[width=\linewidth]{HC-SR04.jpg}
-                        \caption{\label{fig:pic}HC-SR04 Pinout}
+                        \caption{HC-SR04 Pinout}
                     \end{figure}
                 \item \textbf{How does it work?}
-                    \begin{figure}[ht]
+                    \begin{figure}[H]
                         \centering
                         \includegraphics[width=0.4\linewidth]{ultrasonic_sensor.png}
-                        \caption{\label{fig:pic}Ultrasonic sensor diagram}
+                        \caption{Ultrasonic sensor diagram}
                     \end{figure}
-                    \linebreak
                     \par The \textbf{HC-SR04 Ultrasonic Sensor(US)} is an ultrasonic transducer that comes with 
                 4 pin interface named as Vcc, Trigger, Echo, and Ground. It is very useful for accurate distance 
                 measurement of the target object and mainly works on the sound waves. \\
@@ -630,10 +630,10 @@
                     \par As we connect the module to 5V and initialize the input pin, it starts transmitting 
                 the sound waves which then travel through the air and hit the required object. These waves 
                 hit and bounce back from the object and then collected by the receiver of the module. \\
-                    \begin{figure}[ht]
+                    \begin{figure}[H]
                         \centering
                         \includegraphics[width=0.6\linewidth]{ultrasonic.png}
-                        \caption{\label{fig:pic}Principle of wave transmission}
+                        \caption{Principle of wave transmission}
                     \end{figure}
                     \par Distance is directly proportional to the time these waves require to come back at the 
                 receiving end. The more the time taken, more the distance will be. \\
@@ -676,7 +676,7 @@
                     \begin{figure}[H]
                         \centering
                         \includegraphics[width=0.4\linewidth]{LCD.jpg}
-                        \caption{\label{fig:pic}LCD 16x2 Module}
+                        \caption{LCD 16x2 Module}
                     \end{figure}
                     \par The liquid crystal display are normally used in different embedded projects due to 
                 its low cost, easy access and flexibility to get programmed. \\
@@ -699,7 +699,7 @@
                     \begin{figure}[H]
                         \centering
                         \includegraphics[width=\linewidth]{lcd diagram.PNG}
-                        \caption{\label{fig:pic}Block Diagram of LCD}
+                        \caption{Block Diagram of LCD}
                     \end{figure}
                 \item \textbf{Pinout Description}
                     \linebreak
@@ -738,7 +738,7 @@
                             16 & Led Negative & Backlight liquid crystal display pinout negative terminal \\ 
                             \hline
                         \end{tabular}
-                        \caption{\label{tab:table}Pinout of 16x2 LCD}
+                        \caption{Pinout of 16x2 LCD}
                     \end{table}
                 \item \textbf{Command code for 16x2 LCD Module}
                     \begin{table}[H]
@@ -766,7 +766,7 @@
                             18 & 38 & 2 lines and 5x7 matrix \\ 
                             \hline
                         \end{tabular}
-                        \caption{\label{tab:table}Command code}
+                        \caption{Command code}
                     \end{table}
                 \item \textbf{Features}
                     \par \guillemotright These are some features of 16x2 LCD module that are described with 
@@ -785,7 +785,7 @@
                     \begin{figure}[H]
                         \centering
                         \includegraphics[width=0.4\linewidth]{buzzer.PNG}
-                        \caption{\label{fig:pic}Buzzer}
+                        \caption{Buzzer}
                     \end{figure}
                     \par A buzzer or beeper is an audio signalling device, which maybe mechanical, electromechanical, 
                     or piezoelectric(piezo for short). Typical uses of buzzers and beepers include alarm devices, 
@@ -806,14 +806,14 @@
                         \begin{figure}[H]
                             \centering
                             \includegraphics[width=0.3\linewidth]{buzzer1.jpg}
-                            \caption{\label{fig:pic}Electromechanical Buzzer}
+                            \caption{Electromechanical Buzzer}
                         \end{figure}
                         \item \textbf{Mechanical:} A joy buzzer is an example of a purely mechanical buzzer and 
                         they require drivers. Other examples of them are doorbells.
                         \begin{figure}[H]
                             \centering
                             \includegraphics[width=0.4\linewidth]{buzzer2.jpg}
-                            \caption{\label{fig:pic}Mechanical Buzzer}
+                            \caption{Mechanical Buzzer}
                         \end{figure}
                         \item \textbf{Piezoelectric:} driven by an oscillating electronic circuit or other audio 
                         signal source, driven with a "piezoelectric audio amplifier". Sounds commonly used to indicate 
@@ -821,7 +821,7 @@
                         \begin{figure}[H]
                             \centering
                             \includegraphics[width=0.3\linewidth]{buzzer.jpg}
-                            \caption{\label{fig:pic}Piezoelectric Buzzer}
+                            \caption{Piezoelectric Buzzer}
                         \end{figure}
                     \end{itemize}
                 \item \textbf{Pin Configuration}
@@ -840,7 +840,7 @@
                     \begin{figure}[H]
                         \centering
                         \includegraphics[width=0.4\linewidth]{buzzer-pinout.png}
-                        \caption{\label{fig:pic}Buzzer Pinout}
+                        \caption{Buzzer Pinout}
                     \end{figure}
                 \item \textbf{Features and Specifications}
                     \linebreak
@@ -881,7 +881,7 @@
                     \begin{figure}[H]
                         \centering
                         \includegraphics[width=0.8\linewidth]{diagram-project.png}
-                        \caption{\label{fig:pic}Arduino Radar Using Ultrasonic Sensor}
+                        \caption{Arduino Radar Using Ultrasonic Sensor}
                     \end{figure}
                     \par This diagram tell that Arduino is the interfaced with ultrasonic sensor. When the 
                     object is detected, the signal is given to the Arduino board which will below budget LED 
@@ -890,7 +890,7 @@
                     \begin{figure}[H]
                         \centering
                         \includegraphics[width=0.6\linewidth]{500px-PSR_1.png}
-                        \caption{\label{fig:pic}PSR principle of operation}
+                        \caption{PSR principle of operation}
                     \end{figure}
                     Before we learn about how to this project working. We should find out how to conventional 
                     radar work. \\ 
@@ -925,13 +925,13 @@
                         \begin{figure}[H]
                             \centering
                             \includegraphics[width=0.8\linewidth]{radar-work.png}
-                            \caption{\label{fig:pic}How a radar works}
+                            \caption{How a radar works}
                         \end{figure}
         \section{CIRCUIT DIAGRAM OF PROJECT}
             \begin{figure}[H]
                 \centering
                 \includegraphics[width=0.6\linewidth]{circuit.jpg}
-                \caption{\label{fig:pic}Circuit Diagram}
+                \caption{Circuit Diagram}
             \end{figure}
         \section{ENFORCEMMENT RESULT}
             When the radar detect an objects within the safe range, a green notification 
@@ -939,14 +939,14 @@
             \begin{figure}[H]
                 \centering
                 \includegraphics[width=0.6\linewidth]{green.jpg}
-                \caption{\label{fig:pic}An object in the safe range}
+                \caption{An object in the safe range}
             \end{figure}
             Other ways, if the radar detect an object within the dangerous range, a red notification 
             light will appear.
             \begin{figure}[H]
                 \centering
                 \includegraphics[width=0.6\linewidth]{red.jpg}
-                \caption{\label{fig:pic}An object in the dangerous range}
+                \caption{An object in the dangerous range}
             \end{figure}
 
     \chapter{APPENDICES}
