@@ -10,7 +10,7 @@
 \contentsline {subsection}{\numberline {1.2.1}Theory about the radar}{11}%
 \contentsline {subsection}{\numberline {1.2.2}Some research related to the project}{11}%
 \contentsline {subsection}{\numberline {1.2.3}Theory concepts related to research issues}{11}%
-\contentsline {subsection}{\numberline {1.2.4}Components Required}{11}%
+\contentsline {subsection}{\numberline {1.2.4}Components Required}{12}%
 \contentsline {subsection}{\numberline {1.2.5}Component Description}{13}%
 \contentsline {subsubsection}{\numberline {1.2.5.1}\Large {Arduino Uno}}{13}%
 \contentsline {subsubsection}{\numberline {1.2.5.2}\Large {Servo Motor}}{16}%
@@ -22,7 +22,7 @@
 \contentsline {subsection}{\numberline {2.1.1}\large {Block Diagram}}{30}%
 \contentsline {subsection}{\numberline {2.1.2}\large {Working of the project}}{31}%
 \contentsline {section}{\numberline {2.2}CIRCUIT DIAGRAM OF PROJECT}{32}%
-\contentsline {section}{\numberline {2.3}ENFORCEMMENT RESULT}{32}%
+\contentsline {section}{\numberline {2.3}ENFORCEMMENT RESULT}{33}%
 \contentsline {chapter}{\numberline {3}APPENDICES}{34}%
 \contentsline {chapter}{\numberline {4}CONCLUSIONS AND RECOMMENDATIONS}{36}%
 \contentsline {section}{\numberline {4.1}CONCLUDES}{36}%
