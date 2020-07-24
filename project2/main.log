@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.16)  16 JUL 2020 01:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.21)  24 JUL 2020 21:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/goodboiz/Documents/University/project2/main.tex
-(/home/goodboiz/Documents/University/project2/main.tex
+**/home/goodboiz/Documents/Dev/University/project2/main.tex
+(/home/goodboiz/Documents/Dev/University/project2/main.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2019/12/20 v1.4l Standard LaTeX document class
@@ -90,9 +90,9 @@ File: babel.def 2020/02/14 3.40 Babel common definitions
 Package babel Info: \l@canadian = using hyphenrules for english
 (babel)             (\language0) on input line 102.
 Package babel Info: \l@australian = using hyphenrules for ukenglish
-(babel)             (\language21) on input line 105.
+(babel)             (\language49) on input line 105.
 Package babel Info: \l@newzealand = using hyphenrules for ukenglish
-(babel)             (\language21) on input line 108.
+(babel)             (\language49) on input line 108.
 )) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks16
@@ -518,7 +518,7 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 LaTeX Warning: Unused global option(s):
     [13pt].
 
-(/home/goodboiz/Documents/University/project2/main.aux)
+(/home/goodboiz/Documents/Dev/University/project2/main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
@@ -598,7 +598,7 @@ Package crop Info: using `pdftex' graphics driver on input line 29.
  ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 29.
 \c@lstlisting=\count306
- ABD: EveryShipout initializing macros (/home/goodboiz/Documents/University/project2/border.tex)
+ ABD: EveryShipout initializing macros (/home/goodboiz/Documents/Dev/University/project2/border.tex)
 <logo.jpg, id=4, 662.475pt x 386.44376pt>
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
@@ -606,12 +606,12 @@ Package pdftex.def Info: logo.jpg  used on input line 39.
 (pdftex.def)             Requested size: 198.74403pt x 115.93402pt.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
- </home/goodboiz/Documents/University/project2/logo.jpg>]
+ </home/goodboiz/Documents/Dev/University/project2/logo.jpg>]
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
 Package pdftex.def Info: logo.jpg  used on input line 66.
 (pdftex.def)             Requested size: 198.74403pt x 115.93402pt.
- [1] [2] [3] (/home/goodboiz/Documents/University/project2/main.toc
+ [1] [2] [3] (/home/goodboiz/Documents/Dev/University/project2/main.toc
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3.
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -640,7 +640,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
  [4
 
-] (/home/goodboiz/Documents/University/project2/main.lof)
+] (/home/goodboiz/Documents/Dev/University/project2/main.lof)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
@@ -648,7 +648,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 ] [6]
 Chapter 1.
-(/home/goodboiz/Documents/University/project2/header_footer.tex)
+(/home/goodboiz/Documents/Dev/University/project2/header_footer.tex)
 <block_diagram.png, id=34, 323.2075pt x 157.58875pt>
 File: block_diagram.png Graphic file (type png)
 <use block_diagram.png>
@@ -656,7 +656,7 @@ Package pdftex.def Info: block_diagram.png  used on input line 157.
 (pdftex.def)             Requested size: 226.2437pt x 110.31136pt.
  [7
 
- </home/goodboiz/Documents/University/project2/block_diagram.png (PNG copy)>]
+ </home/goodboiz/Documents/Dev/University/project2/block_diagram.png (PNG copy)>]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 173.
  (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -666,7 +666,7 @@ File: flowchart1.png Graphic file (type png)
 <use flowchart1.png>
 Package pdftex.def Info: flowchart1.png  used on input line 190.
 (pdftex.def)             Requested size: 364.19667pt x 409.04886pt.
- [8] [9 </home/goodboiz/Documents/University/project2/flowchart1.png>] [10] [11] [12]
+ [8] [9 </home/goodboiz/Documents/Dev/University/project2/flowchart1.png>] [10] [11] [12]
 <Uno.png, id=60, 553.06625pt x 406.51875pt>
 File: Uno.png Graphic file (type png)
 <use Uno.png>
@@ -677,13 +677,13 @@ File: atmega.png Graphic file (type png)
 <use atmega.png>
 Package pdftex.def Info: atmega.png  used on input line 331.
 (pdftex.def)             Requested size: 273.14923pt x 203.08177pt.
- [13 </home/goodboiz/Documents/University/project2/Uno.png>]
+ [13 </home/goodboiz/Documents/Dev/University/project2/Uno.png>]
 <pinout.png, id=65, 1076.02pt x 754.82pt>
 File: pinout.png Graphic file (type png)
 <use pinout.png>
 Package pdftex.def Info: pinout.png  used on input line 364.
 (pdftex.def)             Requested size: 455.24411pt x 319.3488pt.
- [14 </home/goodboiz/Documents/University/project2/atmega.png>] [15 </home/goodboiz/Documents/University/project2/pinout.png>] [16]
+ [14 </home/goodboiz/Documents/Dev/University/project2/atmega.png>] [15 </home/goodboiz/Documents/Dev/University/project2/pinout.png>] [16]
 <Servo.jpg, id=77, 501.875pt x 299.1175pt>
 File: Servo.jpg Graphic file (type jpg)
 <use Servo.jpg>
@@ -694,7 +694,7 @@ File: Servo1.jpg Graphic file (type jpg)
 <use Servo1.jpg>
 Package pdftex.def Info: Servo1.jpg  used on input line 471.
 (pdftex.def)             Requested size: 273.14923pt x 182.10995pt.
- [17 </home/goodboiz/Documents/University/project2/Servo.jpg> </home/goodboiz/Documents/University/project2/Servo1.jpg>]
+ [17 </home/goodboiz/Documents/Dev/University/project2/Servo.jpg> </home/goodboiz/Documents/Dev/University/project2/Servo1.jpg>]
 <Servo2.jpg, id=82, 451.6875pt x 301.125pt>
 File: Servo2.jpg Graphic file (type jpg)
 <use Servo2.jpg>
@@ -705,13 +705,13 @@ File: Servo3.jpg Graphic file (type jpg)
 <use Servo3.jpg>
 Package pdftex.def Info: Servo3.jpg  used on input line 496.
 (pdftex.def)             Requested size: 182.09486pt x 149.7254pt.
- [18 </home/goodboiz/Documents/University/project2/Servo2.jpg> </home/goodboiz/Documents/University/project2/Servo3.jpg>]
+ [18 </home/goodboiz/Documents/Dev/University/project2/Servo2.jpg> </home/goodboiz/Documents/Dev/University/project2/Servo3.jpg>]
 <sg90.jpg, id=88, 602.25pt x 602.25pt>
 File: sg90.jpg Graphic file (type jpg)
 <use sg90.jpg>
 Package pdftex.def Info: sg90.jpg  used on input line 525.
 (pdftex.def)             Requested size: 136.57462pt x 136.57558pt.
- [19 </home/goodboiz/Documents/University/project2/sg90.jpg>]
+ [19 </home/goodboiz/Documents/Dev/University/project2/sg90.jpg>]
 <Capture.PNG, id=92, 511.15968pt x 216.81pt>
 File: Capture.PNG Graphic file (type png)
 <use Capture.PNG>
@@ -727,7 +727,7 @@ File: servo3.PNG Graphic file (type png)
 <use servo3.PNG>
 Package pdftex.def Info: servo3.PNG  used on input line 550.
 (pdftex.def)             Requested size: 182.09486pt x 89.53378pt.
- [20 </home/goodboiz/Documents/University/project2/Capture.PNG> </home/goodboiz/Documents/University/project2/servo2.PNG> </home/goodboiz/Documents/University/project2/servo3.PNG>]
+ [20 </home/goodboiz/Documents/Dev/University/project2/Capture.PNG> </home/goodboiz/Documents/Dev/University/project2/servo2.PNG> </home/goodboiz/Documents/Dev/University/project2/servo3.PNG>]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 577.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -745,13 +745,13 @@ File: ultrasonic_sensor.png Graphic file (type png)
 <use ultrasonic_sensor.png>
 Package pdftex.def Info: ultrasonic_sensor.png  used on input line 633.
 (pdftex.def)             Requested size: 182.09486pt x 176.491pt.
- [22 </home/goodboiz/Documents/University/project2/HC-SR04.jpg> </home/goodboiz/Documents/University/project2/ultrasonic_sensor.png>]
+ [22 </home/goodboiz/Documents/Dev/University/project2/HC-SR04.jpg> </home/goodboiz/Documents/Dev/University/project2/ultrasonic_sensor.png>]
 <ultrasonic.png, id=109, 758.835pt x 564.1075pt>
 File: ultrasonic.png Graphic file (type png)
 <use ultrasonic.png>
 Package pdftex.def Info: ultrasonic.png  used on input line 645.
 (pdftex.def)             Requested size: 273.14923pt x 203.05272pt.
- [23 </home/goodboiz/Documents/University/project2/ultrasonic.png (PNG copy)>]
+ [23 </home/goodboiz/Documents/Dev/University/project2/ultrasonic.png (PNG copy)>]
 <LCD.jpg, id=113, 439.6425pt x 297.36093pt>
 File: LCD.jpg Graphic file (type jpg)
 <use LCD.jpg>
@@ -762,7 +762,7 @@ File: lcd diagram.PNG Graphic file (type png)
 <use lcd diagram.PNG>
 Package pdftex.def Info: lcd diagram.PNG  used on input line 711.
 (pdftex.def)             Requested size: 455.24411pt x 218.15964pt.
- [24 </home/goodboiz/Documents/University/project2/LCD.jpg>] [25 </home/goodboiz/Documents/University/project2/lcd diagram.PNG>]
+ [24 </home/goodboiz/Documents/Dev/University/project2/LCD.jpg>] [25 </home/goodboiz/Documents/Dev/University/project2/lcd diagram.PNG>]
 <buzzer.PNG, id=123, 398.23781pt x 374.14781pt>
 File: buzzer.PNG Graphic file (type png)
 <use buzzer.PNG>
@@ -779,7 +779,7 @@ File: buzzer2.jpg Graphic file (type jpg)
 <use buzzer2.jpg>
 Package pdftex.def Info: buzzer2.jpg  used on input line 825.
 (pdftex.def)             Requested size: 182.09486pt x 182.0778pt.
- [27 </home/goodboiz/Documents/University/project2/buzzer.PNG> </home/goodboiz/Documents/University/project2/buzzer1.jpg>]
+ [27 </home/goodboiz/Documents/Dev/University/project2/buzzer.PNG> </home/goodboiz/Documents/Dev/University/project2/buzzer1.jpg>]
 <buzzer.jpg, id=133, 501.875pt x 501.875pt>
 File: buzzer.jpg Graphic file (type jpg)
 <use buzzer.jpg>
@@ -790,9 +790,9 @@ File: buzzer-pinout.png Graphic file (type png)
 <use buzzer-pinout.png>
 Package pdftex.def Info: buzzer-pinout.png  used on input line 852.
 (pdftex.def)             Requested size: 182.09486pt x 187.53996pt.
- [28 </home/goodboiz/Documents/University/project2/buzzer2.jpg> </home/goodboiz/Documents/University/project2/buzzer.jpg>] [29 </home/goodboiz/Documents/University/project2/buzzer-pinout.png>]
+ [28 </home/goodboiz/Documents/Dev/University/project2/buzzer2.jpg> </home/goodboiz/Documents/Dev/University/project2/buzzer.jpg>] [29 </home/goodboiz/Documents/Dev/University/project2/buzzer-pinout.png>]
 Chapter 2.
-(/home/goodboiz/Documents/University/project2/chapter2.tex)
+(/home/goodboiz/Documents/Dev/University/project2/chapter2.tex)
 <diagram-project.png, id=145, 536.75531pt x 394.47375pt>
 File: diagram-project.png Graphic file (type png)
 <use diagram-project.png>
@@ -805,13 +805,13 @@ Package pdftex.def Info: 500px-PSR_1.png  used on input line 902.
 (pdftex.def)             Requested size: 273.14923pt x 168.81664pt.
  [30
 
- </home/goodboiz/Documents/University/project2/diagram-project.png>]
+ </home/goodboiz/Documents/Dev/University/project2/diagram-project.png>]
 <radar-work.png, id=152, 351.3125pt x 351.3125pt>
 File: radar-work.png Graphic file (type png)
 <use radar-work.png>
 Package pdftex.def Info: radar-work.png  used on input line 937.
 (pdftex.def)             Requested size: 364.19667pt x 364.22528pt.
- [31 </home/goodboiz/Documents/University/project2/500px-PSR_1.png>]
+ [31 </home/goodboiz/Documents/Dev/University/project2/500px-PSR_1.png>]
 <circuit.jpg, id=157, 274.09067pt x 133.298pt>
 File: circuit.jpg Graphic file (type jpg)
 <use circuit.jpg>
@@ -822,15 +822,15 @@ File: green.jpg Graphic file (type jpg)
 <use green.jpg>
 Package pdftex.def Info: green.jpg  used on input line 951.
 (pdftex.def)             Requested size: 273.14923pt x 204.85345pt.
- [32 </home/goodboiz/Documents/University/project2/radar-work.png> </home/goodboiz/Documents/University/project2/circuit.jpg>]
+ [32 </home/goodboiz/Documents/Dev/University/project2/radar-work.png> </home/goodboiz/Documents/Dev/University/project2/circuit.jpg>]
 <red.jpg, id=163, 4047.12pt x 3035.34pt>
 File: red.jpg Graphic file (type jpg)
 <use red.jpg>
 Package pdftex.def Info: red.jpg  used on input line 958.
 (pdftex.def)             Requested size: 273.14923pt x 204.85345pt.
- [33 </home/goodboiz/Documents/University/project2/green.jpg> </home/goodboiz/Documents/University/project2/red.jpg>]
+ [33 </home/goodboiz/Documents/Dev/University/project2/green.jpg> </home/goodboiz/Documents/Dev/University/project2/red.jpg>]
 Chapter 3.
-(/home/goodboiz/Documents/University/project2/chapter3.tex) (/home/goodboiz/Documents/University/project2/appendix.tex (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+(/home/goodboiz/Documents/Dev/University/project2/chapter3.tex) (/home/goodboiz/Documents/Dev/University/project2/appendix.tex (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
@@ -849,23 +849,23 @@ LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
 
 ]) [35]
 Chapter 4.
-(/home/goodboiz/Documents/University/project2/chapter4.tex) [36
+(/home/goodboiz/Documents/Dev/University/project2/chapter4.tex) [36
 
 ]
 Chapter 5.
 [37
 
-] (/home/goodboiz/Documents/University/project2/main.aux) ) 
+] (/home/goodboiz/Documents/Dev/University/project2/main.aux) ) 
 Here is how much of TeX's memory you used:
  17045 strings out of 481239
- 314726 string characters out of 5920377
- 923984 words of memory out of 5000000
+ 314826 string characters out of 5920377
+ 923987 words of memory out of 5000000
  31879 multiletter control sequences out of 15000+600000
  615539 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,12n,126p,506b,2363s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,12n,126p,510b,2363s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb>
-Output written on /home/goodboiz/Documents/University/project2/main.pdf (38 pages, 6364087 bytes).
+Output written on /home/goodboiz/Documents/Dev/University/project2/main.pdf (38 pages, 6364079 bytes).
 PDF statistics:
  232 PDF objects out of 1000 (max. 8388607)
  136 compressed objects within 2 object streams
