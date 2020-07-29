@@ -1,6 +1,6 @@
 # VIETNAM AVIATION ACADEMY 
 
-![VAA](vaa.edu.vn)
+[VAA](vaa.edu.vn)
 
 ## This repo is about project 1-2 in Vietnam Aviation Academy
 
