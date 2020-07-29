@@ -1,6 +1,6 @@
 # VIETNAM AVIATION ACADEMY 
 
-![GitHub VAAiGo!](https://img.shields.io/github/followers/nightbaronpro?color=FF0000&label=VAAiGo%21)
+[!VAA](vaa.edu.vn)
 
 ## This repo is about project 1-2 in Vietnam Aviation Academy
 
