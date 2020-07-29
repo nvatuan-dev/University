@@ -7,7 +7,7 @@
 1. `./project2/` folder: source code using LaTex to report project.
 2. `./radar/` folder: source code processing the radar.
 	1. `./src/` folder: CPP code in my project.
-	2. `./platfromio.ini: Project configuration file.
+	2. `./platfromio.ini`: Project configuration file.
 	
 ### How to run CPP code in PlatformIO IDE:
 1. Download Visual Studio Code is given [here](https://code.visualstudio.com/).
