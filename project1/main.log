@@ -1,0 +1,761 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.2.11)  1 MAR 2020 22:03
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/tuanlinux/University/report/main.tex
+(/home/tuanlinux/University/report/main.tex
+LaTeX2e <2018-12-01>
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2019/06/03 3.32 The Babel package
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2019/06/03 3.32 Babel switching mechanism
+) (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2019/06/03 3.32 Babel common definitions
+\babel@savecnt=\count89
+\U@D=\dimen105
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count90
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)) (/usr/share/texlive/texmf-dist/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+ (/usr/share/texlive/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip43
+\RaggedLeftLeftskip=\skip44
+\RaggedRightLeftskip=\skip45
+\CenteringRightskip=\skip46
+\RaggedLeftRightskip=\skip47
+\RaggedRightRightskip=\skip48
+\CenteringParfillskip=\skip49
+\RaggedLeftParfillskip=\skip50
+\RaggedRightParfillskip=\skip51
+\JustifyingParfillskip=\skip52
+\CenteringParindent=\skip53
+\RaggedLeftParindent=\skip54
+\RaggedRightParindent=\skip55
+\JustifyingParindent=\skip56
+) (/usr/share/texlive/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language85
+LaTeX Info: Redefining \_ on input line 43.
+) (/usr/share/texmf/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+) (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
+\f@nch@headwidth=\skip57
+\f@nch@O@elh=\skip58
+\f@nch@O@erh=\skip59
+\f@nch@O@olh=\skip60
+\f@nch@O@orh=\skip61
+\f@nch@O@elf=\skip62
+\f@nch@O@erf=\skip63
+\f@nch@O@olf=\skip64
+\f@nch@O@orf=\skip65
+) (/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count91
+\c@@ppsavesec=\count92
+\c@@ppsaveapp=\count93
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen106
+\ar@mcellbox=\box27
+\extrarowheight=\dimen107
+\NC@list=\toks17
+\extratabsurround=\skip66
+\backup@length=\skip67
+\ar@cellbox=\box28
+)
+\TX@col@width=\dimen108
+\TX@old@table=\dimen109
+\TX@old@col=\dimen110
+\TX@target=\dimen111
+\TX@delta=\dimen112
+\TX@cols=\count94
+\TX@ftn=\toks18
+) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count95
+\float@exts=\toks19
+\float@box=\box29
+\@float@everytoks=\toks20
+\@floatcapt=\box30
+) (/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip68
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks21
+\ex@=\dimen113
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen114
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count96
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count97
+\leftroot@=\count98
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count99
+\DOTSCASE@=\count100
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box31
+\strutbox@=\box32
+\big@size=\dimen115
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count101
+\c@MaxMatrixCols=\count102
+\dotsspace@=\muskip10
+\c@parentequation=\count103
+\dspbrk@lvl=\count104
+\tag@help=\toks22
+\row@=\count105
+\column@=\count106
+\maxfields@=\count107
+\andhelp@=\toks23
+\eqnshift@=\dimen116
+\alignsep@=\dimen117
+\tagshift@=\dimen118
+\tagwidth@=\dimen119
+\totwidth@=\dimen120
+\lineht@=\dimen121
+\@envbody=\toks24
+\multlinegap=\skip69
+\multlinetaggap=\skip70
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+) (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count108
+\calc@Bcount=\count109
+\calc@Adimen=\dimen122
+\calc@Bdimen=\dimen123
+\calc@Askip=\skip71
+\calc@Bskip=\skip72
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count110
+\calc@Cskip=\skip73
+) (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+\AM@pagewidth=\dimen124
+\AM@pageheight=\dimen125
+ (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box33
+\AM@global@opts=\toks26
+\AM@toc@title=\toks27
+\c@AM@survey=\count111
+\AM@templatesizebox=\box34
+) (/home/tuanlinux/University/report/main.aux
+
+LaTeX Warning: Label `fig:boat' multiply defined.
+
+
+LaTeX Warning: Label `fig:boat' multiply defined.
+
+
+LaTeX Warning: Label `fig:boat' multiply defined.
+
+
+LaTeX Warning: Label `fig:boat' multiply defined.
+
+
+LaTeX Warning: Label `fig:boat' multiply defined.
+
+
+LaTeX Warning: Label `fig:boat' multiply defined.
+
+
+LaTeX Warning: Label `fig:boat' multiply defined.
+
+
+LaTeX Warning: Label `fig:boat' multiply defined.
+
+
+LaTeX Warning: Label `fig:boat' multiply defined.
+
+
+LaTeX Warning: Label `fig:boat' multiply defined.
+
+
+LaTeX Warning: Label `fig:boat' multiply defined.
+
+
+LaTeX Warning: Label `fig:boat' multiply defined.
+
+)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 18.
+ (/usr/share/texmf/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count112
+\scratchdimen=\dimen126
+\scratchbox=\box35
+\nofMPsegments=\count113
+\nofMParguments=\count114
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count115
+\MPscratchDim=\dimen127
+\MPnumerator=\count116
+\makeMPintoPDFobject=\count117
+\everyMPtoPDFconversion=\toks29
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+ (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+)) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)))) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+)) ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 18.
+LaTeX Info: Redefining \celsius on input line 18.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 18.
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 18.
+Package gensymb Info: Using \Omega for \ohm on input line 18.
+
+Package gensymb Warning: Not defining \micro.
+
+\AtBeginShipoutBox=\box36
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+ (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+))
+<logo.jpg, id=1, 662.475pt x 386.44376pt>
+File: logo.jpg Graphic file (type jpg)
+<use logo.jpg>
+Package pdftex.def Info: logo.jpg  used on input line 26.
+(pdftex.def)             Requested size: 198.74403pt x 115.93402pt.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+ </home/tuanlinux/University/report/logo.jpg>] [2] (/home/tuanlinux/University/report/main.toc
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 3.
+ (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 3.
+ (/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 3.
+ (/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 3.
+ (/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 3.
+ [3
+
+])
+\tf@toc=\write3
+\openout3 = `main.toc'.
+
+ [4]
+Chapter 1.
+[5
+
+]
+Chapter 2.
+[6
+
+]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 133.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 133.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 133.
+
+Underfull \hbox (badness 4832) in paragraph at lines 135--135
+[]|\T1/lmr/m/n/10 Photon En-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
+[]|\T1/lmr/m/n/10 Near
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
+\T1/lmr/m/n/10 In-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
+[]|\T1/lmr/m/n/10 750nm to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
+[]|\T1/lmr/m/n/10 886-1653
+ []
+
+
+Underfull \hbox (badness 2073) in paragraph at lines 137--138
+\T1/lmr/m/n/10 ab-sorp-tion of wa-
+ []
+
+
+Underfull \hbox (badness 7613) in paragraph at lines 137--138
+\T1/lmr/m/n/10 ter.Used in fiber
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+[]|\T1/lmr/m/n/10 Short
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/lmr/m/n/10 waves
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/lmr/m/n/10 in-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+[]|\T1/lmr/m/n/10 Absorbed do-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+\T1/lmr/m/n/10 mes-tic in-crease
+ []
+
+
+Underfull \hbox (badness 2245) in paragraph at lines 139--140
+\T1/lmr/m/n/10 sig-nif-i-cantly as of
+ []
+
+
+Underfull \hbox (badness 5175) in paragraph at lines 139--140
+\T1/lmr/m/n/10 1.45$\OML/lmm/m/it/10 ^^V$\T1/lmr/m/n/10 m. Range
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+\T1/lmr/m/n/10 1.53-1.56$\OML/lmm/m/it/10 ^^V$\T1/lmr/m/n/10 m is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+\T1/lmr/m/n/10 spec-tral re-gion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+\T1/lmr/m/n/10 cur-rently in use
+ []
+
+
+Underfull \hbox (badness 4531) in paragraph at lines 139--140
+\T1/lmr/m/n/10 much in the far
+ []
+
+
+Overfull \hbox (7.3805pt too wide) in paragraph at lines 141--141
+[]|\T1/lmr/m/n/10 Medium
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
+\T1/lmr/m/n/10 waves
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
+\T1/lmr/m/n/10 in-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+\T1/lmr/m/n/10 slightly higher
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 141--142
+\T1/lmr/m/n/10 tem-per-a-tures than
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
+[]|\T1/lmr/m/n/10 Long
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
+\T1/lmr/m/n/10 waves
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
+\T1/lmr/m/n/10 in-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
+[]|\T1/lmr/m/n/10 Far
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
+\T1/lmr/m/n/10 in-
+ []
+
+
+Overfull \hbox (53.79956pt too wide) in paragraph at lines 133--148
+ [][] 
+ []
+
+[7]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 175.
+ (/usr/share/texmf/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 175.
+<4017.png, id=32, 1204.5pt x 1313.90875pt>
+File: 4017.png Graphic file (type png)
+<use 4017.png>
+Package pdftex.def Info: 4017.png  used on input line 195.
+(pdftex.def)             Requested size: 172.5pt x 188.15617pt.
+
+Underfull \hbox (badness 1281) in paragraph at lines 210--212
+[]|\T1/lmr/m/n/10 The count-ing cir-cuit op-er-ates when
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 210--212
+\T1/lmr/m/n/10 which is pos-i-tively edge-up, usu-ally
+ []
+
+
+Overfull \hbox (21.2336pt too wide) in paragraph at lines 200--217
+ [][] 
+ []
+
+[8] [9 </home/tuanlinux/University/report/4017.png>] [10]
+<n2.jpg, id=45, 558.085pt x 629.35126pt>
+File: n2.jpg Graphic file (type jpg)
+<use n2.jpg>
+Package pdftex.def Info: n2.jpg  used on input line 253.
+(pdftex.def)             Requested size: 172.5pt x 194.52068pt.
+<555.jpg, id=46, 963.6pt x 542.025pt>
+File: 555.jpg Graphic file (type jpg)
+<use 555.jpg>
+Package pdftex.def Info: 555.jpg  used on input line 276.
+(pdftex.def)             Requested size: 172.5pt x 97.03096pt.
+ [11 </home/tuanlinux/University/report/n2.jpg>]
+<inside_the_555_timer.jpg, id=50, 90.3375pt x 81.6651pt>
+File: inside_the_555_timer.jpg Graphic file (type jpg)
+<use inside_the_555_timer.jpg>
+Package pdftex.def Info: inside_the_555_timer.jpg  used on input line 291.
+(pdftex.def)             Requested size: 207.0021pt x 187.14786pt.
+ [12 </home/tuanlinux/University/report/555.jpg> </home/tuanlinux/University/report/inside_the_555_timer.jpg>]
+Underfull \hbox (badness 2165) in paragraph at lines 324--326
+[]|\T1/lmr/m/n/10 The guar-an-teed volt-age range of bipo-lar
+ []
+
+
+Overfull \hbox (28.2241pt too wide) in paragraph at lines 308--328
+ [][] 
+ []
+
+
+Overfull \hbox (8.14401pt too wide) in paragraph at lines 332--351
+ [][] 
+ []
+
+[13] [14]
+<pic.jpeg, id=63, 835.12pt x 379.4175pt>
+File: pic.jpeg Graphic file (type jpg)
+<use pic.jpeg>
+Package pdftex.def Info: pic.jpeg  used on input line 380.
+(pdftex.def)             Requested size: 345.0pt x 156.74323pt.
+<transmitter.jpg, id=64, 648.4225pt x 228.855pt>
+File: transmitter.jpg Graphic file (type jpg)
+<use transmitter.jpg>
+Package pdftex.def Info: transmitter.jpg  used on input line 386.
+(pdftex.def)             Requested size: 345.0pt x 121.76399pt.
+ [15 </home/tuanlinux/University/report/pic.jpeg> </home/tuanlinux/University/report/transmitter.jpg>] [16]
+<receiver.jpg, id=71, 606.265pt x 187.70125pt>
+File: receiver.jpg Graphic file (type jpg)
+<use receiver.jpg>
+Package pdftex.def Info: receiver.jpg  used on input line 421.
+(pdftex.def)             Requested size: 345.0pt x 106.81325pt.
+<transmitter.png, id=72, 1204.5pt x 799.98875pt>
+File: transmitter.png Graphic file (type png)
+<use transmitter.png>
+Package pdftex.def Info: transmitter.png  used on input line 438.
+(pdftex.def)             Requested size: 345.0pt x 229.1344pt.
+ [17 </home/tuanlinux/University/report/receiver.jpg>] [18 </home/tuanlinux/University/report/transmitter.png>]
+<receiver.png, id=82, 883.3pt x 983.675pt>
+File: receiver.png Graphic file (type png)
+<use receiver.png>
+Package pdftex.def Info: receiver.png  used on input line 461.
+(pdftex.def)             Requested size: 345.0pt x 384.20207pt.
+ [19 </home/tuanlinux/University/report/receiver.png>]
+<relay.png, id=88, 487.8225pt x 249.93375pt>
+File: relay.png Graphic file (type png)
+<use relay.png>
+Package pdftex.def Info: relay.png  used on input line 485.
+(pdftex.def)             Requested size: 345.0pt x 176.7601pt.
+
+Underfull \hbox (badness 1264) in paragraph at lines 495--495
+[]|\T1/lmr/m/n/10 Common is con-nected to one
+ []
+
+[20 </home/tuanlinux/University/report/relay.png>]
+<relay-working.png, id=93, 525.965pt x 230.8625pt>
+File: relay-working.png Graphic file (type png)
+<use relay-working.png>
+Package pdftex.def Info: relay-working.png  used on input line 516.
+(pdftex.def)             Requested size: 345.0pt x 151.4362pt.
+ [21]
+<relay1.jpg, id=97, 434.62375pt x 351.3125pt>
+File: relay1.jpg Graphic file (type jpg)
+<use relay1.jpg>
+Package pdftex.def Info: relay1.jpg  used on input line 546.
+(pdftex.def)             Requested size: 345.0pt x 278.88469pt.
+<relay2.jpg, id=98, 397.485pt x 265.99374pt>
+File: relay2.jpg Graphic file (type jpg)
+<use relay2.jpg>
+Package pdftex.def Info: relay2.jpg  used on input line 548.
+(pdftex.def)             Requested size: 345.0pt x 230.87692pt.
+ [22 </home/tuanlinux/University/report/relay-working.png>] [23 </home/tuanlinux/University/report/relay1.jpg> </home/tuanlinux/University/report/relay2.jpg>]
+
+LaTeX Warning: File `nguon xung.png' not found on input line 564.
+
+<nguon xung.png, id=106, 700.6175pt x 391.4625pt>
+File: nguon xung.png Graphic file (type png)
+<use nguon xung.png>
+Package pdftex.def Info: nguon xung.png  used on input line 564.
+(pdftex.def)             Requested size: 345.0pt x 192.76804pt.
+[24 </home/tuanlinux/University/report/nguon xung.png>]
+<diagram.png, id=110, 577.15625pt x 239.89626pt>
+File: diagram.png Graphic file (type png)
+<use diagram.png>
+Package pdftex.def Info: diagram.png  used on input line 603.
+(pdftex.def)             Requested size: 345.0pt x 143.40442pt.
+ [25] [26 </home/tuanlinux/University/report/diagram.png>]
+<pic1.jpg, id=118, 400.49625pt x 376.40625pt>
+File: pic1.jpg Graphic file (type jpg)
+<use pic1.jpg>
+Package pdftex.def Info: pic1.jpg  used on input line 639.
+(pdftex.def)             Requested size: 172.5pt x 162.12721pt.
+ [27 </home/tuanlinux/University/report/pic1.jpg>]
+<pic1.png, id=122, 1870.99pt x 1124.2pt>
+File: pic1.png Graphic file (type png)
+<use pic1.png>
+Package pdftex.def Info: pic1.png  used on input line 655.
+(pdftex.def)             Requested size: 345.0pt x 207.28758pt.
+ [28 </home/tuanlinux/University/report/pic1.png>] [29]
+Chapter 3.
+[30
+
+]
+Chapter 4.
+[31
+
+] [32] (/home/tuanlinux/University/report/main.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4922 strings out of 492609
+ 68018 string characters out of 6131462
+ 155644 words of memory out of 5000000
+ 8684 multiletter control sequences out of 15000+600000
+ 63296 words of font info for 46 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,12n,43p,305b,291s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
+Output written on /home/tuanlinux/University/report/main.pdf (32 pages, 1363093 bytes).
+PDF statistics:
+ 179 PDF objects out of 1000 (max. 8388607)
+ 109 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+
