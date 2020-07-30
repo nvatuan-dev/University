@@ -262,13 +262,13 @@ INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT /home/goodboiz/Documents/Dev/University/project2/block_diagram.png
 INPUT /home/goodboiz/Documents/Dev/University/project2/block_diagram.png
 INPUT /home/goodboiz/Documents/Dev/University/project2/block_diagram.png
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx10.tfm
 INPUT /usr/share/texmf/tex/latex/lm/ts1lmr.fd
 INPUT /usr/share/texmf/tex/latex/lm/ts1lmr.fd
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ts1-lmr12.tfm
 INPUT /home/goodboiz/Documents/Dev/University/project2/flowchart1.png
 INPUT /home/goodboiz/Documents/Dev/University/project2/flowchart1.png
 INPUT /home/goodboiz/Documents/Dev/University/project2/flowchart1.png
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx10.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr8.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx8.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr6.tfm

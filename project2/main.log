@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.21)  24 JUL 2020 21:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.21)  31 JUL 2020 01:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -661,7 +661,7 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 17
  (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<flowchart1.png, id=39, 668.4975pt x 750.805pt>
+<flowchart1.png, id=38, 668.4975pt x 750.805pt>
 File: flowchart1.png Graphic file (type png)
 <use flowchart1.png>
 Package pdftex.def Info: flowchart1.png  used on input line 190.
@@ -859,13 +859,13 @@ Chapter 5.
 Here is how much of TeX's memory you used:
  17045 strings out of 481239
  314826 string characters out of 5920377
- 923987 words of memory out of 5000000
+ 923985 words of memory out of 5000000
  31879 multiletter control sequences out of 15000+600000
  615539 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,12n,126p,510b,2363s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb>
-Output written on /home/goodboiz/Documents/Dev/University/project2/main.pdf (38 pages, 6364079 bytes).
+Output written on /home/goodboiz/Documents/Dev/University/project2/main.pdf (38 pages, 6363674 bytes).
 PDF statistics:
  232 PDF objects out of 1000 (max. 8388607)
  136 compressed objects within 2 object streams
