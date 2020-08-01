@@ -16,4 +16,4 @@
 2. Download PlatformIO IDE extension in VS Code.
 3. Run this command in folder contains the project:
 
-``chmod a+rw /dev/tty....``
+``sudo chmod a+rw /dev/tty....``
