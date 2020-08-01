@@ -204,7 +204,7 @@
                 \par The signal on ECHO pin of the sensor remains at the HIGH position during transmission, 
                 thereby measuring the duration of the round trip of ultrasound and thus determine the distance. \\
                 \vspace{1mm}
-                \par The LCD display displays the calculated distance and the angle of rotation. The buzzer 
+                \par The LCD displays the calculated distance and the angle of rotation. The buzzer 
                 is an additional component, it rings when there is a detection (Tone 1 and Tone 2) along 
                 with the LEDs. These both LEDs along with buzzer determine the field where the object is 
                 located (near or distant). \\}
@@ -317,16 +317,25 @@
                 \par It allows the designers to control and sense the external electronic devices in 
                 the real world. \\
                 \vspace{3mm}
-                \par Apart from USB, battery or AC to DC adapter can also be used to power the board. \\
+                \par Apart from USB, battery or AC to DC adapter(wall-wart) or battery can also be used 
+                to power the board. The adapter can be connected by plugging a 2.1mm center-positive plug 
+                into the board's power jack. Leads from a battery can be inserted in the GND and Vin pin 
+                headers of the POWER connector. \\
                 \vspace{3mm}
+                \par The board can operate on external supply from 6 to 20 volts. If supplied with less than 7V, 
+                however, the 5V pin may supply less than 5V and the board may become unstable. If using 
+                more than 12V, the voltage regulator may overheat and damage the board. The recommended range 
+                is 7 to 12 volts. \\
+                \vspace{3mm} 
                 \par There are many versions of Uno board available. However, Arduino Uno V3 and Arduino 
                 Uno are the most official versions that come with ATMega328 8-bit AVR Atmel microcontroller 
-                where RAM memory is 32KB.
+                where RAM memory is 32KB(with 0.5 KB occupied by the bootloader). 
                 \begin{figure}[H]
                     \centering
                     \includegraphics[width=0.5\linewidth]{img/Uno.png}
                     \caption{Arduino Uno board}
                 \end{figure}
+            \newpage
                 \item \textbf{Features}
                     \linebreak
                     \begin{figure}[H]

@@ -13,7 +13,7 @@
 \contentsline {subsection}{\numberline {1.2.4}Components Required}{12}%
 \contentsline {subsection}{\numberline {1.2.5}Component Description}{13}%
 \contentsline {subsubsection}{\numberline {1.2.5.1}\Large {Arduino Uno}}{13}%
-\contentsline {subsubsection}{\numberline {1.2.5.2}\Large {Servo Motor}}{16}%
+\contentsline {subsubsection}{\numberline {1.2.5.2}\Large {Servo Motor}}{17}%
 \contentsline {subsubsection}{\numberline {1.2.5.3}\Large {HC-SR04 (Ultrasonic Sensor)}}{21}%
 \contentsline {subsubsection}{\numberline {1.2.5.4}\Large {LCD 16x02}}{24}%
 \contentsline {subsubsection}{\numberline {1.2.5.5}\Large {Buzzer}}{26}%
