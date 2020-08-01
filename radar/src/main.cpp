@@ -23,7 +23,7 @@ void displayLcd(uint8_t distance_cm, int posi);
 
 void setup() {
   myServo.attach(MOTEUR); // Attach the servo motor to pin 11
-  lcd.begin(16,2); // Initialize the Lcd interface with their Size
+  lcd.begin(16,2); // Initialize the Lcd screen with their Size
   configPin();
   DistanceSec = 50;
 }
@@ -74,7 +74,7 @@ void configSensor()
 void detectObjects(int posi)
 {
   duration = pulseIn(ECHOPIN, HIGH);
-  distanceCm= duration*0.034/2;
+  distanceCm = duration*0.034/2;
   if (distanceCm <= DistanceSec){
     if(distanceCm <= DistanceSec/2)
   {
@@ -109,9 +109,9 @@ void detectObjects(int posi)
 void displayLcd(uint8_t distance_cm, int posi)
 {
   lcd.setCursor(0,0); // Position the cursor at 0.0
-  lcd.print("Distance: "); // Print "Distance" sur LCD
+  lcd.print("Distance: "); // Print "Distance" to LCD
   lcd.print(distanceCm); // Print the distance to LCD
-  lcd.print(" cm "); // Printe the unit to LCD
+  lcd.print(" cm "); // Printe the unit of distance to LCD
   delay(10);
   lcd.setCursor(0,1);
   lcd.print("Angle : ");
