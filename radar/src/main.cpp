@@ -35,7 +35,7 @@ void loop() {
 
 void configPin()
 {
-  pinMode(TRIGPIN, OUTPUT);
+  pinMode(TRIGPIN, OUTPUT); //configure the specified pin to behave either as an input or output.
   pinMode(ECHOPIN, INPUT);
   pinMode(BUZZER, OUTPUT);
   pinMode(LEDPIN1, OUTPUT);
