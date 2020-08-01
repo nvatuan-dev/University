@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.21)  1 AUG 2020 19:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.21)  2 AUG 2020 00:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -820,18 +820,18 @@ Package pdftex.def Info: img/circuit.jpg  used on input line 956.
 <img/program.png, id=158, 1927.2pt x 1084.05pt>
 File: img/program.png Graphic file (type png)
 <use img/program.png>
-Package pdftex.def Info: img/program.png  used on input line 962.
+Package pdftex.def Info: img/program.png  used on input line 964.
 (pdftex.def)             Requested size: 455.24411pt x 256.07509pt.
  [32 </home/goodboiz/Documents/Dev/University/project2/img/radar-work.png> </home/goodboiz/Documents/Dev/University/project2/img/circuit.jpg>]
 <img/green.jpg, id=163, 4047.12pt x 3035.34pt>
 File: img/green.jpg Graphic file (type jpg)
 <use img/green.jpg>
-Package pdftex.def Info: img/green.jpg  used on input line 970.
+Package pdftex.def Info: img/green.jpg  used on input line 972.
 (pdftex.def)             Requested size: 273.14923pt x 204.85345pt.
 <img/red.jpg, id=164, 4047.12pt x 3035.34pt>
 File: img/red.jpg Graphic file (type jpg)
 <use img/red.jpg>
-Package pdftex.def Info: img/red.jpg  used on input line 977.
+Package pdftex.def Info: img/red.jpg  used on input line 979.
 (pdftex.def)             Requested size: 273.14923pt x 204.85345pt.
  [33 </home/goodboiz/Documents/Dev/University/project2/img/program.png> </home/goodboiz/Documents/Dev/University/project2/img/green.jpg>] [34 </home/goodboiz/Documents/Dev/University/project2/img/red.jpg>]
 Chapter 3.
@@ -864,13 +864,13 @@ Chapter 5.
 Here is how much of TeX's memory you used:
  17054 strings out of 481239
  315578 string characters out of 5920377
- 923090 words of memory out of 5000000
+ 924088 words of memory out of 5000000
  31886 multiletter control sequences out of 15000+600000
  615539 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,12n,126p,510b,2363s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb>
-Output written on /home/goodboiz/Documents/Dev/University/project2/main.pdf (39 pages, 6522316 bytes).
+Output written on /home/goodboiz/Documents/Dev/University/project2/main.pdf (39 pages, 6522631 bytes).
 PDF statistics:
  237 PDF objects out of 1000 (max. 8388607)
  138 compressed objects within 2 object streams
