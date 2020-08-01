@@ -21,12 +21,14 @@
 \contentsline {section}{\numberline {2.1}CONTENT}{30}%
 \contentsline {subsection}{\numberline {2.1.1}\large {Block Diagram}}{30}%
 \contentsline {subsection}{\numberline {2.1.2}\large {Working of the project}}{31}%
-\contentsline {section}{\numberline {2.2}CIRCUIT DIAGRAM OF PROJECT}{32}%
+\contentsline {section}{\numberline {2.2}CONNECT ARDUINO AND BOARD}{32}%
+\contentsline {subsection}{\numberline {2.2.1}CIRCUIT DIAGRAM}{32}%
+\contentsline {subsection}{\numberline {2.2.2}PROGRAM MY BOARD}{33}%
 \contentsline {section}{\numberline {2.3}ENFORCEMMENT RESULT}{33}%
-\contentsline {chapter}{\numberline {3}APPENDICES}{34}%
-\contentsline {chapter}{\numberline {4}CONCLUSIONS AND RECOMMENDATIONS}{36}%
-\contentsline {section}{\numberline {4.1}CONCLUDES}{36}%
-\contentsline {subsection}{\numberline {4.1.1}\large {Advantages}}{36}%
-\contentsline {subsection}{\numberline {4.1.2}\large {Defects}}{36}%
-\contentsline {section}{\numberline {4.2}RECOMMENDATIONS}{36}%
-\contentsline {chapter}{\numberline {5}THE REFERENCES}{37}%
+\contentsline {chapter}{\numberline {3}APPENDICES}{35}%
+\contentsline {chapter}{\numberline {4}CONCLUSIONS AND RECOMMENDATIONS}{37}%
+\contentsline {section}{\numberline {4.1}CONCLUDES}{37}%
+\contentsline {subsection}{\numberline {4.1.1}\large {Advantages}}{37}%
+\contentsline {subsection}{\numberline {4.1.2}\large {Defects}}{37}%
+\contentsline {section}{\numberline {4.2}RECOMMENDATIONS}{37}%
+\contentsline {chapter}{\numberline {5}THE REFERENCES}{38}%
