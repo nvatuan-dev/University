@@ -1,17 +1,19 @@
 \babel@toc {english}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Pipeline of Faster R-CNN}}{6}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Architecture of RPN}}{7}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Feature Extractor of SSD}}{8}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Architecture of VGG16}}{8}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Architecture of SSD}}{9}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Default Boundary Box}}{9}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Matching with ground truth}}{10}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Major components}}{11}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Feature Extraction of YOLOv3}}{12}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces IOU formula}}{13}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Example for anchor box}}{13}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Example of an Artificial Neural Network with one input}}{5}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The sigmoid, hyperbolic tangent and ReLU activation functions and their derivatives}}{6}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Pipeline of Faster R-CNN}}{8}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Architecture of RPN}}{9}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Feature Extractor of SSD}}{10}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Architecture of VGG16}}{10}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Architecture of SSD}}{11}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Default Boundary Box}}{11}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Matching with ground truth}}{12}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Major components}}{13}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Feature Extraction of YOLOv3}}{14}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces IOU formula}}{15}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Example for anchor box}}{15}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -253,6 +253,20 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1440.tfm
 INPUT /home/goodboiz/Documents/Dev/University/Research_paper/Chapter_2/Chap2.tex
 INPUT /home/goodboiz/Documents/Dev/University/Research_paper/Chapter_2/Chap2.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm
+INPUT /home/goodboiz/Documents/Dev/University/Research_paper/img/ANN.png
+INPUT /home/goodboiz/Documents/Dev/University/Research_paper/img/ANN.png
+INPUT /home/goodboiz/Documents/Dev/University/Research_paper/img/ANN.png
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecti1000.tfm
+INPUT /home/goodboiz/Documents/Dev/University/Research_paper/img/sigmoid.png
+INPUT /home/goodboiz/Documents/Dev/University/Research_paper/img/sigmoid.png
+INPUT /home/goodboiz/Documents/Dev/University/Research_paper/img/sigmoid.png
+INPUT /usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-34.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-34.def
+INPUT /home/goodboiz/Documents/Dev/University/Research_paper/img/range.png
+INPUT /home/goodboiz/Documents/Dev/University/Research_paper/img/range.png
+INPUT /home/goodboiz/Documents/Dev/University/Research_paper/img/range.png
+INPUT /usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT /home/goodboiz/Documents/Dev/University/Research_paper/img/R-CNN.png
 INPUT /home/goodboiz/Documents/Dev/University/Research_paper/img/R-CNN.png
@@ -262,8 +276,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
 INPUT /home/goodboiz/Documents/Dev/University/Research_paper/img/RPN.png
 INPUT /home/goodboiz/Documents/Dev/University/Research_paper/img/RPN.png
 INPUT /home/goodboiz/Documents/Dev/University/Research_paper/img/RPN.png
-INPUT /usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
 INPUT /home/goodboiz/Documents/Dev/University/Research_paper/img/SSD.png
 INPUT /home/goodboiz/Documents/Dev/University/Research_paper/img/SSD.png
 INPUT /home/goodboiz/Documents/Dev/University/Research_paper/img/SSD.png
@@ -279,7 +291,6 @@ INPUT /home/goodboiz/Documents/Dev/University/Research_paper/img/boundary.png
 INPUT /home/goodboiz/Documents/Dev/University/Research_paper/img/matching.png
 INPUT /home/goodboiz/Documents/Dev/University/Research_paper/img/matching.png
 INPUT /home/goodboiz/Documents/Dev/University/Research_paper/img/matching.png
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecti1000.tfm
 INPUT /home/goodboiz/Documents/Dev/University/Research_paper/img/yolo.png
 INPUT /home/goodboiz/Documents/Dev/University/Research_paper/img/yolo.png
 INPUT /home/goodboiz/Documents/Dev/University/Research_paper/img/yolo.png
@@ -306,8 +317,8 @@ INPUT /home/goodboiz/Documents/Dev/University/Research_paper/Chapter_5/Chap5.tex
 INPUT /home/goodboiz/Documents/Dev/University/Research_paper/Chapter_6/Chap6.tex
 INPUT /home/goodboiz/Documents/Dev/University/Research_paper/Chapter_6/Chap6.tex
 INPUT /home/goodboiz/Documents/Dev/University/Research_paper/main.aux
-INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb
