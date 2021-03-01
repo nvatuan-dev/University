@@ -9,65 +9,71 @@
 \contentsline {subsubsection}{\numberline {2.1.2.1}ANN}{5}%
 \contentsline {subsubsection}{\numberline {2.1.2.2}Neurons}{5}%
 \contentsline {subsubsection}{\numberline {2.1.2.3}Activation Functions}{6}%
-\contentsline {subsubsection}{\numberline {2.1.2.4}CNNs Overview}{7}%
-\contentsline {subsubsection}{\numberline {2.1.2.5}Categorize}{7}%
-\contentsline {subsubsection}{\numberline {2.1.2.6}Region Proposal Based Method}{7}%
-\contentsline {subsubsection}{\numberline {2.1.2.7}Regression / Classification Based Method}{7}%
-\contentsline {section}{\numberline {2.2}Comparison YOLO SSD Faster R-CNN}{7}%
-\contentsline {subsection}{\numberline {2.2.1}Faster-RCNN}{7}%
-\contentsline {subsubsection}{\numberline {2.2.1.1}Architecture}{7}%
-\contentsline {subsubsection}{\numberline {2.2.1.2}Region Proposal Generation}{8}%
-\contentsline {subsubsection}{\numberline {2.2.1.3}Detection Head}{9}%
-\contentsline {subsubsection}{\numberline {2.2.1.4}Observations}{9}%
-\contentsline {subsection}{\numberline {2.2.2}SSD}{10}%
-\contentsline {subsubsection}{\numberline {2.2.2.1}Feature Extraction}{10}%
-\contentsline {subsubsection}{\numberline {2.2.2.2}Multi-scale feature maps for detection}{10}%
-\contentsline {subsubsection}{\numberline {2.2.2.3}Default Boundary Box}{11}%
-\contentsline {subsubsection}{\numberline {2.2.2.4}Matching Strategy}{11}%
-\contentsline {subsubsection}{\numberline {2.2.2.5}Loss Function}{12}%
-\contentsline {subsubsection}{\numberline {2.2.2.6}Hard negative mining}{12}%
-\contentsline {subsubsection}{\numberline {2.2.2.7}Observations}{13}%
-\contentsline {subsection}{\numberline {2.2.3}YOLO}{13}%
-\contentsline {subsubsection}{\numberline {2.2.3.1}Network Architecture}{13}%
-\contentsline {subsubsection}{\numberline {2.2.3.2}Feature Extraction}{13}%
-\contentsline {subsubsection}{\numberline {2.2.3.3}Multi-scale Detector}{14}%
-\contentsline {subsubsection}{\numberline {2.2.3.4}Post Processing}{16}%
-\contentsline {subsubsection}{\numberline {2.2.3.5}Modifications of YOLO}{17}%
-\contentsline {subsection}{\numberline {2.2.4}Comparision YOLO, SSD and Faster R-CNN}{17}%
-\contentsline {subsubsection}{\numberline {2.2.4.1}Pascal VOC 2007/2012}{17}%
-\contentsline {subsubsection}{\numberline {2.2.4.2}Microsoft COCO}{17}%
-\contentsline {subsubsection}{\numberline {2.2.4.3}Time analysis}{17}%
-\contentsline {subsubsection}{\numberline {2.2.4.4}Application in Vehicle Detection System}{17}%
-\contentsline {subsubsection}{\numberline {2.2.4.5}Other Experiments}{18}%
-\contentsline {subsubsection}{\numberline {2.2.4.6}Conclusion}{18}%
-\contentsline {section}{\numberline {2.3}Metrics and Evaluations}{18}%
-\contentsline {subsection}{\numberline {2.3.1}Average Precision(AP) and Mean Average Precision(mAP)}{18}%
-\contentsline {chapter}{\numberline {3}MULTIPLE OBJECT TRACKING}{19}%
-\contentsline {section}{\numberline {3.1}Overview}{19}%
-\contentsline {section}{\numberline {3.2}MOT Components Overview}{19}%
-\contentsline {section}{\numberline {3.3}Detection Based Tracking and End to End Tracking}{19}%
-\contentsline {section}{\numberline {3.4}Low Level Feature Method}{19}%
-\contentsline {section}{\numberline {3.5}Deep SORT}{19}%
-\contentsline {subsection}{\numberline {3.5.1}Feature Extraction and Embedding}{19}%
-\contentsline {subsection}{\numberline {3.5.2}Affinity Computation and Data Association}{19}%
-\contentsline {section}{\numberline {3.6}Metrics and Evaluations}{19}%
-\contentsline {subsection}{\numberline {3.6.1}Conventional Metrics}{19}%
-\contentsline {subsection}{\numberline {3.6.2}Update Metrics}{19}%
-\contentsline {chapter}{\numberline {4}INFERENCE}{20}%
-\contentsline {section}{\numberline {4.1}Architecture Optimization}{20}%
-\contentsline {section}{\numberline {4.2}Algorithm Optimization}{20}%
-\contentsline {section}{\numberline {4.3}TensorRT Framework}{20}%
-\contentsline {section}{\numberline {4.4}Post-Processing}{20}%
-\contentsline {subsection}{\numberline {4.4.1}Speed Estimation}{20}%
-\contentsline {subsection}{\numberline {4.4.2}Anomaly Detection}{20}%
-\contentsline {chapter}{\numberline {5}MODEL TRAINING}{21}%
-\contentsline {section}{\numberline {5.1}Dataset}{21}%
-\contentsline {section}{\numberline {5.2}Loss Function}{21}%
-\contentsline {section}{\numberline {5.3}Hyperparameters}{21}%
-\contentsline {chapter}{\numberline {6}SOFTWARE DESIGN}{22}%
-\contentsline {section}{\numberline {6.1}System Overview}{22}%
-\contentsline {section}{\numberline {6.2}Hardware Design}{22}%
-\contentsline {section}{\numberline {6.3}Software Design}{22}%
-\contentsline {subsection}{\numberline {6.3.1}Dependencies}{22}%
-\contentsline {subsection}{\numberline {6.3.2}User Interface}{22}%
-\contentsline {subsection}{\numberline {6.3.3}Administration}{22}%
+\contentsline {subsubsection}{\numberline {2.1.2.4}Convolution Neural Networks}{7}%
+\contentsline {subsubsection}{\numberline {2.1.2.5}Categorize}{11}%
+\contentsline {subsubsection}{\numberline {2.1.2.6}Region Proposal Based Method}{11}%
+\contentsline {subsubsection}{\numberline {2.1.2.7}Regression / Classification Based Method}{11}%
+\contentsline {section}{\numberline {2.2}Comparison YOLO SSD Faster R-CNN}{11}%
+\contentsline {subsection}{\numberline {2.2.1}Faster-RCNN}{11}%
+\contentsline {subsubsection}{\numberline {2.2.1.1}Architecture}{11}%
+\contentsline {subsubsection}{\numberline {2.2.1.2}Region Proposal Generation}{12}%
+\contentsline {subsubsection}{\numberline {2.2.1.3}Detection Head}{13}%
+\contentsline {subsubsection}{\numberline {2.2.1.4}Observations}{13}%
+\contentsline {subsection}{\numberline {2.2.2}SSD}{14}%
+\contentsline {subsubsection}{\numberline {2.2.2.1}Feature Extraction}{14}%
+\contentsline {subsubsection}{\numberline {2.2.2.2}Multi-scale feature maps for detection}{14}%
+\contentsline {subsubsection}{\numberline {2.2.2.3}Default Boundary Box}{15}%
+\contentsline {subsubsection}{\numberline {2.2.2.4}Matching Strategy}{15}%
+\contentsline {subsubsection}{\numberline {2.2.2.5}Loss Function}{16}%
+\contentsline {subsubsection}{\numberline {2.2.2.6}Hard negative mining}{16}%
+\contentsline {subsubsection}{\numberline {2.2.2.7}Observations}{17}%
+\contentsline {subsection}{\numberline {2.2.3}YOLO}{17}%
+\contentsline {subsubsection}{\numberline {2.2.3.1}Network Architecture}{17}%
+\contentsline {subsubsection}{\numberline {2.2.3.2}Feature Extraction}{17}%
+\contentsline {subsubsection}{\numberline {2.2.3.3}Multi-scale Detector}{18}%
+\contentsline {subsubsection}{\numberline {2.2.3.4}Post Processing}{20}%
+\contentsline {subsubsection}{\numberline {2.2.3.5}Modifications of YOLO}{21}%
+\contentsline {subsection}{\numberline {2.2.4}Comparision YOLO, SSD and Faster R-CNN}{21}%
+\contentsline {subsubsection}{\numberline {2.2.4.1}Pascal VOC 2007/2012}{21}%
+\contentsline {subsubsection}{\numberline {2.2.4.2}Microsoft COCO}{21}%
+\contentsline {subsubsection}{\numberline {2.2.4.3}Time analysis}{21}%
+\contentsline {subsubsection}{\numberline {2.2.4.4}Application in Vehicle Detection System}{21}%
+\contentsline {subsubsection}{\numberline {2.2.4.5}Other Experiments}{22}%
+\contentsline {subsubsection}{\numberline {2.2.4.6}Conclusion}{22}%
+\contentsline {section}{\numberline {2.3}Metrics and Evaluations}{22}%
+\contentsline {subsection}{\numberline {2.3.1}Average Precision(AP) and Mean Average Precision(mAP)}{22}%
+\contentsline {chapter}{\numberline {3}MULTIPLE OBJECT TRACKING}{23}%
+\contentsline {section}{\numberline {3.1}Overview}{23}%
+\contentsline {section}{\numberline {3.2}Categorization}{23}%
+\contentsline {section}{\numberline {3.3}MOT Components Overview}{25}%
+\contentsline {subsection}{\numberline {3.3.1}Appearance Model}{25}%
+\contentsline {subsection}{\numberline {3.3.2}Motion Model}{25}%
+\contentsline {subsection}{\numberline {3.3.3}Interaction Model}{25}%
+\contentsline {subsection}{\numberline {3.3.4}Exclusion Model}{25}%
+\contentsline {subsection}{\numberline {3.3.5}Occlusion Handling}{25}%
+\contentsline {section}{\numberline {3.4}Detection Based Tracking and End to End Tracking}{25}%
+\contentsline {section}{\numberline {3.5}SORT}{25}%
+\contentsline {section}{\numberline {3.6}Deep SORT}{25}%
+\contentsline {subsection}{\numberline {3.6.1}Feature Extraction and Embedding}{25}%
+\contentsline {subsection}{\numberline {3.6.2}Affinity Computation and Data Association}{25}%
+\contentsline {section}{\numberline {3.7}Metrics and Evaluations}{25}%
+\contentsline {subsection}{\numberline {3.7.1}Conventional Metrics}{25}%
+\contentsline {subsection}{\numberline {3.7.2}Update Metrics}{25}%
+\contentsline {chapter}{\numberline {4}INFERENCE}{26}%
+\contentsline {section}{\numberline {4.1}Architecture Optimization}{26}%
+\contentsline {section}{\numberline {4.2}Algorithm Optimization}{26}%
+\contentsline {section}{\numberline {4.3}TensorRT Framework}{26}%
+\contentsline {section}{\numberline {4.4}Post-Processing}{26}%
+\contentsline {subsection}{\numberline {4.4.1}Speed Estimation}{26}%
+\contentsline {subsection}{\numberline {4.4.2}Anomaly Detection}{26}%
+\contentsline {chapter}{\numberline {5}MODEL TRAINING}{27}%
+\contentsline {section}{\numberline {5.1}Dataset}{27}%
+\contentsline {section}{\numberline {5.2}Loss Function}{27}%
+\contentsline {section}{\numberline {5.3}Hyperparameters}{27}%
+\contentsline {chapter}{\numberline {6}SOFTWARE DESIGN}{28}%
+\contentsline {section}{\numberline {6.1}System Overview}{28}%
+\contentsline {section}{\numberline {6.2}Hardware Design}{28}%
+\contentsline {section}{\numberline {6.3}Software Design}{28}%
+\contentsline {subsection}{\numberline {6.3.1}Dependencies}{28}%
+\contentsline {subsection}{\numberline {6.3.2}User Interface}{28}%
+\contentsline {subsection}{\numberline {6.3.3}Administration}{28}%

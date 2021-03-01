@@ -99,7 +99,186 @@
                     cases, such as in classification tasks.
             \end{enumerate}
 
-        \subsubsection{CNNs Overview}
+        \subsubsection{Convolution Neural Networks}
+            Convolutional Neural Networks (CNNs) are feedforward neural networks with a
+            layout and architecture specifically designed to handle data arranged in a spatial
+            grid (tensors), such as 2D or 3D images. The inspiration of the architecture comes
+            from the mechanism of biological visual perception. The networks, like any other
+            ANN, are composed of neurons with learnable weights and biases. Each neuron
+            receives some inputs, performs a dot product and optionally follows it with an
+            activation function. The architecture is typically composed of several layers, which
+            gives them the characterisation of being “deep” and thus research work on CNNs fall
+            under the domain of deep learning. Essentially, the network computes a mapping
+            function that relates image pixels to a final desired output. \\ 
+            \vspace{3mm}
+            In a general CNN, the input is assumed to be an RGB image, i.e. consisting of
+            three channels, corresponding to the red, green and blue color intensity values.
+            Consecutive layers of the CNN may consist of even more channels referred to as
+            \emph{feature maps}. The number of feature maps typically increase through the layers of
+            a CNN, while the spatial dimension of them decreases until reaching the desired
+            output size. The over-all idea behind this structure is that the representation of the
+            input image is gradually increased in abstraction as it progresses through the layers.
+            Later layers contain more information about the “what” and “how” of objects and
+            things in an image, and less of “where”. Similar to the definition of a feature map,
+            a \emph{feature vector} at a specific layer of a CNN is defined to be the elements across all
+            feature maps at a given spatial location. An example of the structure of a CNN is
+            presented. 
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.6\linewidth]{img/illustration.png}
+                \caption{Illustration of how neurons are structured in a CNN}
+            \end{figure}
+            \begin{enumerate}
+                \item \textbf{Components of CNNs} \\ 
+                    \vspace{3mm}
+                    Besides the fully connected layer presented in, there are other types of
+                    layers and connections that can be used to construct deep convolutional networks.
+                    Typically, the purposes behind some of these components are to reduce the dimensions of intermediate layers, reshaping spatial dimensions, simulating fully connected
+                    layers and more. Following are some sections describing important components in
+                    the CNN framework used in this thesis. \\ 
+                    \vspace{3mm}
+                    \ding{114}\textbf{Convolution} \\ 
+                    \vspace{3mm}
+                    The discrete 2D convolution operation, is defined by a convolution kernel \emph{k} of size 
+                    \emph{k x k}. Given an \emph{N x M} input image (tensor) \textbf{X}, the convolution kernel is run along all the pixels in the image, multiplying the
+                    surrounding pixel values with the kernel and adding them. The resulting output is
+                    a \emph{(N -k +1) x (M - k -1)} image \textbf{Y}, where the output at pixel location \emph{i,j} is calculated: 
+                    \begin{align}
+                        Y_{i,j} = \displaystyle\sum_{i'=1}^k \displaystyle\sum_{j'=1}^k k_{i',j'} X_{\frac{i - (k+1)}{2+j'}, \frac{j-(k+1)}{2+j'}}
+                    \end{align}
+                    The operator is denoted using * and thus 
+                    \begin{align}
+                        Y = k*X
+                    \end{align}
+                    \begin{figure}[H]
+                        \centering
+                        \includegraphics[width=0.4\linewidth]{img/conv_operation.png}
+                        \caption{Illustration of the convolution operation using a 3 x 3 kernel}
+                    \end{figure}
+                    The convolution operation between two layers in a CNN is defined by a kernel \textbf{$k_{ij}$} for each pair of feature maps in the two layers. Similar to the fully connected layer,
+                    the result from all convolutions related to feature map \emph{i} in the later layer is summed
+                    and a bias $b_i$ is distributed and added across the entire feature map. Let \textbf{$X_j$}, be a feature map in a layer with N$\geq$j features maps, then the feature map \textbf{$Y_i$} in 
+                    the next layer is calculated
+                    \begin{align}
+                        Y_i = \sigma_i (\displaystyle\sum_{j=1}^N k_{ij} * X_j + b_i 1)
+                    \end{align}
+                    where \textbf{1} is an all-ones matrix and $\sigma_i$
+                    is an element-wise activation function. The
+                    elements of all kernels \textbf{$k_{ij}$} and the biases \emph{$b_i$} are learnable parameters and are updated
+                    through the process of training the network. \\ 
+                    \vspace{3mm}
+                    As mentioned, the convolution operation has the effect of reducing the dimensions
+                    of the feature maps. However, there are some methods which can be used to avoid
+                    or modify this effect. A common strategy to preserve the spatial dimensions is to
+                    apply zero-padding, i.e. covering the feature maps before the convolution operation
+                    with a border of $\frac{k-1}{2}$ zeros, which counters the spatial reduction exactly. On
+                    the other hand, to reduce the spatial dimensions of intermediate layer activations
+                    further, a \emph{stride} can be associated with the convolution. The stride is applied by
+                    sliding the convolution kernel by \emph{s} number of steps between each “multiply and
+                    sum” operation and the result is that the feature maps are reduced in size by a
+                    factor \emph{s}. Most commonly, the convolutions are applied without stride, i.e. s = 1. \\ 
+                    \vspace{3mm}
+                    An important concept introduced by applying a convolution layer to a CNN is the
+                    \emph{receptive field}. The receptive field is a measure of how much information from the
+                    input image is available to the feature vectors of a specific layer in a CNN. If the
+                    first component of a CNN is a convolutional layer with kernel width \emph{$k_1$}, the receptive
+                    field of the first layer is k1 x k1 – i.e. each element in the second layer was provided
+                    information from the k1×k1 nearest pixels in the input image. Following this pattern,
+                    a series of n convolution layers with kernel sizes \emph{$k_1, . . . , k_n$} results in a receptive field
+                    of
+                    \begin{align}
+                        (1 + \displaystyle\sum_{i=1}^n (k_i - 1)) \times (1 + \displaystyle\sum_{i=1}^n (k_i - 1))
+                    \end{align}
+                    \ding{114}\textbf{Up-convolution or backwards convolution} \\ 
+                    \vspace{3mm}
+                    An operation analogous to the convolution operation, but reversed, referred to as
+                    up-convolution can be used for upsampling. It is achieved by convolution operation
+                    reversed. Hence, if upsampling by a factor \emph{f} is desired, it
+                    can be formulated as a convolution with a fractional input stride of $\frac{1}{f}$. Such 
+                    a layer can associate a single input activation to multiple output activations. This "upconvolution" layer has learnable filter parameters that could correspond to bases
+                    for reconstructing shapes of an object. Hence, an end-to-end learning mechanism can be constructed by repeated downsampling and then upsampling to achieve
+                    dense predictions, and this technique has been successfully used for dense pixel-level
+                    predictions.
+                    \begin{figure}[H]
+                        \centering
+                        \includegraphics[width=0.4\linewidth]{img/up-convolution.png}
+                        \caption{Illustration of the upconvolution operation}
+                    \end{figure}
+                    \ding{114}\textbf{Pooling} \\ 
+                    \vspace{3mm}
+                    Pooling layers are non-learnable layers used to reduce the spatial dimensions of the
+                    feature maps as they pass through the network. Similar to the convolution layer,
+                    they are associated with some kernel of size \emph{k x k} and a stride \emph{s}. There are two
+                    commonly used types of pooling layers; the max-pooling layer and the averagepooling layer. The max-pooling layer,performs a max ()
+                    operation with the elements of the feature map at each position of the kernel, thus
+                    discarding the information of the non-max neurons.
+                    \begin{figure}[H]
+                        \centering
+                        \includegraphics[width=0.4\linewidth]{img/max-pooling.png}
+                        \caption{Illustration of the max-pooling operation}
+                    \end{figure}
+                    The average-pooling layer performs an average at each position of the kernel, i.e. a
+                    normal convolution with the kernel values all set to $\frac{1}{k^2}$. Typically, the stride of
+                    the pooling layers is set to \emph{s=k} , thus achieving a dimensional reduction of a factor
+                    \emph{s} without using any zero-padding. \\ 
+                    \vspace{3mm}
+                    Apart from reducing the spatial dimensions of the feature maps, pooling layers also
+                    provide an efficient way of increasing the receptive field in a CNN. A pooling layer
+                    with stride \emph{s} have the effect of increasing the receptive field of a factor \emph{s}. This effect
+                    can also we achieved by including stride in a convolutional layer. \\ 
+                    \vspace{3mm}
+                    \ding{114}\textbf{Unpooling} \\ 
+                    \vspace{3mm}
+                    A reverse operation to pooling, “unpooling” aims to recover the original size of activations that were lost due to a pooling operation. A version of unpooling specifically
+                    for reversing the max-pooling operation, records the maximum activations selected
+                    during the pooling operation and uses them to recreate the original activations by
+                    placing the recorded values in their original positions. This strategyis useful to recover the structure of objects and have a parameter-free
+                    upsampling. 
+                    \begin{figure}[H]
+                        \centering
+                        \includegraphics[width=0.4\linewidth]{img/max-unpooling.png}
+                        \caption{Illustration of the max-unpooling operation}
+                    \end{figure}
+                    \ding{114}\textbf{1 x 1 Convolutions} \\ 
+                    \vspace{3mm}
+                    Technically, 1 × 1 convolutional kernels are no different from any k × k kernel in the
+                    way they are applied. However, there is a conceptual difference between them in
+                    that k × k convolutions are usually thought of as edge/feature detectors while 1 × 1
+                    kernels can only combine activations of each feature vector. The interpretation of
+                    such an operation is that it is simulating the effect of a fully connected layer, applied
+                    to each feature vector. Since the convolution operation is not dependant on the
+                    spatial size of its input, transforming fully connected layers to 1 × 1 convolutions is
+                    a useful way of generalizing the network for different input sizes. \\ 
+                    \vspace{3mm} 
+                    \ding{114}\textbf{Batch Normalisation} \\ 
+                    \vspace{3mm}
+                    Training deep neural networks can be quite tricky in practice due to the fact that
+                    the distribution of each intermediate layer’s inputs changes during training. Such a
+                    change is caused by the changes in the parameters of the previous layers. This problem is referred to as \emph{internal covariate shift}. When the input distribution changes,
+                    the activations tend to move into the saturated regimes, and this effect is amplified
+                    as the network depth increases, thus also causing the vanishing gradient problem.
+                    To tackle this, a normalisation technique was introduced, where normalisation of the inputs to the activation layers are done over the mini-batch. The batch
+                    normalising transform algorithm is briefly presented. Consider a mini-batch of \emph{n} inputs in a mini-batch \textbf{$\beta = \{x_1,x_2,...,x_n\}$}. Let 
+                    the normalized values be $\{\hat{x_1},\hat{x_2},...,\hat{x_n}\}$ and the resulting linear transformation of the batch 
+                    normalisation can be represented by $\{y_1,y_2,...,y_n\}$. Then, the batch normalising transform given by 
+                    \begin{align}
+                        \textbf{BN}_{\gamma,\beta} : \{x_1,x_2,...,x_n\} \rightarrow \{y_1,y_2,...,y_n\}
+                    \end{align}
+                    where $\gamma$ and$\beta$ are learnable parameters that correspond to the scaling and shifting
+                    in the transformation. Hence the mini-batch mean and variance which are given by 
+                    \begin{align}
+                        \mu \beta \leftarrow \frac{1}{n} \displaystyle\sum_{i=1}^n x_i \\
+                        \sigma_\beta^2 \leftarrow \frac{1}{n} \displaystyle\sum_{i=1}^n (x_i - \mu \beta)^2
+                    \end{align}
+                    are used to achieve the normalisation. Thus, the normalisation looks like
+                    \begin{align}
+                        \hat{x}_i \leftarrow \frac{x_i - \mu \beta}{\sqrt{\sigma_\beta^2 + \in}}
+                    \end{align}
+                    and the resulting transformation can be given by
+                    \begin{align}
+                        y_i \leftarrow \gamma \hat{x}_i + \beta
+                    \end{align}
+            \end{enumerate}
 
         \subsubsection{Categorize}
             Thanks to Deep Neural Network, a more significant gain is obtained with the introduction of regions with convolutional neural network (CNN) features (R-CNN). DNNs, or the most representative CNNs, act in a quite different way from traditional approaches. They have deeper architectures with the capacity to learn more complex features than the shallow ones. Also, the expressivity and robust training algorithms allow to learn informative object representations without the need to design features manually. \\
