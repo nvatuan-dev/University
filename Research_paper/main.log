@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.2.21)  1 MAR 2021 15:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.2.21)  1 MAR 2021 17:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -686,32 +686,66 @@ File: img/time-measurement.png Graphic file (type png)
 <use img/time-measurement.png>
 Package pdftex.def Info: img/time-measurement.png  used on input line 134.
 (pdftex.def)             Requested size: 273.14923pt x 97.15906pt.
- [27 </home/goodboiz/Documents/Dev/University/Research_paper/img/Bayesian.png (PNG copy)>] [28 </home/goodboiz/Documents/Dev/University/Research_paper/img/time-measurement.png (PNG copy)>] [29]) (/home/goodboiz/Documents/Dev/University/Research_paper/Chapter_4/Chap4.tex [30]
+ [27 </home/goodboiz/Documents/Dev/University/Research_paper/img/Bayesian.png (PNG copy)>] [28 </home/goodboiz/Documents/Dev/University/Research_paper/img/time-measurement.png (PNG copy)>] [29] [30] [31]
+<img/SORT.png, id=167, 828.09375pt x 501.875pt>
+File: img/SORT.png Graphic file (type png)
+<use img/SORT.png>
+Package pdftex.def Info: img/SORT.png  used on input line 297.
+(pdftex.def)             Requested size: 273.14923pt x 165.55034pt.
+ [32 </home/goodboiz/Documents/Dev/University/Research_paper/img/SORT.png (PNG copy)>]
+<img/intergrated-metrics.png, id=171, 1189.44376pt x 662.475pt>
+File: img/intergrated-metrics.png Graphic file (type png)
+<use img/intergrated-metrics.png>
+Package pdftex.def Info: img/intergrated-metrics.png  used on input line 344.
+(pdftex.def)             Requested size: 273.14923pt x 152.13354pt.
+<img/wide-residual.png, id=172, 512.91624pt x 353.32pt>
+File: img/wide-residual.png Graphic file (type png)
+<use img/wide-residual.png>
+Package pdftex.def Info: img/wide-residual.png  used on input line 352.
+(pdftex.def)             Requested size: 273.14923pt x 188.15904pt.
+ [33 </home/goodboiz/Documents/Dev/University/Research_paper/img/intergrated-metrics.png (PNG copy)>]
+<img/listing.png, id=176, 609.27625pt x 574.145pt>
+File: img/listing.png Graphic file (type png)
+<use img/listing.png>
+Package pdftex.def Info: img/listing.png  used on input line 363.
+(pdftex.def)             Requested size: 273.14923pt x 257.40794pt.
+ [34 </home/goodboiz/Documents/Dev/University/Research_paper/img/wide-residual.png (PNG copy)>]
+<img/track-life.png, id=180, 834.11626pt x 409.53pt>
+File: img/track-life.png Graphic file (type png)
+<use img/track-life.png>
+Package pdftex.def Info: img/track-life.png  used on input line 372.
+(pdftex.def)             Requested size: 273.14923pt x 134.10799pt.
+<img/DeepSort.png, id=181, 828.09375pt x 395.4775pt>
+File: img/DeepSort.png Graphic file (type png)
+<use img/DeepSort.png>
+Package pdftex.def Info: img/DeepSort.png  used on input line 378.
+(pdftex.def)             Requested size: 273.14923pt x 130.45366pt.
+ [35 </home/goodboiz/Documents/Dev/University/Research_paper/img/listing.png (PNG copy)> </home/goodboiz/Documents/Dev/University/Research_paper/img/track-life.png (PNG copy)>] [36 </home/goodboiz/Documents/Dev/University/Research_paper/img/DeepSort.png (PNG copy)>]) (/home/goodboiz/Documents/Dev/University/Research_paper/Chapter_4/Chap4.tex [37]
 Chapter 4.
-) (/home/goodboiz/Documents/Dev/University/Research_paper/Chapter_5/Chap5.tex [31
+) (/home/goodboiz/Documents/Dev/University/Research_paper/Chapter_5/Chap5.tex [38
 
 ]
 Chapter 5.
-) (/home/goodboiz/Documents/Dev/University/Research_paper/Chapter_6/Chap6.tex [32
+) (/home/goodboiz/Documents/Dev/University/Research_paper/Chapter_6/Chap6.tex [39
 
 ]
 Chapter 6.
-) [33
+) [40
 
 ] (/home/goodboiz/Documents/Dev/University/Research_paper/main.aux) ) 
 Here is how much of TeX's memory you used:
- 16749 strings out of 480906
- 308449 string characters out of 5910772
- 557313 words of memory out of 5000000
- 31929 multiletter control sequences out of 15000+600000
+ 16803 strings out of 480906
+ 309540 string characters out of 5910772
+ 557642 words of memory out of 5000000
+ 31977 multiletter control sequences out of 15000+600000
  556765 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,14n,64p,1011b,838s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/boondox/zxxrl8a.pfb>
-Output written on /home/goodboiz/Documents/Dev/University/Research_paper/main.pdf (34 pages, 3231194 bytes).
+Output written on /home/goodboiz/Documents/Dev/University/Research_paper/main.pdf (41 pages, 3614559 bytes).
 PDF statistics:
- 255 PDF objects out of 1000 (max. 8388607)
- 159 compressed objects within 2 object streams
+ 285 PDF objects out of 1000 (max. 8388607)
+ 176 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 128 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 158 words of extra memory for PDF output out of 10000 (max. 10000000)
 

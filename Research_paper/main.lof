@@ -24,6 +24,12 @@
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Pipeline of detection based tracking and detection free tracking}}{25}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Illustration of Bayesian filtering and dependencies on time and measurement updates}}{27}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Time and measurement update}}{28}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Pipeline of SORT}}{32}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Data Association with two integrated metrics}}{33}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Wide Residual Network Architecture}}{34}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Listing of Matching Cascade}}{35}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Track Life Cycle Management}}{35}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Pipeline of DeepSORT}}{36}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

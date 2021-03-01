@@ -59,26 +59,43 @@
 \contentsline {subsubsection}{\numberline {3.3.7.3}Kalman Filter}{27}%
 \contentsline {subsubsection}{\numberline {3.3.7.4}Unscented Kalman Filter}{28}%
 \contentsline {section}{\numberline {3.4}Detection Based Tracking Pipeline}{30}%
-\contentsline {section}{\numberline {3.5}SORT}{30}%
-\contentsline {section}{\numberline {3.6}Deep SORT}{30}%
-\contentsline {section}{\numberline {3.7}Evaluations Metrics}{30}%
-\contentsline {subsection}{\numberline {3.7.1}Conventional Metrics}{30}%
-\contentsline {subsection}{\numberline {3.7.2}Update Metrics}{30}%
-\contentsline {chapter}{\numberline {4}INFERENCE}{31}%
-\contentsline {section}{\numberline {4.1}Architecture Optimization}{31}%
-\contentsline {section}{\numberline {4.2}Algorithm Optimization}{31}%
-\contentsline {section}{\numberline {4.3}TensorRT Framework}{31}%
-\contentsline {section}{\numberline {4.4}Post-Processing}{31}%
-\contentsline {subsection}{\numberline {4.4.1}Speed Estimation}{31}%
-\contentsline {subsection}{\numberline {4.4.2}Anomaly Detection}{31}%
-\contentsline {chapter}{\numberline {5}MODEL TRAINING}{32}%
-\contentsline {section}{\numberline {5.1}Dataset}{32}%
-\contentsline {section}{\numberline {5.2}Loss Function}{32}%
-\contentsline {section}{\numberline {5.3}Hyperparameters}{32}%
-\contentsline {chapter}{\numberline {6}SOFTWARE DESIGN}{33}%
-\contentsline {section}{\numberline {6.1}System Overview}{33}%
-\contentsline {section}{\numberline {6.2}Hardware Design}{33}%
-\contentsline {section}{\numberline {6.3}Software Design}{33}%
-\contentsline {subsection}{\numberline {6.3.1}Dependencies}{33}%
-\contentsline {subsection}{\numberline {6.3.2}User Interface}{33}%
-\contentsline {subsection}{\numberline {6.3.3}Administration}{33}%
+\contentsline {subsection}{\numberline {3.4.1}Detection Based Tracking}{30}%
+\contentsline {subsection}{\numberline {3.4.2}Prediction}{30}%
+\contentsline {subsection}{\numberline {3.4.3}Association}{30}%
+\contentsline {subsection}{\numberline {3.4.4}Hungarian Method}{31}%
+\contentsline {section}{\numberline {3.5}SORT}{31}%
+\contentsline {subsection}{\numberline {3.5.1}Estimation Models}{31}%
+\contentsline {subsection}{\numberline {3.5.2}Data Association}{31}%
+\contentsline {subsection}{\numberline {3.5.3}Pipeline}{32}%
+\contentsline {subsection}{\numberline {3.5.4}Pros \& Cons}{32}%
+\contentsline {section}{\numberline {3.6}Deep SORT}{32}%
+\contentsline {subsection}{\numberline {3.6.1}Improvements of DeepSORT over SORT}{32}%
+\contentsline {subsection}{\numberline {3.6.2}Data Association}{32}%
+\contentsline {subsection}{\numberline {3.6.3}Deep Appearance Feature Extraction}{34}%
+\contentsline {subsection}{\numberline {3.6.4}Matching Cascade}{34}%
+\contentsline {subsection}{\numberline {3.6.5}Track Life Cycle Management}{35}%
+\contentsline {subsection}{\numberline {3.6.6}Pipeline of DeepSORT}{36}%
+\contentsline {section}{\numberline {3.7}Evaluations Metrics}{36}%
+\contentsline {subsection}{\numberline {3.7.1}Multiple Object Tracking Accuracy(MOTA)}{36}%
+\contentsline {subsection}{\numberline {3.7.2}Multiple Object Tracking Precision(MOTP)}{37}%
+\contentsline {subsection}{\numberline {3.7.3}Average multi object tracking accuracy(AMOTA)}{37}%
+\contentsline {subsection}{\numberline {3.7.4}Average multi object tracking precision(AMOTP)}{37}%
+\contentsline {subsection}{\numberline {3.7.5}Identification precision(IDP), Identification recall(IDR), IDF1}{37}%
+\contentsline {chapter}{\numberline {4}INFERENCE}{38}%
+\contentsline {section}{\numberline {4.1}Architecture Optimization}{38}%
+\contentsline {section}{\numberline {4.2}Algorithm Optimization}{38}%
+\contentsline {section}{\numberline {4.3}TensorRT Framework}{38}%
+\contentsline {section}{\numberline {4.4}Post-Processing}{38}%
+\contentsline {subsection}{\numberline {4.4.1}Speed Estimation}{38}%
+\contentsline {subsection}{\numberline {4.4.2}Anomaly Detection}{38}%
+\contentsline {chapter}{\numberline {5}MODEL TRAINING}{39}%
+\contentsline {section}{\numberline {5.1}Dataset}{39}%
+\contentsline {section}{\numberline {5.2}Loss Function}{39}%
+\contentsline {section}{\numberline {5.3}Hyperparameters}{39}%
+\contentsline {chapter}{\numberline {6}SOFTWARE DESIGN}{40}%
+\contentsline {section}{\numberline {6.1}System Overview}{40}%
+\contentsline {section}{\numberline {6.2}Hardware Design}{40}%
+\contentsline {section}{\numberline {6.3}Software Design}{40}%
+\contentsline {subsection}{\numberline {6.3.1}Dependencies}{40}%
+\contentsline {subsection}{\numberline {6.3.2}User Interface}{40}%
+\contentsline {subsection}{\numberline {6.3.3}Administration}{40}%

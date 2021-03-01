@@ -233,13 +233,211 @@
 
 
 \section{Detection Based Tracking Pipeline}
+    \subsection{Detection Based Tracking}
+        A common methodology is to split the tracking into two phases: prediction of object
+        location, and matching of detections and predictions. That is, for each new frame,
+        the complete tracking model does the following: \textbf{(1) Detect objects of interest, (2) Predict new locations of objects from previous frames, (3) Associate objects between frames
+        by similarity of detected and predicted locations.}
+    \subsection{Prediction}
+        A multitude of approaches have been suggested for how to predict new locations of tracked objects. Some works include computing the optical flow to determine the new position, or using recurrent neural networks, Kalman filters or particle filters to 
+        model the velocity of objects, and with this predict the position in future frames. Filtering problem is tackled in this step and methods such as Kalman filter or particle filter are among best solutions.
+    \subsection{Association}
+        The association task consists of determining what detection corresponds to what object, based on the predictions from the previous step, or alternatively if a detection represents a new object. Problems arise when tracked objects leave the scene or are 
+        otherwise not detected, new objects enter the scene, the detector produces false positives. This step tackles assignment problems. In the case where the number of detection is equal to the number of tracked objects, this is a case of the assignment problem, 
+        in which the goal is to find an optimal matching between two sets of object. Commonly, one set is called agents and the other tasks. There is a cost $c_{ij}$ associated with assigning a task j to an agent i, and the objective is to find an assignment with 
+        minimum total cost, such that no agent is assigned more than one task, and no task is assigned to more than one agent. Formally, if A is the set of agents, T the set of tasks, and $x_{ij}$ represents the assignment, taking value 1 if task j is assigned to agent 
+        i and 0 otherwise, then the objective is to minimize.
+        \begin{align}
+            \displaystyle\sum_{i \in A} \displaystyle\sum_{j \in T} c_{ij} x_{ij} \\ 
+            \displaystyle]sum_{i \in A} x_{ij} = 1, j \in T \\ 
+            \displaystyle\sum_{j \in T} x_{ij} = 1, i \in A \\ 
+            x_{ij} \geq 0, i \in A, j \in T
+        \end{align}
+        One can also consider the same problem, but with the goal of maximising the cost rather
+        than minimizing it.
+    \subsection{Hungarian Method}
+        The Hungarian algorithm, also known as Kuhn–Munkres algorithm, solves the assignment problem in polynomial time, with time complexity \emph{$O(n^3)$} where n is the number of agents (and task). The input to the algorithm is a cost matrix \emph{C}, where \emph{C(i,j)} 
+        is the cost $c_{ij}$ and in four steps the matrix is manipulated to give the optimal matching. In the case where the number of agents is not equal to the number of tasks, \emph{C} can be padded with rows and columns with large values to make it square. Inversely, 
+        if the goal is to find a matching with maximum cost, the matrix can be padded with zeros. Then in the final matching, assignments corresponding to added rows or columns are discarded. \\ 
+        \vspace{3mm}
+        Similarity measures In order to compute the cost matrix C between detections and predictions, we need to define what it means for two bounding boxes to be (dis)similar. A simple way is to compute the intersection over union (IoU), also known as the Jaccard index, between 
+        two bounding boxes A and B as
+        \begin{align}
+            IoU(A,b) = \frac{|A \cap B|}{|A \cup B|} = \frac{|A \cap B|}{|A| + |B| - |A \cap B|} 
+        \end{align}
+        This has the benefit of combining distance and similarity in size and shape in a nice way, but unfortunately it gives 0 for any two bounding boxes that do not intersect. This means that if the predictions are too inaccurate, all values in the cost matrix could be 0, 
+        meaning that all assignments are equally good. Despite this, IoU has successfully been used either as the only measure or in tandem with appearance information. \\ 
+        \vspace{3mm}
+        More sophisticated tracking models combine different similarity measures to calculate the cost, most of which can loosely be separated into three categories: distance measures, shape measures, and appearance measures. These are summed or multiplied with different weights, 
+        yielding a single value indicating the overall similarity between bounding boxes. Distance and shape measures look only at the position and geometry of the bounding boxes, whereas appearance features are calculated from the actual pixels within each bounding box. \\ 
+        \vspace{3mm}
+        he three ingredients in the data association step including bounding box IoU, re-ID features and Kalman Filter. These are used to compute the similarity between each pair of detected boxes.We can see that only using box IoU causes a lot of ID switches. This is particularly 
+        true for crowded scenes and fast camera motion. Using re-ID features alone notably increases IDF1 and decreases the number of ID switches. In addition, adding Kalman filter helps obtain smooth (reasonable) tracklets which further decreases the number of ID switches. 
+        When an object is partly occluded, its re-ID features become unreliable. In this case, it is important to leverage box IoU, re-ID features and Kalman filter to obtain good tracking performance.
 
 \section{SORT}
+    \subsection{Estimation Models}
+        The representation and the motion model used to propagate a target’s identity into the
+        next frame.They approximate the inter-frame displacements of each object with a linear constant velocity model which is independent of other objects and camera motion. The state of
+        each target is modelled as:
+        \begin{align}
+            x =[u,v,s,r,\dot{u},\dot{v},\dot{s}]^T
+        \end{align}
+        where u and v represent the horizontal and vertical pixel location of the centre of the target, while the scale s and r represent the scale (area) and the aspect ratio of the target’s bounding box respectively. Note that the aspect ratio is considered to be constant. 
+        When a detection is associated to a target, the detected bounding box is used to update the target state where the velocity components are solved optimally via a Kalman filter. If no detection is associated to the target, its state is simply predicted without correction using 
+        the linear velocity model.
+    \subsection{Data Association}
+        In assigning detections to existing targets, each target’s bounding box geometry is estimated by predicting its new location in the current frame. The assignment cost matrix is then computed as the intersection-over-union (IOU) distance between each detection and all predicted bounding boxes 
+        from the existing targets. The assignment is solved optimally using the Hungarian algorithm. Additionally, a minimum IOU is imposed to reject assignments where the detection to target overlap is less than $IoU_{min}$.
+    \subsection{Pipeline}
+        For each frame, the following happens: objects are detected, new locations of already tracked objects are predicted using the predictors, and the detected and tracked objects are matched based on the similarities of the bounding boxes. The predictors are then updated with their associated detections, 
+        and the estimated positions are returned as trackings. Additionally, new predictors are initiated for any unmatched detection, and unused predictors are removed.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.6\linewidth]{img/SORT.png}
+            \caption{Pipeline of SORT}
+        \end{figure}
+    \subsection{Pros \& Cons}
+        While achieving overall good performance in terms of tracking precision and accuracy, SORT returns a relatively high number of identity switches. This is, because the employed association metric is only accurate when state estimation uncertainty is low. Therefore, SORT has a deficiency in tracking through 
+        occlusions as they typically appear in frontal-view camera scenes. In addition, SORT leverage Linear Kalman Filter, which not always suits the real world application.
 
 \section{Deep SORT}
+    DeepSORT is an extension of SORT (Simple Online and Realtime Tracking), which is a simple, popular, and fast multiple-object-tracking (MOT) algorithm. DeepSORT integrates appearance information to improve the performance of SORT by adding one pretrained association metric. The core idea of DeepSORT is to use a 
+    traditional single-hypothesis tracking method, which uses the Hungarian method for recursive Kalman filtering and frame-by-frame data association.
+    \subsection{Improvements of DeepSORT over SORT}
+        In DeepSORT, the authors solve data association problem based on Hungarian algorithm not only with IOU but also many other features: distance between detection and track, cosine distance between two feature vectors extracted from detection and track as two feature vectors of the same objects are more similar than 
+        those of different objects. 
+    \subsection{Data Association}
+        To solve the frame-by-frame association problem, DeepSORT uses the Hungarian algorithm where both motion and appearance information are considered. This work integrate motion and appearance information through combination of two appropriate metrics. \\ 
+        \vspace{3mm}
+        To incorporate motion information they use the (squared) Mahalanobis distance between predicted Kalman states and newly arrived measurements:
+        \begin{align}
+            d^{(1)} (i,j) = (d_j - y_i)^T S_i^{-1} (d_j - y_i)
+        \end{align}
+        where the projection of the i-th track distribution into measurement space is denoted by ($y_i, S_i$) and the j-th bounding box detection by \emph{$d_j$}.The Mahalanobis distance takes state estimation uncertainty into account by measuring how many standard deviations the detection is away from the mean track location. 
+        Further, using this metric it is possible to exclude unlikely associations by thresholding the Mahalanobis distance at a 95\% confidence interval computed from the inverse $\chi^2$ distribution. This decision is denoted by an indicator that evaluates to 1 if the association between the \emph{i-th} track and \emph{j-th} detection is admissible.
+        \begin{align}
+            b_{i,j}^{(1)} = \mathbb{1} [d^{(1)} (i,j) \leq t^{(1)}]
+        \end{align}
+        The second metric is integrated into assignment problem. For each bounding box detection $d_j$ an appearance descriptor $r_j$ is computed with $\parallel r_j \parallel = 1$. The second metric measures the smallest cosine distance between the \emph{i-th} track and \emph{j-th} detection in appearance space:
+        \begin{align}
+            d^{(2)} (i,j) = min\{1 - r_j^T r_k^{(1)} | r_k^{(i)} \in R_i\}
+        \end{align}
+        A binary variable to indicate if an association is admissible according to this metric is introduced.
+        \begin{align}
+            b_{i,j}^{(2)} = \mathbb{1} [d^{(2)} (i,j) \leq t^{(2)}]
+        \end{align}
+        In combination, both metrics complement each other by serving different aspects of the assignment problem. On the one hand, the Mahalanobis distance provides information about possible object locations based on motion that are particularly useful for short-term predictions. On the other hand, the cosine distance considers appearance information 
+        that are particularly useful to recover identities after longterm occlusions, when motion is less discriminative. To build the association problem they combine both metrics using a weighted sum:
+        \begin{align}
+            c_{i,j} = \lambda d^{(1)} (i,j) + (1 - \lambda) d^{(2)} (i,j)
+        \end{align}
+        where they call an association admissible if it is within the gating region of both metrics:
+        \begin{align}
+            b_{i,j} = \Pi_{m = 1}^2 b_{i,j}^{(m)}
+        \end{align}
+        Gate matrix will be 1 only when both spatial and appearance gate functions are equal to 1 and otherwise 0 indicating whether (i, j) is a valid match for both spatial and appearance. In each new frame, the new detections are associated with existing tracks using this cost matrix and gate matrix. \\ 
+        \vspace{3mm}
+        The influence of each metric on the combined association cost can be controlled through hyperparameter $\lambda$.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.6\linewidth]{img/intergrated-metrics.png}
+            \caption{Data Association with two integrated metrics}
+        \end{figure}
+    \subsection{Deep Appearance Feature Extraction}
+        The appearance information is extracted by a convolutional neural network (CNN) trained on re-identification dataset, which is Wide Residual Network. This task is also called Cosine Metric Learning. Although WRN is a shallow neural network with 16 layers, its performance is still very impressive in comparison with other thousand-layers architectures 
+        with less training time and inference time.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.6\linewidth]{img/wide-residual.png}
+            \caption{Wide Residual Network Architecture}
+        \end{figure}
+        Consine softmax classifier is introduced and applied into training phase of this architecture
+        \begin{align}
+            p(y = k | \textbf{r}) = \frac{exp(\kappa . \overset{~}{\omega}_k^T \textbf{r})}{\displaystyle\sum_{n=1}^C exp(\kappa . \overset{~}{\omega}_n^T \textbf{r})}
+        \end{align}
+    \subsection{Matching Cascade}
+        Matching Cascade recursively take track generated in the previous frame to compute cost matrix and then solve assignment problem with cascade. Below is the pseudo code of this matching stategy 
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.6\linewidth]{img/listing.png}
+            \caption{Listing of Matching Cascade}
+        \end{figure}
+    \subsection{Track Life Cycle Management}
+        Every time a new detection is successfully associated with an existing track, the detection is added to the track and the unassociated age of the track is zero. When new detections fail to associate with existing tracks in frame f, the new detections are initialized as Tentative tracks. The original Deep SORT algorithm checks that the Tentative tracks are 
+        associated with new detections in each of the \emph{$(f + 1), (f + 2),...,(f + t_tentative)$} frames. If successfully associated, the track is updated as a Confirmed track. Otherwise, the Tentative track is deleted immediately. As for the existing tracks that fail to associate with new detections in each frame, their unassociated ages will increase by one. 
+        If the unassociated age exceeds the max age threshold, the track will also be deleted.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.6\linewidth]{img/track-life.png}
+            \caption{Track Life Cycle Management}
+        \end{figure}
+    \subsection{Pipeline of DeepSORT}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.6\linewidth]{img/DeepSort.png}
+            \caption{Pipeline of DeepSORT}
+        \end{figure}
+        \begin{itemize}
+            \item Firstly, Object Detection Algorithm is used to detect objects in current frame.
+            \item Next, DeepSORT applies Kalman Filter to make prediction of new state base on previous state. This state is assigned with tentative value when initalized. If the value remains in the next 3 frame, the state is changed to confirmed state and will be monitoring in the next 30 frame. Otherwise, the state is released from monitoring.
+            \item Using confirmed track, matching cascade is applied in order to link track with detection results based on distance metrics and appearance metrics.
+            \item Tracks and detections not yet associated will go through next filter layer. Here Hungarian algorithm is used to solve assignment problem with IOU cost matrix.
+            \item Classify detections and tracks prediction.
+            \item Apply Kalman Filter to modify track value from associated detection and initialized new track.
+        \end{itemize}
 
 \section{Evaluations Metrics}
-
-    \subsection{Conventional Metrics}
-
-    \subsection{Update Metrics}
+    \subsection{Multiple Object Tracking Accuracy(MOTA)}
+        \begin{align}
+            [MOTA = 1 - \frac{\sum_{t} (m_t + fp_t + mme_t)}{\sum_{t} g_t}] where (m_t, fp_t, mme_t)
+        \end{align} 
+        are  the number of misses, of false positives and of mismatches respectively for time t. The MOTA can be seen as composed of 3 error ratios.
+        \begin{align}
+            \bar{m} = \frac{\sum_{t} m_t}{\sum_{t} g_t}
+        \end{align}
+        the ratio of misses in the sequence, computed over the total number of objects present in all frames,
+        \begin{align}
+            \bar{fp} = \frac{\sum_{t} fp_t}{\sum_{t} g_t}
+        \end{align}
+        the ratio of false positives, and
+        \begin{align}
+            \bar{mme} = \frac{\sum_{t} mme_t}{\sum_{t} g_t}
+        \end{align}
+        the ratio of mismatches. Summing up over the different error ratios gives us the total error rate $(E_{tot})$, and $(1 - E_{tot})$ is the resulting tracking accuracy. The MOTA accounts for all object configuration errors made by the tracker, false positives, misses, mismatches, over all frames. It is similar to metrics widely used in other domains (such as the Word Error Rate (WER), 
+        commonly used in speech recognition) and gives a very intuitive measure of the tracker’s performance at keeping accurate trajectories, independent of its precision in estimating object positions.
+    \subsection{Multiple Object Tracking Precision(MOTP)}
+        The Multiple Object Tracking Precision is the average dissimilarity between all true positives and their corresponding ground truth targets. For bounding box overlap, this is computed as
+        \begin{align}
+            MOTP = \frac{\sum_{t, i} d_{t, i}}{\sum_{t} c_t}
+        \end{align}
+        where ct denotes the number of matches in frame t and $(d_{t, i})$ is the bounding box overlap of target i with its assigned ground truth object. MOTP thereby gives the average overlap between all correctly matched hypotheses and their respective objects and ranges between \( td = 50\% \: and \: 100\% \). It is important to point out that MOTP is a measure of localization precision, 
+        not to be confused with the positive predictive value or relevance in the context of precision / recall curves used, e.g., in object detection. In practice, it mostly quantifies the localization accuracy of the detector, and therefore, it provides little information about the actual performance of the tracker.
+    \subsection{Average multi object tracking accuracy(AMOTA)}
+        For the traditional MOTA formulation at recall \(10\%\) there are at least \(90\%\) false negatives, which may lead to negative MOTAs. Therefore the contribution of identity switches and false positives becomes negligible at low recall values. In MOTAR we include recall-normalization term \emph{\(- (1-r) * P\)} in the nominator, the factor r in the denominator and the maximum. 
+        These guarantee that the values span the entire [0,1] range and brings the three error types into a similar value range. P refers to the number of ground-truth positives for the current class.
+        \begin{align}
+            AMOTA = \frac{1}{n - 1} \sum_{r \in {\frac{1}{n - 1}, \frac{2}{n - 1} ... 1}} MOTAR \\ 
+            MOTAR = \max(0, 1 - \frac{IDS_r + FP_r + FN_r - (1 - r) * P}{r*P})
+        \end{align}
+    \subsection{Average multi object tracking precision(AMOTP)}
+        Here ($d_{i,t}$) indicates the position error of track i at time t and ($TP_t$) indicates the number of matches at time t.
+        \begin{align}
+            AMOTA = \frac{1}{n - 1} \sum_{r \in {\frac{1}{n - 1}, \frac{2}{n - 1} ... 1}}\frac{\sum_{i, t} d_{i, t}}{\sum_{t} TP_t}
+        \end{align}
+    \subsection{Identification precision(IDP), Identification recall(IDR), IDF1}
+        We use the IDFN, IDFP, IDTP counts to compute identification precision (IDP), identification recall (IDR), and the corresponding F1 score IDF1. More specifically,
+        \begin{align}
+            IDFN = \sum_{\tau \in AT} \sum_{t \in \mathcal{T}_\tau} m(\tau, \gamma_m(\tau),t,\Delta) \\ 
+            IDFP = \sum_{\gamma \in AC} \sum_{t \in \mathcal{T}_\gamma} m(\tau_m(\gamma),\gamma,t,\Delta) \\ 
+            IDTP = \sum_{\tau \in  AT} len(\tau) - IDFN = \sum_{\gamma \in  AC} len(\gamma) - IDFP
+        \end{align}        
+        The fraction of computed (ground truth) detections that are correctly identified.
+        \begin{align}
+            IDP = \frac{IDTP}{IDTP + IDFP}
+            IDR = \frac{IDTP}{IDTP + IDFN}
+        \end{align}
+        IDF1 is the ratio of correctly identified detections over the average number of ground-truth and computed detections. ID precision and ID recall shed light on tracking trade-offs, while the IDF1 score allows ranking all trackers on a single scale that balances identification precision and recall through their harmonic mean.
+        \begin{align}
+            IDF_1 = \frac{2IDTP}{2IDTP + IDFP + IDFN}
+        \end{align}
