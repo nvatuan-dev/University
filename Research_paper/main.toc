@@ -58,27 +58,27 @@
 \contentsline {subsubsection}{\numberline {3.3.7.2}Measurement Update}{27}%
 \contentsline {subsubsection}{\numberline {3.3.7.3}Kalman Filter}{27}%
 \contentsline {subsubsection}{\numberline {3.3.7.4}Unscented Kalman Filter}{28}%
-\contentsline {section}{\numberline {3.4}Detection Based Tracking Pipeline}{29}%
-\contentsline {section}{\numberline {3.5}SORT}{29}%
-\contentsline {section}{\numberline {3.6}Deep SORT}{29}%
-\contentsline {section}{\numberline {3.7}Evaluations Metrics}{29}%
-\contentsline {subsection}{\numberline {3.7.1}Conventional Metrics}{29}%
-\contentsline {subsection}{\numberline {3.7.2}Update Metrics}{29}%
-\contentsline {chapter}{\numberline {4}INFERENCE}{30}%
-\contentsline {section}{\numberline {4.1}Architecture Optimization}{30}%
-\contentsline {section}{\numberline {4.2}Algorithm Optimization}{30}%
-\contentsline {section}{\numberline {4.3}TensorRT Framework}{30}%
-\contentsline {section}{\numberline {4.4}Post-Processing}{30}%
-\contentsline {subsection}{\numberline {4.4.1}Speed Estimation}{30}%
-\contentsline {subsection}{\numberline {4.4.2}Anomaly Detection}{30}%
-\contentsline {chapter}{\numberline {5}MODEL TRAINING}{31}%
-\contentsline {section}{\numberline {5.1}Dataset}{31}%
-\contentsline {section}{\numberline {5.2}Loss Function}{31}%
-\contentsline {section}{\numberline {5.3}Hyperparameters}{31}%
-\contentsline {chapter}{\numberline {6}SOFTWARE DESIGN}{32}%
-\contentsline {section}{\numberline {6.1}System Overview}{32}%
-\contentsline {section}{\numberline {6.2}Hardware Design}{32}%
-\contentsline {section}{\numberline {6.3}Software Design}{32}%
-\contentsline {subsection}{\numberline {6.3.1}Dependencies}{32}%
-\contentsline {subsection}{\numberline {6.3.2}User Interface}{32}%
-\contentsline {subsection}{\numberline {6.3.3}Administration}{32}%
+\contentsline {section}{\numberline {3.4}Detection Based Tracking Pipeline}{30}%
+\contentsline {section}{\numberline {3.5}SORT}{30}%
+\contentsline {section}{\numberline {3.6}Deep SORT}{30}%
+\contentsline {section}{\numberline {3.7}Evaluations Metrics}{30}%
+\contentsline {subsection}{\numberline {3.7.1}Conventional Metrics}{30}%
+\contentsline {subsection}{\numberline {3.7.2}Update Metrics}{30}%
+\contentsline {chapter}{\numberline {4}INFERENCE}{31}%
+\contentsline {section}{\numberline {4.1}Architecture Optimization}{31}%
+\contentsline {section}{\numberline {4.2}Algorithm Optimization}{31}%
+\contentsline {section}{\numberline {4.3}TensorRT Framework}{31}%
+\contentsline {section}{\numberline {4.4}Post-Processing}{31}%
+\contentsline {subsection}{\numberline {4.4.1}Speed Estimation}{31}%
+\contentsline {subsection}{\numberline {4.4.2}Anomaly Detection}{31}%
+\contentsline {chapter}{\numberline {5}MODEL TRAINING}{32}%
+\contentsline {section}{\numberline {5.1}Dataset}{32}%
+\contentsline {section}{\numberline {5.2}Loss Function}{32}%
+\contentsline {section}{\numberline {5.3}Hyperparameters}{32}%
+\contentsline {chapter}{\numberline {6}SOFTWARE DESIGN}{33}%
+\contentsline {section}{\numberline {6.1}System Overview}{33}%
+\contentsline {section}{\numberline {6.2}Hardware Design}{33}%
+\contentsline {section}{\numberline {6.3}Software Design}{33}%
+\contentsline {subsection}{\numberline {6.3.1}Dependencies}{33}%
+\contentsline {subsection}{\numberline {6.3.2}User Interface}{33}%
+\contentsline {subsection}{\numberline {6.3.3}Administration}{33}%

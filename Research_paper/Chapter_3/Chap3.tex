@@ -192,8 +192,8 @@
                                     With a state vector \emph{$x_k$} of dimension \emph{n}, the idea is to generate \emph{2n + 1} $\sigma$-point $\mathcal{X}$
                                     \begin{align}
                                         \mathcal{X}_{k-1}^{(0)} = \hat{x}_{k-1|k-1} \\
-                                        \mathcal{X}_{k-1}^{(i)} = \hat{x}_{k-1|k-1} + \sqrt{\frac{n}{1-W_0}} P_{i,k-1|k-1}^{1/2} & with i = 1,2,...,n \\
-                                        \mathcal{X}_{k-1}^{(i+n)} = \hat{x}_{k-1|k-1} - \sqrt{\frac{n}{1-W_0}} P_{i,k-1|k-1}^{1/2} & with i = 1,2,...,n 
+                                        \mathcal{X}_{k-1}^{(i)} = \hat{x}_{k-1|k-1} + \sqrt{\frac{n}{1-W_0}} P_{i,k-1|k-1}^{(1/2)} & with i = 1,2,...,n \\
+                                        \mathcal{X}_{k-1}^{(i+n)} = \hat{x}_{k-1|k-1} - \sqrt{\frac{n}{1-W_0}} P_{i,k-1|k-1}^{(1/2)} & with i = 1,2,...,n 
                                     \end{align}
                                     where \emph{$W_0$} is the tuning parameter (namely the weight of $\mathcal{X}$). \textbf{$P^{(1/2)}$} is the matrix such that
                                     \begin{align}
@@ -208,9 +208,27 @@
                                 \item \textbf{Measurement Update} \\ 
                                     Similarly, in the measurement update step, the $\sigma$-points are chosen to 
                                     \begin{align}
-                                        \mathcal{X}_k^{(0)} = \hat{x}_{k|k-1}
+                                        \mathcal{X}_k^{(0)} = \hat{x}_{k|k-1} \\
+                                        \mathcal{X}_k^{(i)} = \hat{x}_{k|k-1} + \sqrt{\frac{n}{1-W_0}} P_{i,k|k-1}^{(1/2)} & with i = 1,2,...,n \\
+                                        \mathcal{X}_k^{i+n} = \hat{x}_{k|k-1} - \sqrt{\frac{n}{1-W_0}} P_{i,k|k-1}^{(1/2)} & with i = 1,2,...,n
+                                    \end{align}
+                                    \emph{$W_0$} is again a tuning parameter. We can now compute the necessary moments
+                                    \begin{align}
+                                        \hat{z}_{k|k-1} = \displaystyle\sum_{i=0}^{2n} h(\chi_k^{(i)}) W_i \\ 
+                                        P_{xy} = \displaystyle\sum_{i=0}^{2n} (\chi_k^{(i)} - \hat{x}_{k|k-1}) (h(\chi_k^{(i)}) - \hat{z}_{k|k-1}) \\ 
+                                        S_k = R_k + \displaystyle\sum_{i=0}^{2n} (h(\chi_k^{(i)}) - \hat{z}_{k|k-1}) (.)^T W_i
+                                    \end{align}
+                                    from which the estimate and its covariance can be calculated 
+                                    \begin{align}
+                                        \hat{x}_{k|k} = \hat{x}_{k|k} + P_{xy} S_k^{-1} (z_k - \hat{z}_{k|k-1}) \\ 
+                                        P_{k|k} = P_{k|k-1} - P_{xy} S_k^{-1} P_{xy}^T
                                     \end{align}
                             \end{enumerate}
+            \item \textbf{Deterministic Optimization} \\ 
+                \vspace{3mm}
+                As opposed to the probabilistic inference methods, approaches based on deterministic optimization aim to find the maximum a posteriori (MAP) solution to MOT. To that end, the task of inferring data association, the target states or both, 
+                is typically cast as an optimization problem. Approaches within this framework are more suitable for the task of offline tracking because observations from all the frames or at least a time window are required to be available in advance. 
+                In practice, deterministic optimization or energy minimization is employed more popularly compared with probabilistic approaches.
         \end{itemize}
 
 
