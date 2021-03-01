@@ -30,7 +30,7 @@
             \begin{figure}[H]
                 \centering
                 \includegraphics[width=0.6\linewidth]{img/ANN.png}
-                \caption{Example of an Artificial Neural Network with one input}
+                \caption{Example of an Artificial Neural Network with two input, one hidden and output layer}
             \end{figure}
         
         \subsubsection{Neurons}
@@ -279,6 +279,23 @@
                         y_i \leftarrow \gamma \hat{x}_i + \beta
                     \end{align}
             \end{enumerate}
+        \subsubsection{Spped/Accuracy Trade-offs}
+            The relation between these two is very complex, as it is very hard to maintain them both
+            at a high level. In the case of real-time environment where the focus is on Advanced
+            driver-assistance systems (ADAS), a decision needs to be made fast, and by that means
+            that the detection of pedestrians and vehicle needs to be fast. In a trade-off there are two
+            alternatives, decisions are made fast which results to higher error-rate or slow which then
+            results in higher accuracy.
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.6\linewidth]{img/trade-off.png}
+                \caption{Speed/Accuracy trade-of}
+            \end{figure}
+            As shown above, the performance of each axis depend on the other, so if speed
+            decreases than the accuracy increases. The trade-off between speed and accuracy needs
+            both at a balanced level, otherwise it will be fast with weak detection or good detection
+            with low speed. The trade-off between speed and accuracy needs to be at a balanced
+            level.
 
         \subsubsection{Categorize}
             Thanks to Deep Neural Network, a more significant gain is obtained with the introduction of regions with convolutional neural network (CNN) features (R-CNN). DNNs, or the most representative CNNs, act in a quite different way from traditional approaches. They have deeper architectures with the capacity to learn more complex features than the shallow ones. Also, the expressivity and robust training algorithms allow to learn informative object representations without the need to design features manually. \\

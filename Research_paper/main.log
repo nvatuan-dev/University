@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.2.21)  1 MAR 2021 13:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.2.21)  1 MAR 2021 15:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -420,12 +420,23 @@ File: upzd.fd 2001/06/04 font definitions for U/pzd.
 LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/upsy.fd
 File: upsy.fd 2001/06/04 font definitions for U/psy.
-)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+)) (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box62
+\beforetitleunit=\skip61
+\aftertitleunit=\skip62
+\ttl@plus=\dimen263
+\ttl@minus=\dimen264
+\ttl@toksa=\toks44
+\titlewidth=\dimen265
+\titlewidthlast=\dimen266
+\titlewidthfirst=\dimen267
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count289
-\l__pdf_internal_box=\box62
+\l__pdf_internal_box=\box63
 )
 
 LaTeX Warning: Unused global option(s):
@@ -434,20 +445,20 @@ LaTeX Warning: Unused global option(s):
 (/home/goodboiz/Documents/Dev/University/Research_paper/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -486,29 +497,29 @@ LaTeX Font Info:    ... okay on input line 45.
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count290
-\scratchdimen=\dimen263
-\scratchbox=\box63
+\scratchdimen=\dimen268
+\scratchbox=\box64
 \nofMPsegments=\count291
 \nofMParguments=\count292
-\everyMPshowfont=\toks44
+\everyMPshowfont=\toks45
 \MPscratchCnt=\count293
-\MPscratchDim=\dimen264
+\MPscratchDim=\dimen269
 \MPnumerator=\count294
 \makeMPintoPDFobject=\count295
-\everyMPtoPDFconversion=\toks45
+\everyMPtoPDFconversion=\toks46
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package crop Info: requested driver: `' on input line 45.
-Package crop Info: detected driver: `pdftex' on input line 45.
-Package crop Info: using `pdftex' graphics driver on input line 45.
+Package crop Info: requested driver: `' on input line 46.
+Package crop Info: detected driver: `pdftex' on input line 46.
+Package crop Info: using `pdftex' graphics driver on input line 46.
  (/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 ) ABD: EveryShipout initializing macros
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 46.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 47.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
@@ -586,102 +597,121 @@ File: img/max-unpooling.png Graphic file (type png)
 Package pdftex.def Info: img/max-unpooling.png  used on input line 239.
 (pdftex.def)             Requested size: 182.09486pt x 128.76248pt.
  [9 </home/goodboiz/Documents/Dev/University/Research_paper/img/up-convolution.png> </home/goodboiz/Documents/Dev/University/Research_paper/img/max-pooling.png>] [10 </home/goodboiz/Documents/Dev/University/Research_paper/img/max-unpooling.png>]
-<img/R-CNN.png, id=81, 634.37pt x 624.3325pt>
+<img/trade-off.png, id=81, 471.7625pt x 441.65pt>
+File: img/trade-off.png Graphic file (type png)
+<use img/trade-off.png>
+Package pdftex.def Info: img/trade-off.png  used on input line 291.
+(pdftex.def)             Requested size: 273.14923pt x 255.71913pt.
+ [11 </home/goodboiz/Documents/Dev/University/Research_paper/img/trade-off.png>]
+<img/R-CNN.png, id=86, 634.37pt x 624.3325pt>
 File: img/R-CNN.png Graphic file (type png)
 <use img/R-CNN.png>
-Package pdftex.def Info: img/R-CNN.png  used on input line 309.
+Package pdftex.def Info: img/R-CNN.png  used on input line 326.
 (pdftex.def)             Requested size: 273.14923pt x 268.82927pt.
- [11]
-<img/RPN.png, id=86, 1087.06125pt x 492.84125pt>
+ [12 </home/goodboiz/Documents/Dev/University/Research_paper/img/R-CNN.png (PNG copy)>]
+<img/RPN.png, id=92, 1087.06125pt x 492.84125pt>
 File: img/RPN.png Graphic file (type png)
 <use img/RPN.png>
-Package pdftex.def Info: img/RPN.png  used on input line 324.
+Package pdftex.def Info: img/RPN.png  used on input line 341.
 (pdftex.def)             Requested size: 273.14923pt x 123.83417pt.
- [12 </home/goodboiz/Documents/Dev/University/Research_paper/img/R-CNN.png (PNG copy)>] [13 </home/goodboiz/Documents/Dev/University/Research_paper/img/RPN.png (PNG copy)>]
-<img/SSD.png, id=94, 702.625pt x 342.27875pt>
+ [13 </home/goodboiz/Documents/Dev/University/Research_paper/img/RPN.png (PNG copy)>]
+<img/SSD.png, id=96, 702.625pt x 342.27875pt>
 File: img/SSD.png Graphic file (type png)
 <use img/SSD.png>
-Package pdftex.def Info: img/SSD.png  used on input line 364.
+Package pdftex.def Info: img/SSD.png  used on input line 381.
 (pdftex.def)             Requested size: 273.14923pt x 133.06512pt.
-<img/VGG16.png, id=95, 903.375pt x 508.90125pt>
+<img/VGG16.png, id=97, 903.375pt x 508.90125pt>
 File: img/VGG16.png Graphic file (type png)
 <use img/VGG16.png>
-Package pdftex.def Info: img/VGG16.png  used on input line 370.
+Package pdftex.def Info: img/VGG16.png  used on input line 387.
 (pdftex.def)             Requested size: 273.14923pt x 153.87515pt.
-<img/ssd.png, id=96, 1341.01pt x 366.36874pt>
+ [14 </home/goodboiz/Documents/Dev/University/Research_paper/img/SSD.png (PNG copy)>]
+<img/ssd.png, id=101, 1341.01pt x 366.36874pt>
 File: img/ssd.png Graphic file (type png)
 <use img/ssd.png>
-Package pdftex.def Info: img/ssd.png  used on input line 379.
+Package pdftex.def Info: img/ssd.png  used on input line 396.
 (pdftex.def)             Requested size: 273.14923pt x 74.6253pt.
- [14 </home/goodboiz/Documents/Dev/University/Research_paper/img/SSD.png (PNG copy)> </home/goodboiz/Documents/Dev/University/Research_paper/img/VGG16.png (PNG copy)>]
-<img/boundary.png, id=100, 702.625pt x 350.30875pt>
+<img/boundary.png, id=102, 702.625pt x 350.30875pt>
 File: img/boundary.png Graphic file (type png)
 <use img/boundary.png>
-Package pdftex.def Info: img/boundary.png  used on input line 397.
+Package pdftex.def Info: img/boundary.png  used on input line 414.
 (pdftex.def)             Requested size: 273.14923pt x 136.18689pt.
-<img/matching.png, id=101, 702.625pt x 350.30875pt>
+ [15 </home/goodboiz/Documents/Dev/University/Research_paper/img/VGG16.png (PNG copy)> </home/goodboiz/Documents/Dev/University/Research_paper/img/ssd.png (PNG copy)>]
+<img/matching.png, id=106, 702.625pt x 350.30875pt>
 File: img/matching.png Graphic file (type png)
 <use img/matching.png>
-Package pdftex.def Info: img/matching.png  used on input line 404.
+Package pdftex.def Info: img/matching.png  used on input line 421.
 (pdftex.def)             Requested size: 273.14923pt x 136.18689pt.
- [15 </home/goodboiz/Documents/Dev/University/Research_paper/img/ssd.png (PNG copy)> </home/goodboiz/Documents/Dev/University/Research_paper/img/boundary.png (PNG copy)>] [16 </home/goodboiz/Documents/Dev/University/Research_paper/img/matching.png (PNG copy)>]
-<img/yolo.png, id=108, 516.93124pt x 98.3675pt>
+ [16 </home/goodboiz/Documents/Dev/University/Research_paper/img/boundary.png (PNG copy)> </home/goodboiz/Documents/Dev/University/Research_paper/img/matching.png (PNG copy)>]
+<img/yolo.png, id=110, 516.93124pt x 98.3675pt>
 File: img/yolo.png Graphic file (type png)
 <use img/yolo.png>
-Package pdftex.def Info: img/yolo.png  used on input line 466.
+Package pdftex.def Info: img/yolo.png  used on input line 483.
 (pdftex.def)             Requested size: 364.19667pt x 69.30554pt.
-<img/feature_extraction.png, id=109, 424.58624pt x 534.99875pt>
+ [17]
+<img/feature_extraction.png, id=114, 424.58624pt x 534.99875pt>
 File: img/feature_extraction.png Graphic file (type png)
 <use img/feature_extraction.png>
-Package pdftex.def Info: img/feature_extraction.png  used on input line 473.
+Package pdftex.def Info: img/feature_extraction.png  used on input line 490.
 (pdftex.def)             Requested size: 364.19667pt x 458.92258pt.
- [17 </home/goodboiz/Documents/Dev/University/Research_paper/img/yolo.png (PNG copy)>]
-<img/IOU.png, id=113, 602.25pt x 469.755pt>
+ [18 </home/goodboiz/Documents/Dev/University/Research_paper/img/yolo.png (PNG copy)> </home/goodboiz/Documents/Dev/University/Research_paper/img/feature_extraction.png (PNG copy)>]
+<img/IOU.png, id=119, 602.25pt x 469.755pt>
 File: img/IOU.png Graphic file (type png)
 <use img/IOU.png>
-Package pdftex.def Info: img/IOU.png  used on input line 488.
+Package pdftex.def Info: img/IOU.png  used on input line 505.
 (pdftex.def)             Requested size: 273.14923pt x 213.06508pt.
- [18 </home/goodboiz/Documents/Dev/University/Research_paper/img/feature_extraction.png (PNG copy)>]
-<img/bird.png, id=118, 1382.16376pt x 1445.4pt>
+<img/bird.png, id=120, 1382.16376pt x 1445.4pt>
 File: img/bird.png Graphic file (type png)
 <use img/bird.png>
-Package pdftex.def Info: img/bird.png  used on input line 497.
+Package pdftex.def Info: img/bird.png  used on input line 514.
 (pdftex.def)             Requested size: 273.14923pt x 285.6343pt.
- [19 </home/goodboiz/Documents/Dev/University/Research_paper/img/IOU.png> </home/goodboiz/Documents/Dev/University/Research_paper/img/bird.png (PNG copy)>] [20] [21]) (/home/goodboiz/Documents/Dev/University/Research_paper/Chapter_3/Chap3.tex [22]
+ [19 </home/goodboiz/Documents/Dev/University/Research_paper/img/IOU.png>] [20 </home/goodboiz/Documents/Dev/University/Research_paper/img/bird.png (PNG copy)>] [21] [22]) (/home/goodboiz/Documents/Dev/University/Research_paper/Chapter_3/Chap3.tex [23]
 Chapter 3.
-<img/MOT.png, id=133, 1228.59pt x 740.7675pt>
+<img/MOT.png, id=138, 1228.59pt x 740.7675pt>
 File: img/MOT.png Graphic file (type png)
 <use img/MOT.png>
 Package pdftex.def Info: img/MOT.png  used on input line 48.
 (pdftex.def)             Requested size: 273.14923pt x 164.68744pt.
-[23
+[24
 
-] [24 </home/goodboiz/Documents/Dev/University/Research_paper/img/MOT.png (PNG copy)>]) (/home/goodboiz/Documents/Dev/University/Research_paper/Chapter_4/Chap4.tex [25]
+] [25 </home/goodboiz/Documents/Dev/University/Research_paper/img/MOT.png (PNG copy)>]
+<img/Bayesian.png, id=146, 1138.2525pt x 394.47375pt>
+File: img/Bayesian.png Graphic file (type png)
+<use img/Bayesian.png>
+Package pdftex.def Info: img/Bayesian.png  used on input line 107.
+(pdftex.def)             Requested size: 273.14923pt x 94.66359pt.
+ [26]
+<img/time-measurement.png, id=150, 643.40375pt x 228.855pt>
+File: img/time-measurement.png Graphic file (type png)
+<use img/time-measurement.png>
+Package pdftex.def Info: img/time-measurement.png  used on input line 134.
+(pdftex.def)             Requested size: 273.14923pt x 97.15906pt.
+ [27 </home/goodboiz/Documents/Dev/University/Research_paper/img/Bayesian.png (PNG copy)>] [28 </home/goodboiz/Documents/Dev/University/Research_paper/img/time-measurement.png (PNG copy)>]) (/home/goodboiz/Documents/Dev/University/Research_paper/Chapter_4/Chap4.tex [29]
 Chapter 4.
-) (/home/goodboiz/Documents/Dev/University/Research_paper/Chapter_5/Chap5.tex [26
+) (/home/goodboiz/Documents/Dev/University/Research_paper/Chapter_5/Chap5.tex [30
 
 ]
 Chapter 5.
-) (/home/goodboiz/Documents/Dev/University/Research_paper/Chapter_6/Chap6.tex [27
+) (/home/goodboiz/Documents/Dev/University/Research_paper/Chapter_6/Chap6.tex [31
 
 ]
 Chapter 6.
-) [28
+) [32
 
 ] (/home/goodboiz/Documents/Dev/University/Research_paper/main.aux) ) 
 Here is how much of TeX's memory you used:
- 16433 strings out of 480906
- 304168 string characters out of 5910772
- 547171 words of memory out of 5000000
- 31620 multiletter control sequences out of 15000+600000
+ 16747 strings out of 480906
+ 308406 string characters out of 5910772
+ 554266 words of memory out of 5000000
+ 31927 multiletter control sequences out of 15000+600000
  556765 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,14n,64p,1011b,812s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,14n,64p,1011b,838s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/boondox/zxxrl8a.pfb>
-Output written on /home/goodboiz/Documents/Dev/University/Research_paper/main.pdf (29 pages, 3108779 bytes).
+Output written on /home/goodboiz/Documents/Dev/University/Research_paper/main.pdf (33 pages, 3228854 bytes).
 PDF statistics:
- 235 PDF objects out of 1000 (max. 8388607)
- 148 compressed objects within 2 object streams
+ 252 PDF objects out of 1000 (max. 8388607)
+ 157 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 128 words of extra memory for PDF output out of 10000 (max. 10000000)
 

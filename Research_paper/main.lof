@@ -1,26 +1,29 @@
 \babel@toc {english}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Example of an Artificial Neural Network with one input}}{5}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Example of an Artificial Neural Network with two input, one hidden and output layer}}{5}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces The sigmoid, hyperbolic tangent and ReLU activation functions and their derivatives}}{6}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Illustration of how neurons are structured in a CNN}}{7}%
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Illustration of the convolution operation using a 3 x 3 kernel}}{8}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Illustration of the upconvolution operation}}{9}%
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Illustration of the max-pooling operation}}{9}%
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Illustration of the max-unpooling operation}}{10}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Pipeline of Faster R-CNN}}{12}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Architecture of RPN}}{13}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Feature Extractor of SSD}}{14}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Architecture of VGG16}}{14}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Architecture of SSD}}{15}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Default Boundary Box}}{15}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Matching with ground truth}}{16}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Major components}}{17}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Feature Extraction of YOLOv3}}{18}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces IOU formula}}{19}%
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Example for anchor box}}{19}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Speed/Accuracy trade-of}}{11}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Pipeline of Faster R-CNN}}{12}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Architecture of RPN}}{13}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Feature Extractor of SSD}}{14}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Architecture of VGG16}}{15}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Architecture of SSD}}{15}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Default Boundary Box}}{16}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Matching with ground truth}}{16}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Major components}}{18}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Feature Extraction of YOLOv3}}{18}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces IOU formula}}{19}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Example for anchor box}}{20}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Pipeline of detection based tracking and detection free tracking}}{24}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Pipeline of detection based tracking and detection free tracking}}{25}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Illustration of Bayesian filtering and dependencies on time and measurement updates}}{27}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Time and measurement update}}{28}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
