@@ -31,5 +31,10 @@
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Track Life Cycle Management}}{35}%
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Pipeline of DeepSORT}}{36}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces TensorRT Pipeline}}{38}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces TensorRT Inference}}{39}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces TensorRT defined as part high-performance inference optimizer and part runtime engine}}{40}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces TensorRT Application}}{40}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Perspective Transformation}}{42}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

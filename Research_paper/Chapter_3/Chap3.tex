@@ -97,7 +97,7 @@
                 the task of online tracking. \\
                 \vspace{3mm}
                 Although the probabilistic approaches provide a more intuitive and complete solution to the problem, they are usually difficult to infer.
-                \subsection{Bayesian Estimation}
+                \subsubsection{Bayesian Estimation}
                     Bayesian estimation refers to the task of recursively estimating the state \textbf{$x_t$} at time k, from observations \emph{$z_k$}, where \emph{$z_k$} are the measurements obtained up to and including time k 
                     The algorithm of estimating the state is divided into two steps, the time update step (also called prediction) and the measurement update step. Commonly used algorithms/filters to perform the Bayesian estimation 
                     are different variations of the Kalman Filter (KF), such as Extended KF and Unscented KF. One can also use Monte Carlo samples, so called Particle filters. The choice of filter is dependent on the type of distributions 
@@ -134,39 +134,39 @@
                             \includegraphics[width=0.6\linewidth]{img/time-measurement.png}
                             \caption{Time and measurement update}
                         \end{figure}
-                            \begin{enumerate}
-                                \item \textbf{Time Update} \\ 
-                                    \vspace{3mm}
-                                    As mentioned, during the time update step a prediction of the state is performed using a motion model \emph{$f(\hat{x_{k-1}}, v_{k-1})$}. In the case of linear motion 
-                                    \begin{align}
-                                        x_k = F_{k-1} X_{k-1 | k-1} + q_{k-1}
-                                    \end{align}
-                                    The time update of the mean and covariance can be computed as 
-                                    \begin{align}
-                                        \hat{x}_{k|k-1} = F_{k-1} \hat{x}_{k-1|k-1} \\ 
-                                        P_{k|k-1} = F_{k-1} P_{k-1|k-1} F_{k-1}^T + Q_{k-1}
-                                    \end{align}
-                                    where \emph{$Q_{k-1}$} is the process noise covariance at time k-1
-                                \item \textbf{Measurement Update} \\ 
-                                    \vspace{3mm}
-                                    Given a new measurement \emph{$z_k$} at time \emph{k} with measurement covariance \emph{$R_k$} we can update the predicted state. In the case of linear measurement models and independent Gaussian noise, 
-                                    we can describe the measurement model \emph{$z_k = h(\hat{x_k}, w_k)$} as
-                                    \begin{align}
-                                        z_k = H_k x_k + w_k
-                                    \end{align}  
-                                    The update equations of Kalman Filter are 
-                                    \begin{align}
-                                        \hat{x}_k|k = \hat{x}_{k|k-1} + K_k v_k
-                                        P_{k|k} = P_{k|k-1} - K_k S_k K_k^T
-                                    \end{align}
-                                    where the Kalman gain \emph{$K_k$} innovation \emph{$v_k$}, the innovation covariance, \emph{$S_k$} at time \emph{k} are
-                                    \begin{align}
-                                        K_k = P_{k|k-1} H_k^T S_k^{-1}
-                                        v_k = z_k - H_k \hat{x}_{k|k-1}
-                                        S_k = H_k P_{k|k-1} H_k^T + R_k
-                                    \end{align}
-                                    The innovation captures the new information that the new measurement brings and the Kalman gain determines how much we should rely on this information.
-                            \end{enumerate}
+                            \ding{114} \textbf{Time Update} \\ 
+                                \vspace{3mm}
+                                As mentioned, during the time update step a prediction of the state is performed using a motion model \emph{$f(\hat{x_{k-1}}, v_{k-1})$}. In the case of linear motion 
+                                \begin{align}
+                                    x_k = F_{k-1} X_{k-1 | k-1} + q_{k-1}
+                                \end{align}
+                                The time update of the mean and covariance can be computed as 
+                                \begin{align}
+                                    \hat{x}_{k|k-1} = F_{k-1} \hat{x}_{k-1|k-1} \\ 
+                                    P_{k|k-1} = F_{k-1} P_{k-1|k-1} F_{k-1}^T + Q_{k-1}
+                                \end{align}
+                                where \emph{$Q_{k-1}$} is the process noise covariance at time k-1 \\
+                            \vspace{3mm}
+                            \ding{114} \textbf{Measurement Update} \\ 
+                                \vspace{3mm}
+                                Given a new measurement \emph{$z_k$} at time \emph{k} with measurement covariance \emph{$R_k$} we can update the predicted state. In the case of linear measurement models and independent Gaussian noise, 
+                                we can describe the measurement model \emph{$z_k = h(\hat{x_k}, w_k)$} as
+                                \begin{align}
+                                    z_k = H_k x_k + w_k
+                                \end{align}  
+                                The update equations of Kalman Filter are 
+                                \begin{align}
+                                    \hat{x}_k|k = \hat{x}_{k|k-1} + K_k v_k
+                                    P_{k|k} = P_{k|k-1} - K_k S_k K_k^T
+                                \end{align}
+                                where the Kalman gain \emph{$K_k$} innovation \emph{$v_k$}, the innovation covariance, \emph{$S_k$} at time \emph{k} are
+                                \begin{align}
+                                    K_k = P_{k|k-1} H_k^T S_k^{-1}
+                                    v_k = z_k - H_k \hat{x}_{k|k-1}
+                                    S_k = H_k P_{k|k-1} H_k^T + R_k
+                                \end{align}
+                                The innovation captures the new information that the new measurement brings and the Kalman gain determines how much we should rely on this information.
+                            
                     \subsubsection{Unscented Kalman Filter}
                         The Kalman filter is derived from linear models, thus is only optimal for this case and not for nonlinear models. If the models are nonlinear, linearization can be used, known as the Extended Kalman Filter (EKF). 
                         The EKF works well in many cases, although it may perform poorly if the model is significantly nonlinear within the uncertainties of the models. However, there are other methods of solving the estimation task that 
@@ -185,45 +185,47 @@
                         \end{align}
                         However as the Monte Carlo method relies on picking random samples, it might require a lot of samples in order to represent the true distribution. As an alternative, there are so called $\sigma$ -point methods which use 
                         deterministic samples chosen in clever ways to cover a large area of the space even though the number of samples is small. We will focus on one of these, the so called Unscented Kalman Filter (UKF). Two advantages of this 
-                        filter are that it is efficient since it uses quite few samples, and it also only has one tuning parameter.
-                            \begin{enumerate}
-                                \item \textbf{Time Update} \\ 
-                                    \vspace{3mm}
-                                    With a state vector \emph{$x_k$} of dimension \emph{n}, the idea is to generate \emph{2n + 1} $\sigma$-point $\mathcal{X}$
-                                    \begin{align}
-                                        \mathcal{X}_{k-1}^{(0)} = \hat{x}_{k-1|k-1} \\
-                                        \mathcal{X}_{k-1}^{(i)} = \hat{x}_{k-1|k-1} + \sqrt{\frac{n}{1-W_0}} P_{i,k-1|k-1}^{(1/2)} & with i = 1,2,...,n \\
-                                        \mathcal{X}_{k-1}^{(i+n)} = \hat{x}_{k-1|k-1} - \sqrt{\frac{n}{1-W_0}} P_{i,k-1|k-1}^{(1/2)} & with i = 1,2,...,n 
-                                    \end{align}
-                                    where \emph{$W_0$} is the tuning parameter (namely the weight of $\mathcal{X}$). \textbf{$P^{(1/2)}$} is the matrix such that
-                                    \begin{align}
-                                        P = P^{(1/2)} (P^{(1/2)})^T
-                                    \end{align}
-                                    and \emph{$P_i^(1/2)$} is its \emph{ith} column. The UKF prediction equations are then given by
-                                    \begin{align}
-                                        \hat{x}_{k|k-1} = \displaystyle\sum_{i=0}^{2n} f(\mathcal{X}_{k-1}^{(i)}) W_i \\
-                                        P_{k|k-1} = Q_{k-1} + \displaystyle\sum_{i=0}^{2n} (f(\mathcal{X}_{k-1}^{(1)}) - \hat{x}_{k|k-1}) (.)^T W_i
-                                    \end{align} 
-                                    where $W_i = \frac{1-W_0}{2n}$ for i = 1,2,...,n.
-                                \item \textbf{Measurement Update} \\ 
-                                    Similarly, in the measurement update step, the $\sigma$-points are chosen to 
-                                    \begin{align}
-                                        \mathcal{X}_k^{(0)} = \hat{x}_{k|k-1} \\
-                                        \mathcal{X}_k^{(i)} = \hat{x}_{k|k-1} + \sqrt{\frac{n}{1-W_0}} P_{i,k|k-1}^{(1/2)} & with i = 1,2,...,n \\
-                                        \mathcal{X}_k^{i+n} = \hat{x}_{k|k-1} - \sqrt{\frac{n}{1-W_0}} P_{i,k|k-1}^{(1/2)} & with i = 1,2,...,n
-                                    \end{align}
-                                    \emph{$W_0$} is again a tuning parameter. We can now compute the necessary moments
-                                    \begin{align}
-                                        \hat{z}_{k|k-1} = \displaystyle\sum_{i=0}^{2n} h(\chi_k^{(i)}) W_i \\ 
-                                        P_{xy} = \displaystyle\sum_{i=0}^{2n} (\chi_k^{(i)} - \hat{x}_{k|k-1}) (h(\chi_k^{(i)}) - \hat{z}_{k|k-1}) \\ 
-                                        S_k = R_k + \displaystyle\sum_{i=0}^{2n} (h(\chi_k^{(i)}) - \hat{z}_{k|k-1}) (.)^T W_i
-                                    \end{align}
-                                    from which the estimate and its covariance can be calculated 
-                                    \begin{align}
-                                        \hat{x}_{k|k} = \hat{x}_{k|k} + P_{xy} S_k^{-1} (z_k - \hat{z}_{k|k-1}) \\ 
-                                        P_{k|k} = P_{k|k-1} - P_{xy} S_k^{-1} P_{xy}^T
-                                    \end{align}
-                            \end{enumerate}
+                        filter are that it is efficient since it uses quite few samples, and it also only has one tuning parameter. \\ 
+                        \vspace{3mm}
+                            \ding{114} \textbf{Time Update} \\ 
+                                \vspace{3mm}
+                                With a state vector \emph{$x_k$} of dimension \emph{n}, the idea is to generate \emph{2n + 1} $\sigma$-point $\mathcal{X}$
+                                \begin{align}
+                                    \mathcal{X}_{k-1}^{(0)} = \hat{x}_{k-1|k-1} \\
+                                    \mathcal{X}_{k-1}^{(i)} = \hat{x}_{k-1|k-1} + \sqrt{\frac{n}{1-W_0}} P_{i,k-1|k-1}^{(1/2)} & with i = 1,2,...,n \\
+                                    \mathcal{X}_{k-1}^{(i+n)} = \hat{x}_{k-1|k-1} - \sqrt{\frac{n}{1-W_0}} P_{i,k-1|k-1}^{(1/2)} & with i = 1,2,...,n 
+                                \end{align}
+                                where \emph{$W_0$} is the tuning parameter (namely the weight of $\mathcal{X}$). \textbf{$P^{(1/2)}$} is the matrix such that
+                                \begin{align}
+                                    P = P^{(1/2)} (P^{(1/2)})^T
+                                \end{align}
+                                and \emph{$P_i^(1/2)$} is its \emph{ith} column. The UKF prediction equations are then given by
+                                \begin{align}
+                                    \hat{x}_{k|k-1} = \displaystyle\sum_{i=0}^{2n} f(\mathcal{X}_{k-1}^{(i)}) W_i \\
+                                    P_{k|k-1} = Q_{k-1} + \displaystyle\sum_{i=0}^{2n} (f(\mathcal{X}_{k-1}^{(1)}) - \hat{x}_{k|k-1}) (.)^T W_i
+                                \end{align} 
+                                where $W_i = \frac{1-W_0}{2n}$ for i = 1,2,...,n. \\ 
+                                \vspace{3mm}
+                            \ding{114} \textbf{Measurement Update} \\ 
+                            \vspace{3mm}
+                                Similarly, in the measurement update step, the $\sigma$-points are chosen to 
+                                \begin{align}
+                                    \mathcal{X}_k^{(0)} = \hat{x}_{k|k-1} \\
+                                    \mathcal{X}_k^{(i)} = \hat{x}_{k|k-1} + \sqrt{\frac{n}{1-W_0}} P_{i,k|k-1}^{(1/2)} & with i = 1,2,...,n \\
+                                    \mathcal{X}_k^{i+n} = \hat{x}_{k|k-1} - \sqrt{\frac{n}{1-W_0}} P_{i,k|k-1}^{(1/2)} & with i = 1,2,...,n
+                                \end{align}
+                                \emph{$W_0$} is again a tuning parameter. We can now compute the necessary moments
+                                \begin{align}
+                                    \hat{z}_{k|k-1} = \displaystyle\sum_{i=0}^{2n} h(\chi_k^{(i)}) W_i \\ 
+                                    P_{xy} = \displaystyle\sum_{i=0}^{2n} (\chi_k^{(i)} - \hat{x}_{k|k-1}) (h(\chi_k^{(i)}) - \hat{z}_{k|k-1}) \\ 
+                                    S_k = R_k + \displaystyle\sum_{i=0}^{2n} (h(\chi_k^{(i)}) - \hat{z}_{k|k-1}) (.)^T W_i
+                                \end{align}
+                                from which the estimate and its covariance can be calculated \\ 
+                                \begin{align}
+                                    \hat{x}_{k|k} = \hat{x}_{k|k} + P_{xy} S_k^{-1} (z_k - \hat{z}_{k|k-1}) \\ 
+                                    P_{k|k} = P_{k|k-1} - P_{xy} S_k^{-1} P_{xy}^T
+                                \end{align}
+                            
             \item \textbf{Deterministic Optimization} \\ 
                 \vspace{3mm}
                 As opposed to the probabilistic inference methods, approaches based on deterministic optimization aim to find the maximum a posteriori (MAP) solution to MOT. To that end, the task of inferring data association, the target states or both, 
@@ -365,7 +367,7 @@
         \end{figure}
     \subsection{Track Life Cycle Management}
         Every time a new detection is successfully associated with an existing track, the detection is added to the track and the unassociated age of the track is zero. When new detections fail to associate with existing tracks in frame f, the new detections are initialized as Tentative tracks. The original Deep SORT algorithm checks that the Tentative tracks are 
-        associated with new detections in each of the \emph{$(f + 1), (f + 2),...,(f + t_tentative)$} frames. If successfully associated, the track is updated as a Confirmed track. Otherwise, the Tentative track is deleted immediately. As for the existing tracks that fail to associate with new detections in each frame, their unassociated ages will increase by one. 
+        associated with new detections in each of the \emph{$(f + 1), (f + 2),...,(f + t_{tentative})$} frames. If successfully associated, the track is updated as a Confirmed track. Otherwise, the Tentative track is deleted immediately. As for the existing tracks that fail to associate with new detections in each frame, their unassociated ages will increase by one. 
         If the unassociated age exceeds the max age threshold, the track will also be deleted.
         \begin{figure}[H]
             \centering

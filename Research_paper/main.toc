@@ -53,11 +53,11 @@
 \contentsline {subsection}{\numberline {3.3.4}Exclusion Model}{26}%
 \contentsline {subsection}{\numberline {3.3.5}Occlusion Handling}{26}%
 \contentsline {subsection}{\numberline {3.3.6}Inference Models}{26}%
-\contentsline {subsection}{\numberline {3.3.7}Bayesian Estimation}{26}%
-\contentsline {subsubsection}{\numberline {3.3.7.1}Time Update}{27}%
-\contentsline {subsubsection}{\numberline {3.3.7.2}Measurement Update}{27}%
-\contentsline {subsubsection}{\numberline {3.3.7.3}Kalman Filter}{27}%
-\contentsline {subsubsection}{\numberline {3.3.7.4}Unscented Kalman Filter}{28}%
+\contentsline {subsubsection}{\numberline {3.3.6.1}Bayesian Estimation}{26}%
+\contentsline {subsubsection}{\numberline {3.3.6.2}Time Update}{27}%
+\contentsline {subsubsection}{\numberline {3.3.6.3}Measurement Update}{27}%
+\contentsline {subsubsection}{\numberline {3.3.6.4}Kalman Filter}{27}%
+\contentsline {subsubsection}{\numberline {3.3.6.5}Unscented Kalman Filter}{28}%
 \contentsline {section}{\numberline {3.4}Detection Based Tracking Pipeline}{30}%
 \contentsline {subsection}{\numberline {3.4.1}Detection Based Tracking}{30}%
 \contentsline {subsection}{\numberline {3.4.2}Prediction}{30}%
@@ -84,18 +84,23 @@
 \contentsline {chapter}{\numberline {4}INFERENCE}{38}%
 \contentsline {section}{\numberline {4.1}Architecture Optimization}{38}%
 \contentsline {section}{\numberline {4.2}Algorithm Optimization}{38}%
-\contentsline {section}{\numberline {4.3}TensorRT Framework}{38}%
-\contentsline {section}{\numberline {4.4}Post-Processing}{38}%
-\contentsline {subsection}{\numberline {4.4.1}Speed Estimation}{38}%
-\contentsline {subsection}{\numberline {4.4.2}Anomaly Detection}{38}%
-\contentsline {chapter}{\numberline {5}MODEL TRAINING}{39}%
-\contentsline {section}{\numberline {5.1}Dataset}{39}%
-\contentsline {section}{\numberline {5.2}Loss Function}{39}%
-\contentsline {section}{\numberline {5.3}Hyperparameters}{39}%
-\contentsline {chapter}{\numberline {6}SOFTWARE DESIGN}{40}%
-\contentsline {section}{\numberline {6.1}System Overview}{40}%
-\contentsline {section}{\numberline {6.2}Hardware Design}{40}%
-\contentsline {section}{\numberline {6.3}Software Design}{40}%
-\contentsline {subsection}{\numberline {6.3.1}Dependencies}{40}%
-\contentsline {subsection}{\numberline {6.3.2}User Interface}{40}%
-\contentsline {subsection}{\numberline {6.3.3}Administration}{40}%
+\contentsline {section}{\numberline {4.3}Jetson Platform}{38}%
+\contentsline {section}{\numberline {4.4}TensorRT SDK}{38}%
+\contentsline {subsection}{\numberline {4.4.1}Definition}{38}%
+\contentsline {subsection}{\numberline {4.4.2}What is TensorRT?}{39}%
+\contentsline {subsection}{\numberline {4.4.3}How does TensorRT work?}{40}%
+\contentsline {subsection}{\numberline {4.4.4}What Capabilities Does TensorRT Provide?}{41}%
+\contentsline {section}{\numberline {4.5}Speed Estimation}{42}%
+\contentsline {subsection}{\numberline {4.5.1}Mapping}{42}%
+\contentsline {subsection}{\numberline {4.5.2}Speed Calculation}{42}%
+\contentsline {chapter}{\numberline {5}MODEL TRAINING}{43}%
+\contentsline {section}{\numberline {5.1}Dataset}{43}%
+\contentsline {section}{\numberline {5.2}Loss Function}{43}%
+\contentsline {section}{\numberline {5.3}Hyperparameters}{43}%
+\contentsline {chapter}{\numberline {6}SOFTWARE DESIGN}{44}%
+\contentsline {section}{\numberline {6.1}System Overview}{44}%
+\contentsline {section}{\numberline {6.2}Hardware Design}{44}%
+\contentsline {section}{\numberline {6.3}Software Design}{44}%
+\contentsline {subsection}{\numberline {6.3.1}Dependencies}{44}%
+\contentsline {subsection}{\numberline {6.3.2}User Interface}{44}%
+\contentsline {subsection}{\numberline {6.3.3}Administration}{44}%
