@@ -98,17 +98,14 @@
 \contentsline {subsection}{\numberline {3.7.5}Identification precision(IDP), Identification recall(IDR), IDF1}{49}%
 \contentsline {chapter}{\numberline {4}INFERENCE}{50}%
 \contentsline {section}{\numberline {4.1}Optimization Methods}{50}%
-\contentsline {section}{\numberline {4.2}Architecture Optimization}{50}%
-\contentsline {section}{\numberline {4.3}Algorithm Optimization}{50}%
-\contentsline {section}{\numberline {4.4}TensorRT SDK}{50}%
-\contentsline {subsection}{\numberline {4.4.1}Definition}{50}%
-\contentsline {subsection}{\numberline {4.4.2}What is TensorRT?}{52}%
-\contentsline {subsection}{\numberline {4.4.3}How does TensorRT work?}{53}%
-\contentsline {subsection}{\numberline {4.4.4}What Capabilities Does TensorRT Provide?}{53}%
-\contentsline {section}{\numberline {4.5}Speed Estimation}{54}%
-\contentsline {subsection}{\numberline {4.5.1}Mapping}{54}%
-\contentsline {subsection}{\numberline {4.5.2}Speed Calculation}{55}%
+\contentsline {subsection}{\numberline {4.1.1}Architecture Optimization}{50}%
+\contentsline {subsection}{\numberline {4.1.2}Algorithm Optimization}{50}%
+\contentsline {section}{\numberline {4.2}TensorRT SDK}{50}%
+\contentsline {subsection}{\numberline {4.2.1}Definition}{50}%
+\contentsline {subsection}{\numberline {4.2.2}What is TensorRT?}{52}%
+\contentsline {subsection}{\numberline {4.2.3}How does TensorRT work?}{53}%
+\contentsline {subsection}{\numberline {4.2.4}What Capabilities Does TensorRT Provide?}{53}%
+\contentsline {section}{\numberline {4.3}Speed Estimation}{54}%
+\contentsline {subsection}{\numberline {4.3.1}Mapping}{54}%
+\contentsline {subsection}{\numberline {4.3.2}Speed Calculation}{55}%
 \contentsline {chapter}{\numberline {5}IMPLEMENTATION}{56}%
-\contentsline {section}{\numberline {5.1}System Overview}{56}%
-\contentsline {section}{\numberline {5.2}Hardware Design}{56}%
-\contentsline {section}{\numberline {5.3}Software Design}{56}%

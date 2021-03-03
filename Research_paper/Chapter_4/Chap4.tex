@@ -13,7 +13,7 @@
 
 \section{Optimization Methods}
 
-    \section{Architecture Optimization}
+    \subsection{Architecture Optimization}
         In the heterogeneous computing approach, the workload is divided between the processors with disparate architecture, viz. the CPU and GPU, to bring the best of two together. 
         Some works perform memory-level optimizations to GPU, such as using shared and texture memory, reducing accesses to global memory by using memory access coalescing and kernel fusion, etc. 
         Some works scale the frequency of CPU and/or GPU to tradeoff performance with energy. These works exploit slack in application deadlines or latency-tolerance of end-users to reduce frequency. 
@@ -25,7 +25,7 @@
             \item For approximate computing approaches, there are some examples as: using partial image instead of entire image, dropping unused rows in convolution, quantization, reducing bitwidth/precision, etc
         \end{itemize}
 
-    \section{Algorithm Optimization}
+    \subsection{Algorithm Optimization}
         Algorithmic optimization methods come with a diversity as there are many works aims at improving efficiency of AI inference. A lot of works try to lowering image resolution, leverage knowledge distillation. 
         Some uses transfer learning, pointwise convolution, tucker decompositions or truncated singular value decomposition. The list is enlonged with CNN pruning and other matrix-related optimizations for such as: 
         converting matrix-vector product into matrix-matrix product, splitting matrix-multiplication in Fully Connected layer, matrix tiling, exploiting matrix sparsity. Some other optimizations may be count such 
