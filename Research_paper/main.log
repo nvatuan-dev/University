@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.2.21)  2 MAR 2021 10:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.2.21)  3 MAR 2021 12:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -445,20 +445,20 @@ LaTeX Warning: Unused global option(s):
 (/home/goodboiz/Documents/Dev/University/Research_paper/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -513,13 +513,13 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package crop Info: requested driver: `' on input line 46.
-Package crop Info: detected driver: `pdftex' on input line 46.
-Package crop Info: using `pdftex' graphics driver on input line 46.
+Package crop Info: requested driver: `' on input line 47.
+Package crop Info: detected driver: `pdftex' on input line 47.
+Package crop Info: using `pdftex' graphics driver on input line 47.
  (/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 ) ABD: EveryShipout initializing macros
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 47.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 48.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
@@ -530,27 +530,132 @@ File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [2] (/home/goodboiz/Documents/Dev/University/Research_paper/main.lof)
+ [2] (/home/goodboiz/Documents/Dev/University/Research_paper/main.lof [3
+
+])
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
- (/home/goodboiz/Documents/Dev/University/Research_paper/Chapter_1/Chap1.tex [3
-
-]
+ (/home/goodboiz/Documents/Dev/University/Research_paper/Chapter_1/Chap1.tex [4]
 Chapter 1.
-) (/home/goodboiz/Documents/Dev/University/Research_paper/Chapter_2/Chap2.tex [4
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
+File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+)
+<img/jetson_nano.png, id=30, 627.34375pt x 474.77374pt>
+File: img/jetson_nano.png Graphic file (type png)
+<use img/jetson_nano.png>
+Package pdftex.def Info: img/jetson_nano.png  used on input line 45.
+(pdftex.def)             Requested size: 273.14923pt x 206.72775pt.
+ [5
 
 ]
+<img/nano-kit.png, id=39, 708.6475pt x 661.47125pt>
+File: img/nano-kit.png Graphic file (type png)
+<use img/nano-kit.png>
+Package pdftex.def Info: img/nano-kit.png  used on input line 56.
+(pdftex.def)             Requested size: 273.14923pt x 254.96497pt.
+<img/nano-compute.png, id=40, 627.34375pt x 411.5375pt>
+File: img/nano-compute.png Graphic file (type png)
+<use img/nano-compute.png>
+Package pdftex.def Info: img/nano-compute.png  used on input line 65.
+(pdftex.def)             Requested size: 273.14923pt x 179.19319pt.
+ [6 </home/goodboiz/Documents/Dev/University/Research_paper/img/jetson_nano.png> </home/goodboiz/Documents/Dev/University/Research_paper/img/nano-kit.png>]
+<img/jetson-nano-inference.png, id=47, 1027.84pt x 511.9125pt>
+File: img/jetson-nano-inference.png Graphic file (type png)
+<use img/jetson-nano-inference.png>
+Package pdftex.def Info: img/jetson-nano-inference.png  used on input line 77.
+(pdftex.def)             Requested size: 273.14923pt x 136.03891pt.
+<img/deep-stream.png, id=48, 1927.2pt x 551.05875pt>
+File: img/deep-stream.png Graphic file (type png)
+<use img/deep-stream.png>
+Package pdftex.def Info: img/deep-stream.png  used on input line 87.
+(pdftex.def)             Requested size: 273.14923pt x 78.09785pt.
+<img/NVR.png, id=49, 627.34375pt x 311.1625pt>
+File: img/NVR.png Graphic file (type png)
+<use img/NVR.png>
+Package pdftex.def Info: img/NVR.png  used on input line 92.
+(pdftex.def)             Requested size: 273.14923pt x 135.48753pt.
+ [7 </home/goodboiz/Documents/Dev/University/Research_paper/img/nano-compute.png> </home/goodboiz/Documents/Dev/University/Research_paper/img/jetson-nano-inference.png (PNG copy)>]
+<img/TX1.png, id=54, 626.34pt x 399.4925pt>
+File: img/TX1.png Graphic file (type png)
+<use img/TX1.png>
+Package pdftex.def Info: img/TX1.png  used on input line 111.
+(pdftex.def)             Requested size: 273.14923pt x 174.22282pt.
+ [8 </home/goodboiz/Documents/Dev/University/Research_paper/img/deep-stream.png> </home/goodboiz/Documents/Dev/University/Research_paper/img/NVR.png (PNG copy)>] (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
+File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
+)
+<img/structure.png, id=59, 626.34pt x 114.4275pt>
+File: img/structure.png Graphic file (type png)
+<use img/structure.png>
+Package pdftex.def Info: img/structure.png  used on input line 119.
+(pdftex.def)             Requested size: 273.14923pt x 49.90302pt.
+<img/tx1-dev-kit.png, id=60, 2007.5pt x 1376.14125pt>
+File: img/tx1-dev-kit.png Graphic file (type png)
+<use img/tx1-dev-kit.png>
+Package pdftex.def Info: img/tx1-dev-kit.png  used on input line 130.
+(pdftex.def)             Requested size: 273.14923pt x 187.24092pt.
+ [9 </home/goodboiz/Documents/Dev/University/Research_paper/img/TX1.png (PNG copy)> </home/goodboiz/Documents/Dev/University/Research_paper/img/structure.png (PNG copy)>]
+<img/tx1-benchmark.png, id=64, 626.34pt x 437.635pt>
+File: img/tx1-benchmark.png Graphic file (type png)
+<use img/tx1-benchmark.png>
+Package pdftex.def Info: img/tx1-benchmark.png  used on input line 140.
+(pdftex.def)             Requested size: 273.14923pt x 190.85716pt.
+ [10 </home/goodboiz/Documents/Dev/University/Research_paper/img/tx1-dev-kit.png> </home/goodboiz/Documents/Dev/University/Research_paper/img/tx1-benchmark.png (PNG copy)>]
+<img/jetson-sdk.png, id=69, 626.34pt x 319.1925pt>
+File: img/jetson-sdk.png Graphic file (type png)
+<use img/jetson-sdk.png>
+Package pdftex.def Info: img/jetson-sdk.png  used on input line 154.
+(pdftex.def)             Requested size: 273.14923pt x 139.20316pt.
+<img/tx2.png, id=70, 301.125pt x 206.7725pt>
+File: img/tx2.png Graphic file (type png)
+<use img/tx2.png>
+Package pdftex.def Info: img/tx2.png  used on input line 162.
+(pdftex.def)             Requested size: 273.14923pt x 187.57956pt.
+<img/tegra.png, id=71, 1438.37375pt x 840.13875pt>
+File: img/tegra.png Graphic file (type png)
+<use img/tegra.png>
+Package pdftex.def Info: img/tegra.png  used on input line 172.
+(pdftex.def)             Requested size: 273.14923pt x 159.53828pt.
+ [11 </home/goodboiz/Documents/Dev/University/Research_paper/img/jetson-sdk.png (PNG copy)> </home/goodboiz/Documents/Dev/University/Research_paper/img/tx2.png>]
+<img/comparision.png, id=76, 1149.29375pt x 809.0225pt>
+File: img/comparision.png Graphic file (type png)
+<use img/comparision.png>
+Package pdftex.def Info: img/comparision.png  used on input line 182.
+(pdftex.def)             Requested size: 273.14923pt x 192.26828pt.
+ [12 </home/goodboiz/Documents/Dev/University/Research_paper/img/tegra.png (PNG copy)>]
+<img/google-net.png, id=81, 626.34pt x 334.24875pt>
+File: img/google-net.png Graphic file (type png)
+<use img/google-net.png>
+Package pdftex.def Info: img/google-net.png  used on input line 196.
+(pdftex.def)             Requested size: 273.14923pt x 145.76933pt.
+ [13 </home/goodboiz/Documents/Dev/University/Research_paper/img/comparision.png> </home/goodboiz/Documents/Dev/University/Research_paper/img/google-net.png (PNG copy)>]
+<img/AletNet.png, id=86, 1148.29pt x 632.3625pt>
+File: img/AletNet.png Graphic file (type png)
+<use img/AletNet.png>
+Package pdftex.def Info: img/AletNet.png  used on input line 212.
+(pdftex.def)             Requested size: 273.14923pt x 150.41924pt.
+<img/AI-pipeline.png, id=87, 626.34pt x 194.7275pt>
+File: img/AI-pipeline.png Graphic file (type png)
+<use img/AI-pipeline.png>
+Package pdftex.def Info: img/AI-pipeline.png  used on input line 228.
+(pdftex.def)             Requested size: 273.14923pt x 84.92267pt.
+ [14 </home/goodboiz/Documents/Dev/University/Research_paper/img/AletNet.png>]
+<img/tx2-dev-kit.png, id=92, 626.34pt x 617.30624pt>
+File: img/tx2-dev-kit.png Graphic file (type png)
+<use img/tx2-dev-kit.png>
+Package pdftex.def Info: img/tx2-dev-kit.png  used on input line 238.
+(pdftex.def)             Requested size: 273.14923pt x 269.21365pt.
+) [15 </home/goodboiz/Documents/Dev/University/Research_paper/img/AI-pipeline.png> </home/goodboiz/Documents/Dev/University/Research_paper/img/tx2-dev-kit.png>] (/home/goodboiz/Documents/Dev/University/Research_paper/Chapter_2/Chap2.tex [16]
 Chapter 2.
-<img/ANN.png, id=32, 536.0025pt x 228.855pt>
+<img/ANN.png, id=101, 536.0025pt x 228.855pt>
 File: img/ANN.png Graphic file (type png)
 <use img/ANN.png>
 Package pdftex.def Info: img/ANN.png  used on input line 32.
 (pdftex.def)             Requested size: 273.14923pt x 116.6237pt.
-[5
+[17
 
  </home/goodboiz/Documents/Dev/University/Research_paper/img/ANN.png>]
-<img/sigmoid.png, id=45, 702.625pt x 293.095pt>
+<img/sigmoid.png, id=112, 702.625pt x 293.095pt>
 File: img/sigmoid.png Graphic file (type png)
 <use img/sigmoid.png>
 Package pdftex.def Info: img/sigmoid.png  used on input line 56.
@@ -558,222 +663,213 @@ Package pdftex.def Info: img/sigmoid.png  used on input line 56.
  (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-34.def
 File: uni-34.def 2013/05/13 UCS: Unicode data U+2200..U+22FF
 )
-<img/range.png, id=46, 58.2175pt x 39.14626pt>
+<img/range.png, id=113, 58.2175pt x 39.14626pt>
 File: img/range.png Graphic file (type png)
 <use img/range.png>
 Package pdftex.def Info: img/range.png  used on input line 87.
 (pdftex.def)             Requested size: 23.28658pt x 15.65822pt.
- (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
-File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-) [6 </home/goodboiz/Documents/Dev/University/Research_paper/img/sigmoid.png> </home/goodboiz/Documents/Dev/University/Research_paper/img/range.png>]
-<img/illustration.png, id=56, 484.81125pt x 252.945pt>
+ [18 </home/goodboiz/Documents/Dev/University/Research_paper/img/sigmoid.png> </home/goodboiz/Documents/Dev/University/Research_paper/img/range.png>]
+<img/illustration.png, id=123, 484.81125pt x 252.945pt>
 File: img/illustration.png Graphic file (type png)
 <use img/illustration.png>
 Package pdftex.def Info: img/illustration.png  used on input line 128.
 (pdftex.def)             Requested size: 273.14923pt x 142.52051pt.
- [7 </home/goodboiz/Documents/Dev/University/Research_paper/img/illustration.png>]
-<img/conv_operation.png, id=64, 215.80624pt x 194.7275pt>
+ [19 </home/goodboiz/Documents/Dev/University/Research_paper/img/illustration.png>]
+<img/conv_operation.png, id=131, 215.80624pt x 194.7275pt>
 File: img/conv_operation.png Graphic file (type png)
 <use img/conv_operation.png>
 Package pdftex.def Info: img/conv_operation.png  used on input line 155.
 (pdftex.def)             Requested size: 182.09486pt x 164.31279pt.
- (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
-File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
-)
-<img/up-convolution.png, id=65, 245.91875pt x 194.7275pt>
+<img/up-convolution.png, id=132, 245.91875pt x 194.7275pt>
 File: img/up-convolution.png Graphic file (type png)
 <use img/up-convolution.png>
 Package pdftex.def Info: img/up-convolution.png  used on input line 204.
 (pdftex.def)             Requested size: 182.09486pt x 144.19412pt.
- [8 </home/goodboiz/Documents/Dev/University/Research_paper/img/conv_operation.png>]
-<img/max-pooling.png, id=70, 195.73125pt x 171.64125pt>
+ [20 </home/goodboiz/Documents/Dev/University/Research_paper/img/conv_operation.png>]
+<img/max-pooling.png, id=137, 195.73125pt x 171.64125pt>
 File: img/max-pooling.png Graphic file (type png)
 <use img/max-pooling.png>
 Package pdftex.def Info: img/max-pooling.png  used on input line 217.
 (pdftex.def)             Requested size: 182.09486pt x 159.69278pt.
-<img/max-unpooling.png, id=71, 239.89626pt x 169.63374pt>
+<img/max-unpooling.png, id=138, 239.89626pt x 169.63374pt>
 File: img/max-unpooling.png Graphic file (type png)
 <use img/max-unpooling.png>
 Package pdftex.def Info: img/max-unpooling.png  used on input line 239.
 (pdftex.def)             Requested size: 182.09486pt x 128.76248pt.
- [9 </home/goodboiz/Documents/Dev/University/Research_paper/img/up-convolution.png> </home/goodboiz/Documents/Dev/University/Research_paper/img/max-pooling.png>] [10 </home/goodboiz/Documents/Dev/University/Research_paper/img/max-unpooling.png>]
-<img/trade-off.png, id=81, 471.7625pt x 441.65pt>
+ [21 </home/goodboiz/Documents/Dev/University/Research_paper/img/up-convolution.png> </home/goodboiz/Documents/Dev/University/Research_paper/img/max-pooling.png>] [22 </home/goodboiz/Documents/Dev/University/Research_paper/img/max-unpooling.png>]
+<img/trade-off.png, id=148, 471.7625pt x 441.65pt>
 File: img/trade-off.png Graphic file (type png)
 <use img/trade-off.png>
 Package pdftex.def Info: img/trade-off.png  used on input line 291.
 (pdftex.def)             Requested size: 273.14923pt x 255.71913pt.
- [11 </home/goodboiz/Documents/Dev/University/Research_paper/img/trade-off.png>]
-<img/R-CNN.png, id=86, 634.37pt x 624.3325pt>
+ [23 </home/goodboiz/Documents/Dev/University/Research_paper/img/trade-off.png>]
+<img/R-CNN.png, id=153, 634.37pt x 624.3325pt>
 File: img/R-CNN.png Graphic file (type png)
 <use img/R-CNN.png>
 Package pdftex.def Info: img/R-CNN.png  used on input line 326.
 (pdftex.def)             Requested size: 273.14923pt x 268.82927pt.
- [12 </home/goodboiz/Documents/Dev/University/Research_paper/img/R-CNN.png (PNG copy)>]
-<img/RPN.png, id=92, 1087.06125pt x 492.84125pt>
+ [24 </home/goodboiz/Documents/Dev/University/Research_paper/img/R-CNN.png (PNG copy)>]
+<img/RPN.png, id=158, 1087.06125pt x 492.84125pt>
 File: img/RPN.png Graphic file (type png)
 <use img/RPN.png>
 Package pdftex.def Info: img/RPN.png  used on input line 341.
 (pdftex.def)             Requested size: 273.14923pt x 123.83417pt.
- [13 </home/goodboiz/Documents/Dev/University/Research_paper/img/RPN.png (PNG copy)>]
-<img/SSD.png, id=96, 702.625pt x 342.27875pt>
+ [25 </home/goodboiz/Documents/Dev/University/Research_paper/img/RPN.png (PNG copy)>]
+<img/SSD.png, id=162, 702.625pt x 342.27875pt>
 File: img/SSD.png Graphic file (type png)
 <use img/SSD.png>
 Package pdftex.def Info: img/SSD.png  used on input line 381.
 (pdftex.def)             Requested size: 273.14923pt x 133.06512pt.
-<img/VGG16.png, id=97, 903.375pt x 508.90125pt>
+<img/VGG16.png, id=163, 903.375pt x 508.90125pt>
 File: img/VGG16.png Graphic file (type png)
 <use img/VGG16.png>
 Package pdftex.def Info: img/VGG16.png  used on input line 387.
 (pdftex.def)             Requested size: 273.14923pt x 153.87515pt.
- [14 </home/goodboiz/Documents/Dev/University/Research_paper/img/SSD.png (PNG copy)>]
-<img/ssd.png, id=101, 1341.01pt x 366.36874pt>
+ [26 </home/goodboiz/Documents/Dev/University/Research_paper/img/SSD.png (PNG copy)>]
+<img/ssd.png, id=167, 1341.01pt x 366.36874pt>
 File: img/ssd.png Graphic file (type png)
 <use img/ssd.png>
 Package pdftex.def Info: img/ssd.png  used on input line 396.
 (pdftex.def)             Requested size: 273.14923pt x 74.6253pt.
-<img/boundary.png, id=102, 702.625pt x 350.30875pt>
+<img/boundary.png, id=168, 702.625pt x 350.30875pt>
 File: img/boundary.png Graphic file (type png)
 <use img/boundary.png>
 Package pdftex.def Info: img/boundary.png  used on input line 414.
 (pdftex.def)             Requested size: 273.14923pt x 136.18689pt.
- [15 </home/goodboiz/Documents/Dev/University/Research_paper/img/VGG16.png (PNG copy)> </home/goodboiz/Documents/Dev/University/Research_paper/img/ssd.png (PNG copy)>]
-<img/matching.png, id=106, 702.625pt x 350.30875pt>
+ [27 </home/goodboiz/Documents/Dev/University/Research_paper/img/VGG16.png (PNG copy)> </home/goodboiz/Documents/Dev/University/Research_paper/img/ssd.png (PNG copy)>]
+<img/matching.png, id=172, 702.625pt x 350.30875pt>
 File: img/matching.png Graphic file (type png)
 <use img/matching.png>
 Package pdftex.def Info: img/matching.png  used on input line 421.
 (pdftex.def)             Requested size: 273.14923pt x 136.18689pt.
- [16 </home/goodboiz/Documents/Dev/University/Research_paper/img/boundary.png (PNG copy)> </home/goodboiz/Documents/Dev/University/Research_paper/img/matching.png (PNG copy)>]
-<img/yolo.png, id=110, 516.93124pt x 98.3675pt>
+ [28 </home/goodboiz/Documents/Dev/University/Research_paper/img/boundary.png (PNG copy)> </home/goodboiz/Documents/Dev/University/Research_paper/img/matching.png (PNG copy)>]
+<img/yolo.png, id=176, 516.93124pt x 98.3675pt>
 File: img/yolo.png Graphic file (type png)
 <use img/yolo.png>
 Package pdftex.def Info: img/yolo.png  used on input line 483.
 (pdftex.def)             Requested size: 364.19667pt x 69.30554pt.
- [17]
-<img/feature_extraction.png, id=114, 424.58624pt x 534.99875pt>
+ [29]
+<img/feature_extraction.png, id=180, 424.58624pt x 534.99875pt>
 File: img/feature_extraction.png Graphic file (type png)
 <use img/feature_extraction.png>
 Package pdftex.def Info: img/feature_extraction.png  used on input line 490.
 (pdftex.def)             Requested size: 364.19667pt x 458.92258pt.
- [18 </home/goodboiz/Documents/Dev/University/Research_paper/img/yolo.png (PNG copy)> </home/goodboiz/Documents/Dev/University/Research_paper/img/feature_extraction.png (PNG copy)>]
-<img/IOU.png, id=119, 602.25pt x 469.755pt>
+ [30 </home/goodboiz/Documents/Dev/University/Research_paper/img/yolo.png (PNG copy)> </home/goodboiz/Documents/Dev/University/Research_paper/img/feature_extraction.png (PNG copy)>]
+<img/IOU.png, id=185, 602.25pt x 469.755pt>
 File: img/IOU.png Graphic file (type png)
 <use img/IOU.png>
 Package pdftex.def Info: img/IOU.png  used on input line 505.
 (pdftex.def)             Requested size: 273.14923pt x 213.06508pt.
-<img/bird.png, id=120, 1382.16376pt x 1445.4pt>
+<img/bird.png, id=186, 1382.16376pt x 1445.4pt>
 File: img/bird.png Graphic file (type png)
 <use img/bird.png>
 Package pdftex.def Info: img/bird.png  used on input line 514.
 (pdftex.def)             Requested size: 273.14923pt x 285.6343pt.
- [19 </home/goodboiz/Documents/Dev/University/Research_paper/img/IOU.png>] [20 </home/goodboiz/Documents/Dev/University/Research_paper/img/bird.png (PNG copy)>] [21] [22]) (/home/goodboiz/Documents/Dev/University/Research_paper/Chapter_3/Chap3.tex [23]
+ [31 </home/goodboiz/Documents/Dev/University/Research_paper/img/IOU.png>] [32 </home/goodboiz/Documents/Dev/University/Research_paper/img/bird.png (PNG copy)>] [33] [34]) (/home/goodboiz/Documents/Dev/University/Research_paper/Chapter_3/Chap3.tex [35]
 Chapter 3.
-<img/MOT.png, id=138, 1228.59pt x 740.7675pt>
+<img/MOT.png, id=204, 1228.59pt x 740.7675pt>
 File: img/MOT.png Graphic file (type png)
 <use img/MOT.png>
 Package pdftex.def Info: img/MOT.png  used on input line 48.
 (pdftex.def)             Requested size: 273.14923pt x 164.68744pt.
-[24
+[36
 
-] [25 </home/goodboiz/Documents/Dev/University/Research_paper/img/MOT.png (PNG copy)>]
-<img/Bayesian.png, id=146, 1138.2525pt x 394.47375pt>
+] [37 </home/goodboiz/Documents/Dev/University/Research_paper/img/MOT.png (PNG copy)>]
+<img/Bayesian.png, id=212, 1138.2525pt x 394.47375pt>
 File: img/Bayesian.png Graphic file (type png)
 <use img/Bayesian.png>
 Package pdftex.def Info: img/Bayesian.png  used on input line 107.
 (pdftex.def)             Requested size: 273.14923pt x 94.66359pt.
- [26]
-<img/time-measurement.png, id=150, 643.40375pt x 228.855pt>
+ [38]
+<img/time-measurement.png, id=216, 643.40375pt x 228.855pt>
 File: img/time-measurement.png Graphic file (type png)
 <use img/time-measurement.png>
 Package pdftex.def Info: img/time-measurement.png  used on input line 134.
 (pdftex.def)             Requested size: 273.14923pt x 97.15906pt.
- [27 </home/goodboiz/Documents/Dev/University/Research_paper/img/Bayesian.png (PNG copy)>] [28 </home/goodboiz/Documents/Dev/University/Research_paper/img/time-measurement.png (PNG copy)>] [29] [30] [31]
-<img/SORT.png, id=167, 828.09375pt x 501.875pt>
+ [39 </home/goodboiz/Documents/Dev/University/Research_paper/img/Bayesian.png (PNG copy)>] [40 </home/goodboiz/Documents/Dev/University/Research_paper/img/time-measurement.png (PNG copy)>] [41] [42] [43]
+<img/SORT.png, id=233, 828.09375pt x 501.875pt>
 File: img/SORT.png Graphic file (type png)
 <use img/SORT.png>
 Package pdftex.def Info: img/SORT.png  used on input line 299.
 (pdftex.def)             Requested size: 273.14923pt x 165.55034pt.
- [32 </home/goodboiz/Documents/Dev/University/Research_paper/img/SORT.png (PNG copy)>]
-<img/intergrated-metrics.png, id=171, 1189.44376pt x 662.475pt>
+ [44 </home/goodboiz/Documents/Dev/University/Research_paper/img/SORT.png (PNG copy)>]
+<img/intergrated-metrics.png, id=237, 1189.44376pt x 662.475pt>
 File: img/intergrated-metrics.png Graphic file (type png)
 <use img/intergrated-metrics.png>
 Package pdftex.def Info: img/intergrated-metrics.png  used on input line 346.
 (pdftex.def)             Requested size: 273.14923pt x 152.13354pt.
-<img/wide-residual.png, id=172, 512.91624pt x 353.32pt>
+<img/wide-residual.png, id=238, 512.91624pt x 353.32pt>
 File: img/wide-residual.png Graphic file (type png)
 <use img/wide-residual.png>
 Package pdftex.def Info: img/wide-residual.png  used on input line 354.
 (pdftex.def)             Requested size: 273.14923pt x 188.15904pt.
- [33 </home/goodboiz/Documents/Dev/University/Research_paper/img/intergrated-metrics.png (PNG copy)>]
-<img/listing.png, id=176, 609.27625pt x 574.145pt>
+ [45 </home/goodboiz/Documents/Dev/University/Research_paper/img/intergrated-metrics.png (PNG copy)>]
+<img/listing.png, id=242, 609.27625pt x 574.145pt>
 File: img/listing.png Graphic file (type png)
 <use img/listing.png>
 Package pdftex.def Info: img/listing.png  used on input line 365.
 (pdftex.def)             Requested size: 273.14923pt x 257.40794pt.
- [34 </home/goodboiz/Documents/Dev/University/Research_paper/img/wide-residual.png (PNG copy)>]
-<img/track-life.png, id=180, 834.11626pt x 409.53pt>
+ [46 </home/goodboiz/Documents/Dev/University/Research_paper/img/wide-residual.png (PNG copy)>]
+<img/track-life.png, id=246, 834.11626pt x 409.53pt>
 File: img/track-life.png Graphic file (type png)
 <use img/track-life.png>
 Package pdftex.def Info: img/track-life.png  used on input line 374.
 (pdftex.def)             Requested size: 273.14923pt x 134.10799pt.
-<img/DeepSort.png, id=181, 828.09375pt x 395.4775pt>
+<img/DeepSort.png, id=247, 828.09375pt x 395.4775pt>
 File: img/DeepSort.png Graphic file (type png)
 <use img/DeepSort.png>
 Package pdftex.def Info: img/DeepSort.png  used on input line 380.
 (pdftex.def)             Requested size: 273.14923pt x 130.45366pt.
- [35 </home/goodboiz/Documents/Dev/University/Research_paper/img/listing.png (PNG copy)> </home/goodboiz/Documents/Dev/University/Research_paper/img/track-life.png (PNG copy)>] [36 </home/goodboiz/Documents/Dev/University/Research_paper/img/DeepSort.png (PNG copy)>]) (/home/goodboiz/Documents/Dev/University/Research_paper/Chapter_4/Chap4.tex [37]
+ [47 </home/goodboiz/Documents/Dev/University/Research_paper/img/listing.png (PNG copy)> </home/goodboiz/Documents/Dev/University/Research_paper/img/track-life.png (PNG copy)>] [48 </home/goodboiz/Documents/Dev/University/Research_paper/img/DeepSort.png (PNG copy)>]) (/home/goodboiz/Documents/Dev/University/Research_paper/Chapter_4/Chap4.tex [49]
 Chapter 4.
-<img/tensorRt.png, id=192, 1523.6925pt x 1029.8475pt>
+<img/tensorRt.png, id=259, 1523.6925pt x 1029.8475pt>
 File: img/tensorRt.png Graphic file (type png)
 <use img/tensorRt.png>
-Package pdftex.def Info: img/tensorRt.png  used on input line 26.
+Package pdftex.def Info: img/tensorRt.png  used on input line 40.
 (pdftex.def)             Requested size: 273.14923pt x 184.61028pt.
-[38
-
- </home/goodboiz/Documents/Dev/University/Research_paper/img/tensorRt.png (PNG copy)>]
-<img/inference-tensorrt.png, id=196, 2006.49625pt x 1298.8525pt>
-File: img/inference-tensorrt.png Graphic file (type png)
-<use img/inference-tensorrt.png>
-Package pdftex.def Info: img/inference-tensorrt.png  used on input line 42.
-(pdftex.def)             Requested size: 273.14923pt x 176.80411pt.
-<img/high-performance.png, id=197, 599.23875pt x 698.61pt>
-File: img/high-performance.png Graphic file (type png)
-<use img/high-performance.png>
-Package pdftex.def Info: img/high-performance.png  used on input line 62.
-(pdftex.def)             Requested size: 273.14923pt x 318.45435pt.
- [39 </home/goodboiz/Documents/Dev/University/Research_paper/img/inference-tensorrt.png>]
-<img/application.png, id=202, 1410.26875pt x 618.31pt>
-File: img/application.png Graphic file (type png)
-<use img/application.png>
-Package pdftex.def Info: img/application.png  used on input line 69.
-(pdftex.def)             Requested size: 273.14923pt x 119.75386pt.
- [40 </home/goodboiz/Documents/Dev/University/Research_paper/img/high-performance.png (PNG copy)> </home/goodboiz/Documents/Dev/University/Research_paper/img/application.png (PNG copy)>] [41]
-<img/perspective.png, id=209, 1003.75pt x 656.4525pt>
-File: img/perspective.png Graphic file (type png)
-<use img/perspective.png>
-Package pdftex.def Info: img/perspective.png  used on input line 134.
-(pdftex.def)             Requested size: 273.14923pt x 178.63686pt.
-) (/home/goodboiz/Documents/Dev/University/Research_paper/Chapter_5/Chap5.tex [42 </home/goodboiz/Documents/Dev/University/Research_paper/img/perspective.png (PNG copy)>]
-Chapter 5.
-) (/home/goodboiz/Documents/Dev/University/Research_paper/Chapter_6/Chap6.tex [43
+[50
 
 ]
-Chapter 6.
-) [44
+<img/inference-tensorrt.png, id=263, 2006.49625pt x 1298.8525pt>
+File: img/inference-tensorrt.png Graphic file (type png)
+<use img/inference-tensorrt.png>
+Package pdftex.def Info: img/inference-tensorrt.png  used on input line 56.
+(pdftex.def)             Requested size: 273.14923pt x 176.80411pt.
+ [51 </home/goodboiz/Documents/Dev/University/Research_paper/img/tensorRt.png (PNG copy)> </home/goodboiz/Documents/Dev/University/Research_paper/img/inference-tensorrt.png>]
+<img/high-performance.png, id=268, 599.23875pt x 698.61pt>
+File: img/high-performance.png Graphic file (type png)
+<use img/high-performance.png>
+Package pdftex.def Info: img/high-performance.png  used on input line 76.
+(pdftex.def)             Requested size: 273.14923pt x 318.45435pt.
+<img/application.png, id=269, 1410.26875pt x 618.31pt>
+File: img/application.png Graphic file (type png)
+<use img/application.png>
+Package pdftex.def Info: img/application.png  used on input line 83.
+(pdftex.def)             Requested size: 273.14923pt x 119.75386pt.
+ [52 </home/goodboiz/Documents/Dev/University/Research_paper/img/high-performance.png (PNG copy)>] [53 </home/goodboiz/Documents/Dev/University/Research_paper/img/application.png (PNG copy)>]
+<img/perspective.png, id=276, 1003.75pt x 656.4525pt>
+File: img/perspective.png Graphic file (type png)
+<use img/perspective.png>
+Package pdftex.def Info: img/perspective.png  used on input line 148.
+(pdftex.def)             Requested size: 273.14923pt x 178.63686pt.
+ [54]) (/home/goodboiz/Documents/Dev/University/Research_paper/Chapter_5/Chap5.tex [55 </home/goodboiz/Documents/Dev/University/Research_paper/img/perspective.png (PNG copy)>]
+Chapter 5.
+) [56
 
 ] (/home/goodboiz/Documents/Dev/University/Research_paper/main.aux) ) 
 Here is how much of TeX's memory you used:
- 16843 strings out of 480906
- 310444 string characters out of 5910772
- 556830 words of memory out of 5000000
- 32012 multiletter control sequences out of 15000+600000
+ 16970 strings out of 480906
+ 312880 string characters out of 5910772
+ 558356 words of memory out of 5000000
+ 32126 multiletter control sequences out of 15000+600000
  556765 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,14n,64p,1011b,822s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/boondox/zxxrl8a.pfb>
-Output written on /home/goodboiz/Documents/Dev/University/Research_paper/main.pdf (45 pages, 4831791 bytes).
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/boondox/zxxrl8a.pfb>
+Output written on /home/goodboiz/Documents/Dev/University/Research_paper/main.pdf (57 pages, 12303733 bytes).
 PDF statistics:
- 304 PDF objects out of 1000 (max. 8388607)
- 185 compressed objects within 2 object streams
+ 371 PDF objects out of 1000 (max. 8388607)
+ 211 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 183 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 273 words of extra memory for PDF output out of 10000 (max. 10000000)
 

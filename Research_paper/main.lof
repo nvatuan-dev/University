@@ -1,40 +1,57 @@
 \babel@toc {english}{}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Jetson Developer Kit (80x100mm)}}{6}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Jetson Nano Developer Kit technical specifications}}{6}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces 45x70mm Jetson Nano compute module with 260-pin edge connector}}{7}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Performance of various deep learning inference networks with Jetson Nano and TensorRT}}{7}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces DeepStream application running on Jetson Nano with ResNet-based object detector concurrently on eight independent 1080p30 video streams}}{8}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Reference NVR system architecture with Jetson Nano and 8x HD camera inputs}}{8}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Jetson TX1 block diagram}}{9}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Left to right: Top of Jetson TX1 module, bottom (with connector), and complete assembly with TTP}}{9}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Jetson TX1 Developer Kit, including module, reference carrier and camera board}}{10}%
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Benchmarks demonstrate the large speedup of VisionWorks vs. OpenCV running on the Jetson TX1 CPU and GPU}}{10}%
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Jetson taps into the NVIDIA ecosystem to deliver unprecedented scalability and developer-friendly support}}{11}%
+\contentsline {figure}{\numberline {1.12}{\ignorespaces NVIDIA Jetson TX2 embedded system-on-module with Thermal Transfer Plate (TTP)}}{11}%
+\contentsline {figure}{\numberline {1.13}{\ignorespaces NVIDIA Jetson TX2 Tegra \IeC {\textquotedblleft }Parker\IeC {\textquotedblright } SoC block diagram featuring integrated NVIDIA Pascal GPU, NVIDIA Denver 2 + Arm Cortex-A57 CPU clusters, and multimedia acceleration engines}}{12}%
+\contentsline {figure}{\numberline {1.14}{\ignorespaces Comparison of Jetson TX1 and Jetson TX2}}{13}%
+\contentsline {figure}{\numberline {1.15}{\ignorespaces Performance of GoogLeNet network architecture profiled on NVIDIA Jetson TX2 and Intel Xeon E5-2960 v4}}{13}%
+\contentsline {figure}{\numberline {1.16}{\ignorespaces Power consumption measurements for GoogLeNet and AlexNet architectures for max-Q and max-P performance levels on NVIDIA Jetson TX1 and Jetson TX2. The table reports energy efficiency for all tests in images per second per Watt consumed}}{14}%
+\contentsline {figure}{\numberline {1.17}{\ignorespaces End-to-end AI pipeline including sensor acquisition, processing, command \& control}}{15}%
+\contentsline {figure}{\numberline {1.18}{\ignorespaces NVIDIA Jetson TX2 Developer Kit including module, reference carrier, and camera module}}{15}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Example of an Artificial Neural Network with two input, one hidden and output layer}}{5}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces The sigmoid, hyperbolic tangent and ReLU activation functions and their derivatives}}{6}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Illustration of how neurons are structured in a CNN}}{7}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Illustration of the convolution operation using a 3 x 3 kernel}}{8}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Illustration of the upconvolution operation}}{9}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Illustration of the max-pooling operation}}{9}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Illustration of the max-unpooling operation}}{10}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Speed/Accuracy trade-of}}{11}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Pipeline of Faster R-CNN}}{12}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Architecture of RPN}}{13}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Feature Extractor of SSD}}{14}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Architecture of VGG16}}{15}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Architecture of SSD}}{15}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Default Boundary Box}}{16}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Matching with ground truth}}{16}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Major components}}{18}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Feature Extraction of YOLOv3}}{18}%
-\contentsline {figure}{\numberline {2.18}{\ignorespaces IOU formula}}{19}%
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Example for anchor box}}{20}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Example of an Artificial Neural Network with two input, one hidden and output layer}}{17}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The sigmoid, hyperbolic tangent and ReLU activation functions and their derivatives}}{18}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Illustration of how neurons are structured in a CNN}}{19}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Illustration of the convolution operation using a 3 x 3 kernel}}{20}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Illustration of the upconvolution operation}}{21}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Illustration of the max-pooling operation}}{21}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Illustration of the max-unpooling operation}}{22}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Speed/Accuracy trade-of}}{23}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Pipeline of Faster R-CNN}}{24}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Architecture of RPN}}{25}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Feature Extractor of SSD}}{26}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Architecture of VGG16}}{27}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Architecture of SSD}}{27}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Default Boundary Box}}{28}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Matching with ground truth}}{28}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Major components}}{30}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Feature Extraction of YOLOv3}}{30}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces IOU formula}}{31}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Example for anchor box}}{32}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Pipeline of detection based tracking and detection free tracking}}{25}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Illustration of Bayesian filtering and dependencies on time and measurement updates}}{27}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Time and measurement update}}{28}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Pipeline of SORT}}{32}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Data Association with two integrated metrics}}{33}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Wide Residual Network Architecture}}{34}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Listing of Matching Cascade}}{35}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Track Life Cycle Management}}{35}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Pipeline of DeepSORT}}{36}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Pipeline of detection based tracking and detection free tracking}}{37}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Illustration of Bayesian filtering and dependencies on time and measurement updates}}{39}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Time and measurement update}}{40}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Pipeline of SORT}}{44}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Data Association with two integrated metrics}}{45}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Wide Residual Network Architecture}}{46}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Listing of Matching Cascade}}{47}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Track Life Cycle Management}}{47}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Pipeline of DeepSORT}}{48}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces TensorRT Pipeline}}{38}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces TensorRT Inference}}{39}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces TensorRT defined as part high-performance inference optimizer and part runtime engine}}{40}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces TensorRT Application}}{40}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Perspective Transformation}}{42}%
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces TensorRT Pipeline}}{51}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces TensorRT Inference}}{51}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces TensorRT defined as part high-performance inference optimizer and part runtime engine}}{52}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces TensorRT Application}}{53}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Perspective Transformation}}{55}%
 \addvspace {10\p@ }
