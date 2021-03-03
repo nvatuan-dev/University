@@ -279,7 +279,21 @@
                         y_i \leftarrow \gamma \hat{x}_i + \beta
                     \end{align}
             \end{enumerate}
-        \subsubsection{Spped/Accuracy Trade-offs}
+        \subsubsection{Overfitting}
+            Overfitting is a common problem when faced with models of many parameters. To mitigate overfitting one either reduces the 
+            number of parameters, adds more training data or applies  regularization. Regularization can be performed by combining the 
+            loss function with a fraction of the Euclidean $L^2$-norm which limits the size of the weights suppressing the risk of the 
+            network learning only single features. Other methods are dropout and batch normalization. Data augmentation, i.e distoring, 
+            rotating, mirroring and adding noise to the images, can also help to mitigate overfitting.
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.6\linewidth]{img/overfitting.png}
+                \caption{The squiggly (green) line does not generalize well and therefore fails to fit to the curved (black)
+                line. Instead it overfits to some individual samples which should be considered outliers. The loss on the training set 
+                will be low since all points are correctly classified but if new points are introduced, the more generalized curved (black) 
+                line would classify the set more accurately}
+            \end{figure}
+        \subsubsection{Speed/Accuracy Trade-offs}
             The relation between these two is very complex, as it is very hard to maintain them both
             at a high level. In the case of real-time environment where the focus is on Advanced
             driver-assistance systems (ADAS), a decision needs to be made fast, and by that means
@@ -575,7 +589,7 @@
         \subsubsection{Other Experiments}
             Deepa et al compared all three models for real-time tennis ball tracking and from their work, they concluded that SSD is much efficient and comparatively more accurate accurate algorithm with less computation speed for this particular task of detecting the tennis ball tosses. It worth noticing that, the YOLO version they used is version 1, which performs badly with small objects like tennis ball. This is no longer a shortage to the latest version of YOLO [6]. \\ 
             \vspace{3mm}
-            According to [**], when they compared the YOLOv3 algorithm with the SSD, it was shown by evaluation that YOLOv3 had better performance than SSD. If the SSD has an input resolution at 300*300, it would have the same inference as the YOLOv3 at the input resolution 416*416, the precision of YOLOv3 is higher. YOLOv3 is faster than SSD, which is applicable to real-time. \\ 
+            According to [14], when they compared the YOLOv3 algorithm with the SSD, it was shown by evaluation that YOLOv3 had better performance than SSD. If the SSD has an input resolution at 300*300, it would have the same inference as the YOLOv3 at the input resolution 416*416, the precision of YOLOv3 is higher. YOLOv3 is faster than SSD, which is applicable to real-time. \\ 
         
         \subsubsection{Conclusion}
             Choosing YOLOv4 for ITS system is considered most efficient choice so far, therefore we use YOLOv4 to operate as a detector for our system.

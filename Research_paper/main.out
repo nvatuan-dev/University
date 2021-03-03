@@ -1,0 +1,66 @@
+\BOOKMARK [0][-]{chapter.1}{OVERVIEW ITS SYSTEM}{}% 1
+\BOOKMARK [1][-]{section.1.1}{ITS}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Jetson Platform}{chapter.1}% 3
+\BOOKMARK [2][-]{subsection.1.2.1}{Introduction}{section.1.2}% 4
+\BOOKMARK [2][-]{subsection.1.2.2}{Jetson Developer Kits and Modules}{section.1.2}% 5
+\BOOKMARK [2][-]{subsection.1.2.3}{Jetson Nano}{section.1.2}% 6
+\BOOKMARK [2][-]{subsection.1.2.4}{Jetson TX1}{section.1.2}% 7
+\BOOKMARK [2][-]{subsection.1.2.5}{Jetson TX2}{section.1.2}% 8
+\BOOKMARK [0][-]{chapter.2}{OBJECT DETECTION}{}% 9
+\BOOKMARK [1][-]{section.2.1}{Overview}{chapter.2}% 10
+\BOOKMARK [2][-]{subsection.2.1.1}{Traditional Methods}{section.2.1}% 11
+\BOOKMARK [2][-]{subsection.2.1.2}{Deep Learning Based Method}{section.2.1}% 12
+\BOOKMARK [1][-]{section.2.2}{Comparison YOLO SSD Faster R-CNN}{chapter.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.1}{Faster-RCNN}{section.2.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.2}{SSD}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.3}{YOLO}{section.2.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.4}{Comparision YOLO, SSD and Faster R-CNN}{section.2.2}% 17
+\BOOKMARK [1][-]{section.2.3}{Metrics and Evaluations}{chapter.2}% 18
+\BOOKMARK [2][-]{subsection.2.3.1}{Average Precision\(AP\) and Mean Average Precision\(mAP\)}{section.2.3}% 19
+\BOOKMARK [0][-]{chapter.3}{MULTIPLE OBJECT TRACKING}{}% 20
+\BOOKMARK [1][-]{section.3.1}{Overview}{chapter.3}% 21
+\BOOKMARK [1][-]{section.3.2}{Categorization}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.3}{MOT Components Overview}{chapter.3}% 23
+\BOOKMARK [2][-]{subsection.3.3.1}{Appearance Model}{section.3.3}% 24
+\BOOKMARK [2][-]{subsection.3.3.2}{Motion Model}{section.3.3}% 25
+\BOOKMARK [2][-]{subsection.3.3.3}{Interaction Model}{section.3.3}% 26
+\BOOKMARK [2][-]{subsection.3.3.4}{Exclusion Model}{section.3.3}% 27
+\BOOKMARK [2][-]{subsection.3.3.5}{Occlusion Handling}{section.3.3}% 28
+\BOOKMARK [2][-]{subsection.3.3.6}{Inference Models}{section.3.3}% 29
+\BOOKMARK [1][-]{section.3.4}{Detection Based Tracking Pipeline}{chapter.3}% 30
+\BOOKMARK [2][-]{subsection.3.4.1}{Detection Based Tracking}{section.3.4}% 31
+\BOOKMARK [2][-]{subsection.3.4.2}{Prediction}{section.3.4}% 32
+\BOOKMARK [2][-]{subsection.3.4.3}{Association}{section.3.4}% 33
+\BOOKMARK [2][-]{subsection.3.4.4}{Hungarian Method}{section.3.4}% 34
+\BOOKMARK [1][-]{section.3.5}{SORT}{chapter.3}% 35
+\BOOKMARK [2][-]{subsection.3.5.1}{Estimation Models}{section.3.5}% 36
+\BOOKMARK [2][-]{subsection.3.5.2}{Data Association}{section.3.5}% 37
+\BOOKMARK [2][-]{subsection.3.5.3}{Pipeline}{section.3.5}% 38
+\BOOKMARK [2][-]{subsection.3.5.4}{Pros \046 Cons}{section.3.5}% 39
+\BOOKMARK [1][-]{section.3.6}{Deep SORT}{chapter.3}% 40
+\BOOKMARK [2][-]{subsection.3.6.1}{Improvements of DeepSORT over SORT}{section.3.6}% 41
+\BOOKMARK [2][-]{subsection.3.6.2}{Data Association}{section.3.6}% 42
+\BOOKMARK [2][-]{subsection.3.6.3}{Deep Appearance Feature Extraction}{section.3.6}% 43
+\BOOKMARK [2][-]{subsection.3.6.4}{Matching Cascade}{section.3.6}% 44
+\BOOKMARK [2][-]{subsection.3.6.5}{Track Life Cycle Management}{section.3.6}% 45
+\BOOKMARK [2][-]{subsection.3.6.6}{Pipeline of DeepSORT}{section.3.6}% 46
+\BOOKMARK [1][-]{section.3.7}{Evaluations Metrics}{chapter.3}% 47
+\BOOKMARK [2][-]{subsection.3.7.1}{Multiple Object Tracking Accuracy\(MOTA\)}{section.3.7}% 48
+\BOOKMARK [2][-]{subsection.3.7.2}{Multiple Object Tracking Precision\(MOTP\)}{section.3.7}% 49
+\BOOKMARK [2][-]{subsection.3.7.3}{Average multi object tracking accuracy\(AMOTA\)}{section.3.7}% 50
+\BOOKMARK [2][-]{subsection.3.7.4}{Average multi object tracking precision\(AMOTP\)}{section.3.7}% 51
+\BOOKMARK [2][-]{subsection.3.7.5}{Identification precision\(IDP\), Identification recall\(IDR\), IDF1}{section.3.7}% 52
+\BOOKMARK [0][-]{chapter.4}{INFERENCE}{}% 53
+\BOOKMARK [1][-]{section.4.1}{Optimization Methods}{chapter.4}% 54
+\BOOKMARK [2][-]{subsection.4.1.1}{Architecture Optimization}{section.4.1}% 55
+\BOOKMARK [2][-]{subsection.4.1.2}{Algorithm Optimization}{section.4.1}% 56
+\BOOKMARK [1][-]{section.4.2}{TensorRT SDK}{chapter.4}% 57
+\BOOKMARK [2][-]{subsection.4.2.1}{Definition}{section.4.2}% 58
+\BOOKMARK [2][-]{subsection.4.2.2}{What is TensorRT?}{section.4.2}% 59
+\BOOKMARK [2][-]{subsection.4.2.3}{How does TensorRT work?}{section.4.2}% 60
+\BOOKMARK [2][-]{subsection.4.2.4}{What Capabilities Does TensorRT Provide?}{section.4.2}% 61
+\BOOKMARK [1][-]{section.4.3}{Speed Estimation}{chapter.4}% 62
+\BOOKMARK [2][-]{subsection.4.3.1}{Mapping}{section.4.3}% 63
+\BOOKMARK [2][-]{subsection.4.3.2}{Speed Calculation}{section.4.3}% 64
+\BOOKMARK [0][-]{chapter.5}{IMPLEMENTATION}{}% 65
+\BOOKMARK [0][-]{chapter.6}{BIBLIOGRAPHY}{}% 66
