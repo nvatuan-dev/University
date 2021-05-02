@@ -14,6 +14,8 @@
 ### How to run CPP code in PlatformIO IDE:
 1. Download Visual Studio Code is given [here](https://code.visualstudio.com/).
 2. Download PlatformIO IDE extension in VS Code.
-3. Run this command in folder contains the project:
+3. Find the input/output USB device ports by using command:
+``sudo dmesg | grep tty``
+4. Run this command in folder contains the project:
 
 ``sudo chmod a+rw /dev/tty....``
