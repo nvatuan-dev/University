@@ -1,0 +1,145 @@
+\documentclass[a4paper,13pt]{report}
+
+\usepackage[top=2.5cm,bottom=2.5cm,left=3cm,right=2cm]{geometry}
+\usepackage[a4,frame,center]{crop}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{ragged2e}
+\usepackage{hyphenat}
+\usepackage{lmodern}
+\usepackage{fancyhdr}
+\usepackage[toc,page]{appendix}
+\usepackage{tabularx}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{indentfirst}
+\usepackage[table]{xcolor}
+\usepackage{array,multirow} 
+\usepackage{varwidth}
+\usepackage{listings}
+\usepackage{background}
+\usepackage{tikz}
+\usepackage{hyperref}
+\usetikzlibrary{calc}
+\backgroundsetup{contents={}}
+\setcounter{secnumdepth}{4}
+
+\AtBeginDocument{%
+\let\mtcontentsname\contentsname
+\renewcommand\contentsname{\MakeUppercase\mtcontentsname}
+}
+
+\begin{document}
+    \begin{titlepage}
+        \centering
+        \input{border.tex}
+        \LARGE{\textsc{VIETNAM AVIATION ACADEMY}}\\
+        \vspace{3mm}
+        \normalsize{Department of Telecommunication - Electronics Engineering Technology} \\
+        \vspace{3mm}
+        \large{LOCATED IN HO CHI MINH CITY} \\
+        \vspace{3mm}
+        \includegraphics[scale=0.3]{img/logo.png} \\
+        \vspace{3mm}
+        \large{Graduation Thesis} \\
+        \vspace{10mm}
+        \huge{\textbf{"DROWSINESS DETECTION AND ALERT SYSTEM IN THE CAR"}} \\ 
+        \vspace{20mm}
+        \normalsize{Written by} \\ 
+        \vspace{3mm}
+        \large{\textbf{\textit{Nguyen Van Anh Tuan}}} \\ 
+        \vspace{3mm}
+        \large{\textbf{\textit{Roll.No.1753020018}}} \\ 
+        \vspace{15mm}
+        \large{Under the guidance of} \\
+        \vspace{7mm}
+        \centerline{\textbf{\large{Msc.Vo Phi Son}}} 
+        \vspace{3.5cm}
+        \centerline{\today}
+    \end{titlepage}
+
+    \newpage
+    \thispagestyle{plain}
+        \centering
+        \LARGE{\textsc{VIETNAM AVIATION ACADEMY}}\\
+        \vspace{3mm}
+        \normalsize{Department of Telecommunication - Electronics Engineering Technology} \\
+        \vspace{3mm}
+        \large{LOCATED IN HO CHI MINH CITY} \\
+        \vspace{3mm}
+        \includegraphics[scale=0.3]{img/logo.png} \\
+        \vspace{3mm}
+        \large{Graduation Thesis} \\
+        \vspace{15mm}
+        \huge{\textbf{"DROWSINESS DETECTION AND ALERT SYSTEM IN THE CAR"}} \\ 
+        \vspace{20mm}
+        \normalsize{Written by} \\ 
+        \vspace{3mm}
+        \large{\textbf{\textit{Nguyen Van Anh Tuan}}} \\ 
+        \vspace{3mm}
+        \large{\textbf{\textit{Roll.No.1753020018}}} \\ 
+        \vspace{15mm}
+        \large{Under the guidance of} \\
+        \vspace{7mm}
+        \centerline{\textbf{\large{Msc.Vo Phi Son}}} 
+        \vspace{3cm}
+        \centerline{\today}
+    
+    \newpage
+    \thispagestyle{plain}
+    \centering
+    \centerline{\textbf{\huge{PREAMBLE}}}
+    \vspace{10mm}
+    \begin{flushleft}
+        In nowaday, along with the continuous development and progress of science and technology, image processing is 
+        one of the topics that need attention and development. From the first researches about black-white image, 
+        gray-scale and digital image, image processing has been studied deeply and applied a lot in our life. Beside that, 
+        along with the development of Raspberry Pi with small scale, its promoting more development and application with 
+        practice. \\ 
+        \vspace{2mm}
+        The application of Raspberry Pi in image processing aims to provide a few of image processing solutions to apply in 
+        real life. In this project, i have used Raspberry Pi to detect drowsiness in the car with algorithms that can respond 
+        in real time, the optimal solutions are simple but bring efficiency and high accuracy. I started to identify directly 
+        through a camera connected to Raspberry Pi, and programmed using Python with the ability to track and mark the subject's 
+        eyes, thereby determining whether the subject was closed or opened and alert a driver immediately, eyes are regconized by 
+        the Facial Landmarks algorithm, then calculate the distance between the eyelids using Euclid to detect eye states and detect 
+        drowsiness.
+    \end{flushleft}
+    \begin{flushright}
+        \textbf{Auth.Nguyen Van Anh Tuan}
+    \end{flushright}
+
+    \newpage
+    \thispagestyle{plain}
+    \centering
+    \centerline{\textbf{\huge{WORDS OF THANKS}}}
+    \vspace{10mm}
+    \begin{flushleft}
+        Reality show that success is always associated with support of friends, teacher,... And i have special thanks to Mr.Vo Phi Son and my close friends 
+        for helping me completing this project. \\ 
+        \vspace{2mm}
+        I have tried my best to do this project. However, due to my lack of experience and 
+        knowledge, there are still some unexpected mistakes in the project. Please let me know your opinions and criticizes.
+        Once again, thank you so much. 
+    \end{flushleft}
+    \begin{flushright}
+        \textbf{Auth.Nguyen Van Anh Tuan}
+    \end{flushright}
+
+    \newpage
+    \tableofcontents
+    \listoffigures
+
+    \input{Chapter-1/Chap1.tex}
+
+    \input{Chapter-2/Chap2.tex}
+
+    \input{Chapter-3/Chap3.tex}
+
+    \input{Chapter-4/Chap4.tex}
+
+    \input{Chapter-5/Chap5.tex}
+
+\end{document}
