@@ -7,3 +7,9 @@
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Additive color mixing}}{13}{figure.2.4}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces A set of primary colors, such as the sRGB primaries, define a color triangle}}{14}{figure.2.5}%
 \contentsline {figure}{\numberline {2.6}{\ignorespaces The part of image processing system}}{15}{figure.2.6}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Block diagram of the face recognition process}}{15}{figure.2.7}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces An overview of the OpenCV face recognition pipeline}}{16}{figure.2.8}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces How the deep learning face recognition model computes the face embedding}}{17}{figure.2.9}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces HOG features sample face}}{18}{figure.2.10}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Example of the sliding a window approach, where we slide a window from left-to-right and top-to-bottom}}{19}{figure.2.11}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces (Left) Detecting multiple overlapping bounding boxes around the face we want to detect. (Right) Applying non-maximum suppression to remove the redundant bounding boxes.}}{20}{figure.2.12}%

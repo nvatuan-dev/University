@@ -178,10 +178,133 @@
         \vspace{3mm}
         \textbf{Integrated Development Environment} using Thony Python IDE software to write program. \\ 
         \vspace{3mm}
-        \textbf{Display and Warning Department} 7 inches for system operation and speaker alarms.
+        \textbf{Warning Devices} speaker alarms.
 
 \section{Face Regconition Algorithm}
-
+    Before we go to the algorithms for face detection we should understand how to detect a face even though we don't know who the subject is. \\
+    \vspace{3mm}
+    Face Recognition is a way of recognizing a human face through technology. A facial recognition system uses biometrics to map facial features from a photograph or video. 
+    It compares the information with a database of known faces to find a match. Facial recognition can help verify personal identity, but it also raises privacy issues. \\ 
+    \vspace{3mm}
+    The recognition of a face in a video sequence is split into three primary tasks: Face Detection, Face Prediction, and Face Tracking. The tasks performed in the Face Capture 
+    program are performed during face recognition as well. To recognize the face obtained, a vector of HOG features of the face is extracted. This vector is then used in the SVM 
+    model to determine a matching score for the input vector with each of the labels. The SVM returns the label with the maximum score, which represents the confidence to the 
+    closest match within the trained face data. 
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.6\linewidth]{img/face-recognition.jpg}
+        \caption{Block diagram of the face recognition process}
+    \end{figure}
+    The task of calculating matching scores is exceptionally heavy to compute. Hence, once detected and identified, the labeled face in an image needs to be tracked to reduce the 
+    computation in future frames until the face eventually disappears from the video. Of all the available trackers, the Camshift tracking algorithm is used since it produces the 
+    best results with faces. \\ 
+    \vspace{3mm}
+    Where you see a face, recognition technology sees data. That data can be stored and accessed. 
+    For instance, half of all American adults have their images stored in one or more facial-recognition databases that law enforcement agencies can search, according to a 
+    Georgetown University study. Technologies can be different, but there are the basic steps:
+    \begin{itemize}
+        \item \textbf{Step 1.} A picture of your face is captured from a photo or video. Your face might appear alone or in a crowd. Your image may show you looking straight 
+        ahead or nearly in profile
+        \item \textbf{Step 2.} Facial recognition software reads the geometry of your face. Key factors include the distance between your eyes and the distance from forehead to chin. 
+        The software identifies facial landmarks — one system identifies 68 of them — that are key to distinguishing your face. The result: your facial signature
+        \item \textbf{Step 3.} Your facial signature — a mathematical formula — is compared to a database of known faces. And consider this: at least 117 million Americans have images 
+        of their faces in one or more police databases. According to a May 2018 report, the FBI has had access to 412 million facial images for searches
+        \item \textbf{Step 4.} A determination is made. Your faceprint may match that of an image in a facial recognition system database.
+    \end{itemize}
+    The gist of the pipeline can be seen in figure down here: 
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.6\linewidth]{img/opencv.jpg}
+        \caption{An overview of the OpenCV face recognition pipeline}
+    \end{figure}
+    First, we input an image or video frame to our face recognition pipeline. Given the input image, we apply face detection to detect the location of a face in the image. Optionally 
+    we can compute \textbf{Facial Landmarks}, enabling us to \textbf{Preprocess and align the face}. \\ 
+    \vspace{3mm}
+    Face alignment, as the name suggests, is the process of identifying the geometric structure of the faces and attempting to obtain a canonical alignment of the face based on translation, 
+    rotation, and scale. While optional, face alignment has been demonstrated to increase face recognition accuracy in some pipelines. After we’ve (optionally) applied face alignment 
+    and cropping, we pass the input face through our deep neural network:
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.6\linewidth]{img/pyimgsearch.png}
+        \caption{How the deep learning face recognition model computes the face embedding}
+    \end{figure}
+    The FaceNet deep learning model computes a 128-d embedding that quantifies the face itself. But how does the network actually compute the face embedding? The answer lies in the training 
+    process itself, including:
+    \begin{itemize}
+        \item The input data to the network
+        \item The triplet loss function
+    \end{itemize}
+    To train a face recognition model with deep learning, each input batch of data includes three images:
+    \begin{itemize}
+        \item The anchor
+        \item The positive image
+        \item The negative image
+    \end{itemize}
+    The anchor is our current face and has identity A. \\ 
+    \vspace{3mm}
+    The second image is our positive image — this image also contains a face of person A. \\ 
+    \vspace{3mm}
+    The negative image, on the other hand, does not have the same identity, and could belong to person B, C, or even Y! \\
+    \vspace{3mm}
+    The point is that the anchor and positive image both belong to the same person/face while the negative image does not contain the same face. The neural network computes the 128-d 
+    embeddings for each face and then tweaks the weights of the network (via the triplet loss function) such that:
+    \begin{itemize}
+        \item The 128-d embeddings of the anchor and positive image lie closer together
+        \item While at the same time, pushing the embeddings for the negative image father away
+    \end{itemize}
+    In this manner, the network is able to learn to quantify faces and return highly robust and discriminating embeddings suitable for face recognition.
+    \subsection{Face Detection using HOG}
+    The essential thought behind the histogram of oriented gradients descriptor is that local object appearance and shape within an image can be described by the distribution of intensity gradients or edge directions. 
+    The image is divided into small connected regions called cells, and for the pixels within each cell, a histogram of gradient directions is compiled. The descriptor is the concatenation of these histograms. For 
+    improved accuracy, the local histograms can be contrast-normalized by calculating a measure of the intensity across a larger region of the image, called a block, and then using this value to normalize all cells within the block. This normalization results in better invariance to changes in illumination and shadowing. \\
+        \vspace{3mm}
+        In the current example, all the face sample images of a person are fed to the feature descriptor extraction algorithm; i.e., a HOG. The descriptors are gradient vectors generated per pixel of the image. 
+        The gradient for each pixel consists of magnitude and direction, calculated using the following formular:
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.6\linewidth]{img/HOG-feature.jpg}
+            \caption{HOG features sample face}
+        \end{figure}
+        \begin{align}
+            g = \sqrt{g^2_x + g^2_y} \\ 
+            \theta = \arctan{\frac{g_y}{g_x}}
+        \end{align}
+        Gx and Gy are respectively the horizontal and vertical components of the change in the pixel intensity. A window size of 128 x 144 is used for face images since it matches the general aspect ratio of human faces. 
+        The descriptors are calculated over blocks of pixels with 8 x 8 dimensions. These descriptor values for each pixel over 8 x 8 block are quantized into 9 bins, where each bin represents a directional angle of gradient 
+        and value in that bin, which is the summation of the magnitudes of all pixels with the same angle. \\ 
+        \vspace{3mm}
+        Further, the histogram is then normalized over a 16 x 16 block size, which means four blocks of 8 x 8 are normalized together to minimize light conditions. This mechanism mitigates the accuracy drop due to a 
+        change in light. The SVM model is trained using a number of HOG vectors for multiple faces. \\
+        \vspace{3mm}
+        There is some review entire detailed process of training an object detector using Histogram Oriented Gradients, each step can be fairly detailed. It goes like something like this:
+        \begin{itemize}
+            \item \textbf{Step 1:} Sample P positive samples from your training data of the object(s) you want to detect and extract HOG descriptors from these samples;
+            \item \textbf{Step 2:} Sample N negative samples from a negative training set that \textbf{does not contain} any of the objects you want to detect and extract HOG descriptors from these samples as well. In practice N $\gg$ P;
+            \item \textbf{Step 3:} Train a Linear Support Vector Machine on your positive and negative samples;
+            \item \textbf{Step 4:} 
+                \begin{figure}[H]
+                    \centering
+                    \includegraphics[width=0.6\linewidth]{img/sliding_window_example.jpg}
+                    \caption{Example of the sliding a window approach, where we slide a window from left-to-right and top-to-bottom}
+                \end{figure}
+                \textbf{Apply hard-negative mining}, For each image and each possible scale of each image in your negative training set, apply the sliding window technique and slide your window across the image. 
+                At each window compute your HOG descriptors and apply your classifier. If your classifier (incorrectly) classifies a given window as an object (and it will, there will absolutely be false-positives), 
+                record the feature vector associated with the false-positive patch along with the probability of the classification. \textbf{This approach is called hard-negative mining}.
+            \item \textbf{Step 5:} Take the false-positive samples found during the hard-negative mining stage, sort them by their confidence (i.e. probability) and re-train your classifier using these hard-negative samples.
+            \item \textbf{Step 6:} Your classifier is now trained and can be applied to your test dataset. Again, just like in Step 4, for each image in your test set, and for each scale of the image, apply the sliding window technique. 
+                At each window extract HOG descriptors and apply your classifier. If your classifier detects an object with sufficiently large probability, record the bounding box of the window. After you have finished scanning the image, 
+                apply non-maximum suppression to remove redundant and overlapping bounding boxes. \\ 
+                \vspace{2mm}
+                These are the bare minimum steps required, but by using this 6-step process you can train and build object detection classifiers of your own! Extensions to this approach include a deformable parts model and Exemplar SVMs, 
+                where you train a classifier for each positive instance rather than a collection of them. \\ 
+                \vspace{2mm}
+                However, if you’ve ever worked with object detection in images you’ve likely ran into the problem of detecting multiple bounding boxes around the object you want to detect in the image. And here’s an example of this overlapping bounding box problem:
+                \begin{figure}[H]
+                    \centering
+                    \includegraphics[width=0.6\linewidth]{img/multiple-overlapping.jpg}
+                    \caption{(Left) Detecting multiple overlapping bounding boxes around the face we want to detect. (Right) Applying non-maximum suppression to remove the redundant bounding boxes.}
+                \end{figure}
+        \end{itemize}
 \section{Euclidean Distance}
 
 \section{OpenCV}
