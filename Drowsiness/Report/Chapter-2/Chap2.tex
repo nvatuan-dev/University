@@ -306,7 +306,26 @@
                 \end{figure}
         \end{itemize}
     \subsection{AdaBoost Algorithm}
-        Traditionally, an adaptive boosting (AdaBoost) algorithm is used for object recognition because of its prevalent usage and well-trained results. 
+        Traditionally, an adaptive boosting (AdaBoost) algorithm is used for object recognition because of its prevalent usage and well-trained results. short for Adaptive Boosting, is a Boosting technique that is used as an Ensemble Method in Machine Learning. 
+        It is called Adaptive Boosting as the weights are re-assigned to each instance, with higher weights to incorrectly classified instances. Boosting is used to reduce bias as well as the variance for supervised learning. It works on the principle where learners 
+        are grown sequentially. Except for the first, each subsequent learner is grown from previously grown learners. In simple words, weak learners are converted into strong ones. Adaboost algorithm also works on the same principle as boosting, but there is a slight 
+        difference in working.
+        \subsubsection{How AdaBoost Work?}
+        First, let us discuss the working of boosting. It makes n number of decision trees during the training period of data. As the first decision tree/model is made, the record which is incorrectly classified during the first model is given more priority. Only these 
+        records are sent as input for the second model. The process will go on until we specify a number of base learners we want to create. Remember, the repetition of records is allowed with all boosting techniques.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.6\linewidth]{img/adaboost.png}
+            \caption{AdaBoost model}
+        \end{figure}
+        The figure shows that when the first model is made and the errors from the first model are noted by the algorithm, the record which is incorrectly classified is given as the input for the next model. This process is repeated until the specified condition is met. 
+        As you can see in the figure, there are $n$ number of models made by taking the errors from the previous model. This is how boosting works. The models 1,2, 3,…, N are individual models that can be known as decision trees. All types of boosting models work on the same principle. \\ 
+        \vspace{3mm}
+        Since we know the boosting principle,it will be easy to understand the AdaBoost algorithm. Let’s deep dive into the working of Adaboost. When the random forest is used, the algorithm makes $n$ number of trees. It makes proper trees that consist of a start node with several leaves nodes. 
+        Some trees might be bigger than others, but there is no fixed depth in a random forest. But with Adaboost, that’s not the case. In AdaBoost, the algorithm only makes a node with two leaves, and this is known as Stump. 
+        
+
+
 \section{Euclidean Distance}
 
 \section{OpenCV}
