@@ -13,3 +13,6 @@
 \contentsline {figure}{\numberline {2.10}{\ignorespaces HOG features sample face}}{18}{figure.2.10}%
 \contentsline {figure}{\numberline {2.11}{\ignorespaces Example of the sliding a window approach, where we slide a window from left-to-right and top-to-bottom}}{19}{figure.2.11}%
 \contentsline {figure}{\numberline {2.12}{\ignorespaces (Left) Detecting multiple overlapping bounding boxes around the face we want to detect. (Right) Applying non-maximum suppression to remove the redundant bounding boxes.}}{20}{figure.2.12}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces AdaBoost model}}{21}{figure.2.13}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Stump}}{21}{figure.2.14}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Sample Weight}}{22}{figure.2.15}%
