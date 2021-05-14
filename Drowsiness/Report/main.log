@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.11)  12 MAY 2021 16:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.11)  13 MAY 2021 01:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -800,7 +800,7 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 ]) (./Chapter-2/Chap2.tex [7]
 Chapter 2.
-<img/IP.jpg, id=159, 642.4pt x 356.33125pt>
+<img/IP.jpg, id=163, 642.4pt x 356.33125pt>
 File: img/IP.jpg Graphic file (type jpg)
 <use img/IP.jpg>
 Package pdftex.def Info: img/IP.jpg  used on input line 35.
@@ -808,25 +808,25 @@ Package pdftex.def Info: img/IP.jpg  used on input line 35.
 [8
 
  <./img/IP.jpg>] [9]
-<img/Pixel-example.png, id=177, 134.4222pt x 63.23625pt>
+<img/Pixel-example.png, id=181, 134.4222pt x 63.23625pt>
 File: img/Pixel-example.png Graphic file (type png)
 <use img/Pixel-example.png>
 Package pdftex.def Info: img/Pixel-example.png  used on input line 92.
 (pdftex.def)             Requested size: 273.14923pt x 128.51198pt.
  [10]
-<img/gray-scale.png, id=187, 626.34pt x 328.97906pt>
+<img/gray-scale.png, id=191, 626.34pt x 328.97906pt>
 File: img/gray-scale.png Graphic file (type png)
 <use img/gray-scale.png>
 Package pdftex.def Info: img/gray-scale.png  used on input line 103.
 (pdftex.def)             Requested size: 273.14923pt x 143.47118pt.
  [11 <./img/Pixel-example.png> <./img/gray-scale.png>]
-<img/RGB.png, id=195, 1027.84pt x 1027.84pt>
+<img/RGB.png, id=199, 1027.84pt x 1027.84pt>
 File: img/RGB.png Graphic file (type png)
 <use img/RGB.png>
 Package pdftex.def Info: img/RGB.png  used on input line 141.
 (pdftex.def)             Requested size: 273.14923pt x 273.14479pt.
  [12]
-<img/primary-color.png, id=204, 1027.84pt x 1136.245pt>
+<img/primary-color.png, id=208, 1027.84pt x 1136.245pt>
 File: img/primary-color.png Graphic file (type png)
 <use img/primary-color.png>
 Package pdftex.def Info: img/primary-color.png  used on input line 153.
@@ -836,68 +836,79 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 16
  (d:/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<img/Drowsiness.png, id=210, 3559.2975pt x 1354.05875pt>
+<img/Drowsiness.png, id=214, 3559.2975pt x 1354.05875pt>
 File: img/Drowsiness.png Graphic file (type png)
 <use img/Drowsiness.png>
 Package pdftex.def Info: img/Drowsiness.png  used on input line 172.
 (pdftex.def)             Requested size: 273.14923pt x 103.9054pt.
  [14 <./img/primary-color.png>]
-<img/face-recognition.jpg, id=219, 766.36313pt x 173.89969pt>
+<img/face-recognition.jpg, id=223, 766.36313pt x 173.89969pt>
 File: img/face-recognition.jpg Graphic file (type jpg)
 <use img/face-recognition.jpg>
 Package pdftex.def Info: img/face-recognition.jpg  used on input line 195.
 (pdftex.def)             Requested size: 273.14923pt x 61.98291pt.
  [15 <./img/Drowsiness.png> <./img/face-recognition.jpg>]
-<img/opencv.jpg, id=225, 770.88pt x 500.87125pt>
+<img/opencv.jpg, id=229, 770.88pt x 500.87125pt>
 File: img/opencv.jpg Graphic file (type jpg)
 <use img/opencv.jpg>
 Package pdftex.def Info: img/opencv.jpg  used on input line 217.
 (pdftex.def)             Requested size: 273.14923pt x 177.47043pt.
-<img/pyimgsearch.png, id=226, 602.25pt x 250.9375pt>
+<img/pyimgsearch.png, id=230, 602.25pt x 250.9375pt>
 File: img/pyimgsearch.png Graphic file (type png)
 <use img/pyimgsearch.png>
 Package pdftex.def Info: img/pyimgsearch.png  used on input line 228.
 (pdftex.def)             Requested size: 273.14923pt x 113.8168pt.
  [16 <./img/opencv.jpg>]
-<img/HOG-feature.jpg, id=231, 340.27126pt x 383.93437pt>
+<img/HOG-feature.jpg, id=235, 340.27126pt x 383.93437pt>
 File: img/HOG-feature.jpg Graphic file (type jpg)
 <use img/HOG-feature.jpg>
 Package pdftex.def Info: img/HOG-feature.jpg  used on input line 265.
 (pdftex.def)             Requested size: 273.14923pt x 308.21413pt.
  [17 <./img/pyimgsearch.png>] [18 <./img/HOG-feature.jpg>]
-<img/sliding_window_example.jpg, id=246, 716.6775pt x 588.1975pt>
+<img/sliding_window_example.jpg, id=250, 716.6775pt x 588.1975pt>
 File: img/sliding_window_example.jpg Graphic file (type jpg)
 <use img/sliding_window_example.jpg>
 Package pdftex.def Info: img/sliding_window_example.jpg  used on input line 287.
 (pdftex.def)             Requested size: 273.14923pt x 224.18153pt.
  [19 <./img/sliding_window_example.jpg>]
-<img/multiple-overlapping.jpg, id=252, 810.02625pt x 574.145pt>
+<img/multiple-overlapping.jpg, id=256, 810.02625pt x 574.145pt>
 File: img/multiple-overlapping.jpg Graphic file (type jpg)
 <use img/multiple-overlapping.jpg>
 Package pdftex.def Info: img/multiple-overlapping.jpg  used on input line 304.
 (pdftex.def)             Requested size: 273.14923pt x 193.61226pt.
-<img/adaboost.png, id=253, 823.075pt x 409.53pt>
+<img/adaboost.png, id=257, 823.075pt x 409.53pt>
 File: img/adaboost.png Graphic file (type png)
 <use img/adaboost.png>
 Package pdftex.def Info: img/adaboost.png  used on input line 318.
 (pdftex.def)             Requested size: 273.14923pt x 135.90768pt.
- [20 <./img/multiple-overlapping.jpg>]) (./Chapter-3/Chap3.tex) (./Chapter-4/Chap4.tex) (./Chapter-5/Chap5.tex) [21 <./img/adaboost.png>] (./main.aux)
+ [20 <./img/multiple-overlapping.jpg>]
+<img/stump.png, id=263, 1332.98pt x 734.745pt>
+File: img/stump.png Graphic file (type png)
+<use img/stump.png>
+Package pdftex.def Info: img/stump.png  used on input line 328.
+(pdftex.def)             Requested size: 273.14923pt x 150.55643pt.
+<img/sample-weight.png, id=264, 469.755pt x 184.69pt>
+File: img/sample-weight.png Graphic file (type png)
+<use img/sample-weight.png>
+Package pdftex.def Info: img/sample-weight.png  used on input line 335.
+(pdftex.def)             Requested size: 273.14923pt x 107.3908pt.
+ [21 <./img/adaboost.png> <./img/stump.png>]) (./Chapter-3/Chap3.tex) (./Chapter-4/Chap4.tex) (./Chapter-5/Chap5.tex) [22 <./img/sample-weight.png>] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 51EBBAD5800F29B50E041ADA27BC0690;2885.
  ) 
 Here is how much of TeX's memory you used:
- 23328 strings out of 478846
- 413008 string characters out of 5859791
- 718869 words of memory out of 5000000
- 40378 multiletter control sequences out of 15000+600000
+ 23347 strings out of 478846
+ 413372 string characters out of 5859791
+ 718914 words of memory out of 5000000
+ 40392 multiletter control sequences out of 15000+600000
  455997 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,13n,97p,518b,1142s stack positions out of 5000i,500n,10000p,200000b,80000s
 {d:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{d:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{d:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{d:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{d:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{d:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}<d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmex10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr12.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr8.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (22 pages, 2354718 bytes).
+Output written on main.pdf (23 pages, 2389424 bytes).
 PDF statistics:
- 330 PDF objects out of 1000 (max. 8388607)
- 273 compressed objects within 3 object streams
- 73 named destinations out of 1000 (max. 500000)
- 211 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 340 PDF objects out of 1000 (max. 8388607)
+ 280 compressed objects within 3 object streams
+ 76 named destinations out of 1000 (max. 500000)
+ 221 words of extra memory for PDF output out of 10000 (max. 10000000)
 

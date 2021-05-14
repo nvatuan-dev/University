@@ -323,8 +323,21 @@
         \vspace{3mm}
         Since we know the boosting principle,it will be easy to understand the AdaBoost algorithm. Let’s deep dive into the working of Adaboost. When the random forest is used, the algorithm makes $n$ number of trees. It makes proper trees that consist of a start node with several leaves nodes. 
         Some trees might be bigger than others, but there is no fixed depth in a random forest. But with Adaboost, that’s not the case. In AdaBoost, the algorithm only makes a node with two leaves, and this is known as Stump. 
-        
-
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.6\linewidth]{img/stump.png}
+            \caption{Stump}
+        \end{figure}
+        The figure here represents the stump. It can be seen clearly that it has only one node with only two leaves. These stumps are weak learners, and boosting techniques prefer this. The order of stumps is very important in AdaBoost. 
+        The error of the first stump influences how the other stump is made. Let's understand this with an example.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.6\linewidth]{img/sample-weight.png}
+            \caption{Sample Weight}
+        \end{figure}
+        Here I have created a sample dataset that consists of only three features, and the output is in categorical form. The image shows the actual representation of the dataset. As the output is in binary/categorical form, it becomes a classification problem. In real life, the dataset can have any 
+        number of records and features in it. Let us consider 5 datasets for explanation purposes. The output is in categorical form and, here it’s Yes or No. All these records will get a sample weight. To assign some sample weight, the formula used is, $W = \frac{1}{N}$ where $N$ is the number of records. In this dataset, 
+        there are only 5 records, so the sample weight becomes $\frac{1}{5}$ initially. Every record gets the same weight. In this case, it’s $\frac{1}{5}$. 
 
 \section{Euclidean Distance}
 

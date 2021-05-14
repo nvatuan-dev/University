@@ -1189,6 +1189,16 @@ INPUT ./img/adaboost.png
 INPUT img/adaboost.png
 INPUT ./img/adaboost.png
 INPUT ./img/adaboost.png
+INPUT ./img/stump.png
+INPUT ./img/stump.png
+INPUT img/stump.png
+INPUT ./img/stump.png
+INPUT ./img/stump.png
+INPUT ./img/sample-weight.png
+INPUT ./img/sample-weight.png
+INPUT img/sample-weight.png
+INPUT ./img/sample-weight.png
+INPUT ./img/sample-weight.png
 INPUT ./Chapter-3/Chap3.tex
 INPUT Chapter-3/Chap3.tex
 INPUT ./Chapter-3/Chap3.tex

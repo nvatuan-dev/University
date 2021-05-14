@@ -27,8 +27,8 @@
 \contentsline {subsection}{\numberline {2.2.1}Face Detection using HOG}{17}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}AdaBoost Algorithm}{20}{subsection.2.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.2.1}How AdaBoost Work?}{20}{subsubsection.2.2.2.1}%
-\contentsline {section}{\numberline {2.3}Euclidean Distance}{21}{section.2.3}%
-\contentsline {section}{\numberline {2.4}OpenCV}{21}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Python Programming Language}{21}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Introduction about Dlib}{21}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Raspberry Pi 3B +}{21}{section.2.7}%
+\contentsline {section}{\numberline {2.3}Euclidean Distance}{22}{section.2.3}%
+\contentsline {section}{\numberline {2.4}OpenCV}{22}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Python Programming Language}{22}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Introduction about Dlib}{22}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Raspberry Pi 3B +}{22}{section.2.7}%
