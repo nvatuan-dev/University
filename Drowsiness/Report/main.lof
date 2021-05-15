@@ -13,6 +13,12 @@
 \contentsline {figure}{\numberline {2.10}{\ignorespaces HOG features sample face}}{18}{figure.2.10}%
 \contentsline {figure}{\numberline {2.11}{\ignorespaces Example of the sliding a window approach, where we slide a window from left-to-right and top-to-bottom}}{19}{figure.2.11}%
 \contentsline {figure}{\numberline {2.12}{\ignorespaces (Left) Detecting multiple overlapping bounding boxes around the face we want to detect. (Right) Applying non-maximum suppression to remove the redundant bounding boxes.}}{20}{figure.2.12}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces AdaBoost model}}{21}{figure.2.13}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Stump}}{21}{figure.2.14}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Sample Weight}}{22}{figure.2.15}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Feature 4 rectangle}}{21}{figure.2.13}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Feature in center}}{21}{figure.2.14}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Example of Integral Image}}{22}{figure.2.15}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Integral Image Approach}}{22}{figure.2.16}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Example for this feature}}{23}{figure.2.17}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Ensemble methods}}{25}{figure.2.18}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces On the basis of the arrangement of base learners, ensemble methods can be divided into two groups: In parallel ensemble methods, base learners are generated in parallel for example. Random Forest. In sequential ensemble methods, base learners are generated sequentially for example AdaBoost.}}{25}{figure.2.19}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Adaboost model work}}{26}{figure.2.20}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Haar Cascade Detection model}}{27}{figure.2.21}%
