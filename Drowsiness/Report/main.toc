@@ -1,39 +1,79 @@
 \babel@toc {english}{}
-\contentsline {chapter}{\numberline {1}OVERVIEW ABOUT PROJECT}{6}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Introduction}{6}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Target and The Limits of Project}{6}{section.1.2}%
-\contentsline {chapter}{\numberline {2}THEORETICAL BASIS}{8}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Overview About Image Processing}{8}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Introduction about Image Processing}{8}{subsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.1.1}Image Acquistion}{9}{subsubsection.2.1.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.1.2}Image Enhancement}{9}{subsubsection.2.1.1.2}%
-\contentsline {subsubsection}{\numberline {2.1.1.3}Image Restoration}{9}{subsubsection.2.1.1.3}%
-\contentsline {subsubsection}{\numberline {2.1.1.4}Color Image Processing}{9}{subsubsection.2.1.1.4}%
-\contentsline {subsubsection}{\numberline {2.1.1.5}Wavelets and Multiresolution Processing}{9}{subsubsection.2.1.1.5}%
-\contentsline {subsubsection}{\numberline {2.1.1.6}Compression}{9}{subsubsection.2.1.1.6}%
-\contentsline {subsubsection}{\numberline {2.1.1.7}Morphological Processing}{9}{subsubsection.2.1.1.7}%
-\contentsline {subsubsection}{\numberline {2.1.1.8}Segmentation}{9}{subsubsection.2.1.1.8}%
-\contentsline {subsubsection}{\numberline {2.1.1.9}Representation and Description}{10}{subsubsection.2.1.1.9}%
-\contentsline {subsubsection}{\numberline {2.1.1.10}Object Recognition}{10}{subsubsection.2.1.1.10}%
-\contentsline {subsubsection}{\numberline {2.1.1.11}Knowledge Base}{10}{subsubsection.2.1.1.11}%
-\contentsline {subsection}{\numberline {2.1.2}The Components of Image Processing}{10}{subsection.2.1.2}%
-\contentsline {subsubsection}{\numberline {2.1.2.1}Digital Image}{10}{subsubsection.2.1.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.2.2}Picture Element}{10}{subsubsection.2.1.2.2}%
-\contentsline {subsubsection}{\numberline {2.1.2.3}Gray Level of Picture}{11}{subsubsection.2.1.2.3}%
-\contentsline {subsubsection}{\numberline {2.1.2.4}Image Resolution}{11}{subsubsection.2.1.2.4}%
-\contentsline {subsubsection}{\numberline {2.1.2.5}Types of image classification}{12}{subsubsection.2.1.2.5}%
-\contentsline {subsection}{\numberline {2.1.3}Parts of The Image Processing System}{15}{subsection.2.1.3}%
-\contentsline {section}{\numberline {2.2}Face Regconition Algorithm}{15}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Face Detection using HOG}{17}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Haar-like Feature (Haar-Cascade)}{20}{subsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.2.1}Theory}{20}{subsubsection.2.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2.2}Integral Image}{21}{subsubsection.2.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}AdaBoost Algorithm}{24}{subsection.2.2.3}%
-\contentsline {subsubsection}{\numberline {2.2.3.1}Ensemble Machine Learning Approach}{24}{subsubsection.2.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.2.3.2}AdaBoost Classifier}{26}{subsubsection.2.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.2.3.3}How Does AdaBoost Algorithm Work?}{26}{subsubsection.2.2.3.3}%
-\contentsline {section}{\numberline {2.3}Euclidean Distance}{27}{section.2.3}%
-\contentsline {section}{\numberline {2.4}OpenCV}{27}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Python Programming Language}{27}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Introduction about Dlib}{27}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Raspberry Pi 3B +}{27}{section.2.7}%
+\contentsline {chapter}{\numberline {1}OVERVIEW ABOUT PROJECT}{8}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introduction}{8}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Target and The Limits of Project}{8}{section.1.2}%
+\contentsline {chapter}{\numberline {2}THEORETICAL BASIS}{10}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Overview About Image Processing}{10}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Introduction about Image Processing}{10}{subsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.1}Image Acquistion}{11}{subsubsection.2.1.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.2}Image Enhancement}{11}{subsubsection.2.1.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.1.3}Image Restoration}{11}{subsubsection.2.1.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.1.4}Color Image Processing}{11}{subsubsection.2.1.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.1.5}Wavelets and Multiresolution Processing}{11}{subsubsection.2.1.1.5}%
+\contentsline {subsubsection}{\numberline {2.1.1.6}Compression}{11}{subsubsection.2.1.1.6}%
+\contentsline {subsubsection}{\numberline {2.1.1.7}Morphological Processing}{11}{subsubsection.2.1.1.7}%
+\contentsline {subsubsection}{\numberline {2.1.1.8}Segmentation}{11}{subsubsection.2.1.1.8}%
+\contentsline {subsubsection}{\numberline {2.1.1.9}Representation and Description}{12}{subsubsection.2.1.1.9}%
+\contentsline {subsubsection}{\numberline {2.1.1.10}Object Recognition}{12}{subsubsection.2.1.1.10}%
+\contentsline {subsubsection}{\numberline {2.1.1.11}Knowledge Base}{12}{subsubsection.2.1.1.11}%
+\contentsline {subsection}{\numberline {2.1.2}The Components of Image Processing}{12}{subsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.2.1}Digital Image}{12}{subsubsection.2.1.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.2.2}Picture Element}{12}{subsubsection.2.1.2.2}%
+\contentsline {subsubsection}{\numberline {2.1.2.3}Gray Level of Picture}{13}{subsubsection.2.1.2.3}%
+\contentsline {subsubsection}{\numberline {2.1.2.4}Image Resolution}{13}{subsubsection.2.1.2.4}%
+\contentsline {subsubsection}{\numberline {2.1.2.5}Types of image classification}{14}{subsubsection.2.1.2.5}%
+\contentsline {subsection}{\numberline {2.1.3}Parts of The Image Processing System}{17}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Face Regconition Algorithm}{17}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Face Detection using HOG}{19}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Haar-like Feature (Haar-Cascade)}{22}{subsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2.1}Theory}{22}{subsubsection.2.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2.2}Integral Image}{23}{subsubsection.2.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}AdaBoost Algorithm}{27}{subsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.3.1}Ensemble Machine Learning Approach}{27}{subsubsection.2.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.2.3.2}AdaBoost Classifier}{28}{subsubsection.2.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.2.3.3}How Does AdaBoost Algorithm Work?}{29}{subsubsection.2.2.3.3}%
+\contentsline {subsection}{\numberline {2.2.4}Eye Blink Detection}{30}{subsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.4.1}Understanding the "Eye Aspect Ratio"(EAR)}{30}{subsubsection.2.2.4.1}%
+\contentsline {paragraph}{\numberline {2.2.4.1.1}In terms of blink detection, we are only interested in two sets of facial structures — the eyes}{30}{paragraph.2.2.4.1.1}%
+\contentsline {paragraph}{\numberline {2.2.4.1.2}There is a relation between the width and the height of these coordinates}{31}{paragraph.2.2.4.1.2}%
+\contentsline {subsection}{\numberline {2.2.5}Facial Landmarks Algorithm}{32}{subsection.2.2.5}%
+\contentsline {subsubsection}{\numberline {2.2.5.1}What is Facial Landmark?}{32}{subsubsection.2.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.2.5.2}Understanding Dlib's Facial Landmark Detector}{33}{subsubsection.2.2.5.2}%
+\contentsline {section}{\numberline {2.3}Euclidean Distance}{34}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Definition}{34}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Distance Formulas}{34}{subsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.2.1}One Dimension}{34}{subsubsection.2.3.2.1}%
+\contentsline {subsubsection}{\numberline {2.3.2.2}Two Dimensions}{35}{subsubsection.2.3.2.2}%
+\contentsline {subsubsection}{\numberline {2.3.2.3}Higher Dimensions}{35}{subsubsection.2.3.2.3}%
+\contentsline {section}{\numberline {2.4}OpenCV}{36}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Overview}{36}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Applications}{37}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}Python Programming Language}{38}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Introduce About Python Programming Language}{38}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Applications}{39}{subsection.2.5.2}%
+\contentsline {section}{\numberline {2.6}Introduction about Dlib}{39}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Hardware Overview}{40}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Raspberry Pi 3B +}{40}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}Introduction}{40}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2.8.2}Raspberry Pi 3B+}{41}{subsection.2.8.2}%
+\contentsline {subsection}{\numberline {2.8.3}Operation System for Raspberry}{43}{subsection.2.8.3}%
+\contentsline {section}{\numberline {2.9}Camera Pi}{45}{section.2.9}%
+\contentsline {chapter}{\numberline {3}INFERENCE}{46}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Block Diagram}{46}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Flowchart}{46}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Image From Camera}{46}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Pre-Processing}{46}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Face Detection Using Haar-Like (Haar Cascade)}{46}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Mark Facial Structure Using Facial Landmarks}{46}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Extract The Eye Area}{46}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Calculate Eye Ratio}{46}{subsection.3.2.6}%
+\contentsline {subsection}{\numberline {3.2.7}Drowsiness Detection}{46}{subsection.3.2.7}%
+\contentsline {subsection}{\numberline {3.2.8}Alert}{46}{subsection.3.2.8}%
+\contentsline {chapter}{\numberline {4}EXPERIMENTAL RESULT}{47}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Realistic Model}{47}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Result}{47}{section.4.2}%
+\contentsline {chapter}{\numberline {5}CONCLUSION AND TOPIC ORIENTATION}{48}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Conclusion}{48}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Limitations}{48}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Development Orientation}{48}{section.5.3}%
+\contentsline {chapter}{\numberline {6}APPENDIX}{49}{chapter.6}%

@@ -1,17 +1,49 @@
-\BOOKMARK [0][-]{chapter.1}{\376\377\000O\000V\000E\000R\000V\000I\000E\000W\000\040\000A\000B\000O\000U\000T\000\040\000P\000R\000O\000J\000E\000C\000T}{}% 1
-\BOOKMARK [1][-]{section.1.1}{\376\377\000I\000n\000t\000r\000o\000d\000u\000c\000t\000i\000o\000n}{chapter.1}% 2
-\BOOKMARK [1][-]{section.1.2}{\376\377\000T\000a\000r\000g\000e\000t\000\040\000a\000n\000d\000\040\000T\000h\000e\000\040\000L\000i\000m\000i\000t\000s\000\040\000o\000f\000\040\000P\000r\000o\000j\000e\000c\000t}{chapter.1}% 3
-\BOOKMARK [0][-]{chapter.2}{\376\377\000T\000H\000E\000O\000R\000E\000T\000I\000C\000A\000L\000\040\000B\000A\000S\000I\000S}{}% 4
-\BOOKMARK [1][-]{section.2.1}{\376\377\000O\000v\000e\000r\000v\000i\000e\000w\000\040\000A\000b\000o\000u\000t\000\040\000I\000m\000a\000g\000e\000\040\000P\000r\000o\000c\000e\000s\000s\000i\000n\000g}{chapter.2}% 5
-\BOOKMARK [2][-]{subsection.2.1.1}{\376\377\000I\000n\000t\000r\000o\000d\000u\000c\000t\000i\000o\000n\000\040\000a\000b\000o\000u\000t\000\040\000I\000m\000a\000g\000e\000\040\000P\000r\000o\000c\000e\000s\000s\000i\000n\000g}{section.2.1}% 6
-\BOOKMARK [2][-]{subsection.2.1.2}{\376\377\000T\000h\000e\000\040\000C\000o\000m\000p\000o\000n\000e\000n\000t\000s\000\040\000o\000f\000\040\000I\000m\000a\000g\000e\000\040\000P\000r\000o\000c\000e\000s\000s\000i\000n\000g}{section.2.1}% 7
-\BOOKMARK [2][-]{subsection.2.1.3}{\376\377\000P\000a\000r\000t\000s\000\040\000o\000f\000\040\000T\000h\000e\000\040\000I\000m\000a\000g\000e\000\040\000P\000r\000o\000c\000e\000s\000s\000i\000n\000g\000\040\000S\000y\000s\000t\000e\000m}{section.2.1}% 8
-\BOOKMARK [1][-]{section.2.2}{\376\377\000F\000a\000c\000e\000\040\000R\000e\000g\000c\000o\000n\000i\000t\000i\000o\000n\000\040\000A\000l\000g\000o\000r\000i\000t\000h\000m}{chapter.2}% 9
-\BOOKMARK [2][-]{subsection.2.2.1}{\376\377\000F\000a\000c\000e\000\040\000D\000e\000t\000e\000c\000t\000i\000o\000n\000\040\000u\000s\000i\000n\000g\000\040\000H\000O\000G}{section.2.2}% 10
-\BOOKMARK [2][-]{subsection.2.2.2}{\376\377\000H\000a\000a\000r\000-\000l\000i\000k\000e\000\040\000F\000e\000a\000t\000u\000r\000e\000\040\000\050\000H\000a\000a\000r\000-\000C\000a\000s\000c\000a\000d\000e\000\051}{section.2.2}% 11
-\BOOKMARK [2][-]{subsection.2.2.3}{\376\377\000A\000d\000a\000B\000o\000o\000s\000t\000\040\000A\000l\000g\000o\000r\000i\000t\000h\000m}{section.2.2}% 12
-\BOOKMARK [1][-]{section.2.3}{\376\377\000E\000u\000c\000l\000i\000d\000e\000a\000n\000\040\000D\000i\000s\000t\000a\000n\000c\000e}{chapter.2}% 13
-\BOOKMARK [1][-]{section.2.4}{\376\377\000O\000p\000e\000n\000C\000V}{chapter.2}% 14
-\BOOKMARK [1][-]{section.2.5}{\376\377\000P\000y\000t\000h\000o\000n\000\040\000P\000r\000o\000g\000r\000a\000m\000m\000i\000n\000g\000\040\000L\000a\000n\000g\000u\000a\000g\000e}{chapter.2}% 15
-\BOOKMARK [1][-]{section.2.6}{\376\377\000I\000n\000t\000r\000o\000d\000u\000c\000t\000i\000o\000n\000\040\000a\000b\000o\000u\000t\000\040\000D\000l\000i\000b}{chapter.2}% 16
-\BOOKMARK [1][-]{section.2.7}{\376\377\000R\000a\000s\000p\000b\000e\000r\000r\000y\000\040\000P\000i\000\040\0003\000B\000\040\000+}{chapter.2}% 17
+\BOOKMARK [0][-]{chapter.1}{OVERVIEW ABOUT PROJECT}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Target and The Limits of Project}{chapter.1}% 3
+\BOOKMARK [0][-]{chapter.2}{THEORETICAL BASIS}{}% 4
+\BOOKMARK [1][-]{section.2.1}{Overview About Image Processing}{chapter.2}% 5
+\BOOKMARK [2][-]{subsection.2.1.1}{Introduction about Image Processing}{section.2.1}% 6
+\BOOKMARK [2][-]{subsection.2.1.2}{The Components of Image Processing}{section.2.1}% 7
+\BOOKMARK [2][-]{subsection.2.1.3}{Parts of The Image Processing System}{section.2.1}% 8
+\BOOKMARK [1][-]{section.2.2}{Face Regconition Algorithm}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.2.1}{Face Detection using HOG}{section.2.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.2}{Haar-like Feature \(Haar-Cascade\)}{section.2.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.3}{AdaBoost Algorithm}{section.2.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.4}{Eye Blink Detection}{section.2.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.5}{Facial Landmarks Algorithm}{section.2.2}% 14
+\BOOKMARK [1][-]{section.2.3}{Euclidean Distance}{chapter.2}% 15
+\BOOKMARK [2][-]{subsection.2.3.1}{Definition}{section.2.3}% 16
+\BOOKMARK [2][-]{subsection.2.3.2}{Distance Formulas}{section.2.3}% 17
+\BOOKMARK [1][-]{section.2.4}{OpenCV}{chapter.2}% 18
+\BOOKMARK [2][-]{subsection.2.4.1}{Overview}{section.2.4}% 19
+\BOOKMARK [2][-]{subsection.2.4.2}{Applications}{section.2.4}% 20
+\BOOKMARK [1][-]{section.2.5}{Python Programming Language}{chapter.2}% 21
+\BOOKMARK [2][-]{subsection.2.5.1}{Introduce About Python Programming Language}{section.2.5}% 22
+\BOOKMARK [2][-]{subsection.2.5.2}{Applications}{section.2.5}% 23
+\BOOKMARK [1][-]{section.2.6}{Introduction about Dlib}{chapter.2}% 24
+\BOOKMARK [1][-]{section.2.7}{Hardware Overview}{chapter.2}% 25
+\BOOKMARK [1][-]{section.2.8}{Raspberry Pi 3B +}{chapter.2}% 26
+\BOOKMARK [2][-]{subsection.2.8.1}{Introduction}{section.2.8}% 27
+\BOOKMARK [2][-]{subsection.2.8.2}{Raspberry Pi 3B+}{section.2.8}% 28
+\BOOKMARK [2][-]{subsection.2.8.3}{Operation System for Raspberry}{section.2.8}% 29
+\BOOKMARK [1][-]{section.2.9}{Camera Pi}{chapter.2}% 30
+\BOOKMARK [0][-]{chapter.3}{INFERENCE}{}% 31
+\BOOKMARK [1][-]{section.3.1}{Block Diagram}{chapter.3}% 32
+\BOOKMARK [1][-]{section.3.2}{Flowchart}{chapter.3}% 33
+\BOOKMARK [2][-]{subsection.3.2.1}{Image From Camera}{section.3.2}% 34
+\BOOKMARK [2][-]{subsection.3.2.2}{Pre-Processing}{section.3.2}% 35
+\BOOKMARK [2][-]{subsection.3.2.3}{Face Detection Using Haar-Like \(Haar Cascade\)}{section.3.2}% 36
+\BOOKMARK [2][-]{subsection.3.2.4}{Mark Facial Structure Using Facial Landmarks}{section.3.2}% 37
+\BOOKMARK [2][-]{subsection.3.2.5}{Extract The Eye Area}{section.3.2}% 38
+\BOOKMARK [2][-]{subsection.3.2.6}{Calculate Eye Ratio}{section.3.2}% 39
+\BOOKMARK [2][-]{subsection.3.2.7}{Drowsiness Detection}{section.3.2}% 40
+\BOOKMARK [2][-]{subsection.3.2.8}{Alert}{section.3.2}% 41
+\BOOKMARK [0][-]{chapter.4}{EXPERIMENTAL RESULT}{}% 42
+\BOOKMARK [1][-]{section.4.1}{Realistic Model}{chapter.4}% 43
+\BOOKMARK [1][-]{section.4.2}{Result}{chapter.4}% 44
+\BOOKMARK [0][-]{chapter.5}{CONCLUSION AND TOPIC ORIENTATION}{}% 45
+\BOOKMARK [1][-]{section.5.1}{Conclusion}{chapter.5}% 46
+\BOOKMARK [1][-]{section.5.2}{Limitations}{chapter.5}% 47
+\BOOKMARK [1][-]{section.5.3}{Development Orientation}{chapter.5}% 48
+\BOOKMARK [0][-]{chapter.6}{APPENDIX}{}% 49

@@ -253,6 +253,7 @@
         \item While at the same time, pushing the embeddings for the negative image father away
     \end{itemize}
     In this manner, the network is able to learn to quantify faces and return highly robust and discriminating embeddings suitable for face recognition.
+
     \subsection{Face Detection using HOG}
         The essential thought behind the histogram of oriented gradients descriptor is that local object appearance and shape within an image can be described by the distribution of intensity gradients or edge directions. 
         The image is divided into small connected regions called cells, and for the pixels within each cell, a histogram of gradient directions is compiled. The descriptor is the concatenation of these histograms. For 
@@ -306,6 +307,7 @@
                     \caption{(Left) Detecting multiple overlapping bounding boxes around the face we want to detect. (Right) Applying non-maximum suppression to remove the redundant bounding boxes.}
                 \end{figure}
         \end{itemize}
+
     \subsection{Haar-like Feature (Haar-Cascade)}
         \subsubsection{Theory}
             Object Detection using Haar feature-based cascade classifiers is an effective object detection method is a machine learning based approach where a cascade function is trained from a lot of positive and negative images. It is then used to detect objects in other images. \\ 
@@ -330,7 +332,7 @@
         \subsubsection{Integral Image}
             The idea of this concept is transforming an input images into a summed-area table, where the value at any point (x, y) in that table is the sum of all the pixels above and to the left of (x, y), inclusive:
             \begin{align}
-                P(x,y) = \Sigma_{x' \leq x, y' \leq y} i(x',y')
+                P(x,y) = \displaystyle\sum_{x' \leq x, y' \leq y} i(x',y')
             \end{align}
             Where I(x,y) is the value of the integral image pixel in the position (x,y), while i(x,y) is the corresponding intensity in the original image. It is a recursive formula, hence, if we start from one corner of the input image, we will have the same result in the integral image. 
             To make it clearer, let’s see an example:
@@ -362,31 +364,32 @@
             \vspace{3mm}
             This procedure is widely used in computer vision and Haar Cascade algorithm is based exactly on that. \\
             \vspace{3mm}
-            Now, all possible sizes and locations of each kernel are used to calculate lots of features. (Just imagine how much computation it needs? Even a 24x24 window results over 160000 features). For each feature calculation, we need to find the sum of the pixels under white 
-            and black rectangles. To solve this, they introduced the integral image. However large your image, it reduces the calculations for a given pixel to an operation involving just four pixels. It makes things super-fast. \\ 
-            \vspace{3mm}
-            But among all these features we calculated, most of them are irrelevant. For example, consider the image below. The top row shows two good features. The first feature selected seems to focus on the property that the region of the eyes is often darker than the region of 
-            the nose and cheeks. The second feature selected relies on the property that the eyes are darker than the bridge of the nose. But the same windows applied to cheeks or any other place is irrelevant. So how do we select the best features out of 160000+ features? 
-            It is achieved by \textbf{Adaboost}.
+            The idea is passing these filters on the image, inspecting one portion (or window) at the time. Then, for each window, all the pixel intensities of, respectively, white and black portions are summed. Finally, the value obtained by subtracting those two summations is the value 
+            of the feature extracted. Ideally, a great value of a feature means it is relevant. Namely, if we consider the Edge feature and apply it to the following Black and White pic:
             \begin{figure}[H]
                 \centering
-                \includegraphics[width=0.6\linewidth]{img/haar_example.png}
-                \caption{Example for this feature}
+                \includegraphics[width=0.6\linewidth]{img/Emma.png}
+                \caption{Black and White picture}
             \end{figure}
-            For this, we apply each and every feature on all the training images. For each feature, it finds the best threshold which will classify the faces to positive and negative. Obviously, there will be errors or misclassifications. We select the features with minimum error rate, 
-            which means they are the features that most accurately classify the face and non-face images. (The process is not as simple as this. Each image is given an equal weight in the beginning. After each classification, weights of misclassified images are increased. Then the same 
-            process is done. New error rates are calculated. Also new weights. The process is continued until the required accuracy or error rate is achieved or the required number of features are found). \\ 
+            We will obtain a significant value, hence the algorithm will return an edge feature with high probability. Of course, the real intensities of pixels is never equal to white or black, and we will often face a similar situation:
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.6\linewidth]{img/real_pixel.png}
+                \caption{The real intensities of pixels}
+            \end{figure}
+            Nevertheless, the idea remains the same: the higher the result (that is, the difference between black and white summations), the higher the probability of that window of being a relevant feature. \\ 
             \vspace{3mm}
-            The final classifier is a weighted sum of these weak classifiers. It is called weak because it alone can't classify the image, but together with others forms a strong classifier. The paper says even 200 features provide detection with 95\% accuracy. Their final setup had 
-            around 6000 features. (Imagine a reduction from 160000+ features to 6000 features. That is a big gain). \\ 
+            Imagine that the huge amount of features returned by this computation. To give you an idea, even a 24x24 window results over 160000 features, and windows within an image are a lot. How to make this process more efficient? The solution came out with the concept of Summed-area table, 
+            also known as Integral Image. It is a data structure and algorithm for generating the sum of values in a rectangular subset of a grid. The goal is reducing the number of computations needed to obtain the summations of pixel intensities within a window. \\
             \vspace{3mm}
-            So now take an image. Take each 24x24 window. Apply 6000 features to it. Check if it is face or not. There will be a little inefficient and time consuming. There is a good solution for that. \\ 
+            Next is also involves efficiency and optimization. Besides being numerous, features might also be irrelevant. Among the features we obtain (that are more than 160000), how can we decide which ones are good? The answer to this question relies on the concept of Ensembilg method: 
+            by combining many algorithms, weak by definition, we can create a strong algorithm. This is accomplished using \textbf{Adaboost} which both selects the best features and trains the classifiers that use them. This algorithm constructs a “strong” classifier as a linear combination of weighted 
+            simple “weak” classifiers. \\ 
             \vspace{3mm}
-            In an image, most of the image is non-face region. So it is a better idea to have a simple method to check if a window is not a face region. If it is not, discard it in a single shot, and don't process it again. Instead, focus on regions where there can be a face. This way, 
-            we spend more time checking possible face regions. \\ 
-            \vspace{3mm}
-            For this they introduced the concept of Cascade of Classifiers. Instead of applying all 6000 features on a window, the features are grouped into different stages of classifiers and applied one-by-one. Normally the first few stages will contain very many fewer features. 
-            If a window fails the first stage, discard it. We don't consider the remaining features on it. If it passes, apply the second stage of features and continue the process. The window which passes all stages is a face region.
+            The last concept which needs to be introduced is a final element of optimization (in terms of the time of training). Indeed, even though we reduced our 160000+ features to a more manageable number, the latter is still high: applying all the features on all the windows will take a lot of time. 
+            That’s why we use the concept of Cascade of classifiers: instead of applying all the features on a window, it groups the features into different stages of classifiers and applies one-by-one. If a window fails (the difference between white and black summations is low) the first stage (which normally 
+            includes few features), the algorithm discards it: it won’t consider remaining features on it. If it passes, the algorithm applies the second stage of features and continues the process.
+
     \subsection{AdaBoost Algorithm}
         In recent years, boosting algorithms gained massive popularity in data science or machine learning competitions. Most of the winners of these competitions use boosting algorithms to achieve high accuracy. These Data science competitions provide 
         the global platform for learning, exploring and providing solutions for various business and government problems. Boosting algorithms combine multiple low accuracy(or weak) models to create a high accuracy(or strong) models. It can be utilized in 
@@ -479,12 +482,378 @@
                 \caption{Haar Cascade Detection model}
             \end{figure}
 
+    \subsection{Eye Blink Detection}
+        The eye blink is a fast closing and reopening of a human eye. Each individual has a little bit different pattern of blinks. The pattern differs in the speed of closing and opening, a degree of squeezing 
+        the eye and blink duration. The eye blink lasts approximately 100-400 ms. \\ 
+        \vspace{3mm}
+        To build blink detector, we’ll be computing a metric called the Eye Aspect Ratio (EAR). Unlike traditional image processing methods for computing blinks which typically involve some combination of: 
+        \begin{enumerate}
+            \item Eye localization
+            \item Thresholding to find the whites of the eyes
+            \item Determining if the “white” region of the eyes disappears for a period of time (indicating a blink).
+        \end{enumerate}
+        The eye aspect ratio is instead a \textbf{much more elegant solution} that involves a very \textbf{simple calculation} based on the ratio of distances between facial landmarks of the eyes.
+        \subsubsection{Understanding the "Eye Aspect Ratio"(EAR)}
+            To apply facial landmark detection to localize important regions of the face, including eyes, eyebrows, nose, ears and mouth. \\
+            \vspace{3mm}
+            This also implies that we can extract specific facial structures by knowing the indexes of the particular face parts.
+            \paragraph{In terms of blink detection, we are only interested in two sets of facial structures — the eyes}
+                Each eye is represented by 6 (x, y)-coordinates, starting at the left-corner of the eye (as if you were looking at the person), and then working clockwise around the remainder of the region: 
+                \begin{figure}[H]
+                    \centering
+                    \includegraphics[width=0.6\linewidth]{img/eye.png}
+                    \caption{The 6 facial landmarks associated with the eye}
+                \end{figure}
+            \paragraph{There is a relation between the width and the height of these coordinates}
+                For every video frame, the eye landmarks are detected. The Eye Aspect Ratio between height and width of the eye is computed: 
+                \begin{align}
+                    EAR = \frac{||p_2 - p_6|| + ||p_3 - p_5||}{2||p_1 - p_4||}
+                \end{align}
+                Where p1, …, p6 are 2D facial landmark locations. \\
+                \vspace{3mm}
+                The numerator of this equation computes the distance between the vertical eye landmarks while the denominator computes the distance between horizontal eye landmarks, weighting the denominator 
+                appropriately since there is only one set of horizontal points but two sets of vertical points. \\ 
+                \vspace{3mm}
+                This equation is so interesting because the eye aspect ratio is approximately constant while the eye is open, but will rapidly fall to zero when a blink is taking place. \\ 
+                \vspace{3mm}
+                Using this simple equation, we can avoid image processing techniques and simply rely on the ratio of eye landmark distances to determine if a person is blinking.
+                \begin{figure}[H]
+                    \centering
+                    \includegraphics[width=0.6\linewidth]{img/visualization.png}
+                    \caption{Top-left: A visualization of eye landmarks when then the eye is open. Top-right: Eye landmarks when the eye is closed. Bottom: Plotting the eye aspect ratio over time}
+                \end{figure}
+                In this figure, we can see that on the top-left we have an eye that is fully open — the eye aspect ratio here would be large(r) and relatively constant over time. However, once the person blinks 
+                (top-right) the eye aspect ratio decreases dramatically, approaching zero. The bottom figure plots a graph of the eye aspect ratio over time for a video clip. As we can see, the eye aspect ratio 
+                is constant, then rapidly drops close to zero, then increases again, indicating a single blink has taken place.
+
+    \subsection{Facial Landmarks Algorithm}
+        Facial landmark detection aims to detect the location of predefined facial landmarks, such as the corners of the eyes, eyebrows, the tip of the nose. It has drawn much attention 
+        recently as it is a prerequisite in many computer vision applications.For example, facial landmark detection can be applied to a large variety of tasks, including face recognition, 
+        head pose estimation, facial reenactment and 3D face reconstruction...
+        \subsubsection{What is Facial Landmark?}
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.6\linewidth]{img/facial.png}
+                \caption{Facial landmarks are used to label and identify key facial attributes in an image}
+            \end{figure}
+            Detecting facial landmarks is a \textbf{subset of the shape prediction problem}. Given an input image (and normally an \textbf{ROI} that specifies the object of interest), 
+            a shape predictor attempts to localize key points of interest along the shape. Detecting facial landmarks is therefore a two step process: 
+            \begin{itemize}
+                \item \textbf{Step \#1}: Localize the face in the image;
+                \item \textbf{Step \#2}: Detect the key facial structures on the face ROI.
+            \end{itemize}
+            Face detection (Step \#1) can be achieved with OpenCV's built-in \textbf{Haar Cascade}. \\
+            \vspace{3mm}
+            We might apply a pre-trained \textbf{HOG + Linear SVM Object Detector} specifically for the task of face detection. Or we might even use deep learning-based algorithms for face localization. \\ 
+            \vspace{3mm}
+            The important is that through some method we obtain the face bounding box (i.e., the (x, y)-coordinates of the face in the image). \\ 
+            \vspace{3mm}
+            Given the face recognition we can then apply \textbf{Step \#2: detecting key facial structures in the face region}. There are a variety of facial landmark detectors, but all methods essentially 
+            try to localize and label the following facial regions: 
+            \begin{enumerate}
+                \item Mouth
+                \item Right, left eyebrow
+                \item Right, left eye 
+                \item Nose 
+                \item Jaw
+            \end{enumerate}
+            This method starts by using:
+            \begin{enumerate}
+                \item A training set of labeled facial landmarks on an image. These images are manually labeled, specifying specific (x, y)-coordinates of regions surrounding each facial structure;
+                \item Priors, of more specifically, the probability on distance between pairs of input pixels.
+            \end{enumerate}
+            The end result is a facial landmark detector that can be used to \textbf{detect facial landmarks in real-time} with \textbf{high quality predictions}.
+        \subsubsection{Understanding Dlib's Facial Landmark Detector}
+        The pre-trained facial landmark detector inside the dlib library is used to estimate the location of 68 (x, y)-coordinates that map to facial structures on the face. \\
+        \vspace{3mm}
+        The indexes of the 68 coordinates can be visualized on the image below:
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.6\linewidth]{img/landmark.png}
+            \caption{Visualizing the 68 facial landmark coordinates}
+        \end{figure}
+        These annotations are part of the 68 points \textbf{iBug 300-W dataset} which the dlib facial landmark predictor was trained on. \\ 
+        \vspace{3mm}
+        It’s important to note that other flavors of facial landmark detectors exist, including the 194 points model that can be trained on the \textbf{HELEN dataset}.
+
 \section{Euclidean Distance}
+    \subsection{Definition}
+        In mathematics, the Euclidean distance between two points in Euclidean space is the length of a line segment between the two points. It can be calculated from the Cartesian coordinates of the points using the 
+        \textbf{Pythagorean theorem}, therefore occasionally being called the \textbf{Pythagorean distance}. These names come from the ancient Greek mathematicians Euclid and Pythagoras, although Euclid did not represent distances as numbers. \\ 
+        \vspace{3mm}
+        The distance between two objects that are not points is usually defined to be the smallest distance among pairs of points from the two objects. Formulas are known for computing distances between different types of objects, such as the 
+        distance from a point to a line. In advanced mathematics, the concept of distance has been generalized to abstract \textbf{metric spaces}, and other distances than Euclidean have been studied. In some applications in statistics and optimization, 
+        the square of the Euclidean distance is used instead of the distance itself.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.6\linewidth]{img/pythagorean.png}
+            \caption{Using the Pythagorean theorem to compute two-dimensional Euclidean distance}
+        \end{figure}
+    \subsection{Distance Formulas}
+        \subsubsection{One Dimension}
+            The distance between any 2 points on the real line is the absolute value of the numerical difference of their coordinates. Thus if $p$ and $q$ are two points on the real line, then the distance between them is given by:
+            \begin{align}
+                d(p,q) = |p - q|
+            \end{align}
+            A more complicated formula, giving the same value, but generalizing more readily to higher dimensions, is:
+            \begin{align}
+                d(p,q) = \sqrt{(p - q)^2}
+            \end{align}
+            In this formula, squaring and then taking the square root leaves any positive number unchanged, but replaces any negative number by its absolute value.
+        \subsubsection{Two Dimensions}
+            In the \textbf{Euclidean plane}, let point $p$ have \textbf{Cartesian coordinates} ($p_1, p_2$) and let point $q$ have coordinates ($q_1, q_2$). The the distance between $p$ and $q$ is given by:
+            \begin{align}
+                d(p,q) = \sqrt{(q_1 - p_1)^2 + (q_2 - p_2)^2}
+            \end{align}
+            This can be seen by applying the \textbf{Pythagorean theorem} to a right triangle with horizontal and vertical sides, having the line segment from $p$ to $q$ as its hypotenuse. The two squared formulas inside the square root give the areas of 
+            squares on the horizontal and vertical sides, and the outer square root converts the area of the square on the hypotenuse into the length of the hypotenuse. \\ 
+            \vspace{3mm}
+            It is also possible to compute the distance for points given by \textbf{polar coordinates}. If the polar coordinates of $p$ are ($r, \theta$) and the polar coordinates of $q$ are ($s, \psi$), then their distance is:
+            \begin{align}
+                d(p,q) = \sqrt{r^2 + s^2 - 2rs\cos(\theta - \psi)}
+            \end{align}
+            When $p$ and $q$ are the are expressed as \textbf{complex number} and \textbf{complex plane}, the same formula for one-dimensional points expressed as real numbers can be used:
+            \begin{align}
+                d(p,q) = |p - q|
+            \end{align}
+        \subsubsection{Higher Dimensions}
+            In three dimensions, for points given by their Cartesian coordinates, the distance is:
+            \begin{align}
+                d(p,q) = \sqrt{(p_1 - q_1)^2 + (p_2 - q_2)^2 + (p_3 - q_3)^2}
+            \end{align}
+            In general, for points given by Cartesian coordinates in $n$-dimensional Euclidean space, the distance is:
+            \begin{align}
+                d(p,q) = \sqrt{(p_1 - q_1)^2 + (p_2 - q_2)^2 + ... + (p_n - q_n)^2}
+            \end{align}
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.6\linewidth]{img/dimensional.png}
+                \caption{Deriving the $n$-dimensional Euclidean distance formula by repeatedly applying the Pythagorean theorem}
+            \end{figure}
 
 \section{OpenCV}
+    \subsection{Overview}
+        OpenCV (Open Computer Vision) is a leading open source library for computer vision processing, machine learning and image processing. OpenCV is written in C/C++, so it has very fast computation speed, can be used with real-time related applications. 
+        The library has more than 2500 optimized algorithms. \\
+        \vspace{3mm}
+        Opencv has interfaces for C / C ++, Python Java, so it supports Windows, Linux, MacOs and Android, iOS OpenCV has a community of more than 47 thousand users and the number of downloads exceeds 6 million times.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.6\linewidth]{img/opencv.png}
+            \caption{OpenCV logo}
+        \end{figure}
+    \subsection{Applications}
+        OpenCV's application areas include:
+        \begin{itemize}
+            \item 2D and 3D feature toolkits
+            \item Egomotion estimation
+            \item Facial recognition system
+            \item Gesture recognition
+            \item Human–computer interaction (HCI)
+            \item Mobile robotics
+            \item Motion understanding
+            \item Object detection
+            \item Segmentation and recognition
+            \item Stereopsis stereo vision: depth perception from 2 cameras
+            \item Structure from motion (SFM)
+            \item Motion tracking
+            \item Augmented reality
+        \end{itemize}
+        To support some of the above areas, OpenCV includes a statistical \textbf{machine learning} library that contains:
+        \begin{itemize}
+            \item Boosting
+            \item Decision tree learning
+            \item Gradient boosting trees
+            \item Expectation-maximization algorithm
+            \item K-nearest neighbor algorithm
+            \item Naive Bayes classifier
+            \item Artificial neural networks
+            \item Random forest
+            \item Support vector machine (SVM)
+            \item Deep neural networks (DNN)
+        \end{itemize}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.6\linewidth]{img/openframework.png}
+            \caption{OpenFrameworks running the OpenCV add-on example}
+        \end{figure}
 
 \section{Python Programming Language}
+    \subsection{Introduce About Python Programming Language}
+        Python is an interpreted high-level general-purpose programming language. Python's design philosophy emphasizes code readability 
+        with its notable use of significant indentation. Its language constructs as well as its object-oriented approach aim to help programmers 
+        write clear, logical code for small and large-scale projects. \\
+        \vspace{3mm}
+        Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly, procedural), 
+        object-oriented and functional programming. Python is often described as a "batteries included" language due to its comprehensive standard library. \\
+        \vspace{3mm}
+        Python is completely dynamically typed and uses automatic memory allocation, so it's similar to Perl, Ruby, Scheme, SmallTalk, and TCL. Python is 
+        developed in an open-source project, managed by the non-profit Python Software Foundation. \\
+        \vspace{3mm}
+        Originally, Python was developed to run on the Unix platform. But then over time, Python gradually expanded to all operating systems from MS DOS to 
+        Mac OS, OS/2, Windows, Linux and other operating systems of the Unix family.
+    \subsection{Applications}
+        Python is used in many different fields: 
+        \begin{enumerate}
+            \item Web Development: Python provide many framworks to choose for development, Django framwork. Udacity, Youtube, Dropbox is built (in large part) by using Python.
+            \item Game Development: Pygame, but Python is not a best choice to to developed game.
+            \item Machine Learning: Theano, Tensorflow, Scikit-learn... 
+            \item Computer Science: OpenCV, Numpy, Pandas, Scipy... 
+            \item IoT: Arduino, Raspberry Pi 
+        \end{enumerate}
 
 \section{Introduction about Dlib}
+    Dlib is a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems. It is used in both industry 
+    and academia in a wide range of domains including robotics, embedded devices, mobile phones, and large high performance computing environments. Dlib's open source licensing 
+    allows you to use it in any application, free of charge. In computer vision, Dlib has APIs help us do things like:
+    \begin{itemize}
+        \item Facial Landmark Detection: Facial Landmark is to identify locations like eyes, nose, mouth, face. It has many applications on mobile phone like (swap face, draw in face ...)
+        \item Correlation Tracking
+        \item Deep Metric Learning 
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.6\linewidth]{img/dlib+opencv.png}
+            \caption{Dlib and OpenCV library}
+        \end{figure} 
+    \end{itemize}
+    Unlike OpenCV which provides algorithms for image processing and computer vision applications, dlib designed for machine learning and artificial intelligence applications 
+    with sub-libraries like: 
+    \begin{enumerate}
+        \item \textbf{Classification}: Classification techniques are mainly based on 2 basic methods is kNN and SVM (Support Vector Machine) 
+        \item \textbf{Data Transformation}: Quantitative transformation algorithms to reduce dimensionality, eliminate redundant data, and enhance distinctness of retained features
+        \item \textbf{Clustering}: Clustering techniques
+        \item \textbf{Regression}: Regression techniques
+        \item \textbf{Structure prediction}: Structure prediction algorithms 
+        \item \textbf{Markov Random Fields}: Markov random fields algorithms
+    \end{enumerate}
+    Specifically, the facial point detection is programmed using the dlib library with pre-provided training data and regression techniques.
+
+\section{Hardware Overview}
+    In this project, the system includes the following hardware:
+    \begin{itemize}
+        \item \textbf{Raspberry Pi 3B+}: This is the center processing unit, which receives and processes the image signal received from camera and output it to speaker to warn drivers
+        \item \textbf{Camera Pi}: Accquire image data to be processed
+        \item \textbf{Speaker}: Warn to drivers
+        \item \textbf{Mouse, keyboard}: Easier to manipulate and program on Raspberry.
+    \end{itemize}
 
 \section{Raspberry Pi 3B +}
+    \subsection{Introduction}
+        Raspberry Pi is a word for computers with only one circuit board (also known as embedded computers) the size of a credit card, first developed in 2012 in the UK by the Raspberry Pi 
+        Foundation (a non-profit organization). profit) and produced by OEMs: Sony, Qsida, Egoma with the original purpose of promoting the teaching of basic computer science in schools and 
+        developing countries. \\
+        \vspace{3mm}
+        The original Raspberry Pi was based on a system on a \textbf{(SoC) BCM2835} chip of Broadcom, includes a \textbf{ARM1176JZF-S 700 MHz} processor. VideoCore IV GPU, originally shipped with 
+        256MB RAM, after that is upgraded (B model and B+ model) upto 512MB. This board also have \textbf{Socket Secure Digital (SSD)} (model A and B) or microSD (model A+ and B+) use for 
+        boot device and presistent storage. \\
+        \vspace{3mm}
+        In 2014, Raspberry Foundation have published Compute module, pack a BCM2835 with 512MB RAM and an eMMC chip flash into a module for use as part of an embedded system. This organization provides 
+        Debian and Arch Linux ARM for users to download it. Tools available for Python as primary programming language, support for BBC Basic (through RISC OS image or Brandy Basic clone for Linux), 
+        C, C++, Java, Perl and Ruby. \\ 
+        \vspace{3mm}
+        This new board is the first to come in only one configuration (model B) and features a Broadcom BCM2836 SoC, with a quad-core ARM Cortex-A7 CPU and a dual-core VideoCore IV GPU; 1 GB of RAM with 
+        the remaining specifications similar to those of previous generations of B+ models. \\
+        \vspace{3mm}
+        29th January 2016, Raspberry Pi Foundation officially launched Raspberry Pi 3 with a lot of new improvements, especially on-board Wifi and Bluetooth support, Raspberry Pi 3 with ARM Cortex-A53 Quadcore 1.2GHz 64-bit 
+        CPU, 1GB RAM and especially supports 802.11n Wifi standard with Bluetooth 4.1. Besides, Raspberry Pi 3 is fully compatible with Raspberry Pi 2. \\ 
+        \vspace{3mm}
+        Raspberry Pi 3 Model B+ is an upgraded version of the previously released Raspberry Pi 3 Model B. \\ 
+        \vspace{3mm}
+        June 2019, Raspberry pi 4 launched with an upgrade over the previous generation with Broadcom BCM2711, Quad core Cortex-A72 (ARM v8) 64-bit SoC \copyright 1.5 GHz, there are 3 RAM options: 1GB, 2gb Or 4GB LPDDR4-2400 SDRAM, 
+        Gigabit Ethernet Network Port, 2 USB 3.0 and 2 USB 2.0 ports, and many other improvements.
+    \subsection{Raspberry Pi 3B+}
+        From 2012 to now, there have been many Raspberry Pi lines born with significantly improved functions and parameters. This Raspberry Pi 3 model B+ meets the more stringent requirements of users. \\ 
+        \vspace{3mm}
+        Some of the major improvements on the Raspberry Pi 3 Model B+ include the processor and networking capabilities. Model B + uses Broadcom BCM2837B0 quad-core 1.4GHz processor, clocked higher than BCM2837 1.2GHz on Pi 3 Model B. \\ 
+        \vspace{3mm}
+        The Model B+ offers wireless connectivity Wi-Fi in the 2.4GHz and 5GHz bands, gigabit Ethernet over USB 2.0 with speeds up to 300Mbps, 3 times faster than the Pi 3 Model B. The device supports Bluetooth 4.2 and Bluetooth Low Energy. 
+        Better connection with other smart devices. \\ 
+        \vspace{3mm}
+        Model B+ supports Power over Ethernet (PoE), which was not officially supported before. Raspberry Pi 3 upgrades processor and faster networking on Model B + but retains its compact size unchanged compared to previous versions. \\
+        \vspace{3mm}
+        Detail configuration of Raspberry Pi model 3B+ includes: 
+        \begin{itemize}
+            \item \textbf{SoC chip}: Broadcom BCM2837B0, Cortex-A53 (ARMv8) 64-bit SoC \copyright 1.4 GHz
+            \item \textbf{RAM}: 1 GB LPDDR2 SDRAM
+            \item \textbf{Wifi}: b/g/n/ac
+            \item \textbf{Bluetooth}: 4.2, BLE
+            \item Gigabit Ethernet over USB 2.0 (maximum throughput 300 Mbps)
+            \item \textbf{40-pin GPIO (General Purpose Input Output)}: These pins are used to output control signals for leds and devices ... read the signal from sensors, switches ... There are also have I/O data transmission standards UART, 
+            I2C, SPI
+            \item \textbf{4 x USB 2.0}: Connect to devices: mouse, keyboard, usb ... 
+            \item \textbf{MicroSD card slot}: Connect card to run OS
+            \item \textbf{PoE}: Connect to Internet, VNC ... 
+            \item Improved PXE network and USB mass-storage booting
+            \item \textbf{Power's jack}: MicroUSB, 5V power minimum 1A
+            \item Better heat dissipation than Model B
+        \end{itemize}
+        There are some common advantages of Raspberry:
+        \begin{itemize}
+            \item Currently, Raspberry Pi is quite cheap with extremely compact size
+            \item Very low energy consumption
+            \item Powerful GPU
+            \item This device can serve many purpose 
+            \item Raspberry Pi has ability to work continuously without stopping.
+        \end{itemize}
+        There are some common defects of Raspberry:
+        \begin{itemize}
+            \item Low CPU, can't handle heavy tasks
+            \item To be able to use this device, users must have basic knowledge of Linux, electronics
+        \end{itemize}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.6\linewidth]{img/Raspberry.jpg}
+            \caption{Raspberry Pi 3B+}
+        \end{figure}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.6\linewidth]{img/GPIO-Pinout-Diagram.png}
+            \caption{Pinout of Raspberry Pi 3B+}
+        \end{figure}
+    \subsection{Operation System for Raspberry}
+        Raspberry Pi has a lot of supported operating systems, including Raspbian which is the official operating system of the Raspberry Pi Foundation, in addition to 7 other operating systems that are confirmed to support and quite a few operating 
+        systems by developers. self-optimization. Some popular operating systems for Raspberry Pi such as: Raspbian, Ubuntu Mate, Snappy
+        Core, Ubuntu, Windows 10 IoT Core, OSMC, OpenELEC, PiNet, RiscOS,...  \\
+        \begin{enumerate}
+            \item \textbf{Raspbian}: This is the most popular, basic operating system and is provided by the Raspberry Pi Foundation itself. It is also recommended by the company, especially for beginners to get acquainted with RPI. Raspbian has a capacity after decompression is about 4GB,
+            However, it is recommended to use a card of at least 8GB because free space is needed to install additional applications other uses.
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.6\linewidth]{img/Raspbian.jpg}
+                \caption{Raspbian OS desktop}
+            \end{figure}
+            \item \textbf{Ubuntu Mate}: Similar to Raspbian, Ubuntu Mate is also aimed at users who use Raspberry Pi as an office computer. However, Ubuntu Mate has a much nicer interface than Raspbian. It is very well optimized with Raspberry Pi 2 and 3, but to ensure the highest speed,
+            Use a MicroSD card of class 6 or higher.
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.6\linewidth]{img/Ubuntu-mate.png}
+                \caption{Ubuntu-Mate OS desktop}
+            \end{figure}
+            \item \textbf{Snappy Core Ubuntu}: It was created with the mission of running cloud applications and becoming an important part of IoT (Internet of Things), helping devices (phones, televisions, lights, fans, watches, rice cookers, ...) in life are perfectly connected. 
+            Its strength is that it can run many applications without a full Ubuntu operating system.
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.6\linewidth]{img/snappy.jpg}
+                \caption{Snappy Core Ubuntu OS desktop}
+            \end{figure}
+        \end{enumerate}
+
+\section{Camera Pi}
+    The Raspberry Pi Camera v2 is a high quality 8 megapixel Sony IMX219 image sensor custom designed add-on board for Raspberry Pi, featuring a fixed focus lens. ... In terms of still images, the camera is capable of 3280 x 2464 pixel static images, and also supports 1080p30, 720p60 and 640x480p90 video.
+    And there is some specifications:
+    \begin{itemize}
+        \item Weight: 3g
+        \item Still resolution: 8 Megapixels
+        \item Video modes: 1080p30, 720p60 and 640 × 480p60/90
+        \item Linux integration: V4L2 driver available
+        \item C programming API: OpenMAX IL and others available
+        \item Sensor: Sony IMX219
+        \item Sensor resolution: 3280 × 2464 pixels
+        \item Sensor image area: 3.68 x 2.76 mm (4.6 mm diagonal) 
+        \item Pixel size: 1.12$\mu$m x 1.12$\mu$m
+        \item Optical size: 1/4"
+        \item Focal length: 3.04 mm
+        \item Horizontal field of view: 62.6 degrees 
+        \item Vertical field of view: 48.8 degrees 
+        \item Focal ratio (F-Stop): 2.0
+    \end{itemize}
