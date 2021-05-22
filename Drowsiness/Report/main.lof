@@ -38,6 +38,19 @@
 \contentsline {figure}{\numberline {2.35}{\ignorespaces Ubuntu-Mate OS desktop}}{44}{figure.2.35}%
 \contentsline {figure}{\numberline {2.36}{\ignorespaces Snappy Core Ubuntu OS desktop}}{45}{figure.2.36}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Block diagram of system}}{46}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Device diagram of system}}{46}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Flowchart of system}}{47}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Input image}}{48}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Pre-processing}}{48}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Image after pre-processing}}{49}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Flowchart of face detection}}{49}{figure.3.7}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Face Detection}}{50}{figure.3.8}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Facial landmarks}}{50}{figure.3.9}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Mark 68 face points}}{51}{figure.3.10}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Extract eye ratio}}{51}{figure.3.11}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Top-left: A visualization of eye landmarks when then the eye is open. Top-right: Eye landmarks when the eye is closed. Bottom: Plotting the eye aspect ratio over time.}}{52}{figure.3.12}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Eye average ratio chart with 100 eye samples}}{53}{figure.3.13}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

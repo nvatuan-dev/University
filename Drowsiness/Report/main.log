@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.5.14)  19 MAY 2021 15:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.5.22)  23 MAY 2021 00:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -92,9 +92,9 @@ Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: \l@canadian = using hyphenrules for english
 (babel)             (\language0) on input line 102.
 Package babel Info: \l@australian = using hyphenrules for ukenglish
-(babel)             (\language78) on input line 105.
+(babel)             (\language71) on input line 105.
 Package babel Info: \l@newzealand = using hyphenrules for ukenglish
-(babel)             (\language78) on input line 108.
+(babel)             (\language71) on input line 108.
 )) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2020/08/01 v1.3d Input encoding file
 \inpenc@prehook=\toks17
@@ -791,7 +791,7 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 ]) (/home/goodboiz/Documents/University/Drowsiness/Report/Chapter-2/Chap2.tex [9]
 Chapter 2.
-<img/IP.jpg, id=389, 642.4pt x 356.33125pt>
+<img/IP.jpg, id=417, 642.4pt x 356.33125pt>
 File: img/IP.jpg Graphic file (type jpg)
 <use img/IP.jpg>
 Package pdftex.def Info: img/IP.jpg  used on input line 35.
@@ -799,25 +799,25 @@ Package pdftex.def Info: img/IP.jpg  used on input line 35.
 [10
 
  </home/goodboiz/Documents/University/Drowsiness/Report/img/IP.jpg>] [11]
-<img/Pixel-example.png, id=406, 134.4222pt x 63.23625pt>
+<img/Pixel-example.png, id=434, 134.4222pt x 63.23625pt>
 File: img/Pixel-example.png Graphic file (type png)
 <use img/Pixel-example.png>
 Package pdftex.def Info: img/Pixel-example.png  used on input line 92.
 (pdftex.def)             Requested size: 273.14923pt x 128.51198pt.
  [12]
-<img/gray-scale.png, id=417, 626.34pt x 328.97906pt>
+<img/gray-scale.png, id=445, 626.34pt x 328.97906pt>
 File: img/gray-scale.png Graphic file (type png)
 <use img/gray-scale.png>
 Package pdftex.def Info: img/gray-scale.png  used on input line 103.
 (pdftex.def)             Requested size: 273.14923pt x 143.47118pt.
  [13 </home/goodboiz/Documents/University/Drowsiness/Report/img/Pixel-example.png> </home/goodboiz/Documents/University/Drowsiness/Report/img/gray-scale.png>]
-<img/RGB.png, id=425, 1027.84pt x 1027.84pt>
+<img/RGB.png, id=453, 1027.84pt x 1027.84pt>
 File: img/RGB.png Graphic file (type png)
 <use img/RGB.png>
 Package pdftex.def Info: img/RGB.png  used on input line 141.
 (pdftex.def)             Requested size: 273.14923pt x 273.14479pt.
  [14]
-<img/primary-color.png, id=432, 1027.84pt x 1136.245pt>
+<img/primary-color.png, id=460, 1027.84pt x 1136.245pt>
 File: img/primary-color.png Graphic file (type png)
 <use img/primary-color.png>
 Package pdftex.def Info: img/primary-color.png  used on input line 153.
@@ -827,134 +827,134 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 16
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<img/Drowsiness.png, id=438, 3559.2975pt x 1354.05875pt>
+<img/Drowsiness.png, id=466, 3559.2975pt x 1354.05875pt>
 File: img/Drowsiness.png Graphic file (type png)
 <use img/Drowsiness.png>
 Package pdftex.def Info: img/Drowsiness.png  used on input line 172.
 (pdftex.def)             Requested size: 273.14923pt x 103.9054pt.
  [16 </home/goodboiz/Documents/University/Drowsiness/Report/img/primary-color.png>]
-<img/face-recognition.jpg, id=447, 766.36313pt x 173.89969pt>
+<img/face-recognition.jpg, id=475, 766.36313pt x 173.89969pt>
 File: img/face-recognition.jpg Graphic file (type jpg)
 <use img/face-recognition.jpg>
 Package pdftex.def Info: img/face-recognition.jpg  used on input line 195.
 (pdftex.def)             Requested size: 273.14923pt x 61.98291pt.
  [17 </home/goodboiz/Documents/University/Drowsiness/Report/img/Drowsiness.png> </home/goodboiz/Documents/University/Drowsiness/Report/img/face-recognition.jpg>]
-<img/opencv.jpg, id=453, 770.88pt x 500.87125pt>
+<img/opencv.jpg, id=481, 770.88pt x 500.87125pt>
 File: img/opencv.jpg Graphic file (type jpg)
 <use img/opencv.jpg>
 Package pdftex.def Info: img/opencv.jpg  used on input line 217.
 (pdftex.def)             Requested size: 273.14923pt x 177.47043pt.
-<img/pyimgsearch.png, id=454, 602.25pt x 250.9375pt>
+<img/pyimgsearch.png, id=482, 602.25pt x 250.9375pt>
 File: img/pyimgsearch.png Graphic file (type png)
 <use img/pyimgsearch.png>
 Package pdftex.def Info: img/pyimgsearch.png  used on input line 228.
 (pdftex.def)             Requested size: 273.14923pt x 113.8168pt.
  [18 </home/goodboiz/Documents/University/Drowsiness/Report/img/opencv.jpg>]
-<img/HOG-feature.jpg, id=460, 340.27126pt x 383.93437pt>
+<img/HOG-feature.jpg, id=489, 340.27126pt x 383.93437pt>
 File: img/HOG-feature.jpg Graphic file (type jpg)
 <use img/HOG-feature.jpg>
 Package pdftex.def Info: img/HOG-feature.jpg  used on input line 267.
 (pdftex.def)             Requested size: 273.14923pt x 308.21413pt.
  [19 </home/goodboiz/Documents/University/Drowsiness/Report/img/pyimgsearch.png>] [20 </home/goodboiz/Documents/University/Drowsiness/Report/img/HOG-feature.jpg>]
-<img/sliding_window_example.jpg, id=474, 716.6775pt x 588.1975pt>
+<img/sliding_window_example.jpg, id=503, 716.6775pt x 588.1975pt>
 File: img/sliding_window_example.jpg Graphic file (type jpg)
 <use img/sliding_window_example.jpg>
 Package pdftex.def Info: img/sliding_window_example.jpg  used on input line 289.
 (pdftex.def)             Requested size: 273.14923pt x 224.18153pt.
  [21 </home/goodboiz/Documents/University/Drowsiness/Report/img/sliding_window_example.jpg>]
-<img/multiple-overlapping.jpg, id=481, 810.02625pt x 574.145pt>
+<img/multiple-overlapping.jpg, id=509, 810.02625pt x 574.145pt>
 File: img/multiple-overlapping.jpg Graphic file (type jpg)
 <use img/multiple-overlapping.jpg>
 Package pdftex.def Info: img/multiple-overlapping.jpg  used on input line 306.
 (pdftex.def)             Requested size: 273.14923pt x 193.61226pt.
-<img/haar_features.jpg, id=482, 321.2pt x 272.01625pt>
+<img/haar_features.jpg, id=510, 321.2pt x 272.01625pt>
 File: img/haar_features.jpg Graphic file (type jpg)
 <use img/haar_features.jpg>
 Package pdftex.def Info: img/haar_features.jpg  used on input line 319.
 (pdftex.def)             Requested size: 273.14923pt x 231.33112pt.
-<img/feature_center.png, id=483, 213.79875pt x 100.12407pt>
+<img/feature_center.png, id=511, 213.79875pt x 100.12407pt>
 File: img/feature_center.png Graphic file (type png)
 <use img/feature_center.png>
 Package pdftex.def Info: img/feature_center.png  used on input line 324.
 (pdftex.def)             Requested size: 273.14923pt x 127.92766pt.
  [22 </home/goodboiz/Documents/University/Drowsiness/Report/img/multiple-overlapping.jpg>]
-<img/example_integral.png, id=489, 432.61626pt x 221.82875pt>
+<img/example_integral.png, id=517, 432.61626pt x 221.82875pt>
 File: img/example_integral.png Graphic file (type png)
 <use img/example_integral.png>
 Package pdftex.def Info: img/example_integral.png  used on input line 341.
 (pdftex.def)             Requested size: 273.14923pt x 140.06424pt.
  [23 </home/goodboiz/Documents/University/Drowsiness/Report/img/haar_features.jpg> </home/goodboiz/Documents/University/Drowsiness/Report/img/feature_center.png>]
-<img/corners_corresponding.png, id=500, 1020.81375pt x 473.77pt>
+<img/corners_corresponding.png, id=528, 1020.81375pt x 473.77pt>
 File: img/corners_corresponding.png Graphic file (type png)
 <use img/corners_corresponding.png>
 Package pdftex.def Info: img/corners_corresponding.png  used on input line 357.
 (pdftex.def)             Requested size: 273.14923pt x 126.77017pt.
  [24 </home/goodboiz/Documents/University/Drowsiness/Report/img/example_integral.png> </home/goodboiz/Documents/University/Drowsiness/Report/img/corners_corresponding.png>]
-<img/Emma.png, id=510, 514.92375pt x 566.115pt>
+<img/Emma.png, id=538, 514.92375pt x 566.115pt>
 File: img/Emma.png Graphic file (type png)
 <use img/Emma.png>
 Package pdftex.def Info: img/Emma.png  used on input line 371.
 (pdftex.def)             Requested size: 273.14923pt x 300.3073pt.
-<img/real_pixel.png, id=511, 189.70876pt x 207.77625pt>
+<img/real_pixel.png, id=539, 189.70876pt x 207.77625pt>
 File: img/real_pixel.png Graphic file (type png)
 <use img/real_pixel.png>
 Package pdftex.def Info: img/real_pixel.png  used on input line 377.
 (pdftex.def)             Requested size: 273.14923pt x 299.19438pt.
  [25 </home/goodboiz/Documents/University/Drowsiness/Report/img/Emma.png (PNG copy)>] [26 </home/goodboiz/Documents/University/Drowsiness/Report/img/real_pixel.png (PNG copy)>]
-<img/Ensemble.png, id=520, 814.04124pt x 292.09125pt>
+<img/Ensemble.png, id=548, 814.04124pt x 292.09125pt>
 File: img/Ensemble.png Graphic file (type png)
 <use img/Ensemble.png>
 Package pdftex.def Info: img/Ensemble.png  used on input line 414.
 (pdftex.def)             Requested size: 273.14923pt x 98.00827pt.
  [27 </home/goodboiz/Documents/University/Drowsiness/Report/img/Ensemble.png (PNG copy)>]
-<img/stacking.png, id=527, 785.93625pt x 412.54124pt>
+<img/stacking.png, id=555, 785.93625pt x 412.54124pt>
 File: img/stacking.png Graphic file (type png)
 <use img/stacking.png>
 Package pdftex.def Info: img/stacking.png  used on input line 431.
 (pdftex.def)             Requested size: 273.14923pt x 143.37811pt.
  [28 </home/goodboiz/Documents/University/Drowsiness/Report/img/stacking.png>]
-<img/Adaboost work.png, id=538, 467.7475pt x 302.12875pt>
+<img/Adaboost work.png, id=566, 467.7475pt x 302.12875pt>
 File: img/Adaboost work.png Graphic file (type png)
 <use img/Adaboost work.png>
 Package pdftex.def Info: img/Adaboost work.png  used on input line 456.
 (pdftex.def)             Requested size: 273.14923pt x 176.44264pt.
-<img/Haar-Cascade.png, id=539, 7474.92625pt x 3969.83125pt>
+<img/Haar-Cascade.png, id=567, 7474.92625pt x 3969.83125pt>
 File: img/Haar-Cascade.png Graphic file (type png)
 <use img/Haar-Cascade.png>
 Package pdftex.def Info: img/Haar-Cascade.png  used on input line 481.
 (pdftex.def)             Requested size: 273.14923pt x 145.01575pt.
  [29 </home/goodboiz/Documents/University/Drowsiness/Report/img/Adaboost work.png (PNG copy)>]
-<img/eye.png, id=553, 437.635pt x 296.10625pt>
+<img/eye.png, id=581, 437.635pt x 296.10625pt>
 File: img/eye.png Graphic file (type png)
 <use img/eye.png>
 Package pdftex.def Info: img/eye.png  used on input line 504.
 (pdftex.def)             Requested size: 273.14923pt x 184.81744pt.
  [30 </home/goodboiz/Documents/University/Drowsiness/Report/img/Haar-Cascade.png>]
-<img/visualization.png, id=565, 602.25pt x 355.3275pt>
+<img/visualization.png, id=593, 602.25pt x 355.3275pt>
 File: img/visualization.png Graphic file (type png)
 <use img/visualization.png>
 Package pdftex.def Info: img/visualization.png  used on input line 522.
 (pdftex.def)             Requested size: 273.14923pt x 161.1646pt.
  [31 </home/goodboiz/Documents/University/Drowsiness/Report/img/eye.png (PNG copy)> </home/goodboiz/Documents/University/Drowsiness/Report/img/visualization.png (PNG copy)>]
-<img/facial.png, id=572, 580.1675pt x 577.15625pt>
+<img/facial.png, id=600, 580.1675pt x 577.15625pt>
 File: img/facial.png Graphic file (type png)
 <use img/facial.png>
 Package pdftex.def Info: img/facial.png  used on input line 536.
 (pdftex.def)             Requested size: 273.14923pt x 271.73022pt.
  [32 </home/goodboiz/Documents/University/Drowsiness/Report/img/facial.png (PNG copy)>]
-<img/landmark.png, id=578, 770.88pt x 621.32124pt>
+<img/landmark.png, id=606, 770.88pt x 621.32124pt>
 File: img/landmark.png Graphic file (type png)
 <use img/landmark.png>
 Package pdftex.def Info: img/landmark.png  used on input line 572.
 (pdftex.def)             Requested size: 273.14923pt x 220.1487pt.
  [33 </home/goodboiz/Documents/University/Drowsiness/Report/img/landmark.png (PNG copy)>]
-<img/pythagorean.png, id=591, 301.125pt x 207.77625pt>
+<img/pythagorean.png, id=620, 301.125pt x 207.77625pt>
 File: img/pythagorean.png Graphic file (type png)
 <use img/pythagorean.png>
 Package pdftex.def Info: img/pythagorean.png  used on input line 589.
 (pdftex.def)             Requested size: 273.14923pt x 188.49014pt.
  [34 </home/goodboiz/Documents/University/Drowsiness/Report/img/pythagorean.png>]
-<img/dimensional.png, id=601, 31.317pt x 25.5354pt>
+<img/dimensional.png, id=629, 31.317pt x 25.5354pt>
 File: img/dimensional.png Graphic file (type png)
 <use img/dimensional.png>
 Package pdftex.def Info: img/dimensional.png  used on input line 630.
@@ -966,84 +966,155 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 631.
  [35]
-<img/opencv.png, id=613, 180.675pt x 222.8325pt>
+<img/opencv.png, id=641, 180.675pt x 222.8325pt>
 File: img/opencv.png Graphic file (type png)
 <use img/opencv.png>
 Package pdftex.def Info: img/opencv.png  used on input line 642.
 (pdftex.def)             Requested size: 273.14923pt x 336.91704pt.
  [36 </home/goodboiz/Documents/University/Drowsiness/Report/img/dimensional.png>] [37 </home/goodboiz/Documents/University/Drowsiness/Report/img/opencv.png>]
-<img/openframework.png, id=626, 220.825pt x 246.9225pt>
+<img/openframework.png, id=654, 220.825pt x 246.9225pt>
 File: img/openframework.png Graphic file (type png)
 <use img/openframework.png>
 Package pdftex.def Info: img/openframework.png  used on input line 677.
 (pdftex.def)             Requested size: 273.14923pt x 305.446pt.
  [38 </home/goodboiz/Documents/University/Drowsiness/Report/img/openframework.png>]
-<img/dlib+opencv.png, id=631, 494.84875pt x 180.675pt>
+<img/dlib+opencv.png, id=659, 494.84875pt x 180.675pt>
 File: img/dlib+opencv.png Graphic file (type png)
 <use img/dlib+opencv.png>
 Package pdftex.def Info: img/dlib+opencv.png  used on input line 715.
 (pdftex.def)             Requested size: 273.14923pt x 99.72993pt.
  [39] [40 </home/goodboiz/Documents/University/Drowsiness/Report/img/dlib+opencv.png>] [41]
-<img/Raspberry.jpg, id=656, 1505.625pt x 1505.625pt>
+<img/Raspberry.jpg, id=684, 1505.625pt x 1505.625pt>
 File: img/Raspberry.jpg Graphic file (type jpg)
 <use img/Raspberry.jpg>
 Package pdftex.def Info: img/Raspberry.jpg  used on input line 805.
 (pdftex.def)             Requested size: 273.14923pt x 273.13739pt.
-<img/GPIO-Pinout-Diagram.png, id=657, 2071.74pt x 1189.44376pt>
+<img/GPIO-Pinout-Diagram.png, id=685, 2071.74pt x 1189.44376pt>
 File: img/GPIO-Pinout-Diagram.png Graphic file (type png)
 <use img/GPIO-Pinout-Diagram.png>
 Package pdftex.def Info: img/GPIO-Pinout-Diagram.png  used on input line 810.
 (pdftex.def)             Requested size: 273.14923pt x 156.81105pt.
  [42]
-<img/Raspbian.jpg, id=663, 1204.5pt x 677.53125pt>
+<img/Raspbian.jpg, id=691, 1204.5pt x 677.53125pt>
 File: img/Raspbian.jpg Graphic file (type jpg)
 <use img/Raspbian.jpg>
 Package pdftex.def Info: img/Raspbian.jpg  used on input line 822.
 (pdftex.def)             Requested size: 273.14923pt x 153.64752pt.
  [43 </home/goodboiz/Documents/University/Drowsiness/Report/img/Raspberry.jpg> </home/goodboiz/Documents/University/Drowsiness/Report/img/GPIO-Pinout-Diagram.png (PNG copy)>]
-<img/Ubuntu-mate.png, id=669, 1204.5pt x 677.53125pt>
+<img/Ubuntu-mate.png, id=697, 1204.5pt x 677.53125pt>
 File: img/Ubuntu-mate.png Graphic file (type png)
 <use img/Ubuntu-mate.png>
 Package pdftex.def Info: img/Ubuntu-mate.png  used on input line 829.
 (pdftex.def)             Requested size: 273.14923pt x 153.64752pt.
-<img/snappy.jpg, id=670, 1164.35pt x 636.3775pt>
+<img/snappy.jpg, id=698, 1164.35pt x 636.3775pt>
 File: img/snappy.jpg Graphic file (type jpg)
 <use img/snappy.jpg>
 Package pdftex.def Info: img/snappy.jpg  used on input line 836.
 (pdftex.def)             Requested size: 273.14923pt x 149.28654pt.
  [44 </home/goodboiz/Documents/University/Drowsiness/Report/img/Raspbian.jpg> </home/goodboiz/Documents/University/Drowsiness/Report/img/Ubuntu-mate.png (PNG copy)>]) (/home/goodboiz/Documents/University/Drowsiness/Report/Chapter-3/Chap3.tex [45 </home/goodboiz/Documents/University/Drowsiness/Report/img/snappy.jpg>]
 Chapter 3.
-) (/home/goodboiz/Documents/University/Drowsiness/Report/Chapter-4/Chap4.tex [46
+<img/block-diagram.png, id=709, 11903.47125pt x 3861.42625pt>
+File: img/block-diagram.png Graphic file (type png)
+<use img/block-diagram.png>
+Package pdftex.def Info: img/block-diagram.png  used on input line 17.
+(pdftex.def)             Requested size: 273.14923pt x 88.55757pt.
+<img/Device-diagram.png, id=710, 859.21pt x 483.8075pt>
+File: img/Device-diagram.png Graphic file (type png)
+<use img/Device-diagram.png>
+Package pdftex.def Info: img/Device-diagram.png  used on input line 22.
+(pdftex.def)             Requested size: 273.14923pt x 153.8028pt.
+<img/Flowchart.png, id=711, 15822.11125pt x 6101.79625pt>
+File: img/Flowchart.png Graphic file (type png)
+<use img/Flowchart.png>
+Package pdftex.def Info: img/Flowchart.png  used on input line 29.
+(pdftex.def)             Requested size: 273.14923pt x 105.30264pt.
+[46
 
-]
+ </home/goodboiz/Documents/University/Drowsiness/Report/img/block-diagram.png> </home/goodboiz/Documents/University/Drowsiness/Report/img/Device-diagram.png>]
+<img/1.JPG, id=719, 470.75874pt x 712.6625pt>
+File: img/1.JPG Graphic file (type jpg)
+<use img/1.JPG>
+Package pdftex.def Info: img/1.JPG  used on input line 42.
+(pdftex.def)             Requested size: 273.14923pt x 413.50766pt.
+ [47 </home/goodboiz/Documents/University/Drowsiness/Report/img/Flowchart.png>]
+<img/pre-processing.png, id=725, 8164.5025pt x 3575.3575pt>
+File: img/pre-processing.png Graphic file (type png)
+<use img/pre-processing.png>
+Package pdftex.def Info: img/pre-processing.png  used on input line 49.
+(pdftex.def)             Requested size: 273.14923pt x 119.58563pt.
+<img/Grayscale.png, id=726, 353.06906pt x 534.49687pt>
+File: img/Grayscale.png Graphic file (type png)
+<use img/Grayscale.png>
+Package pdftex.def Info: img/Grayscale.png  used on input line 56.
+(pdftex.def)             Requested size: 273.14923pt x 413.51308pt.
+ [48 </home/goodboiz/Documents/University/Drowsiness/Report/img/1.JPG> </home/goodboiz/Documents/University/Drowsiness/Report/img/pre-processing.png>]
+<img/Haar.png, id=733, 12289.915pt x 1135.24126pt>
+File: img/Haar.png Graphic file (type png)
+<use img/Haar.png>
+Package pdftex.def Info: img/Haar.png  used on input line 63.
+(pdftex.def)             Requested size: 273.14923pt x 25.22136pt.
+<img/Faces found.png, id=734, 941.5175pt x 712.6625pt>
+File: img/Faces found.png Graphic file (type png)
+<use img/Faces found.png>
+Package pdftex.def Info: img/Faces found.png  used on input line 72.
+(pdftex.def)             Requested size: 273.14923pt x 206.75383pt.
+ [49 </home/goodboiz/Documents/University/Drowsiness/Report/img/Grayscale.png (PNG copy)> </home/goodboiz/Documents/University/Drowsiness/Report/img/Haar.png>]
+<img/Facial.png, id=740, 12289.915pt x 1135.24126pt>
+File: img/Facial.png Graphic file (type png)
+<use img/Facial.png>
+Package pdftex.def Info: img/Facial.png  used on input line 79.
+(pdftex.def)             Requested size: 273.14923pt x 25.22136pt.
+<img/testing.png, id=741, 470.75874pt x 712.6625pt>
+File: img/testing.png Graphic file (type png)
+<use img/testing.png>
+Package pdftex.def Info: img/testing.png  used on input line 86.
+(pdftex.def)             Requested size: 273.14923pt x 413.50766pt.
+ [50 </home/goodboiz/Documents/University/Drowsiness/Report/img/Faces found.png> </home/goodboiz/Documents/University/Drowsiness/Report/img/Facial.png>]
+<img/eye-ratio.jpg, id=748, 493.3632pt x 150.3216pt>
+File: img/eye-ratio.jpg Graphic file (type jpg)
+<use img/eye-ratio.jpg>
+Package pdftex.def Info: img/eye-ratio.jpg  used on input line 98.
+(pdftex.def)             Requested size: 273.14923pt x 83.22762pt.
+ [51 </home/goodboiz/Documents/University/Drowsiness/Report/img/testing.png> </home/goodboiz/Documents/University/Drowsiness/Report/img/eye-ratio.jpg>]
+<img/calculate.png, id=754, 602.25pt x 355.3275pt>
+File: img/calculate.png Graphic file (type png)
+<use img/calculate.png>
+Package pdftex.def Info: img/calculate.png  used on input line 114.
+(pdftex.def)             Requested size: 273.14923pt x 161.1646pt.
+<img/eye-avg-ratio.png, id=755, 901.3675pt x 666.49pt>
+File: img/eye-avg-ratio.png Graphic file (type png)
+<use img/eye-avg-ratio.png>
+Package pdftex.def Info: img/eye-avg-ratio.png  used on input line 133.
+(pdftex.def)             Requested size: 273.14923pt x 201.97234pt.
+) [52 </home/goodboiz/Documents/University/Drowsiness/Report/img/calculate.png (PNG copy)>] (/home/goodboiz/Documents/University/Drowsiness/Report/Chapter-4/Chap4.tex [53 </home/goodboiz/Documents/University/Drowsiness/Report/img/eye-avg-ratio.png>]
 Chapter 4.
-) (/home/goodboiz/Documents/University/Drowsiness/Report/Chapter-5/Chap5.tex [47
+) (/home/goodboiz/Documents/University/Drowsiness/Report/Chapter-5/Chap5.tex [54
 
 ]
 Chapter 5.
-) (/home/goodboiz/Documents/University/Drowsiness/Report/Chapter-6/Chap6.tex [48
+) (/home/goodboiz/Documents/University/Drowsiness/Report/Chapter-6/Chap6.tex [55
 
 ]
 Chapter 6.
-) [49
+) [56
 
 ] (/home/goodboiz/Documents/University/Drowsiness/Report/main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: C2AF225C1F9170F984590543BBE32AB8;3387.
  ) 
 Here is how much of TeX's memory you used:
- 21002 strings out of 479304
- 384419 string characters out of 5869779
- 700616 words of memory out of 5000000
- 37433 multiletter control sequences out of 15000+600000
- 466783 words of font info for 62 fonts, out of 8000000 for 9000
+ 21120 strings out of 479304
+ 386494 string characters out of 5869779
+ 700941 words of memory out of 5000000
+ 37514 multiletter control sequences out of 15000+600000
+ 472763 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,16n,102p,515b,1141s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on /home/goodboiz/Documents/University/Drowsiness/Report/main.pdf (50 pages, 5380368 bytes).
+Output written on /home/goodboiz/Documents/University/Drowsiness/Report/main.pdf (57 pages, 8663781 bytes).
 PDF statistics:
- 810 PDF objects out of 1000 (max. 8388607)
- 685 compressed objects within 7 object streams
- 217 named destinations out of 1000 (max. 500000)
- 590 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 894 PDF objects out of 1000 (max. 8388607)
+ 739 compressed objects within 8 object streams
+ 238 named destinations out of 1000 (max. 500000)
+ 655 words of extra memory for PDF output out of 10000 (max. 10000000)
 
