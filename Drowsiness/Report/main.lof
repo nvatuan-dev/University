@@ -52,5 +52,11 @@
 \contentsline {figure}{\numberline {3.12}{\ignorespaces Top-left: A visualization of eye landmarks when then the eye is open. Top-right: Eye landmarks when the eye is closed. Bottom: Plotting the eye aspect ratio over time.}}{52}{figure.3.12}%
 \contentsline {figure}{\numberline {3.13}{\ignorespaces Eye average ratio chart with 100 eye samples}}{53}{figure.3.13}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Drowsiness detection model}}{54}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Eye aspect ratio}}{55}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Drowsiness detected}}{55}{figure.4.3}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces The file contain Raspbian OS}}{61}{figure.6.1}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Format disk and install OS into memory card}}{61}{figure.6.2}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Folder tree of project}}{62}{figure.6.3}%

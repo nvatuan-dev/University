@@ -12,7 +12,53 @@
 \fancyfoot[R]{Page \thepage}
 
 \section{Conclusion}
+    During the process of implementing this topic, I have built a system with practical applications for drivers 
+    when participating in traffic, which is a sleep detection system, built on the Linux and Linux operating system. 
+    Raspberry Pi 3B+ kit,with the support of OpenCV and Dlib libraries and programmed in Python programming language 
+    with the task of issuing warnings when drivers doze off. \\ 
+    \vspace{3mm}
+    \textbf{Prodcut review:} \\ 
+    To evaluate and comment objectively, I have tried to detect drowsiness in many different cases such as: front angle, 
+    tilt angle, bright enough, low light, the results obtained are shown in the version below. 
+    \begin{table}[ht]
+        \centering
+        \begin{tabular}{| l | l | l |}
+            \hline
+            \rowcolor{lightgray} Cases & Brightness enough & Lack of brightness \\ \hline
+            Front corner & 91/100 images & 53/100 images \\ \hline
+            Left tilt angle & 82/100 images & Almost undetectable \\ \hline
+            Right tilt angle & 76/100 images & Almost undetectable \\ \hline
+        \end{tabular}
+        \caption{Results of eye state recognition in many cases}
+    \end{table}
+    Based on the above table, we can see that the identification results with relatively high accuracy in the case of 
+    the frontal face in bright enough conditions, for the left and right tilt angles, the recognition process will be 
+    more difficult. a bit, but the camera still catches the eye with high accuracy (in bright enough conditions) \\ 
+    \vspace{3mm}
+    On the contrary for the above three cases, the accuracy will gradually decrease in low light and almost undetectable 
+    for the case of right tilt angle (low light conditions) and tilt angle greater than 40 degrees (both bright enough and low light).
 
 \section{Limitations}
+    \subsection{Advantages}
+        \begin{itemize}
+            \item Compact, convenient due to the small size of the Raspberry pi, it can be integrated directly on the car without 
+            taking up too much space, can be integrated based on the existing security systems on the vehicle
+            \item As a programmed application, it can save costs, the design and construction is also quite simple because the 
+            hardware is simple, does not require complicated components
+            \item Relatively high accuracy
+            \item The program meets the actual requirements, the image processing time is fast, and the warning is issued in real time
+        \end{itemize}
+    \subsection{Disadvantages}
+        \begin{itemize}
+            \item Depends heavily on external conditions such as light, rotation angle,... 
+            \item Face to face directly, if turning left or right with an angle greater than 40 degrees or the end of the head, 
+            raising the head more than 30 degrees, it may not be detected
+        \end{itemize}
 
 \section{Development Orientation}
+    \begin{itemize}
+        \item Research using new, optimized and better recognition algorithms
+        \item For the convenience of use, it is necessary to research and develop application software that can be controlled via smartphones
+        \item Developing more diverse warning systems such as vibrating seats, or calling directly to the driver's phone, ... to wake up more effectively.
+        \item When the driver shows signs of falling asleep, we can activate the car's self-driving mode and send a continuous warning to wake the driver.
+    \end{itemize}

@@ -71,9 +71,20 @@
 \contentsline {subsection}{\numberline {3.2.8}Alert}{52}{subsection.3.2.8}%
 \contentsline {chapter}{\numberline {4}EXPERIMENTAL RESULT}{54}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Realistic Model}{54}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Result}{54}{section.4.2}%
-\contentsline {chapter}{\numberline {5}CONCLUSION AND TOPIC ORIENTATION}{55}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Conclusion}{55}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Limitations}{55}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Development Orientation}{55}{section.5.3}%
-\contentsline {chapter}{\numberline {6}APPENDIX}{56}{chapter.6}%
+\contentsline {section}{\numberline {4.2}Result}{55}{section.4.2}%
+\contentsline {chapter}{\numberline {5}CONCLUSION AND TOPIC ORIENTATION}{56}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Conclusion}{56}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Limitations}{56}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Advantages}{56}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Disadvantages}{57}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5.3}Development Orientation}{57}{section.5.3}%
+\contentsline {chapter}{\numberline {6}APPENDICES}{58}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Drowsiness Detection Program}{58}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Install Raspbian OS for Raspberry Pi 3B+}{60}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Step 1}{60}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Step 2}{61}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Step 3}{61}{subsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.2.4}Step 4}{61}{subsection.6.2.4}%
+\contentsline {section}{\numberline {6.3}Install Necessary Libraries}{61}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}OpenCV}{61}{subsection.6.3.1}%
+\contentsline {section}{\numberline {6.4}Run program}{62}{section.6.4}%
