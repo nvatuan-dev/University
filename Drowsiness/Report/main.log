@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.25)  29 MAY 2021 17:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.25)  29 MAY 2021 17:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1068,46 +1068,46 @@ File: img/Faces found.png Graphic file (type png)
 Package pdftex.def Info: img/Faces found.png  used on input line 72.
 (pdftex.def)             Requested size: 273.14923pt x 206.75383pt.
  [49 <./img/Grayscale.png (PNG copy)> <./img/Haar.png>]
-<img/Facial.png, id=807, 580.1675pt x 577.15625pt>
-File: img/Facial.png Graphic file (type png)
-<use img/Facial.png>
-Package pdftex.def Info: img/Facial.png  used on input line 79.
-(pdftex.def)             Requested size: 273.14923pt x 271.73022pt.
+<img/Figma.png, id=807, 12289.915pt x 1135.24126pt>
+File: img/Figma.png Graphic file (type png)
+<use img/Figma.png>
+Package pdftex.def Info: img/Figma.png  used on input line 79.
+(pdftex.def)             Requested size: 273.14923pt x 25.22136pt.
 <img/testing.png, id=808, 470.75874pt x 712.6625pt>
 File: img/testing.png Graphic file (type png)
 <use img/testing.png>
 Package pdftex.def Info: img/testing.png  used on input line 86.
 (pdftex.def)             Requested size: 273.14923pt x 413.50766pt.
- [50 <./img/Faces found.png> <./img/facial.png (PNG copy)>]
-<img/eye-ratio.jpg, id=814, 493.3632pt x 150.3216pt>
+ [50 <./img/Faces found.png> <./img/Figma.png>]
+<img/eye-ratio.jpg, id=815, 493.3632pt x 150.3216pt>
 File: img/eye-ratio.jpg Graphic file (type jpg)
 <use img/eye-ratio.jpg>
 Package pdftex.def Info: img/eye-ratio.jpg  used on input line 98.
 (pdftex.def)             Requested size: 273.14923pt x 83.22762pt.
  [51 <./img/testing.png> <./img/eye-ratio.jpg>]
-<img/calculate.png, id=820, 602.25pt x 355.3275pt>
+<img/calculate.png, id=821, 602.25pt x 355.3275pt>
 File: img/calculate.png Graphic file (type png)
 <use img/calculate.png>
 Package pdftex.def Info: img/calculate.png  used on input line 114.
 (pdftex.def)             Requested size: 273.14923pt x 161.1646pt.
-<img/eye-avg-ratio.png, id=821, 901.3675pt x 666.49pt>
+<img/eye-avg-ratio.png, id=822, 901.3675pt x 666.49pt>
 File: img/eye-avg-ratio.png Graphic file (type png)
 <use img/eye-avg-ratio.png>
 Package pdftex.def Info: img/eye-avg-ratio.png  used on input line 133.
 (pdftex.def)             Requested size: 273.14923pt x 201.97234pt.
 ) [52 <./img/calculate.png (PNG copy)>] (./Chapter-4/Chap4.tex [53 <./img/eye-avg-ratio.png>]
 Chapter 4.
-<img/Hardware.png, id=832, 3035.34pt x 4047.12pt>
+<img/Hardware.png, id=833, 3035.34pt x 4047.12pt>
 File: img/Hardware.png Graphic file (type png)
 <use img/Hardware.png>
 Package pdftex.def Info: img/Hardware.png  used on input line 17.
 (pdftex.def)             Requested size: 273.14923pt x 364.16333pt.
-<img/run.png, id=833, 1927.2pt x 1084.05pt>
+<img/run.png, id=834, 1927.2pt x 1084.05pt>
 File: img/run.png Graphic file (type png)
 <use img/run.png>
 Package pdftex.def Info: img/run.png  used on input line 23.
 (pdftex.def)             Requested size: 273.14923pt x 153.63512pt.
-<img/result.png, id=834, 1927.2pt x 1084.05pt>
+<img/result.png, id=835, 1927.2pt x 1084.05pt>
 File: img/result.png Graphic file (type png)
 <use img/result.png>
 Package pdftex.def Info: img/result.png  used on input line 28.
@@ -1125,19 +1125,19 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 ) [58
 
 ] [59]
-<img/download.PNG, id=970, 630.85687pt x 109.91063pt>
+<img/download.PNG, id=971, 630.85687pt x 109.91063pt>
 File: img/download.PNG Graphic file (type png)
 <use img/download.PNG>
 Package pdftex.def Info: img/download.PNG  used on input line 210.
 (pdftex.def)             Requested size: 273.14923pt x 47.58934pt.
  [60]
-<img/format-disk.PNG, id=1014, 750.55406pt x 380.17032pt>
+<img/format-disk.PNG, id=1015, 750.55406pt x 380.17032pt>
 File: img/format-disk.PNG Graphic file (type png)
 <use img/format-disk.PNG>
 Package pdftex.def Info: img/format-disk.PNG  used on input line 222.
 (pdftex.def)             Requested size: 273.14923pt x 138.35785pt.
  [61 <./img/download.PNG> <./img/format-disk.PNG>]
-<img/folder-tree.PNG, id=1021, 916.92563pt x 211.54031pt>
+<img/folder-tree.PNG, id=1022, 916.92563pt x 211.54031pt>
 File: img/folder-tree.PNG Graphic file (type png)
 <use img/folder-tree.PNG>
 Package pdftex.def Info: img/folder-tree.PNG  used on input line 246.
@@ -1148,16 +1148,16 @@ Package rerunfilecheck Info: File `main.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  24674 strings out of 478836
- 432110 string characters out of 5859622
- 1669278 words of memory out of 5000000
+ 432103 string characters out of 5859622
+ 1669280 words of memory out of 5000000
  41330 multiletter control sequences out of 15000+600000
  484642 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,16n,94p,518b,2288s stack positions out of 5000i,500n,10000p,200000b,80000s
 {d:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{d:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{d:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{d:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{d:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{d:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}<d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmex10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr12.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr5.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr6.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr8.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri12.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri8.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy6.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (64 pages, 24182086 bytes).
+Output written on main.pdf (64 pages, 23848767 bytes).
 PDF statistics:
- 1201 PDF objects out of 1440 (max. 8388607)
+ 1202 PDF objects out of 1440 (max. 8388607)
  1025 compressed objects within 11 object streams
  412 named destinations out of 1000 (max. 500000)
  773 words of extra memory for PDF output out of 10000 (max. 10000000)
