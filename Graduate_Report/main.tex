@@ -1,6 +1,6 @@
 \documentclass[a4paper,13pt]{report}
 
-\usepackage[top=2.5cm,bottom=2.5cm,left=3cm,right=2cm]{geometry}
+\usepackage[top=20mm,bottom=20mm,left=35mm,right=20mm]{geometry}
 \usepackage[a4,frame,center]{crop}
 \usepackage{graphicx}
 \usepackage[english]{babel}
@@ -21,9 +21,17 @@
 \usepackage{listings}
 \usepackage{background}
 \usepackage{tikz}
+\usepackage{pifont}
+\usepackage{hyperref}
 \usetikzlibrary{calc}
 \backgroundsetup{contents={}}
 \setcounter{secnumdepth}{4}
+
+%Uppercase Content
+\AtBeginDocument{%
+\let\mtcontentsname\contentsname
+\renewcommand\contentsname{\MakeUppercase\mtcontentsname}
+}
 
 \begin{document}
     \begin{titlepage}
@@ -39,34 +47,7 @@
         \vspace{3mm}
         \normalsize{Graduate Internship Report:} \\
         \vspace{10mm}
-        \huge{\textbf{"INTRODUCTION TO MPIC INTERFACE"}} \\ 
-        \vspace{20mm}
-        \normalsize{Written by} \\ 
-        \vspace{3mm}
-        \large{\textbf{\textit{Nguyen Van Anh Tuan}}} \\ 
-        \vspace{3mm}
-        \large{\textbf{\textit{Roll.No.1753020018}}} \\ 
-        \vspace{15mm}
-        \large{Under the guidance of} \\
-        \vspace{7mm}
-        \centerline{\textbf{\large{Msc.Vo Phi Son}}} 
-        \vspace{3.5cm}
-        \centerline{\today}
-    \end{titlepage}
-
-    \newpage
-        \centering
-        \LARGE{\textsc{VIETNAM AVIATION ACADEMY}}\\
-        \vspace{3mm}
-        \normalsize{Department of Telecommunication - Electronics Engineering Technology} \\
-        \vspace{3mm}
-        \large{LOCATED IN HO CHI MINH CITY} \\
-        \vspace{3mm}
-        \includegraphics[scale=0.3]{img/logo.png} \\
-        \vspace{3mm}
-        \normalsize{Graduate Internship Report:} \\
-        \vspace{15mm}
-        \huge{\textbf{"INTRODUCTION TO MPIC INTERFACE"}} \\ 
+        \huge{\textbf{"INTRODUCTION TO SIMULATOR MAINTENANCE PROCEDURE AND MPIC SYSTEM"}} \\ 
         \vspace{20mm}
         \normalsize{Written by} \\ 
         \vspace{3mm}
@@ -79,8 +60,111 @@
         \centerline{\textbf{\large{Msc.Vo Phi Son}}} 
         \vspace{3cm}
         \centerline{\today}
-    
+    \end{titlepage}
+
     \newpage
     \centering
+    \LARGE{\textsc{VIETNAM AVIATION ACADEMY}}\\
+    \vspace{3mm}
+    \normalsize{Department of Telecommunication - Electronics Engineering Technology} \\
+    \vspace{3mm}
+    \large{LOCATED IN HO CHI MINH CITY} \\
+    \vspace{3mm}
+    \includegraphics[scale=0.3]{img/logo.png} \\
+    \vspace{3mm}
+    \normalsize{Graduate Internship Report:} \\
+    \vspace{15mm}
+    \huge{\textbf{"INTRODUCTION TO SIMULATOR MAINTENANCE PROCEDURE AND MPIC SYSTEM"}} \\ 
+    \vspace{20mm}
+    \normalsize{Written by} \\ 
+    \vspace{3mm}
+    \large{\textbf{\textit{Nguyen Van Anh Tuan}}} \\ 
+    \vspace{3mm}
+    \large{\textbf{\textit{Roll.No.1753020018}}} \\ 
+    \vspace{15mm}
+    \large{Under the guidance of} \\
+    \vspace{7mm}
+    \centerline{\textbf{\large{Msc.Vo Phi Son}}} 
+    \vspace{3cm}
+    \centerline{\today}
+    
+    \newpage
+    \thispagestyle{plain}
+    \centering
+    \centerline{\textbf{\huge{WORDS OF THANKS}}}
+    \vspace{10mm}
+    \begin{flushleft}
+        Reality show that success is always associated with support of friends, teacher,... And i have special thanks to Mr.Vo Phi Son and my close friends 
+        for helping me completing this report. \\ 
+        \vspace{2mm}
+        I have tried my best to do this report. However, due to my lack of experience and 
+        knowledge, there are still some unexpected mistakes in the report. Please let me know your opinions and criticizes.
+        Once again, thank you so much. 
+    \end{flushleft}
+    \begin{flushright}
+        \textbf{Auth.Nguyen Van Anh Tuan}
+    \end{flushright}
+    
+    \newpage
+    \centerline{\huge{\textbf{REVIEW OF INSTRUCTOR}}}
+    \vspace{10mm}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \vspace{10mm}
+    \begin{flushright}
+        Tuesday, June 8th 2021 \\ 
+        \vspace{5mm}
+        \textbf{Instructor}
+    \end{flushright}
+
+    \newpage
+    \centerline{\huge{\textbf{REVIEW OF THE INTERNSHIP COMPANY}}}
+    \vspace{10mm}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \vspace{10mm}
+    \begin{flushright}
+        Tuesday, June 8th 2021 \\ 
+        \vspace{5mm}
+        \textbf{Internship Department}
+    \end{flushright}
+
+    \newpage
+    \tableofcontents
+    \listoffigures
+
+    \input{Chap1/Chap1.tex}
+    
+    \input{Chap2/Chap2.tex}
+
+    \input{Chap3/Chap3.tex}
+
+    \input{Chap4/Chap4.tex}
 
 \end{document}
