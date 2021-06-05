@@ -25,7 +25,7 @@ void setup() {
   myServo.attach(MOTEUR); // Attach the servo motor to pin 11
   lcd.begin(16,2); // Initialize the Lcd screen with their Size
   configPin();
-  DistanceSec = 50;
+  DistanceSec = 10;
 }
 
 void loop() {
