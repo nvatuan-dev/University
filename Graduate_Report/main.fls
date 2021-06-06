@@ -1268,6 +1268,10 @@ INPUT ./img/Fuel.PNG
 INPUT img/Fuel.PNG
 INPUT ./img/Fuel.PNG
 INPUT ./img/Fuel.PNG
+INPUT ./Chap5/Chap5.tex
+INPUT Chap5/Chap5.tex
+INPUT ./Chap5/Chap5.tex
+INPUT Chap5/Chap5.tex
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out

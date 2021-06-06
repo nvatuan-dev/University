@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.25)  6 JUN 2021 12:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.25)  6 JUN 2021 18:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -749,7 +749,7 @@ LaTeX Info: Redefining \nameref on input line 36.
 \openout4 = `main.out'.
 
  (./border.tex)
-<img/logo.png, id=208, 722.7pt x 722.7pt>
+<img/logo.png, id=224, 722.7pt x 722.7pt>
 File: img/logo.png Graphic file (type png)
 <use img/logo.png>
 Package pdftex.def Info: img/logo.png  used on input line 46.
@@ -806,7 +806,7 @@ Chapter 1.
 
 ]
 Chapter 2.
-<img/company-logo.png, id=352, 497.9403pt x 171.7617pt>
+<img/company-logo.png, id=372, 497.9403pt x 171.7617pt>
 File: img/company-logo.png Graphic file (type png)
 <use img/company-logo.png>
 Package pdftex.def Info: img/company-logo.png  used on input line 18.
@@ -815,7 +815,7 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 25
 (d:/texlive/2021/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<img/company.jpg, id=354, 968.61874pt x 547.04375pt>
+<img/company.jpg, id=374, 968.61874pt x 547.04375pt>
 File: img/company.jpg Graphic file (type jpg)
 <use img/company.jpg>
 Package pdftex.def Info: img/company.jpg  used on input line 31.
@@ -823,7 +823,7 @@ Package pdftex.def Info: img/company.jpg  used on input line 31.
  [9
 
  <./img/company-logo.png>] [10 <./img/company.jpg>] [11]
-<img/structure.jpg, id=373, 3513.125pt x 1798.72pt>
+<img/structure.jpg, id=393, 3513.125pt x 1798.72pt>
 File: img/structure.jpg Graphic file (type jpg)
 <use img/structure.jpg>
 Package pdftex.def Info: img/structure.jpg  used on input line 133.
@@ -833,19 +833,19 @@ Chapter 3.
 [15
 
 ] [16] [17] [18] [19] [20]
-<img/label.JPG, id=436, 2045.6425pt x 3514.12875pt>
+<img/label.JPG, id=457, 2045.6425pt x 3514.12875pt>
 File: img/label.JPG Graphic file (type jpg)
 <use img/label.JPG>
 Package pdftex.def Info: img/label.JPG  used on input line 263.
 (pdftex.def)             Requested size: 264.61333pt x 454.54707pt.
  [21] [22 <./img/label.JPG>]) (./Chap4/Chap4.tex [23]
 Chapter 4.
-<img/MPIC.png, id=456, 3230.0675pt x 403.5075pt>
+<img/MPIC.png, id=476, 3230.0675pt x 403.5075pt>
 File: img/MPIC.png Graphic file (type png)
 <use img/MPIC.png>
 Package pdftex.def Info: img/MPIC.png  used on input line 20.
 (pdftex.def)             Requested size: 264.61333pt x 33.05087pt.
-<img/simulator-support-system.png, id=457, 3995.92876pt x 2031.59pt>
+<img/simulator-support-system.png, id=477, 3995.92876pt x 2031.59pt>
 File: img/simulator-support-system.png Graphic file (type png)
 <use img/simulator-support-system.png>
 Package pdftex.def Info: img/simulator-support-system.png  used on input line 25.
@@ -853,120 +853,124 @@ Package pdftex.def Info: img/simulator-support-system.png  used on input line 25
 [24
 
  <./img/MPIC.png> <./img/simulator-support-system.png>]
-<img/UA.PNG, id=464, 484.81125pt x 219.82124pt>
+<img/UA.PNG, id=484, 484.81125pt x 219.82124pt>
 File: img/UA.PNG Graphic file (type png)
 <use img/UA.PNG>
 Package pdftex.def Info: img/UA.PNG  used on input line 46.
 (pdftex.def)             Requested size: 264.61333pt x 119.98634pt.
  [25 <./img/UA.PNG>]
-<img/ARINC_661_structure.png, id=470, 414.04688pt x 311.66437pt>
+<img/ARINC_661_structure.png, id=490, 414.04688pt x 311.66437pt>
 File: img/ARINC_661_structure.png Graphic file (type png)
 <use img/ARINC_661_structure.png>
 Package pdftex.def Info: img/ARINC_661_structure.png  used on input line 82.
 (pdftex.def)             Requested size: 264.61333pt x 199.18869pt.
  [26 <./img/ARINC_661_structure.png>]
-<img/SuperLayer.PNG, id=478, 545.03625pt x 435.87843pt>
+<img/SuperLayer.PNG, id=498, 545.03625pt x 435.87843pt>
 File: img/SuperLayer.PNG Graphic file (type png)
 <use img/SuperLayer.PNG>
 Package pdftex.def Info: img/SuperLayer.PNG  used on input line 114.
 (pdftex.def)             Requested size: 264.61333pt x 211.61362pt.
-<img/window-layer.PNG, id=479, 419.31656pt x 162.6075pt>
+<img/window-layer.PNG, id=499, 419.31656pt x 162.6075pt>
 File: img/window-layer.PNG Graphic file (type png)
 <use img/window-layer.PNG>
 Package pdftex.def Info: img/window-layer.PNG  used on input line 121.
 (pdftex.def)             Requested size: 264.61333pt x 102.61446pt.
  [27 <./img/SuperLayer.PNG> <./img/window-layer.PNG>]
-<img/Simulation.png, id=486, 3824.2875pt x 2113.8975pt>
+<img/Simulation.png, id=506, 3824.2875pt x 2113.8975pt>
 File: img/Simulation.png Graphic file (type png)
 <use img/Simulation.png>
 Package pdftex.def Info: img/Simulation.png  used on input line 134.
 (pdftex.def)             Requested size: 264.61333pt x 146.24615pt.
-<img/image.png, id=487, 2347.77126pt x 1586.92876pt>
+<img/image.png, id=507, 2347.77126pt x 1586.92876pt>
 File: img/image.png Graphic file (type png)
 <use img/image.png>
 Package pdftex.def Info: img/image.png  used on input line 140.
 (pdftex.def)             Requested size: 264.61333pt x 178.84868pt.
-<img/figure1.jpg, id=488, 1246.6575pt x 448.67625pt>
+<img/figure1.jpg, id=508, 1246.6575pt x 448.67625pt>
 File: img/figure1.jpg Graphic file (type jpg)
 <use img/figure1.jpg>
 Package pdftex.def Info: img/figure1.jpg  used on input line 151.
 (pdftex.def)             Requested size: 264.61333pt x 95.23119pt.
  [28 <./img/Simulation.png> <./img/image.png>]
-<img/figure2.jpg, id=495, 1246.6575pt x 836.12375pt>
+<img/figure2.jpg, id=515, 1246.6575pt x 836.12375pt>
 File: img/figure2.jpg Graphic file (type jpg)
 <use img/figure2.jpg>
 Package pdftex.def Info: img/figure2.jpg  used on input line 164.
 (pdftex.def)             Requested size: 264.61333pt x 177.46661pt.
-<img/require-component.png, id=496, 1702.86188pt x 1084.05pt>
+<img/require-component.png, id=516, 1702.86188pt x 1084.05pt>
 File: img/require-component.png Graphic file (type png)
 <use img/require-component.png>
 Package pdftex.def Info: img/require-component.png  used on input line 170.
 (pdftex.def)             Requested size: 264.61333pt x 168.43954pt.
-<img/Simulated-Display.png, id=497, 2347.77126pt x 1386.17876pt>
+<img/Simulated-Display.png, id=517, 2347.77126pt x 1386.17876pt>
 File: img/Simulated-Display.png Graphic file (type png)
 <use img/Simulated-Display.png>
 Package pdftex.def Info: img/Simulated-Display.png  used on input line 175.
 (pdftex.def)             Requested size: 264.61333pt x 156.22392pt.
  [29 <./img/figure1.jpg> <./img/figure2.jpg> <./img/require-component.png>]
-<img/network.png, id=503, 2347.77126pt x 1392.20125pt>
+<img/network.png, id=523, 2347.77126pt x 1392.20125pt>
 File: img/network.png Graphic file (type png)
 <use img/network.png>
 Package pdftex.def Info: img/network.png  used on input line 181.
 (pdftex.def)             Requested size: 264.61333pt x 156.90266pt.
-<img/Module-level.png, id=504, 2270.4825pt x 770.88pt>
+<img/Module-level.png, id=524, 2270.4825pt x 770.88pt>
 File: img/Module-level.png Graphic file (type png)
 <use img/Module-level.png>
 Package pdftex.def Info: img/Module-level.png  used on input line 193.
 (pdftex.def)             Requested size: 264.61333pt x 89.83148pt.
-<img/communication path.png, id=505, 3217.01875pt x 1402.23875pt>
+<img/communication path.png, id=525, 3217.01875pt x 1402.23875pt>
 File: img/communication path.png Graphic file (type png)
 <use img/communication path.png>
 Package pdftex.def Info: img/communication path.png  used on input line 202.
 (pdftex.def)             Requested size: 264.61333pt x 115.32666pt.
  [30 <./img/Module-level.png> <./img/Simulated-Display.png> <./img/network.png>]
-<img/flight-control.png, id=515, 2347.77126pt x 1586.92876pt>
+<img/flight-control.png, id=535, 2347.77126pt x 1586.92876pt>
 File: img/flight-control.png Graphic file (type png)
 <use img/flight-control.png>
 Package pdftex.def Info: img/flight-control.png  used on input line 208.
 (pdftex.def)             Requested size: 264.61333pt x 178.84868pt.
-<img/seat-option.png, id=516, 1525.95094pt x 1016.29688pt>
+<img/seat-option.png, id=536, 1525.95094pt x 1016.29688pt>
 File: img/seat-option.png Graphic file (type png)
 <use img/seat-option.png>
 Package pdftex.def Info: img/seat-option.png  used on input line 213.
 (pdftex.def)             Requested size: 264.61333pt x 176.22633pt.
  [31 <./img/communication path.png> <./img/flight-control.png> <./img/seat-option.png>]
-<img/PFD.PNG, id=524, 400.49625pt x 386.19281pt>
+<img/PFD.PNG, id=544, 400.49625pt x 386.19281pt>
 File: img/PFD.PNG Graphic file (type png)
 <use img/PFD.PNG>
 Package pdftex.def Info: img/PFD.PNG  used on input line 229.
 (pdftex.def)             Requested size: 264.61333pt x 255.17677pt.
-<img/Radio-page.PNG, id=525, 331.2375pt x 389.95688pt>
+<img/Radio-page.PNG, id=545, 331.2375pt x 389.95688pt>
 File: img/Radio-page.PNG Graphic file (type png)
 <use img/Radio-page.PNG>
 Package pdftex.def Info: img/Radio-page.PNG  used on input line 238.
 (pdftex.def)             Requested size: 264.61333pt x 311.53749pt.
-<img/Fuel.PNG, id=526, 420.82219pt x 232.61906pt>
+<img/Fuel.PNG, id=546, 420.82219pt x 232.61906pt>
 File: img/Fuel.PNG Graphic file (type png)
 <use img/Fuel.PNG>
 Package pdftex.def Info: img/Fuel.PNG  used on input line 243.
 (pdftex.def)             Requested size: 264.61333pt x 146.27391pt.
- [32 <./img/PFD.PNG>]) [33 <./img/Radio-page.PNG> <./img/Fuel.PNG>] (./main.aux)
+ [32 <./img/PFD.PNG>]) (./Chap5/Chap5.tex [33 <./img/Radio-page.PNG> <./img/Fuel.PNG>]
+Chapter 5.
+) [34
+
+] [35] [36] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 198FF6EFF9901868597FC497BADEDB80;9021.
+(rerunfilecheck)             Checksum: 6018F51C59483B4A8D96FB4FEAE1C905;9558.
  ) 
 Here is how much of TeX's memory you used:
- 23549 strings out of 478836
- 416469 string characters out of 5859622
- 726628 words of memory out of 5000000
- 40522 multiletter control sequences out of 15000+600000
+ 23575 strings out of 478836
+ 416817 string characters out of 5859622
+ 726767 words of memory out of 5000000
+ 40534 multiletter control sequences out of 15000+600000
  456369 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,13n,94p,516b,1142s stack positions out of 5000i,500n,10000p,200000b,80000s
 {d:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{d:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{d:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{d:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}<d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr12.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr8.pfb>
-Output written on main.pdf (34 pages, 20020606 bytes).
+Output written on main.pdf (37 pages, 20026307 bytes).
 PDF statistics:
- 603 PDF objects out of 1000 (max. 8388607)
- 510 compressed objects within 6 object streams
- 144 named destinations out of 1000 (max. 500000)
- 538 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 644 PDF objects out of 1000 (max. 8388607)
+ 548 compressed objects within 6 object streams
+ 154 named destinations out of 1000 (max. 500000)
+ 570 words of extra memory for PDF output out of 10000 (max. 10000000)
 
