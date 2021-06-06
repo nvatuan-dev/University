@@ -51,6 +51,7 @@
 \contentsline {subsection}{\numberline {4.3.3}Network Architecture}{30}{subsection.4.3.3}%
 \contentsline {subsubsection}{\numberline {4.3.3.1}Module Level}{30}{subsubsection.4.3.3.1}%
 \contentsline {subsection}{\numberline {4.3.4}Communication Paths}{30}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Simulator Power Distribution}{31}{subsection.4.3.5}%
 \contentsline {section}{\numberline {4.4}Generic CDS Testing}{31}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}PFD}{31}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.1}PFD}{32}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}Fuel and Radio Page}{32}{subsection.4.4.2}%
