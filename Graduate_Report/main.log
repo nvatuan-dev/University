@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.25)  18 JUN 2021 15:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.25)  18 JUN 2021 16:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -869,6 +869,11 @@ File: img/UA.PNG Graphic file (type png)
 Package pdftex.def Info: img/UA.PNG  used on input line 48.
 (pdftex.def)             Requested size: 264.61333pt x 119.98634pt.
 
+Overfull \hbox (6.40256pt too wide) in paragraph at lines 52--60
+\T1/lmr/bx/n/12 D\T1/lmr/m/n/12 isplay \T1/lmr/bx/n/12 S\T1/lmr/m/n/12 ystem (CDS), and the com-mu-ni-ca-tion be-tween the CDS and \T1/lmr/bx/n/12 U\T1/lmr/m/n/12 ser \T1/lmr/bx/n/12 A\T1/lmr/m/n/12 pplications
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 67--72
 
  []
@@ -982,7 +987,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  99i,13n,94p,516b,1142s stack positions out of 5000i,500n,10000p,200000b,80000s
 {d:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{d:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{d:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{d:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}<d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr12.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr8.pfb>
-Output written on main.pdf (37 pages, 20031058 bytes).
+Output written on main.pdf (37 pages, 20031097 bytes).
 PDF statistics:
  644 PDF objects out of 1000 (max. 8388607)
  548 compressed objects within 6 object streams
