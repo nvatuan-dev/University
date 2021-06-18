@@ -57,7 +57,7 @@
 \contentsline {subsection}{\numberline {2.8.1}Introduction}{41}{subsection.2.8.1}%
 \contentsline {subsection}{\numberline {2.8.2}Raspberry Pi 3B+}{42}{subsection.2.8.2}%
 \contentsline {subsection}{\numberline {2.8.3}Operation System for Raspberry}{44}{subsection.2.8.3}%
-\contentsline {section}{\numberline {2.9}Camera Pi}{46}{section.2.9}%
+\contentsline {section}{\numberline {2.9}Camera Pi}{45}{section.2.9}%
 \contentsline {chapter}{\numberline {3}INFERENCE}{47}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Block Diagram}{47}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Flowchart}{48}{section.3.2}%

@@ -31,12 +31,12 @@
 \contentsline {figure}{\numberline {2.28}{\ignorespaces Deriving the $n$-dimensional Euclidean distance formula by repeatedly applying the Pythagorean theorem}}{37}{figure.2.28}%
 \contentsline {figure}{\numberline {2.29}{\ignorespaces OpenCV logo}}{38}{figure.2.29}%
 \contentsline {figure}{\numberline {2.30}{\ignorespaces OpenFrameworks running the OpenCV add-on example}}{39}{figure.2.30}%
-\contentsline {figure}{\numberline {2.31}{\ignorespaces Dlib and OpenCV library}}{41}{figure.2.31}%
-\contentsline {figure}{\numberline {2.32}{\ignorespaces Raspberry Pi 3B+}}{44}{figure.2.32}%
+\contentsline {figure}{\numberline {2.31}{\ignorespaces Dlib and OpenCV library}}{40}{figure.2.31}%
+\contentsline {figure}{\numberline {2.32}{\ignorespaces Raspberry Pi 3B+}}{43}{figure.2.32}%
 \contentsline {figure}{\numberline {2.33}{\ignorespaces Pinout of Raspberry Pi 3B+}}{44}{figure.2.33}%
-\contentsline {figure}{\numberline {2.34}{\ignorespaces Raspbian OS desktop}}{45}{figure.2.34}%
+\contentsline {figure}{\numberline {2.34}{\ignorespaces Raspbian OS desktop}}{44}{figure.2.34}%
 \contentsline {figure}{\numberline {2.35}{\ignorespaces Ubuntu-Mate OS desktop}}{45}{figure.2.35}%
-\contentsline {figure}{\numberline {2.36}{\ignorespaces Snappy Core Ubuntu OS desktop}}{46}{figure.2.36}%
+\contentsline {figure}{\numberline {2.36}{\ignorespaces Snappy Core Ubuntu OS desktop}}{45}{figure.2.36}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Block diagram of system}}{47}{figure.3.1}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Device diagram of system}}{47}{figure.3.2}%
