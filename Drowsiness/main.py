@@ -11,9 +11,10 @@ import os
 import cv2
 
 #setup sound file and turn it on
-wav_path = "/Drowsiness/alarm.wav"
+wav_path = "/home/pi/Documents/University/Drowsiness/alarm.wav"
+
 def play_sound(path):
-    os.system('play' + path)
+    os.system('aplay' + path)
 
 #Compute the distance between 2 point A and B
 def e_dist(pA, pB):
