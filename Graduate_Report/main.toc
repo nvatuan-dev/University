@@ -21,6 +21,7 @@
 \contentsline {subsection}{\numberline {2.4.4}Technical Department}{13}{subsection.2.4.4}%
 \contentsline {subsection}{\numberline {2.4.5}Sales And Customer Care Department}{13}{subsection.2.4.5}%
 \contentsline {section}{\numberline {2.5}Performance results 2019 - 2020}{14}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Job Description At The Internship Company}{14}{section.2.6}%
 \contentsline {chapter}{\numberline {3}QUALITY MANAGEMENT}{15}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Simulator Maintenance}{15}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Scheduled Maintenance}{15}{subsection.3.1.1}%
