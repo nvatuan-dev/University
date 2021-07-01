@@ -1,62 +1,62 @@
 \babel@toc {english}{}
-\contentsline {chapter}{\numberline {1}OVERVIEW ABOUT PROJECT}{8}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Reasons For Choosing The Topic}{8}{section.1.1}%
-\contentsline {section}{\numberline {1.2}The Target of Research}{8}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Research Methods}{8}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Research Scope}{8}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}In Term of Time}{8}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}In Term of Space}{8}{subsection.1.4.2}%
-\contentsline {chapter}{\numberline {2}BAA TRAINING VIETNAM DESCRIPTION AND STRUCTURE}{9}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Registration and address}{9}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Field Of Activities}{10}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Premises}{10}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Building In}{11}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Training Equipment}{11}{subsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.2.1}Flight Simulation Training Devices}{11}{subsubsection.2.3.2.1}%
-\contentsline {subsection}{\numberline {2.3.3}Other Training Devices}{12}{subsection.2.3.3}%
-\contentsline {section}{\numberline {2.4}Approved Training Organization (ATO) Organizational Structure}{12}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Managing Director}{13}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Quality Assurance Department}{13}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Training Department}{13}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Technical Department}{13}{subsection.2.4.4}%
-\contentsline {subsection}{\numberline {2.4.5}Sales And Customer Care Department}{13}{subsection.2.4.5}%
-\contentsline {section}{\numberline {2.5}Performance results 2019 - 2020}{14}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Job Description At The Internship Company}{14}{section.2.6}%
-\contentsline {chapter}{\numberline {3}QUALITY MANAGEMENT}{15}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Simulator Maintenance}{15}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Scheduled Maintenance}{15}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Unschedule Maintenance}{17}{subsection.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.2.1}Defect Reporting System}{17}{subsubsection.3.1.2.1}%
-\contentsline {subsubsection}{\numberline {3.1.2.2}Defect Rectification Process}{18}{subsubsection.3.1.2.2}%
-\contentsline {section}{\numberline {3.2}Parts Management}{19}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Spare Parts Management}{19}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Component Removal - Installation}{20}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Repairable Components}{20}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Unserviceable Components}{21}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Equipment Quality Check}{23}{subsection.3.2.5}%
-\contentsline {chapter}{\numberline {4}INTRODUCTION ABOUT MPIC SYSTEM}{24}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Simulation Interface Concept}{24}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}What is an interface module?}{24}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}MPIC Interface System Overview Software Module}{24}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Interface System Architecture}{24}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Architecture Overview}{24}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}What Is ARINC 661?}{25}{subsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.2.1}GUI Structure}{26}{subsubsection.4.2.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2.2}GUI Definition}{26}{subsubsection.4.2.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}User Application}{26}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Cockpit Display System}{27}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5}Window Manager}{28}{subsection.4.2.5}%
-\contentsline {section}{\numberline {4.3}Interface panels power and requirements}{28}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Simulation Interfacing Concepts}{28}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Major Components}{29}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Network Architecture}{30}{subsection.4.3.3}%
-\contentsline {subsubsection}{\numberline {4.3.3.1}Module Level}{30}{subsubsection.4.3.3.1}%
-\contentsline {subsection}{\numberline {4.3.4}Communication Paths}{30}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}Simulator Power Distribution}{31}{subsection.4.3.5}%
-\contentsline {section}{\numberline {4.4}Generic CDS Testing}{31}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}PFD}{32}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Fuel and Radio Page}{32}{subsection.4.4.2}%
-\contentsline {chapter}{\numberline {5}CONCLUSION}{34}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Results}{34}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Things That Have Not Been Done}{34}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Lessons Learned}{35}{section.5.3}%
+\contentsline {chapter}{\numberline {1}OVERVIEW ABOUT PROJECT}{10}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Reasons For Choosing The Topic}{10}{section.1.1}%
+\contentsline {section}{\numberline {1.2}The Target of Research}{10}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Research Methods}{10}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Research Scope}{10}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}In Term of Time}{10}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}In Term of Space}{10}{subsection.1.4.2}%
+\contentsline {chapter}{\numberline {2}BAA TRAINING VIETNAM DESCRIPTION AND STRUCTURE}{11}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Registration and address}{11}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Field Of Activities}{12}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Premises}{12}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Building In}{13}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Training Equipment}{13}{subsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.2.1}Flight Simulation Training Devices}{13}{subsubsection.2.3.2.1}%
+\contentsline {subsection}{\numberline {2.3.3}Other Training Devices}{14}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Approved Training Organization (ATO) Organizational Structure}{14}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Managing Director}{15}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Quality Assurance Department}{15}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Training Department}{15}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Technical Department}{15}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Sales And Customer Care Department}{15}{subsection.2.4.5}%
+\contentsline {section}{\numberline {2.5}Performance results 2019 - 2020}{16}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Job Description At The Internship Company}{16}{section.2.6}%
+\contentsline {chapter}{\numberline {3}QUALITY MANAGEMENT}{17}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Simulator Maintenance}{17}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Scheduled Maintenance}{17}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Unschedule Maintenance}{19}{subsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}Defect Reporting System}{19}{subsubsection.3.1.2.1}%
+\contentsline {subsubsection}{\numberline {3.1.2.2}Defect Rectification Process}{20}{subsubsection.3.1.2.2}%
+\contentsline {section}{\numberline {3.2}Parts Management}{21}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Spare Parts Management}{21}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Component Removal - Installation}{22}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Repairable Components}{22}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Unserviceable Components}{23}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Equipment Quality Check}{25}{subsection.3.2.5}%
+\contentsline {chapter}{\numberline {4}INTRODUCTION ABOUT MPIC SYSTEM}{26}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Simulation Interface Concept}{26}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}What is an interface module?}{26}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}MPIC Interface System Overview Software Module}{26}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Interface System Architecture}{26}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Architecture Overview}{26}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}What Is ARINC 661?}{27}{subsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.1}GUI Structure}{28}{subsubsection.4.2.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2.2}GUI Definition}{28}{subsubsection.4.2.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}User Application}{28}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Cockpit Display System}{29}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Window Manager}{30}{subsection.4.2.5}%
+\contentsline {section}{\numberline {4.3}Interface panels power and requirements}{30}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Simulation Interfacing Concepts}{30}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Major Components}{31}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Network Architecture}{32}{subsection.4.3.3}%
+\contentsline {subsubsection}{\numberline {4.3.3.1}Module Level}{32}{subsubsection.4.3.3.1}%
+\contentsline {subsection}{\numberline {4.3.4}Communication Paths}{32}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Simulator Power Distribution}{33}{subsection.4.3.5}%
+\contentsline {section}{\numberline {4.4}Generic CDS Testing}{33}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}PFD}{34}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Fuel and Radio Page}{34}{subsection.4.4.2}%
+\contentsline {chapter}{\numberline {5}CONCLUSION}{36}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Results}{36}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Things That Have Not Been Done}{36}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Lessons Learned}{37}{section.5.3}%
