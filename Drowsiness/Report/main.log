@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.3)  3 JUL 2021 18:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.3)  6 JUL 2021 22:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -735,7 +735,7 @@ LaTeX Info: Redefining \nameref on input line 35.
 \openout4 = `main.out'.
 
  (./border.tex)
-<img/logo.png, id=248, 722.7pt x 722.7pt>
+<img/logo.png, id=252, 722.7pt x 722.7pt>
 File: img/logo.png Graphic file (type png)
 <use img/logo.png>
 Package pdftex.def Info: img/logo.png  used on input line 45.
@@ -795,7 +795,7 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 ]) (./Chapter-2/Chap2.tex [11]
 Chapter 2.
-<img/IP.jpg, id=492, 642.4pt x 356.33125pt>
+<img/IP.jpg, id=499, 642.4pt x 356.33125pt>
 File: img/IP.jpg Graphic file (type jpg)
 <use img/IP.jpg>
 Package pdftex.def Info: img/IP.jpg  used on input line 37.
@@ -803,25 +803,25 @@ Package pdftex.def Info: img/IP.jpg  used on input line 37.
 [12
 
  <./img/IP.jpg>] [13]
-<img/Pixel-example.png, id=511, 134.4222pt x 63.23625pt>
+<img/Pixel-example.png, id=518, 134.4222pt x 63.23625pt>
 File: img/Pixel-example.png Graphic file (type png)
 <use img/Pixel-example.png>
 Package pdftex.def Info: img/Pixel-example.png  used on input line 94.
 (pdftex.def)             Requested size: 273.14923pt x 128.51198pt.
  [14]
-<img/gray-scale.png, id=521, 626.34pt x 328.97906pt>
+<img/gray-scale.png, id=528, 626.34pt x 328.97906pt>
 File: img/gray-scale.png Graphic file (type png)
 <use img/gray-scale.png>
 Package pdftex.def Info: img/gray-scale.png  used on input line 105.
 (pdftex.def)             Requested size: 273.14923pt x 143.47118pt.
  [15 <./img/Pixel-example.png> <./img/gray-scale.png>]
-<img/RGB.png, id=529, 1027.84pt x 1027.84pt>
+<img/RGB.png, id=536, 1027.84pt x 1027.84pt>
 File: img/RGB.png Graphic file (type png)
 <use img/RGB.png>
 Package pdftex.def Info: img/RGB.png  used on input line 143.
 (pdftex.def)             Requested size: 273.14923pt x 273.14479pt.
  [16]
-<img/primary-color.png, id=536, 1027.84pt x 1136.245pt>
+<img/primary-color.png, id=543, 1027.84pt x 1136.245pt>
 File: img/primary-color.png Graphic file (type png)
 <use img/primary-color.png>
 Package pdftex.def Info: img/primary-color.png  used on input line 155.
@@ -831,134 +831,134 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 16
  (d:/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<img/Drowsiness.png, id=542, 3559.2975pt x 1354.05875pt>
+<img/Drowsiness.png, id=549, 3559.2975pt x 1354.05875pt>
 File: img/Drowsiness.png Graphic file (type png)
 <use img/Drowsiness.png>
 Package pdftex.def Info: img/Drowsiness.png  used on input line 174.
 (pdftex.def)             Requested size: 273.14923pt x 103.9054pt.
  [18 <./img/primary-color.png>]
-<img/face-recognition.jpg, id=552, 766.36313pt x 173.89969pt>
+<img/face-recognition.jpg, id=559, 766.36313pt x 173.89969pt>
 File: img/face-recognition.jpg Graphic file (type jpg)
 <use img/face-recognition.jpg>
 Package pdftex.def Info: img/face-recognition.jpg  used on input line 197.
 (pdftex.def)             Requested size: 273.14923pt x 61.98291pt.
  [19 <./img/Drowsiness.png> <./img/face-recognition.jpg>]
-<img/opencv.jpg, id=558, 770.88pt x 500.87125pt>
+<img/opencv.jpg, id=565, 770.88pt x 500.87125pt>
 File: img/opencv.jpg Graphic file (type jpg)
 <use img/opencv.jpg>
 Package pdftex.def Info: img/opencv.jpg  used on input line 219.
 (pdftex.def)             Requested size: 273.14923pt x 177.47043pt.
-<img/pyimgsearch.png, id=559, 602.25pt x 250.9375pt>
+<img/pyimgsearch.png, id=566, 602.25pt x 250.9375pt>
 File: img/pyimgsearch.png Graphic file (type png)
 <use img/pyimgsearch.png>
 Package pdftex.def Info: img/pyimgsearch.png  used on input line 230.
 (pdftex.def)             Requested size: 273.14923pt x 113.8168pt.
  [20 <./img/opencv.jpg>]
-<img/HOG-feature.jpg, id=564, 340.27126pt x 383.93437pt>
+<img/HOG-feature.jpg, id=571, 340.27126pt x 383.93437pt>
 File: img/HOG-feature.jpg Graphic file (type jpg)
 <use img/HOG-feature.jpg>
 Package pdftex.def Info: img/HOG-feature.jpg  used on input line 269.
 (pdftex.def)             Requested size: 273.14923pt x 308.21413pt.
  [21 <./img/pyimgsearch.png>] [22 <./img/HOG-feature.jpg>]
-<img/sliding_window_example.jpg, id=578, 716.6775pt x 588.1975pt>
+<img/sliding_window_example.jpg, id=585, 716.6775pt x 588.1975pt>
 File: img/sliding_window_example.jpg Graphic file (type jpg)
 <use img/sliding_window_example.jpg>
 Package pdftex.def Info: img/sliding_window_example.jpg  used on input line 291.
 (pdftex.def)             Requested size: 273.14923pt x 224.18153pt.
-<img/multiple-overlapping.jpg, id=579, 810.02625pt x 574.145pt>
+<img/multiple-overlapping.jpg, id=586, 810.02625pt x 574.145pt>
 File: img/multiple-overlapping.jpg Graphic file (type jpg)
 <use img/multiple-overlapping.jpg>
 Package pdftex.def Info: img/multiple-overlapping.jpg  used on input line 308.
 (pdftex.def)             Requested size: 273.14923pt x 193.61226pt.
  [23 <./img/sliding_window_example.jpg>]
-<img/haar_features.jpg, id=585, 321.2pt x 272.01625pt>
+<img/haar_features.jpg, id=592, 321.2pt x 272.01625pt>
 File: img/haar_features.jpg Graphic file (type jpg)
 <use img/haar_features.jpg>
 Package pdftex.def Info: img/haar_features.jpg  used on input line 321.
 (pdftex.def)             Requested size: 273.14923pt x 231.33112pt.
-<img/feature_center.png, id=586, 213.79875pt x 100.12407pt>
+<img/feature_center.png, id=593, 213.79875pt x 100.12407pt>
 File: img/feature_center.png Graphic file (type png)
 <use img/feature_center.png>
 Package pdftex.def Info: img/feature_center.png  used on input line 326.
 (pdftex.def)             Requested size: 273.14923pt x 127.92766pt.
  [24 <./img/multiple-overlapping.jpg>]
-<img/example_integral.png, id=593, 432.61626pt x 221.82875pt>
+<img/example_integral.png, id=600, 432.61626pt x 221.82875pt>
 File: img/example_integral.png Graphic file (type png)
 <use img/example_integral.png>
 Package pdftex.def Info: img/example_integral.png  used on input line 343.
 (pdftex.def)             Requested size: 273.14923pt x 140.06424pt.
  [25 <./img/haar_features.jpg> <./img/feature_center.png>]
-<img/corners_corresponding.png, id=604, 1020.81375pt x 473.77pt>
+<img/corners_corresponding.png, id=611, 1020.81375pt x 473.77pt>
 File: img/corners_corresponding.png Graphic file (type png)
 <use img/corners_corresponding.png>
 Package pdftex.def Info: img/corners_corresponding.png  used on input line 359.
 (pdftex.def)             Requested size: 273.14923pt x 126.77017pt.
-<img/Emma.png, id=605, 514.92375pt x 566.115pt>
+<img/Emma.png, id=612, 514.92375pt x 566.115pt>
 File: img/Emma.png Graphic file (type png)
 <use img/Emma.png>
 Package pdftex.def Info: img/Emma.png  used on input line 373.
 (pdftex.def)             Requested size: 273.14923pt x 300.3073pt.
  [26 <./img/example_integral.png> <./img/corners_corresponding.png>]
-<img/real_pixel.png, id=614, 189.70876pt x 207.77625pt>
+<img/real_pixel.png, id=621, 189.70876pt x 207.77625pt>
 File: img/real_pixel.png Graphic file (type png)
 <use img/real_pixel.png>
 Package pdftex.def Info: img/real_pixel.png  used on input line 379.
 (pdftex.def)             Requested size: 273.14923pt x 299.19438pt.
  [27 <./img/Emma.png (PNG copy)>] [28 <./img/real_pixel.png (PNG copy)>]
-<img/Ensemble.png, id=623, 814.04124pt x 292.09125pt>
+<img/Ensemble.png, id=630, 814.04124pt x 292.09125pt>
 File: img/Ensemble.png Graphic file (type png)
 <use img/Ensemble.png>
 Package pdftex.def Info: img/Ensemble.png  used on input line 416.
 (pdftex.def)             Requested size: 273.14923pt x 98.00827pt.
  [29 <./img/Ensemble.png (PNG copy)>]
-<img/stacking.png, id=630, 785.93625pt x 412.54124pt>
+<img/stacking.png, id=638, 785.93625pt x 412.54124pt>
 File: img/stacking.png Graphic file (type png)
 <use img/stacking.png>
 Package pdftex.def Info: img/stacking.png  used on input line 433.
 (pdftex.def)             Requested size: 273.14923pt x 143.37811pt.
  [30 <./img/stacking.png>]
-<img/Adaboost work.png, id=643, 467.7475pt x 302.12875pt>
+<img/Adaboost work.png, id=650, 467.7475pt x 302.12875pt>
 File: img/Adaboost work.png Graphic file (type png)
 <use img/Adaboost work.png>
 Package pdftex.def Info: img/Adaboost work.png  used on input line 458.
 (pdftex.def)             Requested size: 273.14923pt x 176.44264pt.
-<img/Haar-Cascade.png, id=644, 7474.92625pt x 3969.83125pt>
+<img/Haar-Cascade.png, id=651, 7474.92625pt x 3969.83125pt>
 File: img/Haar-Cascade.png Graphic file (type png)
 <use img/Haar-Cascade.png>
 Package pdftex.def Info: img/Haar-Cascade.png  used on input line 483.
 (pdftex.def)             Requested size: 273.14923pt x 145.01575pt.
  [31 <./img/Adaboost work.png (PNG copy)>]
-<img/eye.png, id=658, 437.635pt x 296.10625pt>
+<img/eye.png, id=665, 437.635pt x 296.10625pt>
 File: img/eye.png Graphic file (type png)
 <use img/eye.png>
 Package pdftex.def Info: img/eye.png  used on input line 506.
 (pdftex.def)             Requested size: 273.14923pt x 184.81744pt.
  [32 <./img/Haar-Cascade.png>]
-<img/visualization.png, id=669, 602.25pt x 355.3275pt>
+<img/visualization.png, id=676, 602.25pt x 355.3275pt>
 File: img/visualization.png Graphic file (type png)
 <use img/visualization.png>
 Package pdftex.def Info: img/visualization.png  used on input line 524.
 (pdftex.def)             Requested size: 273.14923pt x 161.1646pt.
  [33 <./img/eye.png (PNG copy)> <./img/visualization.png (PNG copy)>]
-<img/facial.png, id=676, 580.1675pt x 577.15625pt>
+<img/facial.png, id=683, 580.1675pt x 577.15625pt>
 File: img/facial.png Graphic file (type png)
 <use img/facial.png>
 Package pdftex.def Info: img/facial.png  used on input line 538.
 (pdftex.def)             Requested size: 273.14923pt x 271.73022pt.
  [34 <./img/facial.png (PNG copy)>]
-<img/landmark.png, id=682, 770.88pt x 621.32124pt>
+<img/landmark.png, id=689, 770.88pt x 621.32124pt>
 File: img/landmark.png Graphic file (type png)
 <use img/landmark.png>
 Package pdftex.def Info: img/landmark.png  used on input line 574.
 (pdftex.def)             Requested size: 273.14923pt x 220.1487pt.
  [35 <./img/landmark.png (PNG copy)>]
-<img/pythagorean.png, id=695, 301.125pt x 207.77625pt>
+<img/pythagorean.png, id=702, 301.125pt x 207.77625pt>
 File: img/pythagorean.png Graphic file (type png)
 <use img/pythagorean.png>
 Package pdftex.def Info: img/pythagorean.png  used on input line 591.
 (pdftex.def)             Requested size: 273.14923pt x 188.49014pt.
  [36 <./img/pythagorean.png>]
-<img/dimensional.png, id=705, 31.317pt x 25.5354pt>
+<img/dimensional.png, id=712, 31.317pt x 25.5354pt>
 File: img/dimensional.png Graphic file (type png)
 <use img/dimensional.png>
 Package pdftex.def Info: img/dimensional.png  used on input line 632.
@@ -970,30 +970,30 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 633.
  [37]
-<img/opencv.png, id=717, 180.675pt x 222.8325pt>
+<img/opencv.png, id=724, 180.675pt x 222.8325pt>
 File: img/opencv.png Graphic file (type png)
 <use img/opencv.png>
 Package pdftex.def Info: img/opencv.png  used on input line 644.
 (pdftex.def)             Requested size: 273.14923pt x 336.91704pt.
  [38 <./img/dimensional.png>] [39 <./img/opencv.png>]
-<img/openframework.png, id=729, 220.825pt x 246.9225pt>
+<img/openframework.png, id=736, 220.825pt x 246.9225pt>
 File: img/openframework.png Graphic file (type png)
 <use img/openframework.png>
 Package pdftex.def Info: img/openframework.png  used on input line 679.
 (pdftex.def)             Requested size: 273.14923pt x 305.446pt.
  [40 <./img/openframework.png>]
-<img/dlib+opencv.png, id=734, 494.84875pt x 180.675pt>
+<img/dlib+opencv.png, id=741, 494.84875pt x 180.675pt>
 File: img/dlib+opencv.png Graphic file (type png)
 <use img/dlib+opencv.png>
 Package pdftex.def Info: img/dlib+opencv.png  used on input line 717.
 (pdftex.def)             Requested size: 273.14923pt x 99.72993pt.
  [41 <./img/dlib+opencv.png>] [42] [43]
-<img/Raspberry.jpg, id=761, 1505.625pt x 1505.625pt>
+<img/Raspberry.jpg, id=768, 1505.625pt x 1505.625pt>
 File: img/Raspberry.jpg Graphic file (type jpg)
 <use img/Raspberry.jpg>
 Package pdftex.def Info: img/Raspberry.jpg  used on input line 807.
 (pdftex.def)             Requested size: 273.14923pt x 273.13739pt.
-<img/GPIO-Pinout-Diagram.png, id=762, 2071.74pt x 1189.44376pt>
+<img/GPIO-Pinout-Diagram.png, id=769, 2071.74pt x 1189.44376pt>
 File: img/GPIO-Pinout-Diagram.png Graphic file (type png)
 <use img/GPIO-Pinout-Diagram.png>
 Package pdftex.def Info: img/GPIO-Pinout-Diagram.png  used on input line 812.
@@ -1003,166 +1003,172 @@ Underfull \hbox (badness 10000) in paragraph at lines 816--819
 
  []
 
-<img/Raspbian.jpg, id=767, 1204.5pt x 677.53125pt>
+<img/Raspbian.jpg, id=774, 1204.5pt x 677.53125pt>
 File: img/Raspbian.jpg Graphic file (type jpg)
 <use img/Raspbian.jpg>
 Package pdftex.def Info: img/Raspbian.jpg  used on input line 824.
 (pdftex.def)             Requested size: 273.14923pt x 153.64752pt.
-<img/Ubuntu-mate.png, id=768, 1204.5pt x 677.53125pt>
+<img/Ubuntu-mate.png, id=775, 1204.5pt x 677.53125pt>
 File: img/Ubuntu-mate.png Graphic file (type png)
 <use img/Ubuntu-mate.png>
 Package pdftex.def Info: img/Ubuntu-mate.png  used on input line 831.
 (pdftex.def)             Requested size: 273.14923pt x 153.64752pt.
 [45 <./img/GPIO-Pinout-Diagram.png (PNG copy)> <./img/Raspbian.jpg>]
-<img/snappy.jpg, id=775, 1164.35pt x 636.3775pt>
+<img/snappy.jpg, id=782, 1164.35pt x 636.3775pt>
 File: img/snappy.jpg Graphic file (type jpg)
 <use img/snappy.jpg>
 Package pdftex.def Info: img/snappy.jpg  used on input line 838.
 (pdftex.def)             Requested size: 273.14923pt x 149.28654pt.
  [46 <./img/Ubuntu-mate.png (PNG copy)> <./img/snappy.jpg>]) (./Chapter-3/Chap3.tex [47]
 Chapter 3.
-<img/block-diagram.png, id=785, 11903.47125pt x 3861.42625pt>
+<img/pipeline.png, id=792, 820.06375pt x 201.75375pt>
+File: img/pipeline.png Graphic file (type png)
+<use img/pipeline.png>
+Package pdftex.def Info: img/pipeline.png  used on input line 19.
+(pdftex.def)             Requested size: 273.14923pt x 67.20079pt.
+<img/block-diagram.png, id=793, 11903.47125pt x 3861.42625pt>
 File: img/block-diagram.png Graphic file (type png)
 <use img/block-diagram.png>
-Package pdftex.def Info: img/block-diagram.png  used on input line 19.
+Package pdftex.def Info: img/block-diagram.png  used on input line 26.
 (pdftex.def)             Requested size: 273.14923pt x 88.55757pt.
-<img/Device-diagram.png, id=786, 859.21pt x 483.8075pt>
+<img/Device-diagram.png, id=794, 859.21pt x 483.8075pt>
 File: img/Device-diagram.png Graphic file (type png)
 <use img/Device-diagram.png>
-Package pdftex.def Info: img/Device-diagram.png  used on input line 24.
+Package pdftex.def Info: img/Device-diagram.png  used on input line 31.
 (pdftex.def)             Requested size: 273.14923pt x 153.8028pt.
-<img/Flowchart.png, id=787, 15822.11125pt x 6101.79625pt>
+<img/Flowchart.png, id=795, 15822.11125pt x 6101.79625pt>
 File: img/Flowchart.png Graphic file (type png)
 <use img/Flowchart.png>
-Package pdftex.def Info: img/Flowchart.png  used on input line 31.
+Package pdftex.def Info: img/Flowchart.png  used on input line 38.
 (pdftex.def)             Requested size: 273.14923pt x 105.30264pt.
 [48
 
- <./img/block-diagram.png> <./img/Device-diagram.png>]
-<img/1.JPG, id=795, 470.75874pt x 712.6625pt>
+ <./img/pipeline.png> <./img/block-diagram.png> <./img/Device-diagram.png>]
+<img/1.JPG, id=804, 470.75874pt x 712.6625pt>
 File: img/1.JPG Graphic file (type jpg)
 <use img/1.JPG>
-Package pdftex.def Info: img/1.JPG  used on input line 44.
+Package pdftex.def Info: img/1.JPG  used on input line 51.
 (pdftex.def)             Requested size: 273.14923pt x 413.50766pt.
  [49 <./img/Flowchart.png>]
-<img/pre-processing.png, id=801, 8164.5025pt x 3575.3575pt>
+<img/pre-processing.png, id=810, 8164.5025pt x 3575.3575pt>
 File: img/pre-processing.png Graphic file (type png)
 <use img/pre-processing.png>
-Package pdftex.def Info: img/pre-processing.png  used on input line 51.
+Package pdftex.def Info: img/pre-processing.png  used on input line 58.
 (pdftex.def)             Requested size: 273.14923pt x 119.58563pt.
-<img/Grayscale.png, id=802, 353.06906pt x 534.49687pt>
+<img/Grayscale.png, id=811, 353.06906pt x 534.49687pt>
 File: img/Grayscale.png Graphic file (type png)
 <use img/Grayscale.png>
-Package pdftex.def Info: img/Grayscale.png  used on input line 58.
+Package pdftex.def Info: img/Grayscale.png  used on input line 65.
 (pdftex.def)             Requested size: 273.14923pt x 413.51308pt.
  [50 <./img/1.JPG> <./img/pre-processing.png>]
-<img/Haar.png, id=808, 12289.915pt x 1135.24126pt>
+<img/Haar.png, id=817, 12289.915pt x 1135.24126pt>
 File: img/Haar.png Graphic file (type png)
 <use img/Haar.png>
-Package pdftex.def Info: img/Haar.png  used on input line 65.
+Package pdftex.def Info: img/Haar.png  used on input line 72.
 (pdftex.def)             Requested size: 273.14923pt x 25.22136pt.
-<img/Faces found.png, id=809, 941.5175pt x 712.6625pt>
+<img/Faces found.png, id=818, 941.5175pt x 712.6625pt>
 File: img/Faces found.png Graphic file (type png)
 <use img/Faces found.png>
-Package pdftex.def Info: img/Faces found.png  used on input line 74.
+Package pdftex.def Info: img/Faces found.png  used on input line 81.
 (pdftex.def)             Requested size: 273.14923pt x 206.75383pt.
  [51 <./img/Grayscale.png (PNG copy)> <./img/Haar.png>]
-<img/Figma.png, id=815, 12289.915pt x 1135.24126pt>
+<img/Figma.png, id=824, 12289.915pt x 1135.24126pt>
 File: img/Figma.png Graphic file (type png)
 <use img/Figma.png>
-Package pdftex.def Info: img/Figma.png  used on input line 81.
+Package pdftex.def Info: img/Figma.png  used on input line 88.
 (pdftex.def)             Requested size: 273.14923pt x 25.22136pt.
-<img/testing.png, id=816, 470.75874pt x 712.6625pt>
+<img/testing.png, id=825, 470.75874pt x 712.6625pt>
 File: img/testing.png Graphic file (type png)
 <use img/testing.png>
-Package pdftex.def Info: img/testing.png  used on input line 88.
+Package pdftex.def Info: img/testing.png  used on input line 95.
 (pdftex.def)             Requested size: 273.14923pt x 413.50766pt.
  [52 <./img/Faces found.png> <./img/Figma.png>]
-<img/eye-ratio.jpg, id=823, 493.3632pt x 150.3216pt>
+<img/eye-ratio.jpg, id=832, 493.3632pt x 150.3216pt>
 File: img/eye-ratio.jpg Graphic file (type jpg)
 <use img/eye-ratio.jpg>
-Package pdftex.def Info: img/eye-ratio.jpg  used on input line 100.
+Package pdftex.def Info: img/eye-ratio.jpg  used on input line 107.
 (pdftex.def)             Requested size: 273.14923pt x 83.22762pt.
  [53 <./img/testing.png> <./img/eye-ratio.jpg>]
-<img/calculate.png, id=829, 602.25pt x 355.3275pt>
+<img/calculate.png, id=838, 602.25pt x 355.3275pt>
 File: img/calculate.png Graphic file (type png)
 <use img/calculate.png>
-Package pdftex.def Info: img/calculate.png  used on input line 116.
+Package pdftex.def Info: img/calculate.png  used on input line 123.
 (pdftex.def)             Requested size: 273.14923pt x 161.1646pt.
-<img/eye-avg-ratio.png, id=830, 901.3675pt x 666.49pt>
+<img/eye-avg-ratio.png, id=839, 901.3675pt x 666.49pt>
 File: img/eye-avg-ratio.png Graphic file (type png)
 <use img/eye-avg-ratio.png>
-Package pdftex.def Info: img/eye-avg-ratio.png  used on input line 135.
+Package pdftex.def Info: img/eye-avg-ratio.png  used on input line 142.
 (pdftex.def)             Requested size: 273.14923pt x 201.97234pt.
 ) [54 <./img/calculate.png (PNG copy)>] (./Chapter-4/Chap4.tex [55 <./img/eye-avg-ratio.png>]
 Chapter 4.
-<img/Hardware.png, id=842, 3035.34pt x 4047.12pt>
+<img/Hardware.png, id=851, 3035.34pt x 4047.12pt>
 File: img/Hardware.png Graphic file (type png)
 <use img/Hardware.png>
 Package pdftex.def Info: img/Hardware.png  used on input line 19.
 (pdftex.def)             Requested size: 273.14923pt x 364.16333pt.
-<img/run.png, id=843, 1927.2pt x 1084.05pt>
+<img/run.png, id=852, 1927.2pt x 1084.05pt>
 File: img/run.png Graphic file (type png)
 <use img/run.png>
 Package pdftex.def Info: img/run.png  used on input line 25.
 (pdftex.def)             Requested size: 364.19667pt x 204.84683pt.
-<img/result.png, id=844, 1927.2pt x 1084.05pt>
-File: img/result.png Graphic file (type png)
-<use img/result.png>
-Package pdftex.def Info: img/result.png  used on input line 30.
-(pdftex.def)             Requested size: 364.19667pt x 204.84683pt.
 [56
 
- <./img/Hardware.png>]) (./Chapter-5/Chap5.tex [57 <./img/run.png> <./img/result.png>]
+ <./img/Hardware.png>]
+<img/result.png, id=858, 1927.2pt x 1084.05pt>
+File: img/result.png Graphic file (type png)
+<use img/result.png>
+Package pdftex.def Info: img/result.png  used on input line 31.
+(pdftex.def)             Requested size: 364.19667pt x 204.84683pt.
+) (./Chapter-5/Chap5.tex [57 <./img/run.png> <./img/result.png>]
 Chapter 5.
 [58
 
-]) (./Chapter-6/Chap6.tex [59]
+]) [59]
+Overfull \hbox (0.71648pt too wide) in paragraph at lines 206--207
+[]\T1/lmr/m/n/12 Adrian Rose-brock, April 3rd 2017, "\T1/lmr/m/it/12 Fa-cial land-marks with dlib, OpenCV, and Python\T1/lmr/m/n/12 " 
+ []
+
+(./Chapter-6/Chap6.tex [60]
 Chapter 6.
 (d:/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
-) [60
+) [61
 
-] [61]
-<img/download.PNG, id=980, 630.85687pt x 109.91063pt>
+] [62]
+<img/download.PNG, id=1002, 630.85687pt x 109.91063pt>
 File: img/download.PNG Graphic file (type png)
 <use img/download.PNG>
 Package pdftex.def Info: img/download.PNG  used on input line 212.
 (pdftex.def)             Requested size: 364.19667pt x 63.45302pt.
- [62]
-<img/format-disk.PNG, id=1023, 750.55406pt x 380.17032pt>
+ [63]
+<img/format-disk.PNG, id=1045, 750.55406pt x 380.17032pt>
 File: img/format-disk.PNG Graphic file (type png)
 <use img/format-disk.PNG>
 Package pdftex.def Info: img/format-disk.PNG  used on input line 224.
 (pdftex.def)             Requested size: 364.19667pt x 184.47519pt.
- [63 <./img/download.PNG> <./img/format-disk.PNG>]
-<img/folder-tree.PNG, id=1030, 916.92563pt x 211.54031pt>
+ [64 <./img/download.PNG> <./img/format-disk.PNG>]
+<img/folder-tree.PNG, id=1052, 916.92563pt x 211.54031pt>
 File: img/folder-tree.PNG Graphic file (type png)
 <use img/folder-tree.PNG>
 Package pdftex.def Info: img/folder-tree.PNG  used on input line 248.
 (pdftex.def)             Requested size: 364.19667pt x 84.02393pt.
-) [64 <./img/folder-tree.PNG>]
-Overfull \hbox (0.71648pt too wide) in paragraph at lines 208--209
-[]\T1/lmr/m/n/12 Adrian Rose-brock, April 3rd 2017, "\T1/lmr/m/it/12 Fa-cial land-marks with dlib, OpenCV, and Python\T1/lmr/m/n/12 " 
- []
-
-[65] (./main.aux)
+) [65 <./img/folder-tree.PNG>] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 99E3D49AF5F1436FC1C046CC8CD441AB;9451.
+(rerunfilecheck)             Checksum: A8D30CD2221BCC344BCD44042A97BC00;9640.
  ) 
 Here is how much of TeX's memory you used:
- 24730 strings out of 478519
- 433151 string characters out of 5853953
- 1677923 words of memory out of 5000000
- 41711 multiletter control sequences out of 15000+600000
+ 24740 strings out of 478519
+ 433325 string characters out of 5853953
+ 1676980 words of memory out of 5000000
+ 41718 multiletter control sequences out of 15000+600000
  484642 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  103i,16n,106p,518b,2294s stack positions out of 5000i,500n,10000p,200000b,80000s
 {d:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{d:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{d:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{d:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{d:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{d:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}<d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmex10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr12.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr5.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr6.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr8.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri12.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri8.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy6.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (66 pages, 23877675 bytes).
+Output written on main.pdf (66 pages, 23902615 bytes).
 PDF statistics:
- 1233 PDF objects out of 1440 (max. 8388607)
- 1031 compressed objects within 11 object streams
- 414 named destinations out of 1000 (max. 500000)
- 773 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1243 PDF objects out of 1440 (max. 8388607)
+ 1039 compressed objects within 11 object streams
+ 416 named destinations out of 1000 (max. 500000)
+ 786 words of extra memory for PDF output out of 10000 (max. 10000000)
 

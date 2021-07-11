@@ -1303,6 +1303,11 @@ INPUT ./Chapter-3/Chap3.tex
 INPUT Chapter-3/Chap3.tex
 INPUT ./Chapter-3/Chap3.tex
 INPUT Chapter-3/Chap3.tex
+INPUT ./img/pipeline.png
+INPUT ./img/pipeline.png
+INPUT img/pipeline.png
+INPUT ./img/pipeline.png
+INPUT ./img/pipeline.png
 INPUT ./img/block-diagram.png
 INPUT ./img/block-diagram.png
 INPUT img/block-diagram.png
@@ -1393,6 +1398,7 @@ INPUT ./Chapter-5/Chap5.tex
 INPUT Chapter-5/Chap5.tex
 INPUT ./Chapter-5/Chap5.tex
 INPUT Chapter-5/Chap5.tex
+INPUT d:/texlive/2021/texmf-dist/fonts/tfm/public/lm/ec-lmri12.tfm
 INPUT ./Chapter-6/Chap6.tex
 INPUT Chapter-6/Chap6.tex
 INPUT ./Chapter-6/Chap6.tex
@@ -1419,7 +1425,6 @@ INPUT ./img/folder-tree.PNG
 INPUT img/folder-tree.PNG
 INPUT ./img/folder-tree.PNG
 INPUT ./img/folder-tree.PNG
-INPUT d:/texlive/2021/texmf-dist/fonts/tfm/public/lm/ec-lmri12.tfm
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
