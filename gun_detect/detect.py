@@ -3,7 +3,7 @@ from ikomia.utils.displayIO import display
 import cv2
 import os
 
-
+# Define input video to test
 video_path = 'gun.mp4' # Example: https://www.youtube.com/watch?v=EAR5jTknVOw
 output_path = 'output.mp4'
 # Init your workflow
