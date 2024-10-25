@@ -2,7 +2,7 @@
 
 [VAA](vaa.edu.vn)
 
-## This repo is about project 1-2 in Vietnam Aviation Academy
+## This repo is about project 1-2 and all Research, Graduate Thesis project in Vietnam Aviation Academy
 
 ### Coding Structure:
 
