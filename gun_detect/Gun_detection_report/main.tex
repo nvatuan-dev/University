@@ -1,0 +1,194 @@
+\documentclass[a4paper,13pt]{report}
+
+\usepackage[top=2.5cm,bottom=2.5cm,left=3cm,right=2cm]{geometry}
+\usepackage[a4,frame,center]{crop}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{ragged2e}
+\usepackage{hyphenat}
+\usepackage{lmodern}
+\usepackage{fancyhdr}
+\usepackage[toc,page]{appendix}
+\usepackage{tabularx}
+\usepackage{adjustbox}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{indentfirst}
+\usepackage[table]{xcolor}
+\usepackage{array,multirow} 
+\usepackage{varwidth}
+\usepackage{listings}
+\usepackage{background}
+\usepackage{tikz}
+\usepackage{hyperref}
+\usepackage{ragged2e}
+\usetikzlibrary{calc}
+\backgroundsetup{contents={}}
+\setcounter{secnumdepth}{5}
+
+\AtBeginDocument{%
+\let\mtcontentsname\contentsname
+\renewcommand\contentsname{\MakeUppercase\mtcontentsname}
+}
+
+\begin{document}
+    \begin{titlepage}
+        \centering
+        \input{border.tex}
+        \LARGE{\textsc{VIETNAM AVIATION ACADEMY}}\\
+        \vspace{3mm}
+        \normalsize{Department of Telecommunication - Electronics Engineering Technology} \\
+        \vspace{3mm}
+        \large{LOCATED IN HO CHI MINH CITY} \\
+        \vspace{3mm}
+        \includegraphics[scale=0.3]{img/logo.png} \\
+        \vspace{3mm}
+        \Large{MACHINE LEARNING AND APPLICATIONS} \\
+        \vspace{10mm}
+        \LARGE{\textbf{"Dangerous weapons detection using YOLOv9"}} \\ 
+        \vspace{20mm}
+        \normalsize{Written by} \\ 
+        \vspace{3mm}
+        \large{\textbf{\textit{Nguyen Van Anh Tuan}}} \\ 
+        \vspace{3mm}
+        \large{\textbf{\textit{Roll.No.1753020018}}} \\ 
+        \vspace{15mm}
+        \large{Under the guidance of} \\
+        \vspace{7mm}
+        \centerline{\textbf{\large{Msc.Tran Quoc Khai}}}
+        \vspace{3.5cm}
+        \centerline{\today}
+    \end{titlepage}
+
+    \newpage
+    \thispagestyle{plain}
+        \centering
+        \input{border.tex}
+        \LARGE{\textsc{VIETNAM AVIATION ACADEMY}}\\
+        \vspace{3mm}
+        \normalsize{Department of Telecommunication - Electronics Engineering Technology} \\
+        \vspace{3mm}
+        \large{LOCATED IN HO CHI MINH CITY} \\
+        \vspace{3mm}
+        \includegraphics[scale=0.3]{img/logo.png} \\
+        \vspace{3mm}
+        \Large{Machine Learning and Applications} \\
+        \vspace{10mm}
+        \LARGE{\textbf{"DANGEGOUS WEAPONS DETECTION USING YOLOv9"}} \\ 
+        \vspace{20mm}
+        \normalsize{Written by} \\ 
+        \vspace{3mm}
+        \large{\textbf{\textit{Nguyen Van Anh Tuan}}} \\ 
+        \vspace{3mm}
+        \large{\textbf{\textit{Roll.No.1753020018}}} \\ 
+        \vspace{15mm}
+        \large{Under the guidance of} \\
+        \vspace{7mm}
+        \centerline{\textbf{\large{Msc.Tran Quoc Khai}}}
+        \vspace{3.5cm}
+        \centerline{\today}
+    
+    \newpage
+    \thispagestyle{plain}
+    \centering
+    \justifying
+    \centerline{\textbf{\huge{PREAMBLE}}}
+    \vspace{10mm}
+    \begin{flushleft}
+        In today's world, terrorism remains a pervasive and evolving threat, posing significant challenges to global security and stability. The methods and tactics employed by terrorists have become increasingly sophisticated, necessitating advanced technological solutions to effectively counteract these dangers. One such critical area is the detection of dangerous weapons, which requires innovative approaches to ensure the safety of populations and the integrity of public spaces. \\ 
+        \vspace{2mm}
+        This report focuses on the pressing issue of contemporary terrorism and the urgent need for state-of-the-art information tools to detect and neutralize threats. Specifically, we will explore the application of \textbf{YOLOv9(You Only Look Once, version 9)}  technology in identifying dangerous weapons. \textbf{YOLOv9} represents the latest advancement in real-time object detection, offering unparalleled accuracy and speed in recognizing potential threats.
+    \end{flushleft}
+    \begin{flushright}
+        \textbf{Auth.Nguyen Van Anh Tuan}
+    \end{flushright}
+
+    \newpage
+    \thispagestyle{plain}
+    \centering
+    \justifying
+    \centerline{\textbf{\huge{WORDS OF THANKS}}}
+    \vspace{10mm}
+    \begin{flushleft}
+        Dear Mr.Khai, \\
+        \vspace{2mm}
+        I hope this message finds you well. I wanted to extend my heartfelt thanks for giving me the opportunity to write this report on contemporary terrorism and the application of YOLOv9 technology for weapon detection. Your support and trust in my capabilities have been immensely motivating. \\ 
+        \vspace{2mm}
+        I have tried my best to do this project. However, due to my lack of experience and 
+        knowledge, there are still some unexpected mistakes in the project. Please let me know your opinions and criticizes.
+        Thank you once again for this invaluable opportunity.
+    \end{flushleft}
+    \begin{flushright}
+        \textbf{Auth.Nguyen Van Anh Tuan}
+    \end{flushright}
+
+    \newpage
+    \centerline{\huge{\textbf{REVIEW OF INSTRUCTOR}}}
+    \vspace{10mm}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \vspace{10mm}
+    \begin{flushright}
+        \today \\ 
+        \vspace{5mm}
+        \textbf{Instructor}
+    \end{flushright}
+
+    \newpage
+    \tableofcontents
+    \listoffigures
+
+    \newpage
+    \thispagestyle{plain}
+    \justifying
+    \centerline{\textbf{\huge{LIST OF ACRONYMS}}}
+    \begin{flushleft}
+        YOLO - You Only Look Once \\
+        \vspace{3mm}
+        OpenCV - Open source Computer Vision \\ 
+        \vspace{3mm}
+        PGI - Generalized Efficient Layer Aggregation Networ \\ 
+        \vspace{3mm}
+        GELAN - Generalized Efficient Layer Aggregation Networ \\
+        \vspace{3mm}
+        COCO - Common Objects in Contet \\
+        \vspace{3mm}
+        Val - Validation
+    \end{flushleft}
+
+    \input{Chapter-1/Chap1.tex}
+
+    \input{Chapter-2/Chap2.tex}
+
+    \input{Chapter-3/Chap3.tex}
+
+    \input{Chapter-4/Chap4.tex}
+
+    \newpage
+    \thispagestyle{plain}
+    \begin{center}
+        \Huge{\textbf{THE REFERENCES}}
+    \end{center}
+    \vspace{3mm}
+    \begin{enumerate}
+        \item WongKinYiu, Feb 18th 2024, "\textit{YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information}"
+        \item Glenn-Jocher, RizwanMunawar, AyushExel, Created 2023-11-12, Updated 2024-06-10, "\textit{Ultralytics YOLO}"
+    \end{enumerate}
+
+    \input{Chapter-5/Chap5.tex}
+\end{document}

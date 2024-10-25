@@ -1,0 +1,195 @@
+\chapter{APPENDICES}
+
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\thispagestyle{plain}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textbf{CHAPTER 6}}
+\fancyhead[R]{\textbf{DANGEGOUS WEAPONS DETECTION USING YOLOv9}}
+\raggedright
+\fancyfoot[L]{From: Nguyen Van Anh Tuan}
+\fancyfoot[R]{Page \thepage}
+
+\justifying
+
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+
+\section{Dangerous Weapons Detection Program}
+
+    \lstset{ 
+        backgroundcolor=\color{white},   % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}; should come as last argument
+        basicstyle=\footnotesize,        % the size of the fonts that are used for the code
+        breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
+        breaklines=true,                 % sets automatic line breakingcommentstyle=\color{mygreen},    % comment style
+        captionpos=b,
+        deletekeywords={...},            % if you want to delete keywords from the given language
+        escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+        extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+        firstnumber=1,                % start line enumeration with line 1
+        frame=single,	                   % adds a frame around the code
+        keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+        keywordstyle=\color{blue},       % keyword style
+        language=Python,                 % the language of the code
+        morekeywords={*,...},            % if you want to add more keywords to the set
+        numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
+        numbersep=5pt,                   % how far the line-numbers are from the code
+        numberstyle=\tiny\color{mygray}, % the style that is used for the line-numbers
+        rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+        showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+        showstringspaces=false,          % underline spaces within strings only
+        showtabs=false,                  % show tabs within strings adding particular underscores
+        stepnumber=1,                    % the step between two line-numbers. If it's 1, each line will be numberedstringstyle=\color{mymauve},     % string literal style
+        tabsize=2,	                   % sets default tabsize to 2 spaces
+        title=\lstname                   % show the filename of files included with \lstinputlisting; also try caption instead of title
+    }
+
+    \begin{lstlisting}[caption={get\_dataset.py}]
+        # Import libs
+        import requests
+        import zipfile
+        import os
+        
+        # Download the file
+        #url = "https://universe.roboflow.com/ds/L76hzT4so5?key=tpRs7o81ki"
+        url = "https://app.roboflow.com/ds/j1BEJld3NB?key=2PardK2OTb"
+        response = requests.get(url, stream=True)
+        with open("roboflow.zip", "wb") as file:
+            for chunk in response.iter_content(chunk_size=8192):
+                file.write(chunk)
+        
+        # Unzip the file
+        with zipfile.ZipFile("roboflow.zip", 'r') as zip_ref:
+            zip_ref.extractall()
+        
+        # Remove the zip file
+        os.remove("roboflow.zip")
+    \end{lstlisting}
+
+    \begin{lstlisting}[caption={train.py}]
+        from ikomia.dataprocess.workflow import Workflow
+        import os
+        
+        try:
+            #----------------------------- Step 1 -----------------------------------#
+            # Create a workflow which will take your dataset as input and
+            # train a YOLOv9 model on it
+            #------------------------------------------------------------------------#
+            wf = Workflow()
+        
+            #----------------------------- Step 2 -----------------------------------#
+            # First you need to convert the COCO format to IKOMIA format.
+            # Add an Ikomia dataset converter to your workflow.
+            #------------------------------------------------------------------------#
+        
+            dataset = wf.add_task(name = "dataset_coco")
+        
+            dataset.set_parameters({
+                "json_file": os.getcwd()+"/train/_annotations.coco.json",
+                "image_folder": os.getcwd()+"/train",
+                "task":"detection",
+                "output_folder": os.getcwd()+"/dataset"
+            })
+        
+            #----------------------------- Step 3 -----------------------------------#
+            # Then, you want to train a YOLOv9 model.
+            # Add YOLOv9 training algorithm to your workflow
+            #------------------------------------------------------------------------#
+        
+            train = wf.add_task(name="train_yolo_v9", auto_connect=True)
+            train.set_parameters({
+                "model_name": "yolov9-c",
+                "epochs": "20",
+                "batch_size": "6",
+                "train_imgsz": "640",
+                "test_imgsz": "640",
+                "dataset_split_ratio": "0.9",
+                "output_folder": os.getcwd(),
+            })
+        
+            #----------------------------- Step 4 -----------------------------------#
+            # Execute your workflow.
+            # It automatically runs all your tasks sequentially.
+            #------------------------------------------------------------------------#
+            wf.run()
+        except Exception as e:
+            print(e)
+    \end{lstlisting}
+
+    \begin{lstlisting}[caption={detect.py}]
+        from ikomia.dataprocess.workflow import Workflow
+        from ikomia.utils.displayIO import display
+        import cv2
+        import os
+        
+        #video_path = './videos/*.mp4' # Example: https://www.youtube.com/watch?v=EAR5jTknVOw
+        video_path = './videos/video_4.mp4'
+        output_path = 'output.mp4'
+        # Init your workflow
+        wf = Workflow()
+        
+        # Add object detection algorithm
+        detector = wf.add_task(name="infer_yolo_v9", auto_connect=True)
+        
+        detector.set_parameters({
+            "model_weight_file": os.getcwd()+ f'/train_result/weights/best.pt',
+            "class_file": os.getcwd()+ f'/train_result/classes.yaml',
+            "conf_thres": "0.2",
+            "iou_thres":"0.25"
+        })
+        
+        # Open the video file
+        stream = cv2.VideoCapture(video_path)
+        if not stream.isOpened():
+            print("Error: Could not open video.")
+            exit()
+        
+        # Get video properties for the output
+        frame_width = int(stream.get(cv2.CAP_PROP_FRAME_WIDTH))
+        frame_height = int(stream.get(cv2.CAP_PROP_FRAME_HEIGHT))
+        frame_rate = stream.get(cv2.CAP_PROP_FPS)
+        
+        # Define the codec and create VideoWriter object
+        # The 'XVID' codec is widely supported and provides good quality
+        fourcc = cv2.VideoWriter_fourcc(*'XVID')
+        out = cv2.VideoWriter(output_path, fourcc, frame_rate, (frame_width, frame_height))
+        
+        while True:
+            # Read image from stream
+            ret, frame = stream.read()
+        
+            # Test if the video has ended or there is an error
+            if not ret:
+                print("Info: End of video or error.")
+                break
+        
+            # Run the workflow on current frame
+            wf.run_on(array=frame)
+        
+            # Get results
+            image_out = detector.get_output(0)
+            obj_detect_out = detector.get_output(1)
+        
+            # Convert the result to BGR color space for displaying
+            img_out = image_out.get_image_with_mask_and_graphics(obj_detect_out)
+            img_res = cv2.cvtColor(img_out, cv2.COLOR_RGB2BGR)
+        
+            # Save the resulting frame
+            out.write(img_out)
+        
+            # Display
+            display(img_res, title="YOLOv9 object detection", viewer="opencv")
+        
+            # Press 'q' to quit the video processing
+            if cv2.waitKey(1) & 0xFF == ord('q'):
+                break
+        
+        # After the loop release everything
+        stream.release()
+        out.release()
+        cv2.destroyAllWindows()
+    \end{lstlisting}
+
+
+
+
